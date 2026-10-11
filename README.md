@@ -8,7 +8,11 @@ En **Add or Remove games → Add from GitHub**, introduce:
 
 `https://github.com/jersonleonel33-crypto/kill-team-new-recruit-espanol`
 
-Selecciona **Kill Team (2024) — Español**. Los 44 catálogos y el sistema están en la raíz. No hace falta publicar un mod en Steam.
+Elige **Latest Commit (Head)** al añadir el repositorio y selecciona **Kill Team (2024) — Español**. Los 44 catálogos y el sistema están en la raíz. No hace falta publicar un mod en Steam.
+
+[Instalar directamente en New Recruit](https://www.newrecruit.eu/app/MySystems?addSystem=jersonleonel33-crypto%2Fkill-team-new-recruit-espanol&ref=HEAD)
+
+La fuente se ha instalado desde GitHub en New Recruit: los 44 equipos aparecen y se ha creado una lista de prueba de Hierotecnólogos, seleccionado un Cronomante con bastón eónico y comprobado sus perfiles y reglas. También se ha obtenido su exportación `.ros`. Esto no sustituye una prueba de importación dentro de TTS.
 
 ## Alcance y comprobaciones
 
