@@ -1,0 +1,1173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="702b-b6d8-a1e3-82e5" name="Recorrestrellas Elucidianos" gameSystemId="c521-ad27-44df-f959" gameSystemRevision="10" revision="5" battleScribeVersion="2.03" type="catalogue">
+  <forceEntries>
+    <forceEntry name="Kill Team — Español" id="463e-b2b7-d172-bd34" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Configuration" hidden="false" id="47b2-56fa-92ea-3c5b" targetId="874b-0390-e5e2-1daa" />
+        <categoryLink name="Reference" hidden="false" id="fb52-6831-2f99-739f" targetId="b318-a8d7-2d38-99a3" />
+        <categoryLink name="Leader" hidden="false" id="10d8-17fa-b32b-b474" targetId="d999-8cad-8145-4efe" />
+        <categoryLink name="Operative" hidden="false" id="d07d-4101-b37c-066d" targetId="cf83-4496-b58e-ac82" />
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <selectionEntries>
+    <selectionEntry type="model" import="true" name="ELUCIA VHANE" hidden="false" id="2282-91cd-9de4-f160">
+      <constraints>
+        <constraint type="min" value="-1" field="selections" scope="force" shared="true" id="5360-f9be-7146-7fdd-min" includeChildSelections="false" />
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="5360-f9be-7146-7fdd-max" includeChildSelections="false" />
+      </constraints>
+      <profiles>
+        <profile name="ELUCIA VHANE" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="0798-db0a-c6fd-fa49">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">4+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">8</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Campo disruptor" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="8797-1fb8-dc49-bf86">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Cuando un agente dispare contra esta agente, 
+ignora la regla de arma Penetración.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Láseres digitales" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="df4c-c2c7-1741-3979">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Siempre que esta agente realiza una acción de 
+Combatir, al inicio del paso de tirar dados de ataque, puedes 
+usar esta regla. Si lo haces, inflige 1 daño al agente enemigo en 
+esa secuencia.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Despiadada" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="13d5-1b4f-a3ae-954d">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Siempre que esta agente dispara, combate o 
+contraataca contra un agente enemigo que ya estaba herido 
+cuando empezó la acción, las armas de esta agente tienen la 
+regla de armas Equilibrada; si el arma tiene ya esa regla de arma, 
+tiene la regla de arma Incesante en lugar de Equilibrada.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Reputación que mantener" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="b4a8-48fd-1845-b39b">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">La primera vez que esta agente 
+incapacita a un agente enemigo durante la batalla, puedes 
+o bien obtener 1 PM adicional, o usar una regla PATENTE 
+COMERCIAL adicional (hasta cuatro usos por batalla, en lugar 
+de tres). Ten en cuenta que sigues sin poder usar una misma 
+regla PATENTE COMERCIAL más de una vez por batalla.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Pistola reliquia heredada" hidden="false" id="636b-4d97-3278-8ee4">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ec21-7e3b-a728-c973-min" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec21-7e3b-a728-c973-max" includeChildSelections="false" />
+          </constraints>
+          <profiles>
+            <profile name="⌖ Pistola reliquia heredada" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="eacd-431b-f7ab-2c24">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8", Buscadora (Ligero), Críticos de penetración 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Range x" id="85d8-d74d-3eab-9c49" hidden="false" type="rule" targetId="a528-829e-8268-c005" />
+            <infoLink name="Piercing x" id="4e96-c02d-07be-2d1b" hidden="false" type="rule" targetId="4c07-2cb3-1417-cbb7" />
+            <infoLink name="Seek" id="847f-17a8-43f4-d155" hidden="false" type="rule" targetId="a33d-4e90-5794-6e20" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Bastón estoque monomolecular" hidden="false" id="b575-94be-de23-2b13">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="192b-ca8d-bb7f-3744-min" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="192b-ca8d-bb7f-3744-max" includeChildSelections="false" />
+          </constraints>
+          <profiles>
+            <profile name="⚔ Bastón estoque monomolecular" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="3d88-8bef-cd52-548e">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/6</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Letal 5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Lethal x+" id="98b6-50a8-0a96-968a" hidden="false" type="rule" targetId="8b97-e3e3-2857-817a" />
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Recorrestrellas Elucidianos" hidden="false" id="7c2e-2905-9a82-1d6a" targetId="23f9-fdff-a6b6-d643" primary="false" />
+        <categoryLink name="Imperium" hidden="false" id="1e7a-f163-de66-adb4" targetId="45a7-2d2f-ecfb-1d13" primary="false" />
+        <categoryLink name="Leader" hidden="false" id="339a-b0f8-e76d-5b6a" targetId="d999-8cad-8145-4efe" primary="true" />
+        <categoryLink name="ELUCIA VHANE" hidden="false" id="0998-b873-2663-a4e7" targetId="0bb8-9dfc-2495-fe68" primary="false" />
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="1" field="5360-f9be-7146-7fdd-min">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="463e-b2b7-d172-bd34" shared="true" includeChildSelections="false" />
+          </conditions>
+        </modifier>
+        <modifier type="set" value="1" field="5360-f9be-7146-7fdd-max">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="463e-b2b7-d172-bd34" shared="true" includeChildSelections="false" />
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="CÁNIDO" hidden="false" id="31bc-26c2-1e5f-b052">
+      <constraints>
+        <constraint type="min" value="-1" field="selections" scope="force" shared="true" id="6903-6048-b508-4acb-min" includeChildSelections="false" />
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="6903-6048-b508-4acb-max" includeChildSelections="false" />
+      </constraints>
+      <profiles>
+        <profile name="CÁNIDO" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="1ed7-6751-19c1-dd07">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">8"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">7</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Bestia" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="4a09-5738-d323-c2c7">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Este agente no puede realizar ninguna acción que no sea 
+Cargar, Correr, Retroceder, Combatir, Traer, Ponerse 
+en guardia, Reposicionarse, Recoger marcador y 
+Colocar marcador. No puede usar ninguna arma que no 
+figure en su tarjeta de datos.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Compañero leal" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="3bfb-804b-9d62-01ff">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Siempre que un agente enemigo realiza la 
+acción de Combatir, si este agente es un agente válido contra 
+el que combatir, puedes obligarle a elegir a este agente para 
+combatir contra él. Siempre que un agente enemigo termina 
+la acción de Cargar en la zona de control de otro agente 
+RECORRESTRELLAS ELUCIDIANO amigo a 3" o menos 
+de este agente, si este agente no se encuentra en la zona de 
+control de algún agente enemigo, este agente puede realizar 
+inmediatamente una acción libre de Cargar, pero debe terminar 
+dicho movimiento en la zona de control de ese agente enemigo.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="TRAER (1PA)" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions" hidden="false" id="024e-40bf-99dd-a4a0">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Realiza una acción libre de Correr o Reposicionarse 
+con este agente. Durante ese movimiento, puedesrealizar 
+una acción libre de Recoger marcador o Colocar 
+marcador (puedes determinar el control durante esa 
+acción para ello), y tras hacer tal cosa puede usar la 
+distancia de movimiento que le quedase de la acción de 
+Correr o Reposicionarse.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Mordisco feroz" hidden="false" id="565e-1d97-5bb1-ae37">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="db29-1f85-fe8a-50e1-min" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="db29-1f85-fe8a-50e1-max" includeChildSelections="false" />
+          </constraints>
+          <profiles>
+            <profile name="⚔ Mordisco feroz" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="d7f6-c6df-96e4-2dce">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Desgarradora</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Rending" id="a49d-96ed-93bb-b8b7" hidden="false" type="rule" targetId="b903-6f79-129d-4ec9" />
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Recorrestrellas Elucidianos" hidden="false" id="57d8-07dc-39d0-3a28" targetId="23f9-fdff-a6b6-d643" primary="false" />
+        <categoryLink name="Imperium" hidden="false" id="b4a5-8233-6edd-4a68" targetId="45a7-2d2f-ecfb-1d13" primary="false" />
+        <categoryLink name="CÁNIDO" hidden="false" id="b28e-8f92-b8cd-da68" targetId="c480-668e-041b-36f4" primary="false" />
+        <categoryLink name="Operative" hidden="false" id="4e13-2b5b-876a-4a22" targetId="cf83-4496-b58e-ac82" primary="true" />
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="1" field="6903-6048-b508-4acb-min">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="463e-b2b7-d172-bd34" shared="true" includeChildSelections="false" />
+          </conditions>
+        </modifier>
+        <modifier type="set" value="1" field="6903-6048-b508-4acb-max">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="463e-b2b7-d172-bd34" shared="true" includeChildSelections="false" />
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="EJECUTORA DEL CULTO DE LA MUERTE" hidden="false" id="775a-c4fd-95f9-75e2">
+      <constraints>
+        <constraint type="min" value="-1" field="selections" scope="force" shared="true" id="20ed-7a87-df09-1c19-min" includeChildSelections="false" />
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="20ed-7a87-df09-1c19-max" includeChildSelections="false" />
+      </constraints>
+      <profiles>
+        <profile name="EJECUTORA DEL CULTO DE LA MUERTE" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="92df-97de-305d-af58">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">8</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Reflejos rápidos" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="035f-21de-cd48-ca7f">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Cuando un agente dispare contra esta agente, 
+ignora la regla de arma Penetración.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Postura de esgrima" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="f487-525a-00c2-f92d">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Cuando este agente combata o contraataque, 
+puedes resolver un impacto con éxito antes del orden normal. Si lo 
+haces, ese impacto con éxito debe usarse para bloquear.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Fanática" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="2c03-ad15-ff48-9d24">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Si esta agente queda incapacitada durante una acción 
+de Combatir, puedes golpear al agente enemigo en esa 
+secuencia con uno de tus éxitos sin resolver antes de que sea 
+retirada de la zona de aniquilación.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="ASESINA ENTRENADA (1PA)" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions" hidden="false" id="d6a1-81a4-240e-ffb5">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Cambia la orden de este agente.
+ Este agente no puede realizar esta acción si se encuentra en 
+la zona de control de un agente enemigo.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Recorrestrellas Elucidianos" hidden="false" id="f526-d4ef-8af1-dd63" targetId="23f9-fdff-a6b6-d643" primary="false" />
+        <categoryLink name="Imperium" hidden="false" id="9407-3078-889f-cd19" targetId="45a7-2d2f-ecfb-1d13" primary="false" />
+        <categoryLink name="EJECUTORA DEL CULTO DE LA MUERTE" hidden="false" id="1df1-b65d-df54-b004" targetId="cde0-4dbb-fad3-93b1" primary="false" />
+        <categoryLink name="Operative" hidden="false" id="30e0-760c-0b2d-4a63" targetId="cf83-4496-b58e-ac82" primary="true" />
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Máscara de dardos" hidden="false" id="efac-2198-8050-48d7">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5920-fc13-7567-1f4d-min" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5920-fc13-7567-1f4d-max" includeChildSelections="false" />
+          </constraints>
+          <profiles>
+            <profile name="⌖ Máscara de dardos" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="9205-e12e-3969-9870">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">1/1</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 6", Aturdidora, Letal 5+, Silenciosa</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Silent" id="992d-57e6-3f0c-6599" hidden="false" type="rule" targetId="1e3c-23c9-c6e2-9f62" />
+            <infoLink name="Lethal x+" id="fed7-8192-fd45-d85e" hidden="false" type="rule" targetId="8b97-e3e3-2857-817a" />
+            <infoLink name="Range x" id="5231-7ce5-57d2-6dbc" hidden="false" type="rule" targetId="a528-829e-8268-c005" />
+            <infoLink name="Stun" id="c77a-99e0-4ea8-480e" hidden="false" type="rule" targetId="5ae2-3f29-8635-fd02" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Arma de energía" hidden="false" id="f3f4-702b-ade9-93ee">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5a19-84e3-699c-87bc-min" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a19-84e3-699c-87bc-max" includeChildSelections="false" />
+          </constraints>
+          <profiles>
+            <profile name="⚔ Arma de energía" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="4956-98fe-a25f-1d5b">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/6</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Letal 5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Lethal x+" id="5d2d-0bad-06f3-1ce1" hidden="false" type="rule" targetId="8b97-e3e3-2857-817a" />
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <modifiers>
+        <modifier type="set" value="1" field="20ed-7a87-df09-1c19-min">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="463e-b2b7-d172-bd34" shared="true" includeChildSelections="false" />
+          </conditions>
+        </modifier>
+        <modifier type="set" value="1" field="20ed-7a87-df09-1c19-max">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="463e-b2b7-d172-bd34" shared="true" includeChildSelections="false" />
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="LECTRO-MAESTRE" hidden="false" id="f20e-2e6d-30ac-aa3c">
+      <categoryLinks>
+        <categoryLink name="Recorrestrellas Elucidianos" hidden="false" id="cbe1-4cde-b6b4-40f0" targetId="23f9-fdff-a6b6-d643" primary="false" />
+        <categoryLink name="Imperium" hidden="false" id="c0fd-14ff-ff3f-b2e5" targetId="45a7-2d2f-ecfb-1d13" primary="false" />
+        <categoryLink name="LECTRO-MAESTRE" hidden="false" id="247d-30a7-c1c9-59cd" targetId="d7f2-6cb5-024f-3c32" primary="false" />
+        <categoryLink name="Operative" hidden="false" id="1e4a-ecc1-44f9-a781" targetId="cf83-4496-b58e-ac82" primary="true" />
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="-1" field="selections" scope="force" shared="true" id="bb6c-0861-049a-8a02-min" includeChildSelections="false" />
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="bb6c-0861-049a-8a02-max" includeChildSelections="false" />
+      </constraints>
+      <profiles>
+        <profile name="LECTRO-MAESTRE" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="1b86-7d5f-03d9-3ee7">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">4+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">8</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Misionero del Credo de Marte" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="d367-a592-4304-f29a">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Una vez por activación de esta 
+agente, puede realizar una acción de Colocar marcador, 
+Recoger marcador o una acción de misión por 1 PA menos.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Sistema Voltagheist" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="3a32-be20-6e8a-2335">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Siempre que un agente dispare contra un 
+agente RECORRESTRELLAS ELUCIDIANO amigo que 
+esté a 4" o menos de este agente, puedes repetir uno de tus 
+dados de defensa.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="CALIBRAR VOLTAGHEIST (0PA)" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions" hidden="false" id="c51f-8a6d-66cb-2ab9">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Elige uno de los siguientes efectos para que esté activo hasta 
+el inicio de la siguiente activación de este agente, hasta que 
+quede incapacitado o hasta que realice de nuevo esta acción 
+(lo que ocurra primero):
+• Carga: La pistola electrizante de este agente tiene la regla de 
+armas Letal 4+.
+• Campo: Siempre que un agente enemigo termina una acción 
+de Cargar, Correr, Reposicionarse o Retroceder a 
+4" o menos de este agente y visible para él, inflige 1D6 daños 
+a dicho agente enemigo.
+ Este agente no puede realizar esta acción si se encuentra en 
+la zona de control de un agente enemigo.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Pistola electrizante" hidden="false" id="ee9d-ee02-4ddf-0c9d">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="637a-6755-831c-cc52-min" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="637a-6755-831c-cc52-max" includeChildSelections="false" />
+          </constraints>
+          <profiles>
+            <profile name="⌖ Pistola electrizante" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="f137-c59e-9392-914d">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8", Desgarradora, 1" Devastadora 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Range x" id="5be8-7028-ba82-338f" hidden="false" type="rule" targetId="a528-829e-8268-c005" />
+            <infoLink name="Rending" id="33dd-003d-ee47-cc03" hidden="false" type="rule" targetId="b903-6f79-129d-4ec9" />
+            <infoLink name="Devastating x" id="8a62-92c3-e872-4974" hidden="false" type="rule" targetId="a8ba-6e3a-76b3-f05c" />
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Culata" hidden="false" id="0c0f-8801-94f7-0a3b" type="selectionEntry" targetId="075b-c148-62d2-6ca4" />
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="1" field="bb6c-0861-049a-8a02-min">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="463e-b2b7-d172-bd34" shared="true" includeChildSelections="false" />
+          </conditions>
+        </modifier>
+        <modifier type="set" value="1" field="bb6c-0861-049a-8a02-max">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="463e-b2b7-d172-bd34" shared="true" includeChildSelections="false" />
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="ADEPTO REJUVENAT" hidden="false" id="0525-b51f-4823-ad02">
+      <constraints>
+        <constraint type="min" value="-1" field="selections" scope="force" shared="true" id="6028-29d6-f407-77e2-min" includeChildSelections="false" />
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="6028-29d6-f407-77e2-max" includeChildSelections="false" />
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Recorrestrellas Elucidianos" hidden="false" id="8351-a4a7-5e81-ba73" targetId="23f9-fdff-a6b6-d643" primary="false" />
+        <categoryLink name="Imperium" hidden="false" id="acbf-08ca-0fe0-48da" targetId="45a7-2d2f-ecfb-1d13" primary="false" />
+        <categoryLink name="Medic" hidden="false" id="646c-9712-488e-5feb" targetId="8200-47a2-61fb-5137" primary="false" />
+        <categoryLink name="ADEPTO REJUVENAT" hidden="false" id="38c4-2c9f-694d-3c48" targetId="d3e4-4914-882d-9eed" primary="false" />
+        <categoryLink name="Operative" hidden="false" id="ec97-8c5b-371b-fbaa" targetId="cf83-4496-b58e-ac82" primary="true" />
+      </categoryLinks>
+      <profiles>
+        <profile name="ADEPTO REJUVENAT" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="5ae6-54ed-6736-f743">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">4+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">8</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="¡Sanitario!" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="bc0e-a133-3f49-5ffe">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">La primera vez durante cada punto de inflexión 
+que otro agente RECORRESTRELLAS ELUCIDIANO 
+amigo vaya a resultar incapacitado estando a 3” o menos de 
+este agente y visible para él, puedes usar esta regla, siempre 
+que ninguno de los dos agentes amigos implicados estén en 
+la zona de control de algún agente enemigo. Si lo haces, ese 
+agente amigo no resulta incapacitado, le quedan 3 heridas 
+restantes y no puede resultar incapacitado durante el resto 
+de la acción. Después de esa acción, ese agente amigo puede 
+realizar inmediatamente una acción libre de Correr, pero debe 
+terminar ese movimiento en la zona de control de este agente. 
+Si esta regla se usó durante la activación del otro agente amigo, 
+esa activación termina. No puedes usar esta regla si este agente 
+resulta incapacitado , o si es una acción de Disparar y este 
+agente iba a ser el blanco primario o secundario.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="SUERO CURATIVO (1PA)" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions" hidden="false" id="7cdc-8336-1c12-4c5c">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Elige un agente RECORRESTRELLAS ELUCIDIANO
+ amigo en la zona de control de este agente para que 
+recupere hasta 1D3+3 heridas perdidas. No puede ser un 
+agente en el que se haya utilizado la regla ¡Sanitario! durante 
+este punto de inflexión.
+ Este agente no puede realizar esta acción si se encuentra en 
+la zona de control de un agente enemigo.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Yelmo normalizador" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="1028-9ebc-b017-92fa">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Mientras un agente RECORRESTRE-
+LLAS ELUCIDIANO amigo esté a 6" o menos de este 
+agente, puedes ignorar cualquier cambio a sus atributos por 
+estar lesionado (incluyendo a los atributos de sus armas).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Pistola láser" hidden="false" id="5911-cd2f-f325-347a">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3f93-5f7b-d086-d12e-min" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3f93-5f7b-d086-d12e-max" includeChildSelections="false" />
+          </constraints>
+          <profiles>
+            <profile name="⌖ Pistola láser" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="0060-6296-1d02-c522">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/3</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8"</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Range x" id="804a-ded2-4f6b-9aa9" hidden="false" type="rule" targetId="a528-829e-8268-c005" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Garra escalpelo" hidden="false" id="26a0-5f1f-d1d0-a2ce">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4e5d-5f48-2cdd-6cf3-min" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4e5d-5f48-2cdd-6cf3-max" includeChildSelections="false" />
+          </constraints>
+          <profiles>
+            <profile name="⚔ Garra escalpelo" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="2baf-7c44-d758-4dd0">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">3</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Desgarradora</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Rending" id="723a-a7a2-9a53-8f63" hidden="false" type="rule" targetId="b903-6f79-129d-4ec9" />
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <modifiers>
+        <modifier type="set" value="1" field="6028-29d6-f407-77e2-min">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="463e-b2b7-d172-bd34" shared="true" includeChildSelections="false" />
+          </conditions>
+        </modifier>
+        <modifier type="set" value="1" field="6028-29d6-f407-77e2-max">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="463e-b2b7-d172-bd34" shared="true" includeChildSelections="false" />
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="CONTRAMAESTRE DEL VACÍO" hidden="false" id="69f4-7c32-5e6a-06b8">
+      <categoryLinks>
+        <categoryLink name="Recorrestrellas Elucidianos" hidden="false" id="08bf-8aa7-8b3c-a731" targetId="23f9-fdff-a6b6-d643" primary="false" />
+        <categoryLink name="Imperium" hidden="false" id="b0b7-05d2-48a9-9614" targetId="45a7-2d2f-ecfb-1d13" primary="false" />
+        <categoryLink name="CONTRAMAESTRE DEL VACÍO" hidden="false" id="6d87-b1cf-767b-a3fb" targetId="e132-2cfb-7356-f4d8" primary="false" />
+        <categoryLink name="Operative" hidden="false" id="5e46-5714-e4a8-751e" targetId="cf83-4496-b58e-ac82" primary="true" />
+        <categoryLink name="Navis" hidden="false" id="0372-fdb9-228a-1202" targetId="c106-38b0-102c-6f66" primary="false" />
+      </categoryLinks>
+      <profiles>
+        <profile name="CONTRAMAESTRE DEL VACÍO" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="ce93-ebab-b93c-0846">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">8</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Imponer disciplina" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="d3c3-b875-4f36-b2f2">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">APOYO. Mientras un agente ARMADA RECORRESTRELLAS ELUCIDIANO amigo distinto esté a 3" o menos de este 
+agente, las armas a distancia de ese agente amigo (salvo armas ACTIVO DE APOYO PRIVADO) tienen la regla de arma Equilibrada; si un arma 
+ya tiene esa regla de arma, tiene la regla de arma Incesante en lugar de Equilibrada.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Robusto" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="ccc2-069e-d2a8-e9d1">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Una vez por batalla, cuando un dado de ataque inflija Daño normal a este agente, puedes ignorar ese daño infligido.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="FUEGO SIN CUARTEL (1PA)" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions" hidden="false" id="0dea-d076-3de2-2247">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Realiza dos acciones libres de Disparar con este agente 
+(esto tiene prioridad sobre restricciones de acción). Debes 
+elegir su pistola láser reliquia para una acción y su escopeta 
+de artífice (corto alcance) para la otra (en cualquier orden).
+ Este agente no puede realizar esta acción mientras tenga 
+una orden de Ocultarse, o durante una activación en la que 
+realizó la acción de Disparar (o viceversa).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Pistola láser reliquia" hidden="false" id="2af2-1990-ae92-f5be">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="847b-adf0-0caf-18ac-min" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="847b-adf0-0caf-18ac-max" includeChildSelections="false" />
+          </constraints>
+          <profiles>
+            <profile name="⌖ Pistola láser reliquia" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="d7c3-9b1f-3b7b-9bd4">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8", Letal 5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Range x" id="9b58-71a8-faa5-2850" hidden="false" type="rule" targetId="a528-829e-8268-c005" />
+            <infoLink name="Lethal x+" id="5a80-aa6d-15ba-716a" hidden="false" type="rule" targetId="8b97-e3e3-2857-817a" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Escopeta de artífice" hidden="false" id="6cf8-8b45-24de-e244">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5da7-6396-6be8-a2a1-min" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5da7-6396-6be8-a2a1-max" includeChildSelections="false" />
+          </constraints>
+          <profiles>
+            <profile name="⌖ Escopeta de artífice (corto alcance)" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="8854-c136-2ea8-fe34">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 6"</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="⌖ Escopeta de artífice (largo alcance)" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="2c28-a3a9-b548-05f2">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">5+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/2</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Range x" id="e817-630b-09b6-23bb" hidden="false" type="rule" targetId="a528-829e-8268-c005" />
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Culata" hidden="false" id="60c5-a9b5-c440-8fd6" type="selectionEntry" targetId="075b-c148-62d2-6ca4" />
+      </entryLinks>
+      <constraints>
+        <constraint type="min" value="-1" field="selections" scope="force" shared="true" id="1700-a027-3fde-64c5-min" includeChildSelections="false" />
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="1700-a027-3fde-64c5-max" includeChildSelections="false" />
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="1700-a027-3fde-64c5-min">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="463e-b2b7-d172-bd34" shared="true" includeChildSelections="false" />
+          </conditions>
+        </modifier>
+        <modifier type="set" value="1" field="1700-a027-3fde-64c5-max">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="463e-b2b7-d172-bd34" shared="true" includeChildSelections="false" />
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Tripulante con rifle láser" hidden="false" id="cb09-4cea-c925-881f">
+      <constraints>
+        <constraint type="min" value="-1" field="selections" scope="force" shared="true" id="9534-5914-41a5-2f0e-min" includeChildSelections="false" />
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="9534-5914-41a5-2f0e-max" includeChildSelections="false" />
+      </constraints>
+      <infoLinks>
+        <infoLink name="Tripulación" id="507e-d216-baf7-d442" hidden="false" type="profile" targetId="42b3-586d-c976-f0e5" />
+        <infoLink name="INFANTE DEL VACÍO" id="1c2a-08ee-b5e6-b24d" hidden="false" type="profile" targetId="140c-9071-29f9-83f5" />
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Rifle láser" hidden="false" id="bb2f-cf2d-7fb2-25de">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1682-9420-00bf-1eea-min" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1682-9420-00bf-1eea-max" includeChildSelections="false" />
+          </constraints>
+          <profiles>
+            <profile name="⌖ Rifle láser" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="94a4-f0ce-c049-c545">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/3</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Recorrestrellas Elucidianos" hidden="false" id="f727-e684-905b-726a" targetId="23f9-fdff-a6b6-d643" primary="false" />
+        <categoryLink name="Imperium" hidden="false" id="17f4-3d27-d7da-d231" targetId="45a7-2d2f-ecfb-1d13" primary="false" />
+        <categoryLink name="Navis" hidden="false" id="e0fa-d0c5-86e7-896c" targetId="c106-38b0-102c-6f66" primary="false" />
+        <categoryLink name="INFANTE DEL VACÍO" hidden="false" id="af0a-4a25-e051-d447" targetId="d066-2618-224e-f380" primary="false" />
+        <categoryLink name="Operative" hidden="false" id="6648-cd19-cba2-6204" targetId="cf83-4496-b58e-ac82" primary="true" />
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Culata" hidden="false" id="7688-8ae4-b724-eae8" type="selectionEntry" targetId="075b-c148-62d2-6ca4" />
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="3" field="9534-5914-41a5-2f0e-min">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="463e-b2b7-d172-bd34" shared="true" includeChildSelections="false" />
+          </conditions>
+        </modifier>
+        <modifier type="set" value="3" field="9534-5914-41a5-2f0e-max">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="463e-b2b7-d172-bd34" shared="true" includeChildSelections="false" />
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Tripulante con cañón rotor" hidden="false" id="d915-bed6-1190-dafa">
+      <constraints>
+        <constraint type="min" value="-1" field="selections" scope="force" shared="true" id="7c1c-2278-3655-dfbc-min" includeChildSelections="false" />
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="7c1c-2278-3655-dfbc-max" includeChildSelections="false" />
+      </constraints>
+      <infoLinks>
+        <infoLink name="Tripulación" id="3a2c-19c7-ddee-8288" hidden="false" type="profile" targetId="42b3-586d-c976-f0e5" />
+        <infoLink name="INFANTE DEL VACÍO" id="28c7-fda3-861a-5f1b" hidden="false" type="profile" targetId="140c-9071-29f9-83f5" />
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Cañón rotatorio" hidden="false" id="0f62-7e12-348b-701f">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="05ad-858b-a5ab-eab5-min" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="05ad-858b-a5ab-eab5-max" includeChildSelections="false" />
+          </constraints>
+          <profiles>
+            <profile name="⌖ Cañón rotatorio (concentrado)" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="aded-35c9-9df4-7fa9">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Desgarradora, Pesada (solo Correr)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="⌖ Cañón rotatorio (barrido)" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="d681-e07c-6dcb-6fb5">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Desgarradora, Pesada (solo Correr), Ráfaga 1"</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Heavy" id="a922-59b8-45a5-3844" hidden="false" type="rule" targetId="816e-44a2-6be4-6a9a" />
+            <infoLink name="Rending" id="93db-2525-6278-90ad" hidden="false" type="rule" targetId="b903-6f79-129d-4ec9" />
+            <infoLink name="Torrent x" id="a68e-1675-0550-f7ce" hidden="false" type="rule" targetId="ad45-b4bb-1345-e4f9" />
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Recorrestrellas Elucidianos" hidden="false" id="d636-b4ce-16ac-2bcc" targetId="23f9-fdff-a6b6-d643" primary="false" />
+        <categoryLink name="Imperium" hidden="false" id="67fe-43a0-30fc-91f2" targetId="45a7-2d2f-ecfb-1d13" primary="false" />
+        <categoryLink name="Navis" hidden="false" id="564f-7938-b4c3-9d25" targetId="c106-38b0-102c-6f66" primary="false" />
+        <categoryLink name="INFANTE DEL VACÍO" hidden="false" id="aa32-42db-f210-4ea7" targetId="d066-2618-224e-f380" primary="false" />
+        <categoryLink name="Operative" hidden="false" id="445f-f850-d4ee-eb55" targetId="cf83-4496-b58e-ac82" primary="true" />
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Culata" hidden="false" id="e4e5-3b15-e758-ec1e" type="selectionEntry" targetId="075b-c148-62d2-6ca4" />
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="1" field="7c1c-2278-3655-dfbc-min">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="463e-b2b7-d172-bd34" shared="true" includeChildSelections="false" />
+          </conditions>
+        </modifier>
+        <modifier type="set" value="1" field="7c1c-2278-3655-dfbc-max">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="463e-b2b7-d172-bd34" shared="true" includeChildSelections="false" />
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="PATENTE COMERCIAL" hidden="false" id="2952-cb0b-431d-c57e">
+      <constraints>
+        <constraint type="min" value="-1" field="selections" scope="force" shared="true" id="d934-590b-c200-aae2-min" includeChildSelections="false" />
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="d934-590b-c200-aae2-max" includeChildSelections="false" />
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="d934-590b-c200-aae2-min">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="463e-b2b7-d172-bd34" shared="true" includeChildSelections="false" />
+          </conditions>
+        </modifier>
+        <modifier type="set" value="1" field="d934-590b-c200-aae2-max">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="463e-b2b7-d172-bd34" shared="true" includeChildSelections="false" />
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Consideración" typeId="c849-8357-70b9-db06" typeName="Warrant of Trade" hidden="false" id="4062-f70e-4fc4-d09b">
+          <characteristics>
+            <characteristic name="When" typeId="b5cb-0b13-9f94-2d6f">En el paso de elegir agentes, tras revelar
+tus opciones de equipo.</characteristic>
+            <characteristic name="Effect" typeId="4548-c136-46c5-74b7">Selecciona una opción de equipo
+adicional. No puede ser una opción que ya hayas
+elegido.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Coordinar" typeId="c849-8357-70b9-db06" typeName="Warrant of Trade" hidden="false" id="b3c6-a6f6-2f48-2703">
+          <characteristics>
+            <characteristic name="When" typeId="b5cb-0b13-9f94-2d6f">Al final del paso de elegir agentes.</characteristic>
+            <characteristic name="Effect" typeId="4548-c136-46c5-74b7">Obtienes 1 PM adicional.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Coaccionar" typeId="c849-8357-70b9-db06" typeName="Warrant of Trade" hidden="false" id="7382-96f0-1366-5335">
+          <characteristics>
+            <characteristic name="When" typeId="b5cb-0b13-9f94-2d6f">Al inicio del paso de elegir agentes.</characteristic>
+            <characteristic name="Effect" typeId="4548-c136-46c5-74b7">Tu oponente debe situar todos sus
+agentes antes de que tú sitúes ninguno. Además,
+elige una de las siguientes opciones:
+• Tu oponente debe situar todo su equipo antes
+que tú sitúes ninguno.
+• Puedes situar todo tu equipo antes que tu
+oponente sitúe ninguno.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Explorar" typeId="c849-8357-70b9-db06" typeName="Warrant of Trade" hidden="false" id="2a72-dbe5-b855-ee2d">
+          <characteristics>
+            <characteristic name="When" typeId="b5cb-0b13-9f94-2d6f">GAMBITO ESTRATÉGICO en el primer
+punto de inflexión.</characteristic>
+            <characteristic name="Effect" typeId="4548-c136-46c5-74b7">Realiza una acción libre de Reposicionarse
+con 1D3 agentes RECORRESTRELLAS
+ELUCIDIANO amigos que estén completamente
+en tu zona de descenso. Cada uno debe terminar
+dicha acción completamente a 4" o menos de tu
+zona de descenso.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Sobornar" typeId="c849-8357-70b9-db06" typeName="Warrant of Trade" hidden="false" id="e2b8-156e-ab57-435d">
+          <characteristics>
+            <characteristic name="When" typeId="b5cb-0b13-9f94-2d6f">Si es tu turno de activar un agente.</characteristic>
+            <characteristic name="Effect" typeId="4548-c136-46c5-74b7">Puedes saltarte esa activación.
+Reclamar
+Cuándo: En la fase de iniciativa, tras desempatar
+para determinar la iniciativa.
+Efecto: Puedes repetir la tirada.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Reclamar" typeId="c849-8357-70b9-db06" typeName="Warrant of Trade" hidden="false" id="77a0-489d-075c-3dbc">
+          <characteristics>
+            <characteristic name="When" typeId="b5cb-0b13-9f94-2d6f">En la fase de estrategia, tras desempatar para determinar la iniciativa.</characteristic>
+            <characteristic name="Effect" typeId="4548-c136-46c5-74b7">Puedes repetir la tirada.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Términos adaptables (solo Operaciones Aprobadas)" typeId="c849-8357-70b9-db06" typeName="Warrant of Trade" hidden="false" id="3c62-f245-8181-bc13">
+          <characteristics>
+            <characteristic name="When" typeId="b5cb-0b13-9f94-2d6f">Al final del segundo punto de inflexión.</characteristic>
+            <characteristic name="Effect" typeId="4548-c136-46c5-74b7">Elige una nueva operación táctica u
+operación primaria. Si seleccionas una nueva
+operación táctica, los puntos obtenidos por la
+anterior operación táctica se pierden.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="PATENTE COMERCIAL" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="4dd1-5af1-2906-fd25">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Las escrituras de un Comerciante Independiente le 
+otorgan un nivel de autoridad asombroso por todo el 
+Imperium. Con más flexibilidad que casi cualquier otro 
+agente del Imperium, negocian, intimidan y “toman 
+prestados” valiosos recursos para tener la ventaja en 
+cualquier situación.
+Hasta cuatro veces por partida puedes usar una 
+regla PATENTE COMERCIAL (ver abajo). Cada una 
+indica cuándo puede usarse, y no puedes usar la 
+misma regla PATENTE COMERCIAL más de una 
+vez por batalla.
+Consideración
+Cuándo: En el paso de elegir agentes, tras revelar 
+tus opciones de equipo.
+Efecto: Selecciona una opción de equipo 
+adicional. No puede ser una opción que ya hayas 
+elegido.
+CONTINÚA EN EL REVERSO</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Reference" hidden="false" id="fa30-7b35-f8b1-049c" targetId="b318-a8d7-2d38-99a3" primary="true" />
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="ACTIVOS DE APOYO PRIVADOS" hidden="false" id="cfb4-63c7-6cc6-6547">
+      <constraints>
+        <constraint type="min" value="-1" field="selections" scope="force" shared="true" id="4b7a-28a6-c837-8ee9-min" includeChildSelections="false" />
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="4b7a-28a6-c837-8ee9-max" includeChildSelections="false" />
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="4b7a-28a6-c837-8ee9-min">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="463e-b2b7-d172-bd34" shared="true" includeChildSelections="false" />
+          </conditions>
+        </modifier>
+        <modifier type="set" value="1" field="4b7a-28a6-c837-8ee9-max">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="463e-b2b7-d172-bd34" shared="true" includeChildSelections="false" />
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="ACTIVOS DE APOYO PRIVADOS" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="78dc-386f-d629-776e">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Los Recorrestrellas nunca se alejan demasiado de la Nueva Aurora. Desde lo alto, sus colosales baterías de artillería 
+naval bombardean al enemigo, aportando apoyo aéreo.
+Una vez por fase de tiroteo, cuando un agente AR-
+MADA RECORRESTRELLAS ELUCIDIANO o ELUCIA 
+VHANE RECORRESTRELLAS ELUCIDIANO amigo 
+realice una acción de Disparar, puedes elegir que 
+use una de las siguientes armas a distancia ACTIVO 
+DE APOYO PRIVADO. No puedes usar cada ACTIVO 
+DE APOYO PRIVADO más de una vez por batalla.
+Siempre que un agente RECORRESTRELLAS ELUCI-
+DIANO amigo use un ACTIVO DE APOYO PRIVADO, 
+determina las salvaciones por cobertura de forma 
+distinta. En su lugar, el blanco dispone de salvación 
+por cobertura si alguna parte de su peana está bajo 
+terreno Aventajado. Ten en cuenta que aunque esto 
+pueda afectar a la salvación por cobertura del blanco, debes elegir un blanco válido de forma normal. 
+Es decir, el disparo viene guiado por un agente en la 
+zona de aniquilación, pero cae desde arriba.
+CONTINÚA EN EL REVERSO</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Bomba de racimo" hidden="false" id="64c1-0fca-552e-d444">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="472d-0bfe-eca5-771d-min" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="472d-0bfe-eca5-771d-max" includeChildSelections="false" />
+          </constraints>
+          <profiles>
+            <profile name="⌖ Bomba de racimo" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="8092-d6da-4010-35db">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/3</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Área 3", Pesada (solo Reposicionarse), Silenciosa</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Heavy" id="dbfb-e6a6-57ad-92b2" hidden="false" type="rule" targetId="816e-44a2-6be4-6a9a" />
+            <infoLink name="Silent" id="5aec-9037-6fd4-b066" hidden="false" type="rule" targetId="1e3c-23c9-c6e2-9f62" />
+            <infoLink name="Blast x" id="44e5-952a-babf-9d65" hidden="false" type="rule" targetId="0d74-0977-b481-bd13" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Macrocañón" hidden="false" id="607d-758a-8041-7875">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cd34-34eb-2869-4e34-min" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cd34-34eb-2869-4e34-max" includeChildSelections="false" />
+          </constraints>
+          <profiles>
+            <profile name="⌖ Macrocañón" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="a3a3-8eee-034e-654c">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Críticos de penetración 1, Pesada (solo Reposicionarse), Ráfaga 2", Saturación, Silenciosa</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Saturate" id="fbb4-9a91-f23e-27c3" hidden="false" type="rule" targetId="3c10-2d52-d1ac-b0f6" />
+            <infoLink name="Heavy" id="a10d-754c-ade9-a9a7" hidden="false" type="rule" targetId="816e-44a2-6be4-6a9a" />
+            <infoLink name="Silent" id="e844-631a-13a1-acb6" hidden="false" type="rule" targetId="1e3c-23c9-c6e2-9f62" />
+            <infoLink name="Piercing x" id="172a-4442-211d-eae1" hidden="false" type="rule" targetId="4c07-2cb3-1417-cbb7" />
+            <infoLink name="Torrent x" id="bec5-f3da-4448-d067" hidden="false" type="rule" targetId="ad45-b4bb-1345-e4f9" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Batería de plasma" hidden="false" id="5803-bb45-f420-7d38">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dea1-a9d5-3c47-346b-min" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dea1-a9d5-3c47-346b-max" includeChildSelections="false" />
+          </constraints>
+          <profiles>
+            <profile name="⌖ Batería de plasma" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="7fc1-8840-f9a1-8c57">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">5/6</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Letal 5+, Penetración 1, Pesada (solo Reposicionarse), Silenciosa</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Lethal x+" id="08e8-f43f-e722-5a20" hidden="false" type="rule" targetId="8b97-e3e3-2857-817a" />
+            <infoLink name="Heavy" id="23a7-9b76-07da-9795" hidden="false" type="rule" targetId="816e-44a2-6be4-6a9a" />
+            <infoLink name="Silent" id="2277-9519-ecd2-c41e" hidden="false" type="rule" targetId="1e3c-23c9-c6e2-9f62" />
+            <infoLink name="Piercing x" id="4fe9-c263-51ad-341f" hidden="false" type="rule" targetId="4c07-2cb3-1417-cbb7" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Rayo arqueotecnológico" hidden="false" id="e944-b1fe-0848-1b28">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5f75-6aa2-db65-e0b5-min" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5f75-6aa2-db65-e0b5-max" includeChildSelections="false" />
+          </constraints>
+          <profiles>
+            <profile name="⌖ Rayo arqueotecnológico" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="924b-50f2-9213-7e7b">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">6/7</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Penetración 2, Pesada (solo Reposicionarse), Silenciosa</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Heavy" id="33e7-28de-8943-b280" hidden="false" type="rule" targetId="816e-44a2-6be4-6a9a" />
+            <infoLink name="Silent" id="b7d0-b4d3-d291-1e7c" hidden="false" type="rule" targetId="1e3c-23c9-c6e2-9f62" />
+            <infoLink name="Piercing x" id="8ac3-abb4-1da4-85c4" hidden="false" type="rule" targetId="4c07-2cb3-1417-cbb7" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Obús guiado" hidden="false" id="5f87-db38-74f8-5694">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f001-169d-ed71-8536-min" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f001-169d-ed71-8536-max" includeChildSelections="false" />
+          </constraints>
+          <profiles>
+            <profile name="⌖ Obús guiado" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="91d1-7931-885f-a689">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Área 2", Pesada (solo Reposicionarse), Silenciosa</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Heavy" id="1bf9-59a0-2a80-c693" hidden="false" type="rule" targetId="816e-44a2-6be4-6a9a" />
+            <infoLink name="Silent" id="3ddc-93a3-9ec5-d32b" hidden="false" type="rule" targetId="1e3c-23c9-c6e2-9f62" />
+            <infoLink name="Blast x" id="b501-6f5c-5c1e-1ace" hidden="false" type="rule" targetId="0d74-0977-b481-bd13" />
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Reference" hidden="false" id="9164-03c3-cc21-7d6e" targetId="b318-a8d7-2d38-99a3" primary="true" />
+      </categoryLinks>
+    </selectionEntry>
+  </selectionEntries>
+  <categoryEntries>
+    <categoryEntry name="Recorrestrellas Elucidianos" id="23f9-fdff-a6b6-d643" hidden="false" />
+    <categoryEntry name="ELUCIA VHANE" id="0bb8-9dfc-2495-fe68" hidden="false" />
+    <categoryEntry name="CÁNIDO" id="c480-668e-041b-36f4" hidden="false" />
+    <categoryEntry name="EJECUTORA DEL CULTO DE LA MUERTE" id="cde0-4dbb-fad3-93b1" hidden="false" />
+    <categoryEntry name="LECTRO-MAESTRE" id="d7f2-6cb5-024f-3c32" hidden="false" />
+    <categoryEntry name="ADEPTO REJUVENAT" id="d3e4-4914-882d-9eed" hidden="false" />
+    <categoryEntry name="CONTRAMAESTRE DEL VACÍO" id="e132-2cfb-7356-f4d8" hidden="false" />
+    <categoryEntry name="Navis" id="c106-38b0-102c-6f66" hidden="false" />
+    <categoryEntry name="INFANTE DEL VACÍO" id="d066-2618-224e-f380" hidden="false" />
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Culata" hidden="false" id="075b-c148-62d2-6ca4">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="345d-b53b-094a-7045-min" includeChildSelections="false" />
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="345d-b53b-094a-7045-max" includeChildSelections="false" />
+      </constraints>
+      <profiles>
+        <profile name="⚔ Culata" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="2a90-a72a-cacf-ec83">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">3</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/3</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile name="Tripulación" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="42b3-586d-c976-f0e5">
+      <characteristics>
+        <characteristic name="Ability" typeId="3467-0678-083e-eb50">Una vez por punto de inflexión, cuando fueras a reaccionar, si no has usado un ACTIVO DE APOYO PRIVADO 
+durante este punto de inflexión, puedes usar esta regla. Si lo haces, puedes reaccionar con un agente INFANTE DEL VACÍO 
+RECORRESTRELLAS ELUCIDIANO amigo que tenga una orden de ocultarse, pero durante esa reacción solo puedes realizar 
+acciones de Disparar, y debes usar un ACTIVO DE APOYO PRIVADO para ello.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="INFANTE DEL VACÍO" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="140c-9071-29f9-83f5">
+      <characteristics>
+        <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+        <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+        <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+        <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">7</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <entryLinks>
+    <entryLink import="true" name="Equipment Reference" hidden="false" id="4517-e167-dcd2-b509" type="selectionEntry" targetId="e004-a0c4-8a03-0b8b">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Equipo de facción" id="4f25-1d0c-bcb3-c049" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="MONO BLINDADO" hidden="false" id="bd9c-997c-c7e4-ed59">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c162-4647-3a9f-9ec9" includeChildSelections="false" />
+              </constraints>
+              <profiles>
+                <profile name="MONO BLINDADO" typeId="0d20-7175-9ecb-8bde" typeName="Equipment" hidden="false" id="dbbc-dfed-976c-3b2e">
+                  <characteristics>
+                    <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">RECORRESTRELLAS ELUCIDIANO
+EQUIPO DE FACCIÓN
+MONO BLINDADO
+Algunas fatigas navales tienen blindaje ablativo y
+refuerzos de acero entretejidos para aportar una capa
+de protección adicional.
+Siempre que un agente dispare contra un agente
+RECORRESTRELLAS ELUCIDIANO amigo
+que tenga un atributo Salvación de 5+ (salvo
+CÁNIDO), puedes guardar uno de tus dados de
+defensa con un resultado de 4 como un éxito
+normal.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="BATERÍAS POTENCIADAS" hidden="false" id="47e9-603a-d6b6-7d9c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cea9-5c10-1420-9644" includeChildSelections="false" />
+              </constraints>
+              <profiles>
+                <profile name="BATERÍAS POTENCIADAS" typeId="0d20-7175-9ecb-8bde" typeName="Equipment" hidden="false" id="35b3-8357-c8f4-2c66">
+                  <characteristics>
+                    <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">RECORRESTRELLAS ELUCIDIANO
+EQUIPO DE FACCIÓN
+BATERÍAS POTENCIADAS
+Modificaciones peligrosas pero letales a sus pistolas y
+rifles láser proporcionan a los Recorrestrellas potencia
+asesina adicional, aún a riesgo de resultar heridos.
+Hasta dos veces por punto de inflexión, cuando
+un agente RECORRESTRELLAS ELUCIDIANO
+amigo realiza una acción de Disparar y
+seleccionas una pistola láser, pistola láser reliquia
+o rifle láser, puedes usar esta regla. Si lo haces,
+hasta el final del punto de inflexión, suma 1 a
+ambos atributos daño de esa arma y tiene las
+reglas de armas Sobrecalentamiento y Críticos de
+penetración 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="ENLACE DE COORDENADAS MEJORADO" hidden="false" id="fed6-100a-3427-1342">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="416e-e8fc-f1c4-e198" includeChildSelections="false" />
+              </constraints>
+              <profiles>
+                <profile name="ENLACE DE COORDENADAS MEJORADO" typeId="0d20-7175-9ecb-8bde" typeName="Equipment" hidden="false" id="27ff-7abe-a65e-0e74">
+                  <characteristics>
+                    <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">RECORRESTRELLAS ELUCIDIANO
+EQUIPO DE FACCIÓN
+ENLACE DE COORDENADAS
+MEJORADO
+La triangulación de coordenadas que realizan los
+agentes de la Armada Imperial permite a las baterías
+artilleras de la Nueva Aurora una mayor precisión.
+Siempre que un agente RECORRESTRELLAS
+ELUCIDIANO amigo realiza una acción de
+Disparar con un ACTIVO DE APOYO PRIVADO,
+si el blanco está a 6" o menos de un agente
+ARMADA RECORRESTRELLAS ELUCIDIANO , el
+blanco no puede estar ofuscado y el arma tiene la
+regla de armas Saturación.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="ARTILLERÍA RAUDA" hidden="false" id="87e7-c6a1-1c48-2907">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5b8a-787f-4051-b035" includeChildSelections="false" />
+              </constraints>
+              <profiles>
+                <profile name="ARTILLERÍA RAUDA" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="ae09-ec0b-59bc-a9a3">
+                  <characteristics>
+                    <characteristic name="Ability" typeId="3467-0678-083e-eb50">RECORRESTRELLAS ELUCIDIANO
+EQUIPO DE FACCIÓN
+ARTILLERÍA RAUDA
+Las colosales baterías de la Nueva Aurora son de
+recarga lenta. Solo las dotaciones artilleras veteranas
+poseen la pericia y coordinación para disparar una
+andanada rápida.
+Una vez por batalla, al elegir un ACTIVO DE
+APOYO PRIVADO, puedes elegir uno que ya
+haya sido usado durante la batalla. Esto tiene
+preferencia sobre las reglas normales de
+ACTIVOS DE APOYO PRIVADOS.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </entryLink>
+  </entryLinks>
+  <profileTypes>
+    <profileType name="Warrant of Trade" id="c849-8357-70b9-db06" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="When" id="b5cb-0b13-9f94-2d6f" />
+        <characteristicType name="Effect" id="4548-c136-46c5-74b7" />
+      </characteristicTypes>
+    </profileType>
+  </profileTypes>
+  <comment>January '26</comment>
+</catalogue>

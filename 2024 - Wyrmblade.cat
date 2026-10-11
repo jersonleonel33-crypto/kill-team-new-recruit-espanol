@@ -1,0 +1,1332 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="d953-a8cd-d581-475e" name="Filosierpe" gameSystemId="c521-ad27-44df-f959" gameSystemRevision="10" revision="6" battleScribeVersion="2.03" type="catalogue">
+  <forceEntries>
+    <forceEntry name="Comando Filosierpe" id="79f0-45ba-02bd-6637" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Configuration" hidden="false" id="25c4-9a64-3e6e-5781" targetId="874b-0390-e5e2-1daa" />
+        <categoryLink name="Reference" hidden="false" id="4ccc-25f3-8c71-c425" targetId="b318-a8d7-2d38-99a3" />
+        <categoryLink name="Leader" hidden="false" id="e9f5-d3ea-7cd7-dedf" targetId="d999-8cad-8145-4efe" />
+        <categoryLink name="Operative" hidden="false" id="21cf-2176-e98f-2003" targetId="cf83-4496-b58e-ac82">
+          <constraints>
+            <constraint type="min" value="13" field="selections" scope="force" shared="true" id="465a-2c76-913f-01b5-min-min" includeChildSelections="true" />
+            <constraint type="max" value="13" field="selections" scope="force" shared="true" id="465a-2c76-913f-01b5-min-max" includeChildSelections="true" />
+          </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="465a-2c76-913f-01b5-min-min">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="ff88-04d0-68ff-b02b" shared="true" roundUp="false" />
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="465a-2c76-913f-01b5-min-max">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="ff88-04d0-68ff-b02b" shared="true" roundUp="false" />
+              </repeats>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <rules>
+    <rule name="TERRITORIO FAMILIAR" id="59ab-50e8-f8c1-f5d1" hidden="false">
+      <description>Los Cultos Genestealer se infiltran en todos los estrados 
+de la sociedad imperial, acumulando conocimiento 
+sobre rutas de tránsito, pasadizos y túneles con los que 
+maniobrar alrededor del enemigo.
+Al desplegar un comando FILOSIERPE antes de 
+la batalla, un tercio de tu comando puede situarse ESCONDIDO: colócalos a un lado en lugar de 
+en la zona de aniquilación. Los agentes ACTIVO 
+DEL CULTO no pueden desplegarse ESCONDIDOS.
+En la fase de tiroteo, los agentes FILOSIERPE 
+amigos situados ESCONDIDOS se activan de 
+forma normal. Cuando lo hagas, puedes usar a 
+ese agente o hacerlo emerger. Si emerge, sitúalo 
+en la zona de aniquilación en una ubicción en que 
+pueda ser colocado del siguiente modo (deja de 
+estar ESCONDIDO):
+• Completamente a 6" o menos de tu zona de 
+descenso.
+• A más de 6" de todo agente enemigo.
+• Con una orden de tu elección.</description>
+    </rule>
+    <rule name="ACTIVO DEL CULTO" id="43f5-ba9d-9c01-7f50" hidden="false">
+      <description>Los agentes elegidos por el Patriarca se diseminan entre 
+las fuerzas del Culto, proporcionando guía y motivación 
+a los fieles.
+Siempre que un agente dispare contra un agente 
+ACTIVO DEL CULTO FILOSIERPE amigo:
+• Ignora las reglas de armas Penetración y 
+Saturación.
+• Si puedes guardar alguna salvación por 
+cobertura, puedes guardar una salvación por 
+cobertura adicional, o puedes guardar una 
+salvación por cobertura como éxito crítico 
+en su lugar. Esto no se acumula con las 
+salvaciones por cobertura mejoradas debido a 
+terreno Aventajado.</description>
+    </rule>
+    <rule name="EMBOSCADA DEL CULTO" id="6517-4b64-2dd2-7573" hidden="false">
+      <description>Cuando llega el Día de la Ascensión, el Culto golpea 
+al unísono, pillando por sorpresa a sus enemigos con 
+emboscadas letales y asaltos sorpresa.
+Siempre que un agente FILOSIERPE amigo 
+dispare o combata durante su activación, si su 
+orden cambió de ocultarse a trabarse al inicio de 
+esa activación, o no era visible para los agentes 
+enemigos al inicio de esa activación, las armas 
+de ese agente amigo tienen la regla de armas 
+Incesante.</description>
+    </rule>
+  </rules>
+  <selectionEntries>
+    <selectionEntry type="model" import="true" name="COMBATIENTE NEÓFITO" hidden="false" id="d9b7-a59e-f6fd-e02e">
+      <profiles>
+        <profile name="COMBATIENTE NEÓFITO" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="9755-b9ab-63d7-2c84">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">7</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Activación en grupo" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="bc5a-4278-e9b5-0084">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Cuando este agente quede usado, 
+debes activar a continuación otro agente COMBATIENTE 
+FILOSIERPE amigo apostado (si es posible) antes de que 
+active tu oponente. En cuanto ese otro agente quede usado, tu 
+oponente activa de manera normal (es decir, no puedes activar 
+más de dos agentes sucesivos mediante esta regla).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Filosierpe" hidden="false" id="979b-5af4-e7ff-076e" targetId="6127-545f-c590-4ff6" primary="false" />
+        <categoryLink name="Operative" hidden="false" id="e436-6a4a-9784-5e9a" targetId="cf83-4496-b58e-ac82" primary="true" />
+        <categoryLink name="Cultos Genestealer" hidden="false" id="4be5-cb94-f3ed-425e" targetId="1b89-f288-fcb6-6f97" primary="false" />
+        <categoryLink name="Neófito" hidden="false" id="ca49-91fd-0a28-39c4" targetId="7d20-a2de-37b6-c61e" primary="false" />
+        <categoryLink name="Warrior" hidden="false" id="fc1b-28b4-b1d9-81e1" targetId="2b69-f2aa-bd5c-70b2" primary="false" />
+        <categoryLink name="Tiránidos" hidden="false" id="b6a6-9622-7149-efbb" targetId="871e-8e59-202a-5530" primary="false" />
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Culata" hidden="false" id="e645-78df-6f39-6b37" type="selectionEntry" targetId="4eae-d550-166e-e297">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ba9a-8928-15c1-7ead-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba9a-8928-15c1-7ead-max" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Arma a distancia" id="cf44-f298-e8bc-54da" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3dd7-f8c4-2e5e-1c2e-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3dd7-f8c4-2e5e-1c2e-max" />
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Rifle automático" hidden="false" id="57b3-b6c9-582b-f8e0" type="selectionEntry" targetId="ec51-f820-acd0-5fdc" />
+            <entryLink import="true" name="Escopeta" hidden="false" id="cc76-c378-c2a7-1377" type="selectionEntry" targetId="70d3-b838-9307-68fb" />
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="KELERMORFO" hidden="false" id="74fd-ba22-7782-d436">
+      <profiles>
+        <profile name="KELERMORFO" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="3076-3400-c667-bfe1">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">4+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">9</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Pistolero experto" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="389f-15fc-a1ef-514d">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Este agente puede realizar dos acciones de 
+Disparar durante su activación.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Inspiración heroica" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="4b05-41be-8e2b-051d">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Siempre que un agente NEÓFITO 
+FILOSIERPE amigo a 3" o menos de este agente y visible 
+para él dispara, combate o contraataca, si este agente ha 
+incapacitado a un agente enemigo durante este punto de 
+inflexión, las armas de ese agente amigo tienen la regla de armas 
+Severa.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="61b2-c583-f443-89b6" includeChildSelections="true" />
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="61b2-c583-f443-89b6">
+          <conditions>
+            <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="default-force" shared="true" />
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink name="Filosierpe" hidden="false" id="33d3-0f92-6530-391d" targetId="6127-545f-c590-4ff6" primary="false" />
+        <categoryLink name="Cultos Genestealer" hidden="false" id="bc6b-2192-a266-4845" targetId="1b89-f288-fcb6-6f97" primary="false" />
+        <categoryLink name="Tiránidos" hidden="false" id="aa5a-0418-2b73-6a51" targetId="871e-8e59-202a-5530" primary="false" />
+        <categoryLink name="Operative" hidden="false" id="2538-2983-5de9-1aa5" targetId="cf83-4496-b58e-ac82" primary="true" />
+        <categoryLink name="ACTIVO DEL CULTO" hidden="false" id="5d40-787a-0895-0a1c" targetId="ff88-04d0-68ff-b02b" primary="false" />
+        <categoryLink name="KELERMORFO" hidden="false" id="d2c4-8d69-2efc-5558" targetId="99f5-952a-51b6-056e" primary="false" />
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Revólveres libertador" hidden="false" id="8cfd-4d5c-a66a-3a61">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4161-a9ca-71cb-ff6f-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4161-a9ca-71cb-ff6f-max" />
+          </constraints>
+          <profiles>
+            <profile name="⌖ Revólveres libertador (hipersentido)" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="a7c6-3415-d745-8c70">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 6", Buscadora (Ligero), Saturación, Hipersentido*</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="⌖ Revólveres libertador (largo alcance)" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="fe0a-e902-6fc4-17ef">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Críticos de penetración 1, Desgarradora</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="⌖ Revólveres libertador (corto alcance)" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="d2db-e3f6-dce0-2c2f">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8", Desgarradora, Penetración 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Range x" id="bef8-e743-bf46-5a49" hidden="false" type="rule" targetId="a528-829e-8268-c005" />
+            <infoLink name="Piercing x" id="1860-0ff1-4b67-716f" hidden="false" type="rule" targetId="4c07-2cb3-1417-cbb7" />
+            <infoLink name="Rending" id="8375-1114-f11a-0c4a" hidden="false" type="rule" targetId="b903-6f79-129d-4ec9" />
+            <infoLink name="Saturate" id="f81d-bf32-641b-a541" hidden="false" type="rule" targetId="3c10-2d52-d1ac-b0f6" />
+            <infoLink name="Seek" id="7455-a7f8-79a4-a8ab" hidden="false" type="rule" targetId="a33d-4e90-5794-6e20" />
+          </infoLinks>
+          <rules>
+            <rule name="*Hipersentido" id="9e5a-4fe4-4939-51c6" hidden="false">
+              <description>Cuando este agente dispara con este perfil de 
+arma, los agentes enemigos no pueden estar ofuscados.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Cuchillo de Kelermorfo" hidden="false" id="72c8-c31c-2586-c8a5">
+          <profiles>
+            <profile name="⚔ Cuchillo de Kelermorfo" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="f5b4-af1c-8d27-4318">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">3</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Desgarradora</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="95fe-c83b-005a-c2b3-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="95fe-c83b-005a-c2b3-max" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Rending" id="7a37-99e0-fd0a-44c5" hidden="false" type="rule" targetId="b903-6f79-129d-4ec9" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Inspiración heroica" hidden="false" id="c3d5-d55a-819f-0078">
+          <profiles>
+            <profile name="Inspiración heroica" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="e430-0d4a-9570-d08e">
+              <characteristics>
+                <characteristic name="Ability" typeId="3467-0678-083e-eb50">Siempre que un agente NEÓFITO 
+FILOSIERPE amigo a 3" o menos de este agente y visible 
+para él dispara, combate o contraataca, si este agente ha 
+incapacitado a un agente enemigo durante este punto de 
+inflexión, las armas de ese agente amigo tienen la regla de armas 
+Severa.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3d80-f4ff-6675-2327-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3d80-f4ff-6675-2327-max" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Severe" id="29ce-5dac-c14a-cc2e" hidden="false" type="rule" targetId="721c-65bf-dfb7-8fa2" />
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="LÍDER NEÓFITO" hidden="false" id="e2e6-525d-4ef2-b5ad">
+      <profiles>
+        <profile name="LÍDER NEÓFITO" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="7fb8-f429-e097-2c79">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">8</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Vector de sombra" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="040a-a262-5f5b-879e">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Una vez por punto de inflexión, puedes 
+usar el ardid de tiroteo Serpiente enroscada o Desvanecerse 
+en la oscuridad por 0PM si el agente FILOSIERPE amigo 
+especificado es un NEÓFITO visible para este agente.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="b74c-9116-bd24-69d6" includeChildSelections="true" />
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="b74c-9116-bd24-69d6">
+          <conditions>
+            <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="default-force" shared="true" />
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink name="Filosierpe" hidden="false" id="ef6b-8d9c-9e65-e376" targetId="6127-545f-c590-4ff6" primary="false" />
+        <categoryLink name="Cultos Genestealer" hidden="false" id="2e26-2566-d4b8-8d55" targetId="1b89-f288-fcb6-6f97" primary="false" />
+        <categoryLink name="Tiránidos" hidden="false" id="0f1d-46da-0369-53d6" targetId="871e-8e59-202a-5530" primary="false" />
+        <categoryLink name="Leader" hidden="false" id="808c-eb88-a7d9-072b" targetId="d999-8cad-8145-4efe" primary="true" />
+        <categoryLink name="Neófito" hidden="false" id="9ae6-9298-64f7-a6b5" targetId="7d20-a2de-37b6-c61e" primary="false" />
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Armas" id="e0df-c442-5ee4-9ffb" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Arma a distancia" hidden="false" id="f83b-5639-ef0d-a8f5">
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Arma a distancia" id="1820-bf01-bb19-2df3" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="Rifle automático" hidden="false" id="0af5-0b16-1f14-004e" type="selectionEntry" targetId="ec51-f820-acd0-5fdc" />
+                    <entryLink import="true" name="Escopeta" hidden="false" id="dc0a-f0ab-9e9e-78ae" type="selectionEntry" targetId="70d3-b838-9307-68fb" />
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4161-8d5c-d257-564a-min" />
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4161-8d5c-d257-564a-max" />
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink import="true" name="Culata" hidden="false" id="6bfc-a9a6-002b-5126" type="selectionEntry" targetId="4eae-d550-166e-e297">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e974-226c-da52-379b-min" />
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e974-226c-da52-379b-max" />
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Pistola y arma cuerpo a cuerpo" hidden="false" id="5ad7-e4fa-1dd0-271b">
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Pistola" id="6b21-1030-2e19-4ec5" hidden="false">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="92be-52d6-9aaf-ac19-min" />
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="92be-52d6-9aaf-ac19-max" />
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Pistola bólter" hidden="false" id="e555-4f46-c662-d7a7">
+                      <profiles>
+                        <profile name="⌖ Pistola bólter" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="d4f4-ef68-e863-6728">
+                          <characteristics>
+                            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+                            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8"</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink name="Range x" id="c471-d655-1119-2705" hidden="false" type="rule" targetId="a528-829e-8268-c005" />
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Pistola automática artesanal" hidden="false" id="5281-3b65-cdcf-f3e9">
+                      <profiles>
+                        <profile name="⌖ Pistola automática artesanal" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="2762-3672-88f9-c0ec">
+                          <characteristics>
+                            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/4</characteristic>
+                            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8", Letal 5+</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink name="Range x" id="ddb3-c0f2-e2d6-7b66" hidden="false" type="rule" targetId="a528-829e-8268-c005" />
+                        <infoLink name="Lethal x+" id="5fbe-3c74-7f7a-206a" hidden="false" type="rule" targetId="8b97-e3e3-2857-817a" />
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Pistola telaraña" hidden="false" id="5ce5-772c-d810-d9bf">
+                      <profiles>
+                        <profile name="⌖ Pistola telaraña" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="4d81-2158-9383-fbe7">
+                          <characteristics>
+                            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+                            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 6", Aturdidora, Severa</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink name="Range x" id="d2be-51d1-209a-5d97" hidden="false" type="rule" targetId="a528-829e-8268-c005" />
+                        <infoLink name="Severe" id="b120-3b07-bd02-a3c0" hidden="false" type="rule" targetId="721c-65bf-dfb7-8fa2" />
+                        <infoLink name="Stun" id="fb78-4157-01f5-947e" hidden="false" type="rule" targetId="5ae2-3f29-8635-fd02" />
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Arma cuerpo a cuerpo" id="7a66-8d82-566a-ce78" hidden="false">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d2a3-d358-b7de-7a4b-min" />
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d2a3-d358-b7de-7a4b-max" />
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Espada sierra" hidden="false" id="5386-40ec-71dd-e140">
+                      <profiles>
+                        <profile name="⚔ Espada sierra" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="ecda-ed8c-6d3b-884a">
+                          <characteristics>
+                            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Maza de energía" hidden="false" id="444c-3c87-c9fb-45cf">
+                      <profiles>
+                        <profile name="⚔ Maza de energía" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="6a6c-dd3e-e463-2380">
+                          <characteristics>
+                            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/6</characteristic>
+                            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Choque</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink name="Shock" id="7a2b-70d8-e68c-2043" hidden="false" type="rule" targetId="c544-8d4c-4109-4eec" />
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Pico de energía" hidden="false" id="6384-302d-06b5-48dd">
+                      <profiles>
+                        <profile name="⚔ Pico de energía" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="4bd1-ccba-7221-c23c">
+                          <characteristics>
+                            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Desgarradora</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink name="Rending" id="6d85-9259-d425-e8d1" hidden="false" type="rule" targetId="b903-6f79-129d-4ec9" />
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0898-1447-5ba3-0f8d-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0898-1447-5ba3-0f8d-max" />
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="TIRADOR NEÓFITO" hidden="false" id="8d84-f1bc-08f1-9b10">
+      <profiles>
+        <profile name="TIRADOR NEÓFITO" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="4d07-8afc-b72b-92b1">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="f80f-8177-dd71-f0e3" includeChildSelections="true" />
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="f80f-8177-dd71-f0e3">
+          <conditions>
+            <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="default-force" shared="true" />
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink name="Filosierpe" hidden="false" id="faa7-b0c4-8a35-cf99" targetId="6127-545f-c590-4ff6" primary="false" />
+        <categoryLink name="Cultos Genestealer" hidden="false" id="e0bb-acf2-a35d-0f32" targetId="1b89-f288-fcb6-6f97" primary="false" />
+        <categoryLink name="Tiránidos" hidden="false" id="9ff4-db35-56b8-669e" targetId="871e-8e59-202a-5530" primary="false" />
+        <categoryLink name="Operative" hidden="false" id="9889-bbe4-de90-82a0" targetId="cf83-4496-b58e-ac82" primary="true" />
+        <categoryLink name="Neófito" hidden="false" id="6669-109a-2103-b1ee" targetId="7d20-a2de-37b6-c61e" primary="false" />
+        <categoryLink name="Gunner" hidden="false" id="5908-bb47-d3d4-46df" targetId="3033-7558-d28f-53cf" primary="false" />
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Culata" hidden="false" id="3df3-3cf0-7f47-cbe2" type="selectionEntry" targetId="4eae-d550-166e-e297">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2f9c-44e1-6044-4a78-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f9c-44e1-6044-4a78-max" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Arma a distancia" id="5cee-193a-2007-8232" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ecb1-8af5-7c89-4a05-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ecb1-8af5-7c89-4a05-max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Lanzallamas" hidden="false" id="83ca-2ccd-24e1-be34">
+              <constraints>
+                <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="b9bc-f813-1eda-d161" includeChildSelections="true" />
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="1" field="b9bc-f813-1eda-d161">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="default-force" shared="true" />
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile name="⌖ Lanzallamas" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="bb6e-3c12-6172-f777">
+                  <characteristics>
+                    <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                    <characteristic name="HIT" typeId="8044-2517-4ef7-33de">2+</characteristic>
+                    <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/3</characteristic>
+                    <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8", Ráfaga 2", Saturación</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Saturate" id="e39c-d0f5-40f6-e9f9" hidden="false" type="rule" targetId="3c10-2d52-d1ac-b0f6" />
+                <infoLink name="Range x" id="60ed-845d-0e9b-dcb2" hidden="false" type="rule" targetId="a528-829e-8268-c005" />
+                <infoLink name="Torrent x" id="5420-86e3-abfe-5122" hidden="false" type="rule" targetId="ad45-b4bb-1345-e4f9" />
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Lanzagranadas" hidden="false" id="1916-d344-6793-a823">
+              <constraints>
+                <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="5ae0-4d66-7dff-6c6a" includeChildSelections="true" />
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="1" field="5ae0-4d66-7dff-6c6a">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="default-force" shared="true" />
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile name="⌖ Lanzagranadas (frag)" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="3192-73f2-e6e2-0dbb">
+                  <characteristics>
+                    <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                    <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                    <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/4</characteristic>
+                    <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Área 2"</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="⌖ Lanzagranadas (perforante)" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="c2cd-311b-629f-fb32">
+                  <characteristics>
+                    <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                    <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                    <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                    <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Penetración 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Blast x" id="acee-a9b6-3a30-bbf6" hidden="false" type="rule" targetId="0d74-0977-b481-bd13" />
+                <infoLink name="Piercing x" id="78fa-bc3d-276f-0fd5" hidden="false" type="rule" targetId="4c07-2cb3-1417-cbb7" />
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Lanzarredes" hidden="false" id="940b-34a0-1447-028b">
+              <constraints>
+                <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="98a9-dd05-78ce-99ed" includeChildSelections="true" />
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="1" field="98a9-dd05-78ce-99ed">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="default-force" shared="true" />
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile name="⌖ Lanzarredes" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="8749-eb0a-8d95-8f56">
+                  <characteristics>
+                    <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                    <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                    <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+                    <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 12", Severa, Aturdidora</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Severe" id="5d86-7482-ef9d-3b72" hidden="false" type="rule" targetId="721c-65bf-dfb7-8fa2" />
+                <infoLink name="Stun" id="c4d9-346e-d48c-3f22" hidden="false" type="rule" targetId="5ae2-3f29-8635-fd02" />
+                <infoLink name="Range x" id="f5e9-f4eb-fc12-527f" hidden="false" type="rule" targetId="a528-829e-8268-c005" />
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="TIRADOR PESADO NEÓFITO" hidden="false" id="2a3a-ceaa-9ed3-431b">
+      <profiles>
+        <profile name="TIRADOR PESADO NEÓFITO" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="fc86-4e55-58aa-bf3c">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="ad09-8822-b6c2-62f3" includeChildSelections="true" />
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="ad09-8822-b6c2-62f3">
+          <conditions>
+            <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="default-force" shared="true" />
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink name="Filosierpe" hidden="false" id="2898-5fe3-8936-8686" targetId="6127-545f-c590-4ff6" primary="false" />
+        <categoryLink name="Cultos Genestealer" hidden="false" id="612f-7e2a-4941-0a72" targetId="1b89-f288-fcb6-6f97" primary="false" />
+        <categoryLink name="Operative" hidden="false" id="0e8e-e789-78df-7d79" targetId="cf83-4496-b58e-ac82" primary="true" />
+        <categoryLink name="Tiránidos" hidden="false" id="3730-f7db-4b7b-94d8" targetId="871e-8e59-202a-5530" primary="false" />
+        <categoryLink name="Neófito" hidden="false" id="c745-2270-65f8-b462" targetId="7d20-a2de-37b6-c61e" primary="false" />
+        <categoryLink name="Heavy Gunner" hidden="false" id="3d44-f9ab-1d92-8f8a" targetId="73b9-55cd-a334-d65c" primary="false" />
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Arma pesada" id="5639-fb8e-5255-04f6" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2b68-6c17-b0fe-da5e-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b68-6c17-b0fe-da5e-max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ametralladora pesada" hidden="false" id="9d12-9ccb-b1de-155f">
+              <constraints>
+                <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="7e1a-58e6-ba78-a091" includeChildSelections="true" />
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="1" field="7e1a-58e6-ba78-a091">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="default-force" shared="true" />
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile name="⌖ Ametralladora pesada (concentrada)" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="c238-7361-0d2d-7789">
+                  <characteristics>
+                    <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                    <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                    <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                    <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Pesada (solo Correr)</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="⌖ Ametralladora pesada (barrido)" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="06cc-7cd9-aa17-414c">
+                  <characteristics>
+                    <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                    <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                    <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                    <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Pesada (solo Correr), Ráfaga 1"</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Heavy" id="6ebf-5f1a-2a51-61c1" hidden="false" type="rule" targetId="816e-44a2-6be4-6a9a" />
+                <infoLink name="Torrent x" id="2f32-0192-0ad2-83ab" hidden="false" type="rule" targetId="ad45-b4bb-1345-e4f9" />
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Láser de minería" hidden="false" id="c140-4c82-8bd1-2f82">
+              <constraints>
+                <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="e6b9-0fbe-abb4-c997" includeChildSelections="true" />
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="1" field="e6b9-0fbe-abb4-c997">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="default-force" shared="true" />
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile name="⌖ Láser de minería" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="a0ae-8127-0d08-f472">
+                  <characteristics>
+                    <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                    <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                    <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">5/6</characteristic>
+                    <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Penetración 1, Pesada (soloCorrer)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Heavy" id="cbdd-ff3c-c83c-ed8f" hidden="false" type="rule" targetId="816e-44a2-6be4-6a9a" />
+                <infoLink name="Piercing x" id="787e-0f37-d012-9e32" hidden="false" type="rule" targetId="4c07-2cb3-1417-cbb7" />
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Cañón sísmico" hidden="false" id="4ce9-c4af-6e65-7dcf">
+              <constraints>
+                <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="c00e-e65d-b4c0-8a17" includeChildSelections="true" />
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="1" field="c00e-e65d-b4c0-8a17">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="default-force" shared="true" />
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile name="⌖ Cañón sísmico (onda larga)" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="21f3-5864-62a4-2f30">
+                  <characteristics>
+                    <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">6</characteristic>
+                    <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                    <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/2</characteristic>
+                    <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Área 1", Aturdidora, Pesada (solo Correr)</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="⌖ Cañón sísmico (onda corta)" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="ca2c-7f24-bf92-9bbb">
+                  <characteristics>
+                    <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                    <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                    <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/4</characteristic>
+                    <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 6", Aturdidora, Críticos de penetración 1, Pesada (solo Correr)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Heavy" id="fc14-c130-e829-b864" hidden="false" type="rule" targetId="816e-44a2-6be4-6a9a" />
+                <infoLink name="Range x" id="f1d5-ac66-8a5c-4365" hidden="false" type="rule" targetId="a528-829e-8268-c005" />
+                <infoLink name="Stun" id="1ae1-79ec-a2b6-8a46" hidden="false" type="rule" targetId="5ae2-3f29-8635-fd02" />
+                <infoLink name="Piercing x" id="6856-f3fc-dc58-4a4c" hidden="false" type="rule" targetId="4c07-2cb3-1417-cbb7" />
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Culata" hidden="false" id="cc94-c63f-664c-bd1e" type="selectionEntry" targetId="4eae-d550-166e-e297">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f040-f7eb-860a-379a-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f040-f7eb-860a-379a-max" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Bípode de arma pesada" hidden="false" id="0546-ca86-7d70-0a90">
+          <profiles>
+            <profile name="Bípode de arma pesada" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="2039-70fb-edc1-8e5c">
+              <characteristics>
+                <characteristic name="Ability" typeId="3467-0678-083e-eb50">Cuando este agente dispara con 
+un arma de su tarjeta de datos, si no se ha movido durante la 
+activación o si es una reacción, esta arma tiene la regla de armas 
+Incesante; si el arma ya tenía esa regla de armas (p. ej. debido a 
+la regla de facción Emboscada del Culto), tiene la regla de armas 
+Implacable. Ten en cuenta que este agente no tiene prohibido 
+moverse tras disparar.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0747-68aa-fd12-31b1-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0747-68aa-fd12-31b1-max" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Ceaseless" id="283b-5208-33b4-a774" hidden="false" type="rule" targetId="752d-ce38-c325-4b8a" />
+            <infoLink name="Relentless" id="0cbc-8a60-a92f-cc88" hidden="false" type="rule" targetId="1bc8-9f8d-d899-64ed" />
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="PORTADOR DEL ICONO NEÓFITO" hidden="false" id="3c50-709e-8dd7-bd22">
+      <profiles>
+        <profile name="PORTADOR DEL ICONO NEÓFITO" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="70e8-acdf-d491-71a4">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">7</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Portador del icono" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="753d-5f95-5887-7e30">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Al determinar el control de un marcador, trata el atributo LPA de este agente como si fuese 1 mayor de lo que es. 
+Ten en cuenta que esto no es un cambio al atributo LPA, por lo que cualquier cambio es acumulativo con esto.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Derrocar a los opresores" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="0175-64cb-6bca-e160">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Una vez por punto de inflexión, cuando un agente NEÓFITO FILOSIERPE amigo apostado es 
+incapacitado estando a 6" o menos de este agente y visible para él, puedes usar esta regla. Si lo haces, antes de retirar ese agente de 
+la zona de aniquilación, puede o bien realizar una acción libre de Disparar (puedes cambiar su orden para ello), o bien puedes usar 
+el ardid de tiroteo Un plan gestado hace generaciones por 0PM si ese agente incapacitado es el agente NEÓFITO FILOSIERPE 
+amigo especificado. A continuación es retirado de la zona de aniquilación de forma normal.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="4748-1d14-2cdb-ec7b" includeChildSelections="true" />
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="4748-1d14-2cdb-ec7b">
+          <conditions>
+            <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="default-force" shared="true" />
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink name="Filosierpe" hidden="false" id="c955-95c0-3371-d81f" targetId="6127-545f-c590-4ff6" primary="false" />
+        <categoryLink name="Cultos Genestealer" hidden="false" id="ef00-a365-87a6-794b" targetId="1b89-f288-fcb6-6f97" primary="false" />
+        <categoryLink name="Tiránidos" hidden="false" id="6824-d3c3-4e87-f0b2" targetId="871e-8e59-202a-5530" primary="false" />
+        <categoryLink name="Operative" hidden="false" id="6b37-a9b3-c3cc-0167" targetId="cf83-4496-b58e-ac82" primary="true" />
+        <categoryLink name="Neófito" hidden="false" id="2e35-df3b-347a-2bea" targetId="7d20-a2de-37b6-c61e" primary="false" />
+        <categoryLink name="Portador del icono" hidden="false" id="9285-1ea9-692f-b177" targetId="7b77-173b-41b1-f14c" primary="false" />
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Culata" hidden="false" id="707a-8729-4131-065e" type="selectionEntry" targetId="4eae-d550-166e-e297">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6c4a-583e-aecf-bc1f-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c4a-583e-aecf-bc1f-max" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Arma a distancia" id="47fe-b01c-1bbe-e43d" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d46d-42a1-e092-8994-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d46d-42a1-e092-8994-max" />
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Rifle automático" hidden="false" id="59ee-4d9f-7621-16ef" type="selectionEntry" targetId="ec51-f820-acd0-5fdc" />
+            <entryLink import="true" name="Escopeta" hidden="false" id="0163-5909-009b-6183" type="selectionEntry" targetId="70d3-b838-9307-68fb" />
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="LOCUS" hidden="false" id="0e62-ab53-b4b5-3d14">
+      <profiles>
+        <profile name="LOCUS" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="276c-c350-818f-a16e">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">4+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">9</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Espadachín experto" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="88d5-585d-09d8-24a4">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Este agente puede realizar dos acciones 
+de Combatir durante su activación. Cada vez que este agente 
+termina una acción de Combatir, si ya no está en la zona de 
+control de agentes enemigos, puede realizar inmediatamente 
+una acción libre de Cargar (incluso si ya ha realizado una 
+acción de Cargar durante esa activación), pero no puede mover 
+más de 3" durante esa acción. Hacer eso no le impide realizar la 
+acción de Correr más tarde durante esa activación.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Postura de esgrima" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="8688-0007-9733-6805">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Cuando este agente combata o 
+contraataque, puedes resolver un impacto con éxito antes del 
+orden normal. Si lo haces, ese impacto con éxito debe usarse 
+para bloquear.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Golpe veloz" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="9c8a-0541-8e48-fa8d">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Una vez por punto de inflexión, después de que 
+un agente enemigo realice una acción en la que se mueva 
+o sea situado, puedes interrumpir para usar esta regla. Si lo 
+haces, este agente puede realizar inmediatamente una acción 
+libre de Cargar (puedes cambiar su orden para ello), pero no 
+puede mover más de 3", y debe terminar ese movimiento en la 
+zona de control de ese agente enemigo. Si eso no es posible, la 
+interrupción se cancela y esta regla no se ha usado.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="7c59-09f9-15b2-91cf" includeChildSelections="true" />
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="7c59-09f9-15b2-91cf">
+          <conditions>
+            <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="default-force" shared="true" />
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink name="Filosierpe" hidden="false" id="d304-18a8-29d8-07ad" targetId="6127-545f-c590-4ff6" primary="false" />
+        <categoryLink name="Cultos Genestealer" hidden="false" id="7c46-f88b-4761-085b" targetId="1b89-f288-fcb6-6f97" primary="false" />
+        <categoryLink name="Tiránidos" hidden="false" id="3fdf-46c8-6fd7-d887" targetId="871e-8e59-202a-5530" primary="false" />
+        <categoryLink name="Operative" hidden="false" id="1458-1383-9601-a1c1" targetId="cf83-4496-b58e-ac82" primary="true" />
+        <categoryLink name="ACTIVO DEL CULTO" hidden="false" id="e417-1749-8330-e6fd" targetId="ff88-04d0-68ff-b02b" primary="false" />
+        <categoryLink name="LOCUS" hidden="false" id="4269-a9b5-84ca-edf3" targetId="d0fe-6071-6223-58ae" primary="false" />
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Cola con púas" hidden="false" id="384d-1833-c455-8374">
+          <profiles>
+            <profile name="⌖ Cola con púas" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="64a2-b638-c036-a51c">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 3", Silenciosa</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Range x" id="dcf0-d04f-5852-bdb7" hidden="false" type="rule" targetId="a528-829e-8268-c005" />
+            <infoLink name="Silent" id="b4ee-994e-189d-70d7" hidden="false" type="rule" targetId="1e3c-23c9-c6e2-9f62" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Filos de Locus" hidden="false" id="0e14-b059-c8ae-74ae">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="aebc-535b-cb7e-f17e-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aebc-535b-cb7e-f17e-max" />
+          </constraints>
+          <profiles>
+            <profile name="Filos de Locus" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="b7ac-8d13-fa2d-d416">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/6</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Letal 5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Lethal x+" id="123d-9170-d5b4-77f3" hidden="false" type="rule" targetId="8b97-e3e3-2857-817a" />
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="FRANCOTIRADOR SANCTUS" hidden="false" id="d862-63f6-4967-51b4">
+      <profiles>
+        <profile name="FRANCOTIRADOR SANCTUS" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="de4b-4382-88ab-b88d">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">4+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="4204-bcb7-5671-d8ab" includeChildSelections="true" />
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="4204-bcb7-5671-d8ab">
+          <conditions>
+            <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="default-force" shared="true" />
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink name="Filosierpe" hidden="false" id="37f6-04ef-a711-c271" targetId="6127-545f-c590-4ff6" primary="false" />
+        <categoryLink name="Cultos Genestealer" hidden="false" id="aaa8-c4f1-8899-9aa1" targetId="1b89-f288-fcb6-6f97" primary="false" />
+        <categoryLink name="Tiránidos" hidden="false" id="6d48-79fb-603c-020f" targetId="871e-8e59-202a-5530" primary="false" />
+        <categoryLink name="Operative" hidden="false" id="2185-bcad-b564-2dbd" targetId="cf83-4496-b58e-ac82" primary="true" />
+        <categoryLink name="ACTIVO DEL CULTO" hidden="false" id="f4a6-189e-8da4-483a" targetId="ff88-04d0-68ff-b02b" primary="false" />
+        <categoryLink name="Sanctus" hidden="false" id="20a0-7386-09b8-eb1b" targetId="54e5-cd67-9a1b-8f2b" primary="false" />
+        <categoryLink name="FRANCOTIRADOR SANCTUS" hidden="false" id="ac45-4449-be13-f9d4" targetId="85d2-6c48-5e21-8e0a" primary="false" />
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Puños" hidden="false" id="e600-19f2-cab0-ace9">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d175-cb27-61d1-2f8f-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d175-cb27-61d1-2f8f-max" />
+          </constraints>
+          <profiles>
+            <profile name="⚔ Puños" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="27ea-ed2c-2978-15da">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Rifle francotirador Sanctus" hidden="false" id="bea4-fb2b-0f69-3a6a">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="592c-8cd2-0ea2-305a-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="592c-8cd2-0ea2-305a-max" />
+          </constraints>
+          <profiles>
+            <profile name="⌖ Rifle francotirador Sanctus (móvil)" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="26e5-852c-86ba-1bda">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="⌖ Rifle francotirador Sanctus (inmóvil)" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="7f2c-4410-243b-363f">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">2+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/3</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Devastadora 3, Pesada (solo Correr), Silenciosa</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Devastating x" id="c025-9697-0c53-fd44" hidden="false" type="rule" targetId="a8ba-6e3a-76b3-f05c" />
+            <infoLink name="Heavy" id="ddc5-95f4-675e-c09c" hidden="false" type="rule" targetId="816e-44a2-6be4-6a9a" />
+            <infoLink name="Silent" id="9adb-7c59-0b32-2b9f" hidden="false" type="rule" targetId="1e3c-23c9-c6e2-9f62" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="APUNTAR A PUNTO DÉBIL" hidden="false" id="794d-5e72-f425-4f6d">
+          <profiles>
+            <profile name="APUNTAR A PUNTO DÉBIL (1PA)" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions" hidden="false" id="b215-f53d-d408-5e3b">
+              <characteristics>
+                <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Hasta el final de la activación de este agente, el perfil inmóvil de su rifle de francotirador de Sanctus tiene la regla de armas Letal 5+.
+ Este agente no puede realizar esta acción si se encuentra en la zona de control de un agente enemigo.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="440d-96c7-df1b-f903-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="440d-96c7-df1b-f903-max" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Lethal x+" id="3b1f-f132-4390-2baa" hidden="false" type="rule" targetId="8b97-e3e3-2857-817a" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="FAMILIAR ESCRUTAALMAS" hidden="false" id="0fd1-7650-9318-7041">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c1cc-faae-c541-51ba-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c1cc-faae-c541-51ba-max" />
+          </constraints>
+          <profiles>
+            <profile name="FAMILIAR ESCRUTAALMAS (1PA)" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions" hidden="false" id="2b1e-a763-b2e3-fca4">
+              <characteristics>
+                <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Elige un agente enemigo visible para este agente. Hasta el 
+final de la batalla, o hasta que un agente amigo realice esta 
+acción de nuevo (lo que ocurra antes), ese agente enemigo 
+obtiene una de tus fichas de Escrutaalmas. Cuando este 
+agente dispara contra un agente enemigo que tenga una 
+de tus fichas de Escrutaalmas, todos los perfiles del rifle 
+de francotirador de Sanctus de este agente tienen la regla 
+de armas Saturación y ese agente enemigo no puede estar 
+ofuscado.
+ Este agente no puede realizar esta acción si se encuentra en 
+la zona de control de un agente enemigo.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Saturate" id="9c13-9c22-d96b-f0f8" hidden="false" type="rule" targetId="3c10-2d52-d1ac-b0f6" />
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="ZARPA SANCTUS" hidden="false" id="b52b-581a-314e-34fe">
+      <profiles>
+        <profile name="ZARPA SANCTUS" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="041a-63d0-0d44-8295">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">4+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">9</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Sombra reptante" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="9bd7-ccca-4589-19ab">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Este agente puede realizar una acción de 
+Cargar aún teniendo una orden de ocultarse. Siempre que 
+este agente realice la acción de Combatir, puede realizar 
+inmediatamente después una acción libre de Correr o 
+Retroceder (con la segunda, no puede mover más de 3"), 
+incluso si ha realizado una acción que le impide realizar esas 
+acciones.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="ASESINAR (2PA)" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions" hidden="false" id="8ba8-07f3-f900-df27">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Elige un agente enemigo para el que este agente no sea 
+visible. Realiza una acción libre de Cargar con este agente, 
+pero que no exceda su atributo Movimiento (es decir, no 
+le sumes 2"), y debe terminar esa acción en la zona de 
+control de ese agente enemigo. A continuación, realiza 
+inmediatamente una acción libre de Combatir con este 
+agente contra ese agente enemigo. La primera vez que 
+golpees durante esa acción, puedes resolver inmediatamente 
+otro de tus éxitos como un golpe (antes que tu oponente).
+ Este agente no puede realizar esta acción si está en la zona 
+de control de un agente enemigo, o si tiene una orden de 
+trabarse.
+s</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="8f84-9955-c420-03f7" includeChildSelections="true" />
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="8f84-9955-c420-03f7">
+          <conditions>
+            <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="default-force" shared="true" />
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink name="Filosierpe" hidden="false" id="06dc-e3f2-14df-666d" targetId="6127-545f-c590-4ff6" primary="false" />
+        <categoryLink name="Cultos Genestealer" hidden="false" id="4bcd-f3cd-1835-d6f6" targetId="1b89-f288-fcb6-6f97" primary="false" />
+        <categoryLink name="Tiránidos" hidden="false" id="8265-c9c5-1323-2240" targetId="871e-8e59-202a-5530" primary="false" />
+        <categoryLink name="Operative" hidden="false" id="1f50-0330-7810-d05b" targetId="cf83-4496-b58e-ac82" primary="true" />
+        <categoryLink name="Sanctus" hidden="false" id="1777-5b62-84c7-a38a" targetId="54e5-cd67-9a1b-8f2b" primary="false" />
+        <categoryLink name="ZARPA SANCTUS" hidden="false" id="e3d4-5c6f-3053-f00a" targetId="7b78-5389-e63c-8e6b" primary="false" />
+        <categoryLink name="ACTIVO DEL CULTO" hidden="false" id="d6d7-92a6-0c94-9dec" targetId="ff88-04d0-68ff-b02b" primary="false" />
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Biodaga de Sanctus" hidden="false" id="d46d-6d9d-86fb-5c84">
+          <profiles>
+            <profile name=" ⚔ Biodaga de Sanctus" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="4e5b-2d8a-38b1-0f7b">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/6</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Choque, Letal 4+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8644-0020-c72b-450c-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8644-0020-c72b-450c-max" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Lethal x+" id="1e3b-3587-f111-5a58" hidden="false" type="rule" targetId="8b97-e3e3-2857-817a" />
+            <infoLink name="Shock" id="0150-bd26-76a0-0e6e" hidden="false" type="rule" targetId="c544-8d4c-4109-4eec" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="FAMILIAR ESCRUTAALMAS" hidden="false" id="426e-80db-8a82-85f3">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="abe6-b0a4-b1f6-40f7-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="abe6-b0a4-b1f6-40f7-max" />
+          </constraints>
+          <profiles>
+            <profile name="FAMILIAR ESCRUTAALMAS (1PA)" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions" hidden="false" id="cbd1-f360-e256-3971">
+              <characteristics>
+                <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Elige un agente enemigo visible para este agente. Hasta el 
+final de la batalla, o hasta que un agente amigo realice esta 
+acción de nuevo (lo que ocurra antes), ese agente enemigo 
+obtiene una de tus fichas de Escrutaalmas. Cuando este 
+agente combate o contraataca contra un agente enemigo 
+que tenga una de tus fichas de Escrutaalmas, su biodaga de 
+Sanctus tiene las reglas de armas Brutal y Equilibrada.
+ Este agente no puede realizar esta acción si se encuentra en 
+la zona de control de un agente enemigo.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Brutal" id="fe2d-3221-9fee-b2dc" hidden="false" type="rule" targetId="5151-5449-ca81-70ed" />
+            <infoLink name="Balanced" id="4e86-8103-7872-6ce5" hidden="false" type="rule" targetId="28f7-0d96-d1fc-f75b" />
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+  </selectionEntries>
+  <categoryEntries>
+    <categoryEntry name="Filosierpe" id="6127-545f-c590-4ff6" hidden="false" />
+    <categoryEntry name="Cultos Genestealer" id="1b89-f288-fcb6-6f97" hidden="false" />
+    <categoryEntry name="Neófito" id="7d20-a2de-37b6-c61e" hidden="false" />
+    <categoryEntry name="Tiránidos" id="871e-8e59-202a-5530" hidden="false" />
+    <categoryEntry name="ACTIVO DEL CULTO" id="ff88-04d0-68ff-b02b" hidden="false" />
+    <categoryEntry name="KELERMORFO" id="99f5-952a-51b6-056e" hidden="false" />
+    <categoryEntry name="LOCUS" id="d0fe-6071-6223-58ae" hidden="false" />
+    <categoryEntry name="Portador del icono" id="7b77-173b-41b1-f14c" hidden="false" />
+    <categoryEntry name="Sanctus" id="54e5-cd67-9a1b-8f2b" hidden="false" />
+    <categoryEntry name="FRANCOTIRADOR SANCTUS" id="85d2-6c48-5e21-8e0a" hidden="false" />
+    <categoryEntry name="ZARPA SANCTUS" id="7b78-5389-e63c-8e6b" hidden="false" />
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Culata" hidden="false" id="4eae-d550-166e-e297">
+      <profiles>
+        <profile name="⚔ Culata" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="2540-436b-de6a-eec7">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">3</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/3</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Rifle automático" hidden="false" id="ec51-f820-acd0-5fdc">
+      <profiles>
+        <profile name="⌖ Rifle automático" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="9d0b-f3e9-357b-7c12">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/3</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="3+" field="8044-2517-4ef7-33de">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="d999-8cad-8145-4efe" shared="true" includeChildSelections="false" />
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Escopeta" hidden="false" id="70d3-b838-9307-68fb">
+      <profiles>
+        <profile name="⌖ Escopeta" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="337a-ded9-be97-25c6">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/3</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 6"</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="2+" field="8044-2517-4ef7-33de">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="d999-8cad-8145-4efe" shared="true" includeChildSelections="false" />
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Equipment Reference" hidden="false" id="a0e7-06b2-9b88-8ca3" type="selectionEntry" targetId="e004-a0c4-8a03-0b8b">
+      <entryLinks>
+        <entryLink import="true" name="Equipo de facción" hidden="false" id="db41-609a-1e45-4539" type="selectionEntryGroup" targetId="f9a2-181d-6362-7615" />
+      </entryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Equipo de facción" id="f9a2-181d-6362-7615" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="CARGAS EXPLOSIVAS" hidden="false" id="6f81-53ca-897b-f8e8">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ee8-87c1-1b89-3035" />
+          </constraints>
+          <profiles>
+            <profile name="CARGAS EXPLOSIVAS" typeId="0d20-7175-9ecb-8bde" typeName="Equipment" hidden="false" id="7ed4-6fd5-21a0-2077">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">FILOSIERPE
+EQUIPO DE FACCIÓN
+CARGAS EXPLOSIVAS
+El equipo de minería se convierte en armamento letal en
+manos de los Filosierpe.
+Una vez por punto de inflexión, un
+agente NEÓFITO FILOSIERPE amigo puede usar
+la siguiente arma a distancia:
+NOMBRE ATAQ. IMP. DAÑO
+Carga explosiva 4 4+ 3/5
+REGLAS DE ARMAS
+Alcance 4", Área 1", Saturación</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="⌖ Carga explosiva" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="5b85-043f-2662-5ab2">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 4", Área 1", Saturación</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Range x" id="2907-e71a-3d1b-5cfd" hidden="false" type="rule" targetId="a528-829e-8268-c005" />
+            <infoLink name="Blast x" id="2e37-5024-be35-44fd" hidden="false" type="rule" targetId="0d74-0977-b481-bd13" />
+            <infoLink name="Saturate" id="2928-6b98-6375-70fe" hidden="false" type="rule" targetId="3c10-2d52-d1ac-b0f6" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="CUCHILLOS DEL CULTO" hidden="false" id="a066-868c-bf23-a6a8">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2ae9-1ba2-3da8-250c" />
+          </constraints>
+          <profiles>
+            <profile name="CUCHILLOS DEL CULTO" typeId="0d20-7175-9ecb-8bde" typeName="Equipment" hidden="false" id="6f6f-4a8e-22d7-7a0f">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">FILOSIERPE
+EQUIPO DE FACCIÓN
+CUCHILLOS DEL CULTO
+Los agentes del Culto llevan consigo muchos utensilios
+afilados. Algunos son meras herramientas, otros tienen
+un papel ritual, pero todos son igual de letales en sus
+manos.
+Los agentes NEÓFITO FILOSIERPE amigos
+tienen la siguiente arma de combate:
+NOMBRE ATAQ. IMP. DAÑO
+Cuchillo de culto 3 4+ 3/4</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="⚔ Cuchillo de culto" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="7518-3346-b6a7-297b">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">3</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="TRAMPAS EXPLOSIVAS" hidden="false" id="7fcf-872d-28a1-2f7b">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="27e2-9644-0c27-6a92" />
+          </constraints>
+          <profiles>
+            <profile name="TRAMPAS EXPLOSIVAS" typeId="0d20-7175-9ecb-8bde" typeName="Equipment" hidden="false" id="b2c3-3eab-f934-ed23">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">FILOSIERPE
+EQUIPO DE FACCIÓN
+TRAMPAS EXPLOSIVAS
+Los agentes Filosierpe usan habitualmente bombas
+trampa y minas al ejecutar sus emboscadas.
+Este equipo te permite elegir dos minas (ver
+equipo universal). No puedes elegir además ese
+equipo de forma normal (es decir, para tener
+tres), y los agentes FILOSIERPE amigos ignoran
+sus efectos (no pueden activarlas ni sufrir daño
+causado por estas). Esto tiene preferencia sobre
+las reglas normales de las minas.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="REFLECTORES" hidden="false" id="2a09-b709-2834-f3f2">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1b6a-81a5-c256-454b" />
+          </constraints>
+          <profiles>
+            <profile name="REFLECTORES" typeId="0d20-7175-9ecb-8bde" typeName="Equipment" hidden="false" id="31dd-4541-82fc-029c">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">FILOSIERPE
+EQUIPO DE FACCIÓN
+REFLECTORES
+Los Neófitos Filosierpe llevan lúmenes de minería y
+linternas, que emplean para escudriñar las sombras y
+hallar enemigos ocultos.
+Siempre que un agente FILOSIERPE amigo
+dispare, el blanco no puede estar ofuscado
+si está a 6" o menos de un agente NEÓFITO
+FILOSIERPE amigo, es visible para él, y ese
+agente amigo no está en la zona de control de
+agentes enemigos.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <comment>Update 1.0</comment>
+</catalogue>

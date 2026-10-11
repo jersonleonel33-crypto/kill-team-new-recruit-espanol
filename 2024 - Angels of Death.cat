@@ -1,0 +1,1167 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" name="Ángeles de la Muerte" id="4f46-f795-734e-6076" battleScribeVersion="2.03" gameSystemId="c521-ad27-44df-f959" gameSystemRevision="10" library="false" revision="10" type="catalogue">
+  <comment>July '25</comment>
+  <categoryEntries>
+    <categoryEntry name="Granadero" id="4ba2-c27d-580b-8d12" hidden="false" />
+    <categoryEntry name="ÁNGEL DE LA MUERTE" id="19cd-bbe7-d090-a8b2" hidden="false" />
+    <categoryEntry name="CAPITÁN MARINE ESPACIAL" id="e8b2-55db-2b67-08fa" hidden="false" />
+    <categoryEntry name="Intercesor de asalto" id="e891-2a42-a8f7-e221" hidden="false" />
+    <categoryEntry name="Sargento" id="8665-f616-d147-73ce" hidden="false" />
+    <categoryEntry name="Intercesor" id="87dd-c2c4-3f75-bb94" hidden="false" />
+    <categoryEntry name="Eliminador" id="0fd9-820c-1e60-543d" hidden="false" />
+    <categoryEntry name="FRANCOTIRADOR ELIMINADOR" id="3da5-5c73-28e0-947d" hidden="false" />
+    <categoryEntry name="Intercesor pesado" id="644f-3bcf-b20d-f2d5" hidden="false" />
+  </categoryEntries>
+  <entryLinks>
+    <entryLink name="TÁCTICAS DE CAPÍTULO" id="8ca8-8e38-312c-12c1" hidden="false" import="true" targetId="7a6b-0526-fe3f-eff2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Configuration" id="1ee8-7cdd-b4ea-22c0" hidden="false" primary="true" targetId="874b-0390-e5e2-1daa" />
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="Equipment Reference" id="8066-f305-51dc-7a64" hidden="false" import="true" targetId="e004-a0c4-8a03-0b8b" type="selectionEntry">
+      <entryLinks>
+        <entryLink name="Equipo de facción" id="402c-f368-ad37-819a" hidden="false" import="true" targetId="9b64-0627-e3f4-d29b" type="selectionEntryGroup" />
+      </entryLinks>
+    </entryLink>
+  </entryLinks>
+  <forceEntries>
+    <forceEntry name="Comando Ángeles de la Muerte" id="29d1-6036-644f-488a" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Configuration" id="7a26-0efd-74b7-0c61" hidden="false" primary="false" targetId="874b-0390-e5e2-1daa" />
+        <categoryLink name="Leader" id="7adf-1568-5063-b972" hidden="false" primary="false" targetId="d999-8cad-8145-4efe">
+          <constraints>
+            <constraint id="8bd4-b3ae-dfd5-ef3b-max" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="-1" />
+          </constraints>
+          <modifiers>
+            <modifier field="8bd4-b3ae-dfd5-ef3b-max" type="set" value="1">
+              <conditions>
+                <condition childId="default-force" field="selections" scope="force" shared="true" type="notInstanceOf" value="1" />
+              </conditions>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink name="Operative" id="c9e2-799c-6351-cfa1" hidden="false" primary="false" targetId="cf83-4496-b58e-ac82">
+          <constraints>
+            <constraint id="0bc7-3e67-ecb8-9d21-min" field="selections" scope="force" shared="true" type="min" value="5" />
+            <constraint id="0bc7-3e67-ecb8-9d21-max" field="selections" scope="force" shared="true" type="max" value="5" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Reference" id="cda7-dece-8615-5086" hidden="false" targetId="b318-a8d7-2d38-99a3" />
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <profileTypes>
+    <profileType name="Chapter Tactics" id="49c2-836f-18b5-07ec" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Chapter Tactic" id="43ba-53ad-f728-bacf" />
+      </characteristicTypes>
+    </profileType>
+  </profileTypes>
+  <selectionEntries>
+    <selectionEntry name="CAPITÁN MARINE ESPACIAL" id="1e8f-a57f-d418-402d" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="ÁNGEL DE LA MUERTE" id="b41e-5cd5-ffd1-1ddd" hidden="false" primary="false" targetId="19cd-bbe7-d090-a8b2" />
+        <categoryLink name="Leader" id="496f-bb69-5743-3f2c" hidden="false" primary="true" targetId="d999-8cad-8145-4efe" />
+        <categoryLink name="Imperium" id="cdd3-61b9-bb9f-be71" hidden="false" primary="false" targetId="45a7-2d2f-ecfb-1d13" />
+        <categoryLink name="CAPITÁN MARINE ESPACIAL" id="f4e7-449b-2bb2-e400" hidden="false" primary="false" targetId="e8b2-55db-2b67-08fa" />
+        <categoryLink name="Adeptus Astartes" id="dda6-93b1-1743-2a83" hidden="false" primary="false" targetId="ad17-a237-65f9-a559" />
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Pistola de plasma" id="db9d-43b3-3201-ff2d" hidden="false" import="true" targetId="187a-3d95-c7db-7496" type="selectionEntry">
+          <constraints>
+            <constraint id="9d43-95e6-aeae-d257-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="9d43-95e6-aeae-d257-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+        <entryLink name="Puño de energía" id="bddb-4ec4-4ed1-8eb5" hidden="false" import="true" targetId="5262-3a19-0a9b-5632" type="selectionEntry">
+          <constraints>
+            <constraint id="c374-e52d-4673-08bb-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="c374-e52d-4673-08bb-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="CAPITÁN MARINE ESPACIAL" id="1442-6f07-4e87-3b7a" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">15</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Líder heroico" id="f6ac-319a-f15c-ffae" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Una vez por punto de inflexión, puedes elegir una de las siguientes opciones:
+• Usar un ardid de tiroteo por 0PM si este es el agente ÁNGEL DE LA MUERTE especificado (excepto repetición de mando). 
+• Usa el ardid de estrategia Doctrina de combate cuando actives un agente ÁNGEL DE LA MUERTE si este agente está en la 
+zona de aniquilación y no está en la zona de control de ningún agente enemigo (pagando su coste en PM de manera normal). Ten en 
+cuenta que no puedes hacer si ya has usado ese ardida durante este punto de inflexión.
+• Usa el ardid de tiroteo Ajustar doctrina por 0PM si este agente está en la zona de aniquilación y fuera de la zona de control de todos 
+los agentes enemigos.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Aura de hierro" id="4386-9eb8-143a-3776" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Una vez por batalla, cuando un dado de ataque inflija Daño normal a este agente, puedes ignorar ese daño infligido.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SARGENTO INTERCESOR DE ASALTO" id="c809-3374-c7f7-facd" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Leader" id="1a6d-53d1-a6bb-9dd8" hidden="false" primary="true" targetId="d999-8cad-8145-4efe" />
+        <categoryLink name="Imperium" id="506b-f64e-7348-81cb" hidden="false" primary="false" targetId="45a7-2d2f-ecfb-1d13" />
+        <categoryLink name="ÁNGEL DE LA MUERTE" id="0eaf-6069-fb0a-511b" hidden="false" primary="false" targetId="19cd-bbe7-d090-a8b2" />
+        <categoryLink name="Intercesor de asalto" id="a4b2-a1ba-cc2d-d9f4" hidden="false" primary="false" targetId="e891-2a42-a8f7-e221" />
+        <categoryLink name="Sargento" id="d695-6ddf-bdad-aa54" hidden="false" primary="false" targetId="8665-f616-d147-73ce" />
+        <categoryLink name="Adeptus Astartes" id="4da6-ff2c-69a6-8754" hidden="false" primary="false" targetId="ad17-a237-65f9-a559" />
+      </categoryLinks>
+      <profiles>
+        <profile name="SARGENTO INTERCESOR DE ASALTO" id="b5ce-d628-e9ef-208a" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">15</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Guerra según las doctrinas" id="42bd-e2a7-e8f2-1d75" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Puedes realizar cada una de las 
+siguientes opciones una vez por batalla:
+• Cuando uses el ardid de estrategia Doctrina de combate y 
+elijas Asalto, si este agente está en la zona de aniquilación, te 
+cuesta 0PM.
+• Cuando uses el ardid de estrategia Doctrina de combate y 
+elijas Táctica, si este agente está en la zona de aniquilación, 
+te cuesta 0PM.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Veterano del Capítulo" id="6c1f-395e-178c-f074" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Al final del paso de Elegir agentes, si este 
+agente es elegido para el despliegue, elige una TÁCTICA DE 
+CAPÍTULO adicional para que este agente la tenga durante 
+esta batalla. A diferencia de las TÁCTICAS DE CAPÍTULO 
+primarias y secundarias, no tienes que elegir la misma en cada 
+batalla de una campaña o torneo.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Arma cuerpo a cuerpo" id="7a4a-06c2-3535-80e7" defaultSelectionEntryId="none" hidden="false">
+          <constraints>
+            <constraint id="27bd-e696-cf5c-f88e-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="27bd-e696-cf5c-f88e-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <entryLinks>
+            <entryLink name="Espada sierra" id="a697-d225-c20a-0465" hidden="false" import="true" targetId="c81d-2f29-2203-ce5b" type="selectionEntry">
+              <constraints>
+                <constraint id="f9d4-019c-5894-b0c2" field="selections" scope="parent" shared="true" type="min" value="0" />
+              </constraints>
+              <modifiers>
+                <modifier field="f9d4-019c-5894-b0c2" type="set" value="1">
+                  <conditions>
+                    <condition childId="187a-3d95-c7db-7496" field="selections" includeChildSelections="true" scope="root-entry" shared="true" type="equalTo" value="1" />
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink name="Puño de energía" id="6286-f471-63fe-d29a" hidden="false" import="true" targetId="5262-3a19-0a9b-5632" type="selectionEntry" />
+            <entryLink name="Arma de energía" id="800a-9313-601c-5571" hidden="false" import="true" targetId="f5d5-d08e-c46a-0cb0" type="selectionEntry" />
+            <entryLink name="Martillo de trueno" id="1fbb-eebd-4899-7ae7" hidden="false" import="true" targetId="fa5e-b9ee-fb03-feac" type="selectionEntry" />
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Arma a distancia" id="9b80-c979-3037-101b" defaultSelectionEntryId="none" hidden="false">
+          <constraints>
+            <constraint id="e589-627b-9d8c-85d1-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="e589-627b-9d8c-85d1-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <entryLinks>
+            <entryLink name="Pistola de plasma" id="7ce9-ae11-f8b9-5a52" hidden="false" import="true" targetId="187a-3d95-c7db-7496" type="selectionEntry" />
+            <entryLink name="Pistola bólter pesada" id="6398-10de-3bfe-3000" hidden="false" import="true" targetId="71a7-b048-40fe-bf6d" type="selectionEntry" />
+          </entryLinks>
+          <selectionEntries>
+            <selectionEntry name="Pistola lanzallamas" id="b015-6af3-3bea-7be8" hidden="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink name="Range x" id="798b-d06d-21b0-1116" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+                <infoLink name="Saturate" id="374b-0b29-a854-f31d" hidden="false" targetId="3c10-2d52-d1ac-b0f6" type="rule" />
+                <infoLink name="Torrent x" id="84e4-6c0d-4e80-26b2" hidden="false" targetId="ad45-b4bb-1345-e4f9" type="rule" />
+              </infoLinks>
+              <profiles>
+                <profile name="⌖ Pistola lanzallamas" id="e45a-6bf2-b623-438e" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                    <characteristic name="HIT" typeId="8044-2517-4ef7-33de">2+</characteristic>
+                    <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/3</characteristic>
+                    <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 6", Ráfaga 1", Saturación</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="SARGENTO INTERCESOR" id="3b04-997f-5370-c1f2" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="ÁNGEL DE LA MUERTE" id="6d36-8667-65ed-cebb" hidden="false" primary="false" targetId="19cd-bbe7-d090-a8b2" />
+        <categoryLink name="Imperium" id="c9d4-348a-477d-bd72" hidden="false" primary="false" targetId="45a7-2d2f-ecfb-1d13" />
+        <categoryLink name="Leader" id="ff58-ffde-0be6-80f5" hidden="false" primary="true" targetId="d999-8cad-8145-4efe" />
+        <categoryLink name="Intercesor" id="45c3-ef12-ff16-718f" hidden="false" primary="false" targetId="87dd-c2c4-3f75-bb94" />
+        <categoryLink name="Sargento" id="5187-9382-0fd5-2c3e" hidden="false" primary="false" targetId="8665-f616-d147-73ce" />
+        <categoryLink name="Adeptus Astartes" id="e53d-b051-b902-5f12" hidden="false" primary="false" targetId="ad17-a237-65f9-a559" />
+      </categoryLinks>
+      <profiles>
+        <profile name="SARGENTO INTERCESOR" id="c7d0-7c89-8f63-c4c3" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">15</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Guerra según las doctrinas" id="b32f-5a76-356e-68cb" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Puedes realizar cada una de las 
+siguientes opciones una vez por batalla:
+• Cuando uses el ardid de estrategia Doctrina de combate 
+y elijas Devastadora, si este agente está en la zona de 
+aniquilación, te cuesta 0PM.
+• Cuando uses el ardid de estrategia Doctrina de combate y 
+elijas Táctica, si este agente está en la zona de aniquilación, 
+te cuesta 0PM.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Veterano del Capítulo" id="8a42-b55e-dea7-6baf" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Al final del paso de Elegir agentes, si este 
+agente es elegido para el despliegue, elige una TÁCTICA DE 
+CAPÍTULO adicional para que este agente la tenga durante 
+esta batalla. A diferencia de las TÁCTICAS DE CAPÍTULO 
+primarias y secundarias, no tienes que elegir la misma en cada 
+batalla de una campaña o torneo.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Arma cuerpo a cuerpo" id="0c0f-0765-3057-4e9e" defaultSelectionEntryId="none" hidden="false">
+          <constraints>
+            <constraint id="4938-7202-2d48-17aa-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="4938-7202-2d48-17aa-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <entryLinks>
+            <entryLink name="Espada sierra" id="6116-2c0e-870d-d80f" hidden="false" import="true" targetId="c81d-2f29-2203-ce5b" type="selectionEntry" />
+            <entryLink name="Puño de energía" id="daf5-4a08-4367-63e5" hidden="false" import="true" targetId="5262-3a19-0a9b-5632" type="selectionEntry">
+              <constraints>
+                <constraint id="d6fa-7dd2-06a6-04cf" field="selections" scope="parent" shared="true" type="max" value="1" />
+              </constraints>
+            </entryLink>
+            <entryLink name="Arma de energía" id="7447-4aff-5a2c-0de1" hidden="false" import="true" targetId="f5d5-d08e-c46a-0cb0" type="selectionEntry" />
+            <entryLink name="Martillo de trueno" id="f8c5-c632-0553-33ba" hidden="false" import="true" targetId="fa5e-b9ee-fb03-feac" type="selectionEntry" />
+            <entryLink name="Puños" id="3354-9b78-8e53-33e3" hidden="false" import="true" targetId="9978-a207-ea52-2f88" type="selectionEntry" />
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Arma a distancia" id="bf66-c19b-2d2e-12d2" defaultSelectionEntryId="none" hidden="false">
+          <constraints>
+            <constraint id="4adb-c2ff-1e1b-547c-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="4adb-c2ff-1e1b-547c-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <entryLinks>
+            <entryLink name="Rifle bólter automático" id="13f5-38a7-cf48-c070" hidden="false" import="true" targetId="6fba-f8c3-3999-284b" type="selectionEntry" />
+            <entryLink name="Rifle bólter" id="0e1c-3efe-40bb-29f6" hidden="false" import="true" targetId="d60d-1f8c-2519-f78e" type="selectionEntry" />
+            <entryLink name="Rifle bólter silencio" id="ee63-09b5-0579-6fd4" hidden="false" import="true" targetId="e583-f949-effe-fc87" type="selectionEntry" />
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="GRANADERO INTERCESOR DE ASALTO" id="51c4-b5bd-2b17-b3d8" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Operative" id="4aa0-7d1c-f649-978c" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="ÁNGEL DE LA MUERTE" id="81c1-06ce-f544-ee1e" hidden="false" primary="false" targetId="19cd-bbe7-d090-a8b2" />
+        <categoryLink name="Imperium" id="0d4f-732e-afdc-c61a" hidden="false" primary="false" targetId="45a7-2d2f-ecfb-1d13" />
+        <categoryLink name="Intercesor de asalto" id="d6e4-19d9-c341-0654" hidden="false" primary="false" targetId="e891-2a42-a8f7-e221" />
+        <categoryLink name="Granadero" id="a1d8-3be6-b4ae-ec87" hidden="false" primary="false" targetId="4ba2-c27d-580b-8d12" />
+        <categoryLink name="Adeptus Astartes" id="90c1-ec98-1114-77b5" hidden="false" primary="false" targetId="ad17-a237-65f9-a559" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="f668-1d53-04a8-469d" field="selections" scope="force" shared="true" type="max" value="-1" />
+      </constraints>
+      <entryLinks>
+        <entryLink name="Espada sierra" id="b98d-0310-617c-be4b" hidden="false" import="true" targetId="c81d-2f29-2203-ce5b" type="selectionEntry">
+          <constraints>
+            <constraint id="6120-c20b-3d21-2d96-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="6120-c20b-3d21-2d96-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+        <entryLink name="Pistola bólter pesada" id="40d0-a869-3276-29ff" hidden="false" import="true" targetId="71a7-b048-40fe-bf6d" type="selectionEntry">
+          <constraints>
+            <constraint id="cd4d-227b-a541-93c7-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="cd4d-227b-a541-93c7-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier field="f668-1d53-04a8-469d" type="set" value="1">
+          <conditions>
+            <condition childId="default-force" field="selections" scope="force" shared="true" type="notInstanceOf" value="1" />
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="GRANADERO INTERCESOR DE ASALTO" id="5151-994f-cffe-e35d" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">14</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Granadero" id="a86f-e1cc-1044-d60c" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Este agente puede usar granadas frag y perforantes 
+(ver equipo universal). Hacer esto no cuenta de cara a los usos 
+limitados que tengas (es decir, si también seleccionas esas 
+granadas como equipo para otros agentes). Cuando lo hace, 
+mejora en 1 el atributo Impactar de esa arma.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="COMBATIENTE INTERCESOR DE ASALTO" id="b38c-5705-740e-ecf1" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Operative" id="29e8-eb86-cef7-cdbf" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="ÁNGEL DE LA MUERTE" id="428c-3148-5d88-c2b4" hidden="false" primary="false" targetId="19cd-bbe7-d090-a8b2" />
+        <categoryLink name="Imperium" id="5acd-74c9-48d3-3300" hidden="false" primary="false" targetId="45a7-2d2f-ecfb-1d13" />
+        <categoryLink name="Intercesor de asalto" id="a195-c524-917d-c675" hidden="false" primary="false" targetId="e891-2a42-a8f7-e221" />
+        <categoryLink name="Adeptus Astartes" id="8b2c-2858-db5f-df2a" hidden="false" primary="false" targetId="ad17-a237-65f9-a559" />
+        <categoryLink name="Warrior" id="04e2-41a5-b080-49f5" hidden="false" primary="false" targetId="2b69-f2aa-bd5c-70b2" />
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Pistola bólter pesada" id="7c13-ec0e-2347-0711" hidden="false" import="true" targetId="71a7-b048-40fe-bf6d" type="selectionEntry">
+          <constraints>
+            <constraint id="e0a0-3a6e-da72-eb42-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="e0a0-3a6e-da72-eb42-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+        <entryLink name="Espada sierra" id="83cb-d492-5155-7042" hidden="false" import="true" targetId="c81d-2f29-2203-ce5b" type="selectionEntry">
+          <constraints>
+            <constraint id="a185-9270-6709-702e-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="a185-9270-6709-702e-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="COMBATIENTE INTERCESOR DE ASALTO" id="0652-1670-afdf-6d96" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">14</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="FRANCOTIRADOR ELIMINADOR" id="cdfb-b861-3871-5e22" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Operative" id="33fd-3821-102e-341a" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="ÁNGEL DE LA MUERTE" id="6ccb-7cc6-8166-f519" hidden="false" primary="false" targetId="19cd-bbe7-d090-a8b2" />
+        <categoryLink name="Imperium" id="f0a1-17bc-20c9-2cc9" hidden="false" primary="false" targetId="45a7-2d2f-ecfb-1d13" />
+        <categoryLink name="Eliminador" id="0c56-da1a-9108-1129" hidden="false" primary="false" targetId="0fd9-820c-1e60-543d" />
+        <categoryLink name="FRANCOTIRADOR ELIMINADOR" id="9db3-8800-1d2e-4ae4" hidden="false" primary="false" targetId="3da5-5c73-28e0-947d" />
+        <categoryLink name="Adeptus Astartes" id="da23-5cdd-f0f0-febe" hidden="false" primary="false" targetId="ad17-a237-65f9-a559" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="0888-b41b-0259-5cdb" field="selections" scope="force" shared="true" type="max" value="-1" />
+      </constraints>
+      <entryLinks>
+        <entryLink name="Puños" id="476c-7e1e-f00c-f179" hidden="false" import="true" targetId="9978-a207-ea52-2f88" type="selectionEntry">
+          <constraints>
+            <constraint id="0c5b-1fb8-7b5c-4da4-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="0c5b-1fb8-7b5c-4da4-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier field="0888-b41b-0259-5cdb" type="set" value="1">
+          <conditions>
+            <condition childId="default-force" field="selections" scope="force" shared="true" type="notInstanceOf" value="1" />
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="FRANCOTIRADOR ELIMINADOR" id="7d60-cfb0-1deb-1bdf" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">7"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Capa de camuflaje" id="743d-93f2-ab4d-f4fc" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Siempre que un agente dispare contra 
+este agente, ignora la regla de arma Saturación. Este agente 
+tiene la TÁCTICA DE CAPÍTULO Sigilosos. Si ya habías 
+elegido esa TÁCTICA DE CAPÍTULO, puedes hacer sus 
+dos opciones (es decir, guardar dos salvaciones por cobertura; 
+un éxito normal y uno crítico).</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="ÓPTICA (1PA)" id="ddfc-ca67-0311-6a6a" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Hasta el inicio de la siguiente activación de este agente, 
+siempre que dispare, los agentes enemigos no pueden 
+estar ofuscados.
+ Este agente no puede realizar esta acción si está en la zona 
+de control de un agente enemigo.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Pistola bólter" id="5be0-7dc0-1359-1803" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="3c53-ba9a-4ebe-d158-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="3c53-ba9a-4ebe-d158-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Range x" id="180f-9e40-a58d-a986" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⌖ Pistola bólter" id="ca05-d910-c889-f639" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8"</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Rifle bólter de francotirador" id="f99f-5908-3fbc-6226" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="3742-b8c5-4d33-f999-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="3742-b8c5-4d33-f999-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Heavy" id="add2-f963-1916-04b9" hidden="false" targetId="816e-44a2-6be4-6a9a" type="rule" />
+            <infoLink name="Saturate" id="5101-f0a2-2a73-09b2" hidden="false" targetId="3c10-2d52-d1ac-b0f6" type="rule" />
+            <infoLink name="Seek" id="93d7-9e7d-0604-1b9f" hidden="false" targetId="a33d-4e90-5794-6e20" type="rule" />
+            <infoLink name="Silent" id="2905-1d64-7319-439a" hidden="false" targetId="1e3c-23c9-c6e2-9f62" type="rule" />
+            <infoLink name="Blast x" id="54d0-4000-be9d-3011" hidden="false" targetId="0d74-0977-b481-bd13" type="rule" />
+            <infoLink name="Devastating x" id="37d7-ce07-c874-1533" hidden="false" targetId="a8ba-6e3a-76b3-f05c" type="rule" />
+            <infoLink name="Piercing x" id="a096-72fe-d16c-3fa7" hidden="false" targetId="4c07-2cb3-1417-cbb7" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⌖ Rifle bólter de francotirador (hiperfrag)" id="b367-7dc9-8aac-5d6c" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">2+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Área 1", Pesada (solo Correr), Silenciosa</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="⌖ Rifle bólter de francotirador (ejecutor)" id="bdf5-9c75-c074-63f5" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">2+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Buscadora (Ligero), Pesada (solo Correr), Saturación, Silenciosa</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="⌖ Rifle bólter de francotirador (mortis)" id="b073-3838-8b34-f138" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">2+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/3</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Devastadora 3, Penetración 1, Pesada (solo Correr), Silenciosa</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="TIRADOR INTERCESOR PESADO" id="7b15-0824-ac8d-8144" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Operative" id="84c3-26ed-9d24-8e06" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="ÁNGEL DE LA MUERTE" id="9c1a-420e-aece-cac4" hidden="false" primary="false" targetId="19cd-bbe7-d090-a8b2" />
+        <categoryLink name="Imperium" id="36b7-e350-5e93-a174" hidden="false" primary="false" targetId="45a7-2d2f-ecfb-1d13" />
+        <categoryLink name="Intercesor pesado" id="3286-2f37-ec41-0ac8" hidden="false" primary="false" targetId="644f-3bcf-b20d-f2d5" />
+        <categoryLink name="Gunner" id="f6ea-8a0a-5199-4f30" hidden="false" primary="false" targetId="3033-7558-d28f-53cf" />
+        <categoryLink name="Adeptus Astartes" id="83de-30fc-6e0a-d25f" hidden="false" primary="false" targetId="ad17-a237-65f9-a559" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="82d1-1da6-1898-1a2c" field="selections" scope="force" shared="true" type="max" value="-1" />
+      </constraints>
+      <entryLinks>
+        <entryLink name="Puños" id="cbe6-5617-ef36-0a55" hidden="false" import="true" targetId="9978-a207-ea52-2f88" type="selectionEntry">
+          <constraints>
+            <constraint id="44e9-f825-0346-43bb-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="44e9-f825-0346-43bb-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier field="82d1-1da6-1898-1a2c" type="set" value="1">
+          <conditions>
+            <condition childId="default-force" field="selections" scope="force" shared="true" type="notInstanceOf" value="1" />
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="TIRADOR INTERCESOR PESADO" id="f0e6-6648-0433-66a7" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">5"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">18</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Bólter pesado" id="8ad6-5ec4-0c2e-9a34" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="36e2-2501-2cf1-682d-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="36e2-2501-2cf1-682d-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Piercing x" id="7a61-de35-cb5d-330f" hidden="false" targetId="4c07-2cb3-1417-cbb7" type="rule" />
+            <infoLink name="Torrent x" id="0abb-911a-b032-db1f" hidden="false" targetId="ad45-b4bb-1345-e4f9" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⌖ Bólter pesado (concentrado)" id="7c1d-793e-dd64-7821" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Críticos de penetración 1</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="⌖ Bólter pesado (barrido)" id="71d2-7463-55b8-7c95" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Críticos de penetración 1, Ráfaga 1"</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Pistola bólter" id="c7eb-02b0-ee93-7afc" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="c95d-3ea3-0707-5521-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="c95d-3ea3-0707-5521-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Range x" id="7fb2-997d-4c29-6bca" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⌖  Pistola bólter" id="f1a8-836b-9821-d580" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8"</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="TIRADOR INTERCESOR" id="d2f1-a009-e449-14e0" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Operative" id="c05e-06cc-6802-53ba" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="ÁNGEL DE LA MUERTE" id="54bf-54cc-05da-a151" hidden="false" primary="false" targetId="19cd-bbe7-d090-a8b2" />
+        <categoryLink name="Imperium" id="3633-4bd0-d758-71f4" hidden="false" primary="false" targetId="45a7-2d2f-ecfb-1d13" />
+        <categoryLink name="Intercesor" id="f484-53c7-9621-8722" hidden="false" primary="false" targetId="87dd-c2c4-3f75-bb94" />
+        <categoryLink name="Gunner" id="c8fc-9690-4052-530b" hidden="false" primary="false" targetId="3033-7558-d28f-53cf" />
+        <categoryLink name="Adeptus Astartes" id="d151-eaef-45db-a158" hidden="false" primary="false" targetId="ad17-a237-65f9-a559" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="d609-9ea4-05fb-4971" field="selections" scope="force" shared="true" type="max" value="-1" />
+      </constraints>
+      <entryLinks>
+        <entryLink name="Puños" id="a0aa-2c6d-b990-0d42" hidden="false" import="true" targetId="9978-a207-ea52-2f88" type="selectionEntry">
+          <constraints>
+            <constraint id="6799-8ea6-68a7-ab5d-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="6799-8ea6-68a7-ab5d-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier field="d609-9ea4-05fb-4971" type="set" value="1">
+          <conditions>
+            <condition childId="default-force" field="selections" scope="force" shared="true" type="notInstanceOf" value="1" />
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="TIRADOR INTERCESOR" id="8106-79c7-cb32-6338" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">14</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Lanzagranadas auxiliar" id="31c4-eebf-2d11-ed8e" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="693c-37d1-5277-b91a-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="693c-37d1-5277-b91a-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Blast x" id="d955-2750-0565-1060" hidden="false" targetId="0d74-0977-b481-bd13" type="rule" />
+            <infoLink name="Piercing x" id="72f2-7577-1d7e-bee4" hidden="false" targetId="4c07-2cb3-1417-cbb7" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⌖ Lanzagranadas auxiliar (frag)" id="2dcd-56c8-a27e-a84f" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Área 2"</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="⌖ Lanzagranadas auxiliar (perforante)" id="b5f1-b73c-4b8f-f99d" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Penetración 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Arma" id="9d2d-6649-17d0-7ee1" defaultSelectionEntryId="none" hidden="false">
+          <constraints>
+            <constraint id="ae3a-599f-daec-2077-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="ae3a-599f-daec-2077-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <entryLinks>
+            <entryLink name="Rifle bólter" id="08b6-e00c-6cf6-baed" hidden="false" import="true" targetId="d60d-1f8c-2519-f78e" type="selectionEntry" />
+            <entryLink name="Rifle bólter automático" id="03e2-7927-2f70-c366" hidden="false" import="true" targetId="6fba-f8c3-3999-284b" type="selectionEntry" />
+            <entryLink name="Rifle bólter silencio" id="7278-f5e7-33d3-f459" hidden="false" import="true" targetId="e583-f949-effe-fc87" type="selectionEntry" />
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="COMBATIENTE INTERCESOR" id="c52b-22b8-1452-3b9f" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Operative" id="2a9e-7f38-bea5-18c6" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="ÁNGEL DE LA MUERTE" id="6fc0-6c09-bf76-d101" hidden="false" primary="false" targetId="19cd-bbe7-d090-a8b2" />
+        <categoryLink name="Imperium" id="16f1-8a83-f8cf-e5bd" hidden="false" primary="false" targetId="45a7-2d2f-ecfb-1d13" />
+        <categoryLink name="Intercesor" id="4dd4-d6b2-e385-0f96" hidden="false" primary="false" targetId="87dd-c2c4-3f75-bb94" />
+        <categoryLink name="Adeptus Astartes" id="424b-1787-4863-f927" hidden="false" primary="false" targetId="ad17-a237-65f9-a559" />
+        <categoryLink name="Warrior" id="15fe-93b1-7d1d-25a2" hidden="false" primary="false" targetId="2b69-f2aa-bd5c-70b2" />
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Puños" id="7880-b7f9-c163-a714" hidden="false" import="true" targetId="9978-a207-ea52-2f88" type="selectionEntry">
+          <constraints>
+            <constraint id="bf8b-2ded-6a2c-1dd6-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="bf8b-2ded-6a2c-1dd6-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="COMBATIENTE INTERCESOR" id="6b29-977a-4fc1-79a0" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">14</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Arma" id="bb3b-4643-3cd7-987e" defaultSelectionEntryId="none" hidden="false">
+          <constraints>
+            <constraint id="04c3-67c3-3dcf-4ebd-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="04c3-67c3-3dcf-4ebd-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <entryLinks>
+            <entryLink name="Rifle bólter" id="bfa7-a95b-1a86-5e3a" hidden="false" import="true" targetId="d60d-1f8c-2519-f78e" type="selectionEntry" />
+            <entryLink name="Rifle bólter automático" id="18f9-aba1-8719-981f" hidden="false" import="true" targetId="6fba-f8c3-3999-284b" type="selectionEntry" />
+            <entryLink name="Rifle bólter silencio" id="a264-9d11-1039-73a4" hidden="false" import="true" targetId="e583-f949-effe-fc87" type="selectionEntry" />
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedProfiles>
+    <profile name="AGRESIVOS" id="be68-a409-dba3-c4a3" hidden="false" typeId="49c2-836f-18b5-07ec" typeName="Chapter Tactics">
+      <characteristics>
+        <characteristic name="Chapter Tactic" typeId="43ba-53ad-f728-bacf">Las armas de combate de este agente tienen la 
+regla de armas Desgarradora.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="TIRADORES CERTEROS" id="2dcf-673c-7ca5-2e22" hidden="false" typeId="49c2-836f-18b5-07ec" typeName="Chapter Tactics">
+      <characteristics>
+        <characteristic name="Chapter Tactic" typeId="43ba-53ad-f728-bacf">Siempre que este agente dispara durante una
+activación en la que no haya realizado acciones
+de Cargar, Reposicionarse o Retroceder, sus
+armas bólter tienen las reglas de arma Certera 1 y Severa.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="DUELISTAS" id="4e8a-40d6-cd41-a8cf" hidden="false" typeId="49c2-836f-18b5-07ec" typeName="Chapter Tactics">
+      <characteristics>
+        <characteristic name="Chapter Tactic" typeId="43ba-53ad-f728-bacf">Siempre que este agente combata o 
+contraataque, cada uno de tus éxitos normales 
+puede bloquear un éxito crítico sin resolver (a 
+menos que el arma del agente enemigo tenga la 
+regla de arma Brutal).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="MÓVILES" id="1b4e-2f28-9c65-62dd" hidden="false" typeId="49c2-836f-18b5-07ec" typeName="Chapter Tactics">
+      <characteristics>
+        <characteristic name="Chapter Tactic" typeId="43ba-53ad-f728-bacf">• Este agente puede realizar la acción de 
+Retroceder por 1 PA menos.
+• Este agente puede realizar acciones de Cargar 
+aún estando en la zona de control de un agente 
+enemigo, y al hacerlo puede abandonar la 
+zona de control de dicho agente (pero luego se 
+siguen aplicando los requisitos normales para 
+ese movimiento).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sigilosos" id="dcf1-ebee-6e54-f64f" hidden="false" typeId="49c2-836f-18b5-07ec" typeName="Chapter Tactics">
+      <characteristics>
+        <characteristic name="Chapter Tactic" typeId="43ba-53ad-f728-bacf">Siempre que un agente dispare contra este
+agente, si puedes guardar alguna salvación por
+cobertura, puedes guardar una salvación por
+cobertura adicional o, en su lugar, puedes guardar
+una salvación por cobertura como éxito crítico.
+Esto no se acumula con las salvaciones por
+cobertura mejoradas debido a terreno Aventajado.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="RESUELTOS" id="0bf5-117e-df33-17d0" hidden="false" typeId="49c2-836f-18b5-07ec" typeName="Chapter Tactics">
+      <characteristics>
+        <characteristic name="Chapter Tactic" typeId="43ba-53ad-f728-bacf">Puedes ignorar cualquier cambio al atributo LPA de este agente y no le afecta la regla de arma Choque de los agentes enemigos.
+CONTINÚA EN EL REVERSO</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="ROBUSTOS" id="653b-59d7-4cc5-21ac" hidden="false" typeId="49c2-836f-18b5-07ec" typeName="Chapter Tactics">
+      <characteristics>
+        <characteristic name="Chapter Tactic" typeId="43ba-53ad-f728-bacf">Siempre que un agente dispara contra este 
+agente, los resultados de 5+ en los dados de 
+defensa son éxitos críticos, además, siempre que 
+este agente contraataque, la primera vez que un 
+dado de ataque inflija Daño normal de 3 o más a 
+este agente durante esa secuencia, reduce en 1 
+el daño que le inflige ese dado.
+CONTINÚA EN EL REVERSO</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="ESPECIALISTAS EN ASEDIOS" id="7a52-f018-db34-63b1" hidden="false" typeId="49c2-836f-18b5-07ec" typeName="Chapter Tactics">
+      <characteristics>
+        <characteristic name="Chapter Tactic" typeId="43ba-53ad-f728-bacf">Las armas a distancia de este agente tienen la regla de arma Saturación. Siempre que este agente combata o contraataque, los agentes enemigos no pueden asistir.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Referencia de forma" id="a3b1-1bd2-cdfc-dac1" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+      <characteristics>
+        <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">⌖</characteristic>
+        <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">⚔</characteristic>
+        <characteristic name="Save" typeId="3241-5548-12d6-f103">▶</characteristic>
+        <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">◆</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedSelectionEntries>
+    <selectionEntry name="TÁCTICAS DE CAPÍTULO" id="7a6b-0526-fe3f-eff2" collective="false" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="a95f-0c24-c10e-ffcb-min-min" field="selections" scope="29d1-6036-644f-488a" shared="true" type="min" value="1" />
+        <constraint id="a95f-0c24-c10e-ffcb-min-max" field="selections" scope="29d1-6036-644f-488a" shared="true" type="max" value="1" />
+      </constraints>
+      <costs>
+        <cost name="EP" typeId="c61a-51a3-370d-bf55" value="0" />
+      </costs>
+      <entryLinks>
+        <entryLink name="TÁCTICAS DE CAPÍTULO" id="f2c5-a19b-59d6-95e4" hidden="false" import="true" targetId="8887-ab48-1794-cdbf" type="selectionEntryGroup" />
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry name="Pistola de plasma" id="187a-3d95-c7db-7496" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Range x" id="fc78-3699-29b3-b881" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+        <infoLink name="Piercing x" id="1ecb-1b1d-bad7-f640" hidden="false" targetId="4c07-2cb3-1417-cbb7" type="rule" />
+        <infoLink name="Hot" id="71f0-7566-f7d5-2553" hidden="false" targetId="ec63-40e6-6282-8420" type="rule" />
+        <infoLink name="Lethal x+" id="c8b2-5e29-3e8e-0314" hidden="false" targetId="8b97-e3e3-2857-817a" type="rule" />
+      </infoLinks>
+      <profiles>
+        <profile name="⌖ Pistola de plasma (normal)" id="ee9a-41e7-13fe-5b0c" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/5</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8", Penetración 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="⌖ Pistola de plasma (sobrecarga)" id="7888-dfdf-ecc2-9032" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8", Letal 5+, Penetración 1, Sobrecalentamiento</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Puño de energía" id="5262-3a19-0a9b-5632" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Brutal" id="ad2b-74db-7b80-1a0a" hidden="false" targetId="5151-5449-ca81-70ed" type="rule" />
+      </infoLinks>
+      <profiles>
+        <profile name="⚔ Puño de energía" id="fe27-204c-ff2d-ce83" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">5/7</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Brutal</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier field="8044-2517-4ef7-33de" type="set" value="3+">
+              <conditions>
+                <condition childId="1e8f-a57f-d418-402d" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1" />
+              </conditions>
+            </modifier>
+            <modifier field="6056-b741-7cf3-5b43" type="set" value="4">
+              <conditions>
+                <condition childId="3b04-997f-5370-c1f2" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1" />
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Espada sierra" id="c81d-2f29-2203-ce5b" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name="EP" typeId="c61a-51a3-370d-bf55" value="0" />
+      </costs>
+      <profiles>
+        <profile name="⚔ Espada sierra" id="4fb3-6463-34dc-5435" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier field="6056-b741-7cf3-5b43" type="set" value="4">
+              <conditions>
+                <condition childId="3b04-997f-5370-c1f2" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1" />
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Arma de energía" id="f5d5-d08e-c46a-0cb0" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Lethal x+" id="1098-e6be-7fa0-b25c" hidden="false" targetId="8b97-e3e3-2857-817a" type="rule" />
+      </infoLinks>
+      <profiles>
+        <profile name="⚔ Arma de energía" id="a7f3-9998-964a-4eae" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/6</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Letal 5+</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier field="6056-b741-7cf3-5b43" type="set" value="4">
+              <conditions>
+                <condition childId="3b04-997f-5370-c1f2" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1" />
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Martillo de trueno" id="fa5e-b9ee-fb03-feac" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Shock" id="a031-bc84-f589-5448" hidden="false" targetId="c544-8d4c-4109-4eec" type="rule" />
+        <infoLink name="Stun" id="4c01-a111-3f20-68a5" hidden="false" targetId="5ae2-3f29-8635-fd02" type="rule" />
+      </infoLinks>
+      <profiles>
+        <profile name="⚔ Martillo de trueno" id="5636-6697-6274-8d78" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">5/6</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Aturdidora, Choque</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier field="6056-b741-7cf3-5b43" type="set" value="4">
+              <conditions>
+                <condition childId="3b04-997f-5370-c1f2" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1" />
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Pistola bólter pesada" id="71a7-b048-40fe-bf6d" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Range x" id="9776-fe61-f96a-76a3" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+        <infoLink name="Piercing x" id="d1a3-0449-799e-32e0" hidden="false" targetId="4c07-2cb3-1417-cbb7" type="rule" />
+      </infoLinks>
+      <profiles>
+        <profile name="⌖ Pistola bólter pesada" id="9c21-5611-9d14-2c03" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8", Críticos de penetración 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Puños" id="9978-a207-ea52-2f88" hidden="false" import="true" type="upgrade">
+      <profiles>
+        <profile name="⚔ Puños" id="cc3e-be03-2ab2-4bf4" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Rifle bólter" id="d60d-1f8c-2519-f78e" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Piercing x" id="10d4-51b5-a6c1-912a" hidden="false" targetId="4c07-2cb3-1417-cbb7" type="rule" />
+      </infoLinks>
+      <profiles>
+        <profile name="⌖ Rifle bólter" id="03b3-a89e-f806-c0bf" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Críticos de penetración 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Rifle bólter automático" id="6fba-f8c3-3999-284b" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Torrent x" id="2ebb-a6cc-7cba-3d60" hidden="false" targetId="ad45-b4bb-1345-e4f9" type="rule" />
+      </infoLinks>
+      <profiles>
+        <profile name="⌖ Rifle bólter automático" id="c5ac-f862-a87d-7262" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Ráfaga 1"</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Rifle bólter silencio" id="e583-f949-effe-fc87" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Heavy" id="4cb8-ce5e-9e53-3caf" hidden="false" targetId="816e-44a2-6be4-6a9a" type="rule" />
+        <infoLink name="Lethal x+" id="f2b3-73cf-a7dc-b1c1" hidden="false" targetId="8b97-e3e3-2857-817a" type="rule" />
+        <infoLink name="Piercing x" id="5dbb-db40-5a95-d6b4" hidden="false" targetId="4c07-2cb3-1417-cbb7" type="rule" />
+      </infoLinks>
+      <profiles>
+        <profile name="⌖ Rifle bólter silencio (pesado)" id="c4b4-410e-1af2-f48c" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/5</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Críticos de penetración 1, Letal 5+, Pesada (solo Correr)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="⌖ Rifle bólter silencio (móvil)" id="68e3-a6f2-0b08-177f" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="TÁCTICAS DE CAPÍTULO" id="8887-ab48-1794-cdbf" defaultSelectionEntryId="none" hidden="false">
+      <constraints>
+        <constraint id="0413-963e-8f14-d9c8-min" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2" />
+        <constraint id="0413-963e-8f14-d9c8-max" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2" />
+      </constraints>
+      <selectionEntries>
+        <selectionEntry name="AGRESIVOS" id="0419-5f81-2f2e-c20c" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="10cb-7406-dba7-c927" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="AGRESIVOS" id="eeeb-458b-bd07-88d6" hidden="false" targetId="be68-a409-dba3-c4a3" type="profile" />
+            <infoLink name="Rending" id="5742-7f9e-6cbb-e64a" hidden="false" targetId="b903-6f79-129d-4ec9" type="rule" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry name="DUELISTAS" id="ada5-b954-dc11-2229" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="2533-e4b7-5e6f-2816" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="DUELISTAS" id="39e8-f1eb-ead0-ff1b" hidden="false" targetId="4e8a-40d6-cd41-a8cf" type="profile" />
+            <infoLink name="Brutal" id="093b-f296-c78b-de7b" hidden="false" targetId="5151-5449-ca81-70ed" type="rule" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry name="ROBUSTOS" id="f969-3bed-feb6-472b" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="6f65-46b6-e16f-1e73" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="ROBUSTOS" id="f299-5ce0-e42c-9a97" hidden="false" targetId="653b-59d7-4cc5-21ac" type="profile" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry name="MÓVILES" id="f4ab-6b4a-5bad-a753" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="c4aa-f220-0cf9-cb16" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="MÓVILES" id="c3ef-0a2b-7f36-7be8" hidden="false" targetId="1b4e-2f28-9c65-62dd" type="profile" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry name="RESUELTOS" id="95f2-83ad-1286-25cd" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="53cc-eb29-aceb-4c61" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="RESUELTOS" id="ccae-cafe-cedc-f696" hidden="false" targetId="0bf5-117e-df33-17d0" type="profile" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry name="TIRADORES CERTEROS" id="061b-bfef-f5cd-78a8" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="3e13-b8be-e424-f764" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="TIRADORES CERTEROS" id="8ea9-9ac4-c9c0-8192" hidden="false" targetId="2dcf-673c-7ca5-2e22" type="profile" />
+            <infoLink name="Severe" id="ff0b-849d-9cd8-3e0f" hidden="false" targetId="721c-65bf-dfb7-8fa2" type="rule" />
+            <infoLink name="Accurate x" id="df95-8959-5961-9b55" hidden="false" targetId="ba48-6452-4bf6-e9fa" type="rule" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry name="ESPECIALISTAS EN ASEDIOS" id="8c51-8ca5-971e-c314" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="9e9b-c94d-2838-5896" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="ESPECIALISTAS EN ASEDIOS" id="a4ad-9ff6-1f65-d207" hidden="false" targetId="7a52-f018-db34-63b1" type="profile" />
+            <infoLink name="Saturate" id="1ce7-e372-521a-222f" hidden="false" targetId="3c10-2d52-d1ac-b0f6" type="rule" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry name="Sigilosos" id="99bf-fbf9-b6bd-e400" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="249d-d7df-56fb-71d6" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Sigilosos" id="590a-def3-701b-d645" hidden="false" targetId="dcf1-ebee-6e54-f64f" type="profile" />
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Equipo de facción" id="9b64-0627-e3f4-d29b" defaultSelectionEntryId="none" hidden="false">
+      <selectionEntries>
+        <selectionEntry name="SELLOS DE PUREZA" id="873b-6422-1d59-0447" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="476b-68d8-5d54-2b80" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <profiles>
+            <profile name="SELLOS DE PUREZA" id="5549-4bd5-cced-c015" hidden="false" typeId="0d20-7175-9ecb-8bde" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">ÁNGELES DE LA MUERTE
+EQUIPO DE FACCIÓN
+SELLOS DE PUREZA
+Otorgados por los Capellanes del Capítulo, los sellos
+de pureza llevan inscritas bendiciones que inspiran al
+portador a luchar aún con más vigor.
+Una vez por punto de inflexión, cuando un agente
+ÁNGEL DE LA MUERTE amigo dispare, combata
+o contraataque, si sacas dos o más fallos, puedes
+descartar uno de ellos para guardar otro como un
+éxito normal en su lugar.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="RELICARIOS DEL CAPÍTULO" id="8553-c762-a6ae-cd0d" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="4bfc-90dc-3fce-da5d" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <profiles>
+            <profile name="RELICARIOS DEL CAPÍTULO" id="d9d3-4c39-f57d-70b6" hidden="false" typeId="0d20-7175-9ecb-8bde" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">ÁNGELES DE LA MUERTE
+EQUIPO DE FACCIÓN
+RELICARIOS DEL CAPÍTULO
+Muchos Marines Espaciales portan reliquias macabras
+tomadas de los cuerpos de sus caídos. Quienes portan
+esos objetos inspiradores luchan con aún más ímpetu
+para honrar el sacrificio de sus hermanos.
+Puedes usar el ardid de tiroteo Ira de venganza
+por 0PM si el agente amigo especificado tiene
+una orden de trabarse.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="ESCUDOS DECORATIVOS" id="8d00-4709-7207-ff6b" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="db7d-7a5e-2f1f-95aa" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <profiles>
+            <profile name="ESCUDOS DECORATIVOS" id="98d6-cbb7-ed24-e508" hidden="false" typeId="0d20-7175-9ecb-8bde" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">ÁNGELES DE LA MUERTE
+EQUIPO DE FACCIÓN
+ESCUDOS DECORATIVOS
+Además de exhibir colores de su Compañía y heráldica
+personal, los escudetes fijados a las armaduras de
+los Marines Espaciales les protegen de golpes cuerpo
+a cuerpo.
+Una vez por punto de inflexión, cuando un
+agente ÁNGEL DE LA MUERTE amigo combate o
+contraataca, después de que tu oponente tire sus
+dados de ataque, pero antes de que se repitan
+tiradas, puedes usar esta regla. Si lo haces, tu
+oponente no puede guardar dados de ataque con
+un resultado menor que 6 como éxitos críticos
+durante esa secuencia (por ejemplo, debido a las
+reglas de arma Letal, Desgarradora o Severa).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="AUSPEX" id="45e4-ca6f-8f6f-92fc" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="cf4d-d54d-ce1f-020e" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <profiles>
+            <profile name="AUSPEX" id="76b2-4348-b635-1954" hidden="false" typeId="0d20-7175-9ecb-8bde" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">ÁNGELES DE LA MUERTE
+EQUIPO DE FACCIÓN
+AUSPEX
+Hay muchos tipos de auspex. Estos dispositivos de
+escaneo pueden detectar el movimiento, analizar
+condiciones atmosféricas y revelar rastros de calor.
+Una vez por punto de inflexión, cuando un
+agente ÁNGEL DE LA MUERTE amigo realiza
+una acción de Disparar y estás eligiendo blanco
+válido, puedes usar esta regla. Si lo haces, hasta
+el final de la activación (o reacción), los agentes
+enemigos a 8" o menos de ese agente amigo no
+pueden estar ofuscados.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

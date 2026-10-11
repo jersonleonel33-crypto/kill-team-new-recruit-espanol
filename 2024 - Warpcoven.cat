@@ -1,0 +1,1323 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="2c48-0a38-f96d-2fbf" name="Aquelarre Disforme" gameSystemId="c521-ad27-44df-f959" gameSystemRevision="10" revision="13" battleScribeVersion="2.03" type="catalogue">
+  <forceEntries>
+    <forceEntry name="Kill Team — Español" id="19b5-fd1f-a9b5-2c94" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Reference" hidden="false" id="8bf3-52c9-50c7-5137" targetId="b318-a8d7-2d38-99a3" />
+        <categoryLink name="Configuration" hidden="false" id="7bb0-6a09-9d19-365b" targetId="874b-0390-e5e2-1daa" />
+        <categoryLink name="Operative" hidden="false" id="cb36-919c-f846-f423" targetId="cf83-4496-b58e-ac82">
+          <constraints>
+            <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="e630-e1e4-5a86-3dfa-min" />
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="e630-e1e4-5a86-3dfa-max" />
+          </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="e630-e1e4-5a86-3dfa-min">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="3873-6aee-38ef-34cd" shared="true" roundUp="false" />
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="e630-e1e4-5a86-3dfa-max">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="3873-6aee-38ef-34cd" shared="true" roundUp="false" />
+              </repeats>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink name="Hechicero" hidden="false" id="d014-d6f7-510f-3842" targetId="3f84-3552-5a1a-b966">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="d7d0-b9d5-2db6-e167" includeChildSelections="true" />
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <rules>
+    <rule name="ASTARTES" id="ccaf-ba21-2da4-8b77" hidden="false">
+      <description>Estos superhumanos modificados genéticamente han 
+sido creados para un único propósito: la guerra.
+Durante la activación de cada agente ASTARTES 
+HEREJES AQUELARRE DISFORME amigo, 
+este puede realizar o bien dos acciones de 
+Combatir, o bien dos acciones de Disparar. 
+Si son dos acciones de Disparar y se elige un 
+cañón cosechaalmas o un lanzallamas disforme 
+para ambas, debe gastarse 1 PA adicional en 
+la segunda acción. No puedes elegir la misma 
+arma a distancia PSÍQUICA más de una vez por 
+activación.
+Cada agente ASTARTES HEREJES AQUELARRE 
+DISFORME amigo puede reaccionar sin importar 
+cuál sea su orden.</description>
+    </rule>
+  </rules>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="DONES DE TZEENTCH" id="896d-1ac5-422f-82cb" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Visión incorpórea" hidden="false" id="b8db-e60d-f365-7357">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9d1f-42a2-6016-4ed6" />
+            <constraint type="max" value="1" field="selections" scope="19b5-fd1f-a9b5-2c94" shared="true" id="ddaa-0db0-3663-2aae" includeChildSelections="true" />
+          </constraints>
+          <profiles>
+            <profile name="Visión incorpórea" typeId="acaf-9256-537b-6722" typeName="Boons of Tzeentch" hidden="false" id="c082-80b8-6d8e-081d">
+              <characteristics>
+                <characteristic name="Boon of Tzeentch" typeId="5ca3-2211-8869-5740">Los Hechiceros de los Mil Hijos pueden percibir las
+energías empíreas que emiten las criaturas vivas.
+Las armas a distancia de este agente tienen la regla
+de armas Saturación. Cuando este agente dispara,
+los agentes enemigos no pueden estar ofuscados.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Saturate" id="1e7a-aca7-3d85-0f1f" hidden="false" type="rule" targetId="3c10-2d52-d1ac-b0f6" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Caminante temporal" hidden="false" id="90df-3690-6df6-ae34">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1722-505a-92dc-98eb" />
+            <constraint type="max" value="1" field="selections" scope="19b5-fd1f-a9b5-2c94" shared="true" id="d3a6-476b-7b62-dc43" includeChildSelections="true" />
+          </constraints>
+          <profiles>
+            <profile name="Caminante temporal" typeId="acaf-9256-537b-6722" typeName="Boons of Tzeentch" hidden="false" id="bd14-5e17-eac7-8aa3">
+              <characteristics>
+                <characteristic name="Boon of Tzeentch" typeId="5ca3-2211-8869-5740">Hay pocos dones más espléndidos que dominar el tiempo.
+Suma 1" al atributo Movimiento de este agente.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Ecos de la disformidad" hidden="false" id="5893-2c15-ca3c-2155">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f38e-9d8b-75c0-a7c5" />
+            <constraint type="max" value="1" field="selections" scope="19b5-fd1f-a9b5-2c94" shared="true" id="863f-1b9b-94d0-b973" includeChildSelections="true" />
+          </constraints>
+          <profiles>
+            <profile name="Ecos de la disformidad" typeId="acaf-9256-537b-6722" typeName="Boons of Tzeentch" hidden="false" id="6957-408a-61c2-f50b">
+              <characteristics>
+                <characteristic name="Boon of Tzeentch" typeId="5ca3-2211-8869-5740">La capacidad de predecir el futuro permite mayores
+respuestas ante los movimientos enemigos.
+Una vez por batalla, cuando reaccionas con este
+agente, puedes cambiar su orden, y este puede realizar una acción de 1PA adicional gratis durante esa
+reacción, pero ambas acciones deben ser distintas.
+Hinchazón disforme
+Un influjo de energía disforme otorga ímpetu a los
+golpes cuerpo a cuerpo.
+Suma 1 al atributo Daño normal de las armas de
+combate de este agente.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Hinchazón disforme" hidden="false" id="f26a-23b1-7f73-6dd0">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8d7a-1bc5-5fef-a766" />
+            <constraint type="max" value="1" field="selections" scope="19b5-fd1f-a9b5-2c94" shared="true" id="ceaa-6d16-a70a-f7d0" includeChildSelections="true" />
+          </constraints>
+          <profiles>
+            <profile name="Hinchazón disforme" typeId="acaf-9256-537b-6722" typeName="Boons of Tzeentch" hidden="false" id="096a-e139-8fa9-e62b">
+              <characteristics>
+                <characteristic name="Boon of Tzeentch" typeId="5ca3-2211-8869-5740">Un influjo de energía disforme otorga ímpetu a los
+golpes cuerpo a cuerpo.
+Suma 1 al atributo Daño normal de las armas de
+combate de este agente.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Maestro del Immaterium" hidden="false" id="0dc1-6732-4a54-cf67">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b0a-c186-1eb3-d1d7" />
+            <constraint type="max" value="1" field="selections" scope="19b5-fd1f-a9b5-2c94" shared="true" id="86fe-3d75-0679-9b06" includeChildSelections="true" />
+          </constraints>
+          <profiles>
+            <profile name="Maestro del Immaterium" typeId="acaf-9256-537b-6722" typeName="Boons of Tzeentch" hidden="false" id="5be2-b2cf-0600-2fd2">
+              <characteristics>
+                <characteristic name="Boon of Tzeentch" typeId="5ca3-2211-8869-5740">El don del conocimiento arcano prohibido otorga a su
+poseedor una potencia psíquica aterradora.
+Suma 3" a los requisitos de distancia de las
+acciones PSÍQUICAS de este agente que tenga un
+requisito de distancia.
+Recuerda que, con respecto a la acción Flujo
+temporal del HECHICERO TEMPÍREO, este don solo
+afecta a la distancia del primer efecto de esa regla</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Vuelo inmaterial" hidden="false" id="b653-8133-328d-0440">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3253-b466-bb03-40a1" />
+            <constraint type="max" value="1" field="selections" scope="19b5-fd1f-a9b5-2c94" shared="true" id="4179-28fc-e65a-0b73" includeChildSelections="true" />
+          </constraints>
+          <profiles>
+            <profile name="Vuelo inmaterial" typeId="acaf-9256-537b-6722" typeName="Boons of Tzeentch" hidden="false" id="4b60-6081-1817-3c4e">
+              <characteristics>
+                <characteristic name="Boon of Tzeentch" typeId="5ca3-2211-8869-5740">El recipiente es elusivo pues es capaz de volar.
+Una vez por punto de inflexión, cuando este agente
+realice una acción de Cargar o Reposicionarse
+durante su activación, puede VOLAR. Si lo hace,
+no lo muevas. En su lugar, retíralo de la zona de
+aniquilación y vuelve a colocarlo completamente a
+una distancia horizontal igual o menor a su atributo
+Movimiento de su ubicación original. En una zona
+de aniquilación que utilice las reglas de combate
+cerrado (p.ej. la Zona de aniquilación: Mundo
+Necrópolis), esta distancia no puede medirse por
+encima ni a través de terreno de Muro, y el agente
+no puede colocarse en el lado opuesto de un punto
+de acceso (es decir, no puede VOLAR a través de
+una escotilla abierta). Ten en cuenta que no gana
+distancia adicional al realizar acciones de Cargar.
+Debe ser desplegado en una ubicación en la que
+pueda ser colocado y, a menos que la acción sea de
+Cargar, no puede ser desplegado dentro de la zona
+de control de un agente enemigo.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Bombardeo astral" hidden="false" id="803c-0608-f295-81f3">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2cf4-4925-7240-0e9a" />
+            <constraint type="max" value="1" field="selections" scope="19b5-fd1f-a9b5-2c94" shared="true" id="b792-1c02-9266-cfe9" includeChildSelections="true" />
+          </constraints>
+          <profiles>
+            <profile name="Bombardeo astral" typeId="acaf-9256-537b-6722" typeName="Boons of Tzeentch" hidden="false" id="7f11-385a-e2a9-480d">
+              <characteristics>
+                <characteristic name="Boon of Tzeentch" typeId="5ca3-2211-8869-5740">Los que están verdaderamente bendecidos se sacian
+con el poder entrópico de la disformidad, y blanden sus
+energías destructivas sin reparo.
+Elige una de las armas a distancia PSÍQUICAS
+de este agente. Esa arma tiene la regla de
+armas Devastadora 1. Si eliges un proyectil de
+condenación, su regla de armas Devastadora 2 se
+sustituye por 2" Devastadora 2.
+Si eliges tormenta de fuego o quemar mente
+(HECHICERO DEL FUEGO DISFORME), cuando
+ese agente realiza la acción de Disparar, elige la
+regla de arma Buscadora Ligero o Devastadora
+1. Esa armas tendrá esa regla hasta el final de la
+acción (no puede tener ambas).
+Maestro del Immaterium
+El don del conocimiento arcano prohibido otorga a su
+poseedor una potencia psíquica aterradora.
+Suma 3" a los requisitos de distancia de las
+acciones PSÍQUICAS de este agente que tenga un
+requisito de distancia.
+Recuerda que, con respecto a la acción Flujo
+temporal del HECHICERO TEMPÍREO, este don solo
+afecta a la distancia del primer efecto de esa regla</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Devastating x" id="d7cb-a25f-1f0d-38cd" hidden="false" type="rule" targetId="a8ba-6e3a-76b3-f05c" />
+            <infoLink name="Seek" id="3cae-f7aa-32ab-818f" hidden="false" type="rule" targetId="a33d-4e90-5794-6e20" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Giro del destino" hidden="false" id="7832-d98a-e2a3-4d29">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c17e-d74e-339b-c432" />
+            <constraint type="max" value="1" field="selections" scope="19b5-fd1f-a9b5-2c94" shared="true" id="a4b4-52bd-f151-d053" includeChildSelections="true" />
+          </constraints>
+          <profiles>
+            <profile name="Giro del destino" typeId="acaf-9256-537b-6722" typeName="Boons of Tzeentch" hidden="false" id="05f6-1599-94b9-e977">
+              <characteristics>
+                <characteristic name="Boon of Tzeentch" typeId="5ca3-2211-8869-5740">No hay mayor don que doblegar el destino a voluntad.
+Las armas a distancia PSÍQUICAS de este agente
+tienen la regla de armas Críticos de penetración 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Piercing x" id="2b85-4c46-cd2e-124c" hidden="false" type="rule" targetId="4c07-2cb3-1417-cbb7" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Apéndice mutante" hidden="false" id="48ff-9e6d-18e1-4db9">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f28-c674-a988-ac1f" />
+            <constraint type="max" value="1" field="selections" scope="19b5-fd1f-a9b5-2c94" shared="true" id="879b-0207-a50c-b1db" includeChildSelections="true" />
+          </constraints>
+          <profiles>
+            <profile name="Apéndice mutante" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="a7ed-106b-bba9-90e4">
+              <characteristics>
+                <characteristic name="Ability" typeId="3467-0678-083e-eb50">Aunque puedan tener un aspecto horripilante, las
+extremidades adicionales son sin duda muy útiles.
+Que haya un agente enemigo en la zona de
+control de este agente no le impide realizar la
+acción de Recoger marcador o acciones de
+misión. Una vez por activación, este agente
+puede realizar una acción de Recoger marcador,
+Colocar marcador o de misión por 1 PA menos.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Equipo de facción" id="17c9-d363-a94b-fd6b" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="BALAS HECHIZADAS" hidden="false" id="d338-a9eb-31ee-ff2a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f833-39ba-9762-fb02" />
+          </constraints>
+          <profiles>
+            <profile name="BALAS HECHIZADAS" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="2a31-bbe2-7c6a-7da4">
+              <characteristics>
+                <characteristic name="Ability" typeId="3467-0678-083e-eb50">AQUELARRE DISFORME
+EQUIPO DE FACCIÓN
+BALAS HECHIZADAS
+Los maleficios colocados y las magias negras conjuradas
+sobre balas de pistola automática y bólter amplifican su
+letalidad.
+Los bólteres infierno, pistolas bólter infierno y
+pistolas automáticas de los agentes AQUELARRE
+DISFORME amigos tienen la regla de armas
+Devastadora 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Devastating x" id="44a6-94d4-ac4c-c595" hidden="false" type="rule" targetId="a8ba-6e3a-76b3-f05c" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="ARMAS FAUCESDAEMÓNICAS" hidden="false" id="ba24-cf22-f189-ef2e">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0368-d452-57a3-b427" />
+          </constraints>
+          <profiles>
+            <profile name="ARMAS FAUCESDAEMÓNICAS" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="1b91-3f6e-2eec-d296">
+              <characteristics>
+                <characteristic name="Ability" typeId="3467-0678-083e-eb50">AQUELARRE DISFORME
+EQUIPO DE FACCIÓN
+ARMAS FAUCESDAEMÓNICAS
+Las armas de los Rubricae han mutado por los milenios
+sumergidas en el immaterium. Bocas daemónicas
+brotan alrededor de los cañones, y sus picos afilados
+sirven como armas de combate.
+Suma 1 al atributo Ataque de las armas
+de combate de agentes MARINE RÚBRICA
+AQUELARRE DISFORME amigos. Cuando
+un agente MARINE RÚBRICA AQUELARRE
+DISFORME amigo contraataca, sus armas de
+combate tienen la regla de armas Certera 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Accurate x" id="0e5a-95fb-51d6-1013" hidden="false" type="rule" targetId="ba48-6452-4bf6-e9fa" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="TÚNICAS ARCANAS" hidden="false" id="b275-7c41-264a-dbd2">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9ca4-5b8a-5634-ca66" />
+          </constraints>
+          <profiles>
+            <profile name="TÚNICAS ARCANAS" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="ca6b-b6ae-e491-12e5">
+              <characteristics>
+                <characteristic name="Ability" typeId="3467-0678-083e-eb50">AQUELARRE DISFORME
+EQUIPO DE FACCIÓN
+TÚNICAS ARCANAS
+Poderosas salvaguardas defensivas en las túnicas de los
+Hechiceros les permiten desviar ataques, o absorber la
+fuerza de los golpes más poderosos.
+Una vez por punto de inflexión, cuando un dado
+de ataque vaya a infligir Daño crítico a un agente
+HECHICERO AQUELARRE DISFORME amigo,
+puedes decidir que ese dado inflija Daño normal
+en su lugar. No puedes usar esta regla más de
+una vez por punto de inflexión para cada agente
+HECHICERO AQUELARRE DISFORME amigo.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="PERGAMINOS DE HECHICERÍA" hidden="false" id="1ffc-6bac-fbf7-6153">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d40e-e0c2-311b-7603" />
+          </constraints>
+          <profiles>
+            <profile name="PERGAMINOS DE HECHICERÍA" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="0516-27e2-b959-148e">
+              <characteristics>
+                <characteristic name="Ability" typeId="3467-0678-083e-eb50">AQUELARRE DISFORME
+EQUIPO DE FACCIÓN
+PERGAMINOS DE HECHICERÍA
+Los raros y peligrosos pergaminos extraídos de las
+cámaras de Próspero permiten a los Hechiceros
+implorar a Tzeentch poderes aún mayores.
+Una vez por batalla, cuando un agente
+HECHICERO AQUELARRE DISFORME amigo sea
+activado o reaccione, puedes elegir un DON DE
+TZEENTCH diferente al que tenga. Dicho agente
+lo tendrá hasta el final de la batalla (pierde el
+que tenía previamente). No puedes elegir un
+DON DE TZEENTCH que tenga otro agente amigo.
+Ten en cuenta que si usas esta regla cuando un
+agente amigo reacciona y seleccionas Ecos de la
+Disformidad, puede usarse inmediatamente para
+cambiar la orden del agente y que este realice
+una acción libre durante la reacción.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <entryLinks>
+    <entryLink import="true" name="Equipment Reference" hidden="false" id="8aad-f9a8-8125-fdc9" type="selectionEntry" targetId="e004-a0c4-8a03-0b8b">
+      <entryLinks>
+        <entryLink import="true" name="Equipo de facción" hidden="false" id="3047-4a2b-6e1e-c518" type="selectionEntryGroup" targetId="17c9-d363-a94b-fd6b" />
+      </entryLinks>
+    </entryLink>
+    <entryLink import="true" name="Referencia de dones de Tzeentch" hidden="false" id="7dae-3d1f-d737-4f7d" type="selectionEntry" targetId="5e6a-dfa2-7d26-8c78" />
+  </entryLinks>
+  <categoryEntries>
+    <categoryEntry name="Aquelarre Disforme" id="59ff-0a1a-4018-1c16" hidden="false" />
+    <categoryEntry name="Hechicero" id="3f84-3552-5a1a-b966" hidden="false" />
+    <categoryEntry name="HECHICERO DEL DESTINO" id="dd31-0502-53ba-8c99" hidden="false" />
+    <categoryEntry name="HECHICERO TEMPÍREO" id="65a6-2358-4568-9aa1" hidden="false" />
+    <categoryEntry name="HECHICERO DEL FUEGO DISFORME" id="7e93-2fbf-68a3-7436" hidden="false" />
+    <categoryEntry name="Tzaangor" id="0726-4a7c-8afb-1b21" hidden="false" />
+    <categoryEntry name="Marine Rúbrica" id="0167-9819-2942-fbc6" hidden="false" />
+    <categoryEntry name="Portador del icono" id="8162-ca91-7968-2ba8" hidden="false" />
+    <categoryEntry name="CAMPEÓN TZAANGOR" id="80c8-335f-2294-bf5d" hidden="false" />
+    <categoryEntry name="PORTACUERNO TZAANGOR" id="a920-f0cd-ed2e-d8f5" hidden="false" />
+  </categoryEntries>
+  <selectionEntries>
+    <selectionEntry type="model" import="true" name="HECHICERO DEL DESTINO" hidden="false" id="9429-7bf0-c5e2-2535">
+      <categoryLinks>
+        <categoryLink name="Operative" hidden="false" id="9d7e-5be2-5286-06f8" targetId="cf83-4496-b58e-ac82" primary="true" />
+        <categoryLink name="Hechicero" hidden="false" id="25a7-1cdf-773c-d3b2" targetId="3f84-3552-5a1a-b966" primary="false" />
+        <categoryLink name="Chaos" hidden="false" id="c6c6-7d3a-66ff-11ff" targetId="13fe-a54f-f2f2-f034" primary="false" />
+        <categoryLink name="Psyker" hidden="false" id="43fc-06bb-ece4-07cc" targetId="6f95-9b94-d661-3243" primary="false" />
+        <categoryLink name="HECHICERO DEL DESTINO" hidden="false" id="2be5-50f9-df70-4987" targetId="dd31-0502-53ba-8c99" primary="false" />
+        <categoryLink name="Heretic Astartes" hidden="false" id="b7fd-cdd4-def6-b87a" targetId="3873-6aee-38ef-34cd" primary="false" />
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Bastón de psicofuerza" hidden="false" id="4a2d-baf0-3e35-d84b" type="selectionEntry" targetId="0f28-82f9-aab3-31cd">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1c53-ab0c-6f65-fc4f-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c53-ab0c-6f65-fc4f-max" />
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="DONES DE TZEENTCH" hidden="false" id="96ff-b66b-cbef-01e7" type="selectionEntryGroup" targetId="896d-1ac5-422f-82cb">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="25c4-f389-a806-f12a-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="25c4-f389-a806-f12a-max" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Arma" id="4713-2bda-90dd-b66a" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d632-2c6e-859f-6f4a-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d632-2c6e-859f-6f4a-max" />
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Pistola bólter infierno" hidden="false" id="b4d8-ce3e-0b43-8037" type="selectionEntry" targetId="73a3-4279-1d05-37aa" />
+            <entryLink import="true" name="Khopesh prosperiano" hidden="false" id="45b1-0396-27af-832c" type="selectionEntry" targetId="4d83-c7be-f376-605c" />
+            <entryLink import="true" name="Pistola de llamas disformes" hidden="false" id="6043-551d-339d-6346" type="selectionEntry" targetId="3e7e-ccd0-8e38-80b3" />
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="19b5-fd1f-a9b5-2c94" shared="true" id="ac2a-3e16-d307-7394" />
+      </constraints>
+      <profiles>
+        <profile name="HECHICERO DEL DESTINO" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="4a80-583e-dc05-108c">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">15</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="PROTECCIÓN DEL DESTINO (1PA)" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions" hidden="false" id="a473-adb1-bda0-7911">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">PSÍQUICA. Elige un agente AQUELARRE DISFORME 
+amigo visible para este agente. Hasta el inicio de la siguiente 
+activación de este agente, hasta que resulte incapacitado o 
+hasta que un agente amigo realice de nuevo esta acción (lo 
+que ocurra antes), siempre que un agente dispare contra ese 
+agente elegido, puedes repetir cualesquiera de tus dados 
+de defensa.
+ Este agente no puede realizar esta acción si se encuentra en 
+la zona de control de un agente enemigo.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="SABOTEAR DESTINO (1PA)" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions" hidden="false" id="e085-ff4c-46a3-a6b6">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">PSÍQUICA. Elige un agente enemigo a 9" o menos de 
+este agente y visible para él. Hasta el inicio de la siguiente 
+activación de este agente, hasta que resulte incapacitado o 
+hasta que un agente amigo realice de nuevo esta acción (lo 
+que ocurra antes), siempre que ese agente enemigo dispare, 
+combata o contraataque, tu oponente debe repetir sus 
+dados de ataque con un resultado de 6, y al determinar el 
+control de un marcador, el atributo LPA del agente enemigo 
+se considera 1 menos de lo que es. Ten en cuenta que esto 
+no es un cambio a su atributo LPA, de modo que cualquier 
+cambio es acumulable con esto.
+ Este agente no puede realizar esta acción si se encuentra en 
+la zona de control de un agente enemigo.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Proyectil de condenación" hidden="false" id="ec22-eeef-0668-2e20">
+          <profiles>
+            <profile name="⌖ Proyectil de condenación" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="2935-6ab2-8d8c-e6b6">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/2</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">PSÍQUICA, Devastadora 2, Letal 5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Devastating x" id="e25d-8da4-631f-30b8" hidden="false" type="rule" targetId="a8ba-6e3a-76b3-f05c" />
+            <infoLink name="Lethal x+" id="db6d-0098-b651-71f7" hidden="false" type="rule" targetId="8b97-e3e3-2857-817a" />
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="08ea-3afe-0283-b5b3-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="08ea-3afe-0283-b5b3-max" />
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="HECHICERO TEMPÍREO" hidden="false" id="37af-056f-8ae4-3b9e">
+      <categoryLinks>
+        <categoryLink name="Operative" hidden="false" id="3cbe-55ed-8b20-2120" targetId="cf83-4496-b58e-ac82" primary="true" />
+        <categoryLink name="Hechicero" hidden="false" id="3d96-f5ed-fb1d-e29d" targetId="3f84-3552-5a1a-b966" primary="false" />
+        <categoryLink name="Chaos" hidden="false" id="0bd3-016c-7665-506e" targetId="13fe-a54f-f2f2-f034" primary="false" />
+        <categoryLink name="Psyker" hidden="false" id="5fea-a40e-c2ef-51b7" targetId="6f95-9b94-d661-3243" primary="false" />
+        <categoryLink name="Heretic Astartes" hidden="false" id="da51-d0a5-f8da-f529" targetId="3873-6aee-38ef-34cd" primary="false" />
+        <categoryLink name="HECHICERO TEMPÍREO" hidden="false" id="ed5b-e7a9-8e38-5422" targetId="65a6-2358-4568-9aa1" primary="false" />
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Bastón de psicofuerza" hidden="false" id="613f-9622-04cb-4b8e" type="selectionEntry" targetId="0f28-82f9-aab3-31cd">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fb3d-abab-8da5-b829-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb3d-abab-8da5-b829-max" />
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="DONES DE TZEENTCH" hidden="false" id="6532-20a1-1012-d806" type="selectionEntryGroup" targetId="896d-1ac5-422f-82cb">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1714-afa3-c874-3948-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1714-afa3-c874-3948-max" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Arma" id="7548-f4cf-02b7-0289" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1c5c-250f-5e89-09e0-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c5c-250f-5e89-09e0-max" />
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Pistola bólter infierno" hidden="false" id="1ea6-ca90-5280-6530" type="selectionEntry" targetId="73a3-4279-1d05-37aa" />
+            <entryLink import="true" name="Khopesh prosperiano" hidden="false" id="c938-bba1-5bcc-1a97" type="selectionEntry" targetId="4d83-c7be-f376-605c" />
+            <entryLink import="true" name="Pistola de llamas disformes" hidden="false" id="ea1f-b2f4-7a60-23d7" type="selectionEntry" targetId="3e7e-ccd0-8e38-80b3" />
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <profiles>
+        <profile name="HECHICERO TEMPÍREO" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="47fd-094b-ba44-2649">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">15</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="FLUJO TEMPORAL (1PA)" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions" hidden="false" id="5a89-8299-e909-fd26">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">PSÍQUICA. Elige un agente AQUELARRE DISFORME amigo a 6" o menos de este agente y visible para él, y coloca tu 
+marcador de Flujo temporal en la zona de control de dicho agente.
+ Al final de la siguiente activación de ese agente, si no ha resultado incapacitado y sigue estando completamente a 6" o menos 
+de tu marcador de Flujo temporal, retira ese agente de la zona de aniquilación y vuelve a colocarlo en una ubicación en que 
+pueda ser colocado y de modo que tenga tu marcador de Flujo temporal en su zona de control (o tan cerca como sea posible). A 
+continuación, retira tu marcador de Flujo temporal de la zona de aniquilación. Si el agente no está completamente a 6" o menos de 
+tu marcador de Flujo temporal (incluso si está incapacitado), retira el marcador de la zona de aniquilación.
+ Este agente no puede realizar esta acción si está en la zona de control de un agente enemigo, o si tu marcador de Flujo temporal 
+está actualmente en la zona de aniquilación.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="RITUAL DE RECONSTITUCIÓN" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions" hidden="false" id="4746-141a-a9fa-8ba4">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">PSÍQUICA. Elige un agente AQUELARRE DISFORME amigo a 6" o menos de este agente y visible para él. Dicho agente 
+recupera hasta un máximo de 2D3 heridas perdidas.
+ Este agente no puede realizar esta acción si está en la zona de control de algún agente enemigo, o si algún agente amigo realizó 
+esta acción en este punto de inflexión.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Descarga de flujo" hidden="false" id="a843-31cf-2319-fbab">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7c98-9a6c-9472-2293-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c98-9a6c-9472-2293-max" />
+          </constraints>
+          <profiles>
+            <profile name="⌖ Descarga de flujo" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="03dc-f103-7780-02a8">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">PSÍQUICA, Área 2", Desgarradora</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Rending" id="906e-9cb0-ab52-47cc" hidden="false" type="rule" targetId="b903-6f79-129d-4ec9" />
+            <infoLink name="Blast x" id="2892-bfb5-2add-3773" hidden="false" type="rule" targetId="0d74-0977-b481-bd13" />
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="19b5-fd1f-a9b5-2c94" shared="true" id="6d13-2801-1b7f-6e15" />
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="HECHICERO DEL FUEGO DISFORME" hidden="false" id="ee08-5d83-2737-4a29">
+      <categoryLinks>
+        <categoryLink name="Operative" hidden="false" id="bebf-f531-e16c-5926" targetId="cf83-4496-b58e-ac82" primary="true" />
+        <categoryLink name="Hechicero" hidden="false" id="cc1a-7e98-78d6-a1fc" targetId="3f84-3552-5a1a-b966" primary="false" />
+        <categoryLink name="Chaos" hidden="false" id="b353-01b7-41de-81a7" targetId="13fe-a54f-f2f2-f034" primary="false" />
+        <categoryLink name="Psyker" hidden="false" id="261a-ae57-3e52-6cb6" targetId="6f95-9b94-d661-3243" primary="false" />
+        <categoryLink name="Heretic Astartes" hidden="false" id="abcf-fd71-1bc1-20c0" targetId="3873-6aee-38ef-34cd" primary="false" />
+        <categoryLink name="HECHICERO DEL FUEGO DISFORME" hidden="false" id="f586-4186-6460-8add" targetId="7e93-2fbf-68a3-7436" primary="false" />
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Bastón de psicofuerza" hidden="false" id="1ab3-dfbe-e048-fd21" type="selectionEntry" targetId="0f28-82f9-aab3-31cd">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fdf7-f819-24ae-1cbc-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fdf7-f819-24ae-1cbc-max" />
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="DONES DE TZEENTCH" hidden="false" id="3135-96b0-9e20-74af" type="selectionEntryGroup" targetId="896d-1ac5-422f-82cb">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7b5b-9bf9-5738-1c4d-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b5b-9bf9-5738-1c4d-max" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Arma" id="6a84-e8bf-d216-531d" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a317-d612-a595-4fc3-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a317-d612-a595-4fc3-max" />
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Pistola bólter infierno" hidden="false" id="12b7-74a0-3c0a-ff6e" type="selectionEntry" targetId="73a3-4279-1d05-37aa" />
+            <entryLink import="true" name="Khopesh prosperiano" hidden="false" id="66bf-1a61-fd9c-d725" type="selectionEntry" targetId="4d83-c7be-f376-605c" />
+            <entryLink import="true" name="Pistola de llamas disformes" hidden="false" id="4935-8282-0baa-4437" type="selectionEntry" targetId="3e7e-ccd0-8e38-80b3" />
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <profiles>
+        <profile name="HECHICERO DEL FUEGO DISFORME" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="488d-73aa-a8f7-1c47">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">15</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="PRENDER (1PA)" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions" hidden="false" id="942b-d0ad-3df7-f254">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">PSÍQUICA. Elige un agente enemigo visible para este 
+agente. Hasta el inicio de la siguiente activación de este 
+agente, hasta que resulte incapacitado o hasta que 
+un agente amigo realice de nuevo esta acción (lo que 
+ocurra antes), ese agente enemigo obtiene una de tus 
+fichas de Prender (si no tiene una ya). Cuando un agente 
+AQUELARRE DISFORME amigo dispare, combata o 
+contraataque contra un agente enemigo que tenga una de 
+tus fichas de Prender, las armas de ese agente amigo tienen 
+la regla de armas Incesante.
+ Este agente no puede realizar esta acción si se encuentra en 
+la zona de control de un agente enemigo.
+*</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Tormenta de fuego" hidden="false" id="718a-eff8-4117-d274">
+          <profiles>
+            <profile name="⌖ Tormenta de fuego" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="fafa-d1ff-1ff6-1351">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/3</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">PSÍQUICA, Buscadora (Ligero), Ráfaga 2", Saturación</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d768-1cc6-2dd1-5e2c-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d768-1cc6-2dd1-5e2c-max" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Saturate" id="e047-27f8-631b-9556" hidden="false" type="rule" targetId="3c10-2d52-d1ac-b0f6" />
+            <infoLink name="Seek" id="8d68-7a08-226d-e7d1" hidden="false" type="rule" targetId="a33d-4e90-5794-6e20" />
+            <infoLink name="Torrent x" id="469b-8cf5-d80a-3661" hidden="false" type="rule" targetId="ad45-b4bb-1345-e4f9" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Quemar mente" hidden="false" id="a862-78df-43a1-a2c3">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="46dc-9d20-44c5-e8a1-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="46dc-9d20-44c5-e8a1-max" />
+          </constraints>
+          <profiles>
+            <profile name="⌖ Quemar mente" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="15ac-66d3-50e5-30a3">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">1/1</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">PSÍQUICA, Buscadora (Ligero), Letal 5+, Saturación, Quemar mente*</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Lethal x+" id="faa2-87ed-c65b-be70" hidden="false" type="rule" targetId="8b97-e3e3-2857-817a" />
+            <infoLink name="Saturate" id="a4fb-baeb-4a16-74c0" hidden="false" type="rule" targetId="3c10-2d52-d1ac-b0f6" />
+            <infoLink name="Seek" id="9447-ccd8-c4b7-b5f4" hidden="false" type="rule" targetId="a33d-4e90-5794-6e20" />
+          </infoLinks>
+          <rules>
+            <rule name="*Quemar mente" id="f2b5-3d8f-ff2f-579b" hidden="false">
+              <description>En el paso de Resolver dados de ataque, si 
+infliges daño con algún éxito crítico, el agente contra el que se 
+usa esta arma gana una de tus fichas de Quemar mente (si no 
+tiene una ya) hasta el final de su siguiente activación, hasta que 
+resulte incapacitado o hasta que un agente amigo use de nuevo 
+esta arma (lo que ocurra antes). Mientras un agente tenga una de 
+tus fichas de Quemar mente, empeora en 1 el atributo Impactar 
+de sus armas (esto no se acumula con estar lesionado).</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="19b5-fd1f-a9b5-2c94" shared="true" id="760d-e2b4-5d12-1a97" />
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="TIRADOR MARINE RÚBRICA" hidden="false" id="061a-f6e9-d087-fff9">
+      <profiles>
+        <profile name="TIRADOR MARINE RÚBRICA" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="9de3-096a-b937-2c42">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">5"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">2+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">14</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Operative" hidden="false" id="959c-6c95-5c83-9cd5" targetId="cf83-4496-b58e-ac82" primary="true" />
+        <categoryLink name="Chaos" hidden="false" id="da06-d581-5143-11ec" targetId="13fe-a54f-f2f2-f034" primary="false" />
+        <categoryLink name="Aquelarre Disforme" hidden="false" id="e2d0-6f2b-721f-6385" targetId="59ff-0a1a-4018-1c16" primary="false" />
+        <categoryLink name="Heretic Astartes" hidden="false" id="c38c-e368-3409-0f39" targetId="3873-6aee-38ef-34cd" primary="false" />
+        <categoryLink name="Marine Rúbrica" hidden="false" id="0c7f-4493-a710-b8e2" targetId="0167-9819-2942-fbc6" primary="false" />
+        <categoryLink name="Gunner" hidden="false" id="2fe0-f4a6-a0b0-4ec7" targetId="3033-7558-d28f-53cf" primary="false" />
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="19b5-fd1f-a9b5-2c94" shared="true" id="5f6a-4cc7-912e-d53c" />
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Arma a distancia" id="fa4b-e1d0-45ec-18d1" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Cañón cosechaalmas" hidden="false" id="0ec2-f325-6a46-2019">
+              <profiles>
+                <profile name="⌖ Cañón cosechaalmas (concentrado)" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="95bc-9900-830e-fc26">
+                  <characteristics>
+                    <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                    <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                    <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                    <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Penetración 1</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="⌖ Cañón cosechaalmas (barrido)" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="ad4b-7708-336e-f546">
+                  <characteristics>
+                    <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                    <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                    <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                    <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Penetración 1, Ráfaga 1"</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Piercing x" id="46e9-6185-f9de-7fda" hidden="false" type="rule" targetId="4c07-2cb3-1417-cbb7" />
+                <infoLink name="Torrent x" id="dfc3-2a90-c20b-5a1c" hidden="false" type="rule" targetId="ad45-b4bb-1345-e4f9" />
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="b770-7cef-170b-93a4" includeChildSelections="true" />
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="1" field="b770-7cef-170b-93a4">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="19b5-fd1f-a9b5-2c94" shared="true" />
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Lanzallamas disforme" hidden="false" id="d10b-54a1-5b88-d9f6">
+              <profiles>
+                <profile name="⌖ Lanzallamas disforme" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="0f36-6928-f769-d922">
+                  <characteristics>
+                    <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                    <characteristic name="HIT" typeId="8044-2517-4ef7-33de">2+</characteristic>
+                    <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/4</characteristic>
+                    <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8", Penetración 1, Ráfaga 2", Saturación</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Range x" id="172e-f11c-4209-4dcc" hidden="false" type="rule" targetId="a528-829e-8268-c005" />
+                <infoLink name="Saturate" id="8932-ab1c-3c80-b107" hidden="false" type="rule" targetId="3c10-2d52-d1ac-b0f6" />
+                <infoLink name="Piercing x" id="01fa-eaf2-f59a-a175" hidden="false" type="rule" targetId="4c07-2cb3-1417-cbb7" />
+                <infoLink name="Torrent x" id="26f3-ade6-d860-453b" hidden="false" type="rule" targetId="ad45-b4bb-1345-e4f9" />
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e0ff-9da7-155a-4bca-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e0ff-9da7-155a-4bca-max" />
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Puños" hidden="false" id="f534-8ba4-634c-6c15" type="selectionEntry" targetId="c955-ec80-d13f-5901">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4d8a-763f-571c-7c5f-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4d8a-763f-571c-7c5f-max" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Autómata hechizado" id="eefa-5301-b8a4-367b" hidden="false" type="profile" targetId="0288-3733-d213-3223" />
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="PORTAICONO MARINE RÚBRICA" hidden="false" id="0e5a-6b3a-41fb-69a2">
+      <categoryLinks>
+        <categoryLink name="Operative" hidden="false" id="44d3-1eff-a295-90a6" targetId="cf83-4496-b58e-ac82" primary="true" />
+        <categoryLink name="Chaos" hidden="false" id="9e79-8fe4-364d-c37b" targetId="13fe-a54f-f2f2-f034" primary="false" />
+        <categoryLink name="Heretic Astartes" hidden="false" id="3b44-6c2c-213c-b2d4" targetId="3873-6aee-38ef-34cd" primary="false" />
+        <categoryLink name="Marine Rúbrica" hidden="false" id="38d2-70c5-e33c-e0f8" targetId="0167-9819-2942-fbc6" primary="false" />
+        <categoryLink name="Portador del icono" hidden="false" id="b486-01a7-5ec1-f6de" targetId="8162-ca91-7968-2ba8" primary="false" />
+        <categoryLink name="Aquelarre Disforme" hidden="false" id="3c64-e375-abce-bc2a" targetId="59ff-0a1a-4018-1c16" primary="false" />
+      </categoryLinks>
+      <profiles>
+        <profile name="PORTAICONO MARINE RÚBRICA" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="d3b6-3d1e-9028-3bfa">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">5"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">2+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">14</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Portador del icono" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="9ba7-966a-2056-79dc">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Al determinar el control de un marcador, 
+trata el atributo LPA de este agente como si fuese 1 mayor de lo 
+que es. Ten en cuenta que esto no es un cambio al atributo LPA, 
+por lo que cualquier cambio es acumulativo con esto.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="19b5-fd1f-a9b5-2c94" shared="true" id="4a45-4707-1c2f-5b2c" />
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Bólter infierno" hidden="false" id="afc2-19f5-8d16-a2bd" type="selectionEntry" targetId="f004-a2da-61e1-0a69">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d8d0-d901-be99-4e09-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d8d0-d901-be99-4e09-max" />
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Puños" hidden="false" id="7a23-0638-0dde-1f07" type="selectionEntry" targetId="c955-ec80-d13f-5901">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="058a-299b-fe37-59ac-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="058a-299b-fe37-59ac-max" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Autómata hechizado" id="7b44-5dcc-c62f-54cb" hidden="false" type="profile" targetId="0288-3733-d213-3223" />
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="COMBATIENTE MARINE RÚBRICA" hidden="false" id="ad5e-e66c-cbf0-b2c8">
+      <categoryLinks>
+        <categoryLink name="Operative" hidden="false" id="9ace-3701-a7b0-9972" targetId="cf83-4496-b58e-ac82" primary="true" />
+        <categoryLink name="Aquelarre Disforme" hidden="false" id="ab59-5eeb-e039-2100" targetId="59ff-0a1a-4018-1c16" primary="false" />
+        <categoryLink name="Chaos" hidden="false" id="1172-6f7c-cd09-8e3d" targetId="13fe-a54f-f2f2-f034" primary="false" />
+        <categoryLink name="Heretic Astartes" hidden="false" id="63dd-e4db-fb2c-c0cf" targetId="3873-6aee-38ef-34cd" primary="false" />
+        <categoryLink name="Marine Rúbrica" hidden="false" id="f696-60c2-db61-bba3" targetId="0167-9819-2942-fbc6" primary="false" />
+        <categoryLink name="Warrior" hidden="false" id="aa78-8946-088c-01e1" targetId="2b69-f2aa-bd5c-70b2" primary="false" />
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Autómata hechizado" id="ea50-e8cf-00a4-fe68" hidden="false" type="profile" targetId="0288-3733-d213-3223" />
+      </infoLinks>
+      <profiles>
+        <profile name="COMBATIENTE MARINE RÚBRICA" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="f746-6359-85c4-157a">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">5"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">2+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">14</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Bólter infierno" hidden="false" id="e7fb-e78b-d8c5-f1b4" type="selectionEntry" targetId="f004-a2da-61e1-0a69">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dfc5-1f01-2bab-bf01-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dfc5-1f01-2bab-bf01-max" />
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Puños" hidden="false" id="4ef8-c991-4ab0-4076" type="selectionEntry" targetId="c955-ec80-d13f-5901">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="31ee-038e-301d-f989-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="31ee-038e-301d-f989-max" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Lento y decidido" hidden="false" id="a7f5-a0ab-4c5a-1302">
+          <profiles>
+            <profile name="Lento y decidido" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="247d-b803-6bee-172c">
+              <characteristics>
+                <characteristic name="Ability" typeId="3467-0678-083e-eb50">Cuando este agente dispara, si no ha realizado 
+acciones de Cargar o Reposicionarse durante la activación, 
+o si es una reacción, sus armas a distancia tienen la regla 
+de armas Incesante. Ten en cuenta que este agente no tiene 
+prohibido realizar dichas acciones tras disparar.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a8c0-13e0-51a9-f1d4-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a8c0-13e0-51a9-f1d4-max" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Ceaseless" id="2edd-3b81-81da-fcd0" hidden="false" type="rule" targetId="752d-ce38-c325-4b8a" />
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="CAMPEÓN TZAANGOR" hidden="false" id="4151-147b-d84e-c38f">
+      <profiles>
+        <profile name="CAMPEÓN TZAANGOR" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="5479-8acb-419b-4224">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Brutalidad salvaje" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="cfd7-039e-84df-2e85">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">La primera vez que este agente realice una 
+acción de Combatir durante cada una de sus activaciones, 
+si no resulta incapacitado, puede realizar inmediatamente una 
+acción libre de Combatir a continuación (y no hace falta que 
+elijas al mismo agente enemigo para combatir contra él). Esto 
+tiene preferencia sobre las restricciones de acción.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Arma" id="67f2-52b3-bd31-1547" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="89eb-be9e-439d-ce79-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="89eb-be9e-439d-ce79-max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Gran hacha" hidden="false" id="8bb4-fe6b-0dd2-7088">
+              <profiles>
+                <profile name="⚔ Gran hacha" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="263f-431d-b12b-7018">
+                  <characteristics>
+                    <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                    <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                    <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                    <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Brutal, Letal 5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Brutal" id="a320-7ca0-0942-b9ee" hidden="false" type="rule" targetId="5151-5449-ca81-70ed" />
+                <infoLink name="Lethal x+" id="a7bf-7052-87e1-2488" hidden="false" type="rule" targetId="8b97-e3e3-2857-817a" />
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Espadón" hidden="false" id="8488-f053-2d94-dd7b">
+              <profiles>
+                <profile name="⚔ Espadón" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="c7f4-6eb8-2a4b-b2b2">
+                  <characteristics>
+                    <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                    <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                    <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                    <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Desgarradora, Letal 5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Lethal x+" id="bcc7-0ff1-2b08-bfc9" hidden="false" type="rule" targetId="8b97-e3e3-2857-817a" />
+                <infoLink name="Rending" id="3f45-bd66-95f2-14a9" hidden="false" type="rule" targetId="b903-6f79-129d-4ec9" />
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink name="Aquelarre Disforme" hidden="false" id="df0f-4051-fbc7-a20c" targetId="59ff-0a1a-4018-1c16" primary="false" />
+        <categoryLink name="Operative" hidden="false" id="0011-84d2-e457-7f0b" targetId="cf83-4496-b58e-ac82" primary="true" />
+        <categoryLink name="Chaos" hidden="false" id="b9d5-5145-9786-0860" targetId="13fe-a54f-f2f2-f034" primary="false" />
+        <categoryLink name="Tzaangor" hidden="false" id="c728-3b64-9977-a277" targetId="0726-4a7c-8afb-1b21" primary="false" />
+        <categoryLink name="CAMPEÓN TZAANGOR" hidden="false" id="cff3-c990-b93d-7903" targetId="80c8-335f-2294-bf5d" primary="false" />
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="19b5-fd1f-a9b5-2c94" shared="true" id="d68c-8256-d316-2878" />
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="PORTACUERNO TZAANGOR" hidden="false" id="7f4f-3cde-450e-4186">
+      <categoryLinks>
+        <categoryLink name="Aquelarre Disforme" hidden="false" id="15c9-e452-7997-6a29" targetId="59ff-0a1a-4018-1c16" primary="false" />
+        <categoryLink name="Operative" hidden="false" id="212e-4cee-9f6c-28a3" targetId="cf83-4496-b58e-ac82" primary="true" />
+        <categoryLink name="Tzaangor" hidden="false" id="5f58-da31-e085-a648" targetId="0726-4a7c-8afb-1b21" primary="false" />
+        <categoryLink name="Chaos" hidden="false" id="8906-a71f-9f71-93dd" targetId="13fe-a54f-f2f2-f034" primary="false" />
+        <categoryLink name="PORTACUERNO TZAANGOR" hidden="false" id="7c73-010e-2f13-13f2" targetId="a920-f0cd-ed2e-d8f5" primary="false" />
+      </categoryLinks>
+      <profiles>
+        <profile name="PORTACUERNO TZAANGOR" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="2d66-8a54-be32-62e7">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">9</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="CUERNO DE LA MANADA (0PA)" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions" hidden="false" id="bffd-d9f7-ee6d-4d3c">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Hasta el Paso de preparación de la siguiente fase de 
+estrategia, suma 1" al atributo Movimiento de los agentes 
+TZAANGOR AQUELARRE DISFORME amigos.
+ Este agente no puede realizar esta acción si se encuentra en 
+la zona de control de un agente enemigo.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Daga" hidden="false" id="d52d-243d-4cd9-aa03" type="selectionEntry" targetId="5755-02a7-0005-ba34">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9568-0ab5-1029-ca8a-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9568-0ab5-1029-ca8a-max" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="19b5-fd1f-a9b5-2c94" shared="true" id="11f2-60b3-fce3-92d8" />
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="PORTAICONO TZAANGOR" hidden="false" id="bd42-9b23-fafb-4d1b">
+      <categoryLinks>
+        <categoryLink name="Aquelarre Disforme" hidden="false" id="b287-d10e-f892-d245" targetId="59ff-0a1a-4018-1c16" primary="false" />
+        <categoryLink name="Operative" hidden="false" id="d681-cff2-58c6-17af" targetId="cf83-4496-b58e-ac82" primary="true" />
+        <categoryLink name="Tzaangor" hidden="false" id="fb30-e3cf-86c6-3567" targetId="0726-4a7c-8afb-1b21" primary="false" />
+        <categoryLink name="Chaos" hidden="false" id="46f0-71a6-111a-2dc1" targetId="13fe-a54f-f2f2-f034" primary="false" />
+        <categoryLink name="Portador del icono" hidden="false" id="e3cc-bd76-240f-df03" targetId="8162-ca91-7968-2ba8" primary="false" />
+      </categoryLinks>
+      <profiles>
+        <profile name="PORTAICONO TZAANGOR" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="3fdf-2eb0-2e5f-bfee">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">9</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Estandarte del rebaño" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="ffc7-8f07-cbe5-32f0">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Siempre que un dado de ataque 
+inflija un Daño normal de 3 o más a un agente TZAANGOR 
+AQUELARRE DISFORME amigo que esté a 3" o menos de 
+este agente y sea visible para él, resta 1 a ese daño infligido.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Portador del icono" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="8ee4-46fc-e9d2-5bd0">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Al determinar el control de un marcador, 
+trata el atributo LPA de este agente como si fuese 1 mayor de lo 
+que es. Ten en cuenta que esto no es un cambio al atributo LPA, 
+por lo que cualquier cambio es acumulativo con esto.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Daga" hidden="false" id="f56d-52b0-4171-a185" type="selectionEntry" targetId="5755-02a7-0005-ba34">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7240-d3e3-1552-3afe-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7240-d3e3-1552-3afe-max" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="19b5-fd1f-a9b5-2c94" shared="true" id="0527-8b10-4ce7-4312" />
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="COMBATIENTE TZAANGOR" hidden="false" id="b1d1-eefe-afaf-e191">
+      <categoryLinks>
+        <categoryLink name="Operative" hidden="false" id="5ce6-99a9-576c-ccab" targetId="cf83-4496-b58e-ac82" primary="true" />
+        <categoryLink name="Chaos" hidden="false" id="058a-a0d5-87db-f322" targetId="13fe-a54f-f2f2-f034" primary="false" />
+        <categoryLink name="Tzaangor" hidden="false" id="e250-955d-ee5c-1024" targetId="0726-4a7c-8afb-1b21" primary="false" />
+        <categoryLink name="Warrior" hidden="false" id="0e67-b071-fda5-ad94" targetId="2b69-f2aa-bd5c-70b2" primary="false" />
+        <categoryLink name="Aquelarre Disforme" hidden="false" id="16b5-18bd-4de0-f28c" targetId="59ff-0a1a-4018-1c16" primary="false" />
+      </categoryLinks>
+      <profiles>
+        <profile name="COMBATIENTE TZAANGOR" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="a102-6642-7e08-bb66">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">9</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Cazadores de reliquias" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="7458-d235-bccb-6399">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Una vez por batalla, un agente 
+COMBATIENTE TZAANGOR AQUELARRE DISFORME 
+amigo puede realizar una acción de Recoger marcador, 
+Colocar marcador o acción de misión por 1 PA menos si 
+dicho agente amigo está en el territorio de tu oponente.
+*</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Armas" id="d74a-fd9d-e3c8-eb1b" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dae9-2c12-271f-c6f9-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dae9-2c12-271f-c6f9-max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Armas de Tzaangor" hidden="false" id="7ae2-c8e2-0600-397f">
+              <profiles>
+                <profile name="⚔ Armas de Tzaangor" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="0015-9dd3-d61b-d886">
+                  <characteristics>
+                    <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                    <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                    <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                    <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Equilibrada</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Balanced" id="2cdb-c259-23a6-88fd" hidden="false" type="rule" targetId="28f7-0d96-d1fc-f75b" />
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Arma y escudo de Tzaangor" hidden="false" id="b49e-fc04-84a0-13c6">
+              <profiles>
+                <profile name="⚔ Arma y escudo de Tzaangor" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="c95b-270c-1aa8-957a">
+                  <characteristics>
+                    <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                    <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                    <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+                    <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Escudo*</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule name="*Escudo" id="13ad-c196-fb91-1174" hidden="false">
+                  <description>Este agente tiene un atributo Salvación de 4+, y 
+cuando este agente combata o contraataque con esta arma, 
+cada uno de tus bloqueos puede asignarse para bloquear dos 
+éxitos sin resolver (en lugar de uno).</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Pistola automática; Espada sierra" hidden="false" id="96be-bd4a-c147-5846">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Pistola automática" hidden="false" id="003f-3d59-e913-6065">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bb48-14d9-0285-b0ef-min" />
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bb48-14d9-0285-b0ef-max" />
+                  </constraints>
+                  <profiles>
+                    <profile name="⌖ Pistola automática" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="b11b-c0ed-9ae5-2967">
+                      <characteristics>
+                        <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                        <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                        <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/3</characteristic>
+                        <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8"</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Range x" id="5a03-74cc-8a23-8312" hidden="false" type="rule" targetId="a528-829e-8268-c005" />
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Espada sierra" hidden="false" id="f169-6d4b-a81f-3d42">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9f5f-39d8-810c-9538-min" />
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9f5f-39d8-810c-9538-max" />
+                  </constraints>
+                  <profiles>
+                    <profile name="⚔ Espada sierra" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="8ca8-2a89-e509-0e2a">
+                      <characteristics>
+                        <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                        <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                        <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                        <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Pistola bólter infierno" hidden="false" id="73a3-4279-1d05-37aa">
+      <profiles>
+        <profile name="⌖ Pistola bólter infierno" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="ae8f-fc2b-b7be-bb23">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8", Penetración 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Range x" id="5199-bb6f-35e1-1831" hidden="false" type="rule" targetId="a528-829e-8268-c005" />
+        <infoLink name="Piercing x" id="4593-9c87-f416-8ed8" hidden="false" type="rule" targetId="4c07-2cb3-1417-cbb7" />
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Pistola de llamas disformes" hidden="false" id="3e7e-ccd0-8e38-80b3">
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="05cd-7c65-7ba5-a287" includeChildSelections="true" />
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="05cd-7c65-7ba5-a287">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="19b5-fd1f-a9b5-2c94" shared="true" />
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="⌖ Pistola de llamas disformes" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="4b87-b03b-6113-0689">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">2+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/3</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 6", Penetración 1, Ráfaga 1"</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Range x" id="4ceb-3fc7-42d7-0247" hidden="false" type="rule" targetId="a528-829e-8268-c005" />
+        <infoLink name="Piercing x" id="2b82-0c2a-55c1-8747" hidden="false" type="rule" targetId="4c07-2cb3-1417-cbb7" />
+        <infoLink name="Torrent x" id="b127-a7a4-434c-fd9f" hidden="false" type="rule" targetId="ad45-b4bb-1345-e4f9" />
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Bastón de psicofuerza" hidden="false" id="0f28-82f9-aab3-31cd">
+      <profiles>
+        <profile name="⚔ Bastón de psicofuerza" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="11c5-e304-2de3-ddde">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/6</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">PSÍQUICA, Choque</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Shock" id="a428-499a-8aad-0645" hidden="false" type="rule" targetId="c544-8d4c-4109-4eec" />
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Khopesh prosperiano" hidden="false" id="4d83-c7be-f376-605c">
+      <profiles>
+        <profile name="⚔ Khopesh prosperiano" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="7a83-0390-53d5-da40">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/6</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Letal 5+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Lethal x+" id="57ec-933c-be66-4b37" hidden="false" type="rule" targetId="8b97-e3e3-2857-817a" />
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Puños" hidden="false" id="c955-ec80-d13f-5901">
+      <profiles>
+        <profile name="⚔ Puños" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="6009-86b9-7672-3a9f">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">3</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Bólter infierno" hidden="false" id="f004-a2da-61e1-0a69">
+      <profiles>
+        <profile name="⌖ Bólter infierno" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="f54e-c7c7-a3f0-da49">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Penetración 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Piercing x" id="07a8-124e-01ce-a12e" hidden="false" type="rule" targetId="4c07-2cb3-1417-cbb7" />
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Daga" hidden="false" id="5755-02a7-0005-ba34">
+      <profiles>
+        <profile name="⚔ Daga" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="1496-6e1a-7bc8-dfb6">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/5</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Referencia de dones de Tzeentch" hidden="false" id="5e6a-dfa2-7d26-8c78">
+      <categoryLinks>
+        <categoryLink name="Reference" hidden="false" id="d390-7fd1-0225-8ab8" targetId="b318-a8d7-2d38-99a3" primary="true" />
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="DONES DE TZEENTCH" hidden="false" id="956b-6261-7c3a-a07f" type="selectionEntryGroup" targetId="896d-1ac5-422f-82cb" />
+      </entryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile name="Autómata hechizado" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="0288-3733-d213-3223">
+      <characteristics>
+        <characteristic name="Ability" typeId="3467-0678-083e-eb50">Siempre que este agente es activado, 
+resta 1 a su atributo LPA hasta el final de esa activación a menos 
+que haya un agente HECHICERO AQUELARRE DISFORME 
+a 9" o menos de él.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <profileTypes>
+    <profileType name="Boons of Tzeentch" id="acaf-9256-537b-6722" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Boon of Tzeentch" id="5ca3-2211-8869-5740" />
+      </characteristicTypes>
+    </profileType>
+  </profileTypes>
+  <comment>July '25</comment>
+</catalogue>

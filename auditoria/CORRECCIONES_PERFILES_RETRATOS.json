@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "blades_of_khaine",
+    "en_page": 4,
+    "en_slot": 3,
+    "weapon_en": "Shriek-that-kills",
+    "weapon_es": "Alarido mortífero",
+    "differences": {
+      "ATK": {
+        "en": "5",
+        "es": "6"
+      }
+    }
+  }
+]

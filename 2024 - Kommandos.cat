@@ -1,0 +1,1011 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="0d41-a809-1fff-b8b1" name="Orkomandos" gameSystemId="c521-ad27-44df-f959" gameSystemRevision="10" revision="7" battleScribeVersion="2.03" type="catalogue">
+  <selectionEntries>
+    <selectionEntry type="model" import="true" name="ZUELTADAKKA" hidden="false" id="6e3a-e27d-6af9-a068">
+      <categoryLinks>
+        <categoryLink name="Ork" hidden="false" id="50c6-9d89-7b7a-d49d" targetId="c459-8b6a-74b6-9329" primary="false" />
+        <categoryLink name="ZUELTADAKKA" hidden="false" id="ac2d-ca6f-1ffd-fb06" targetId="18e1-ce84-9d92-86ee" primary="false" />
+        <categoryLink name="ORKOMANDO" hidden="false" id="bf7f-ccbc-3acc-20e1" targetId="adac-44bf-e1d4-1e4e" primary="false" />
+        <categoryLink name="Operative" hidden="false" id="611f-90f3-98ad-9f17" targetId="cf83-4496-b58e-ac82" primary="true" />
+      </categoryLinks>
+      <profiles>
+        <profile name="ZUELTADAKKA" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="903a-55fa-2389-6f54">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="¡DAKKA A TODA MECHA! (1PA)" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions" hidden="false" id="30cf-f288-cbf5-b4ff">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Realiza una acción libre de Correr y una acción libre de 
+Disparar con este agente en cualquier orden. Solo puedes 
+elegir una dakkatralladora para esa acción de Disparar.
+ Este agente no puede realizar esta acción mientras esté en la 
+zona de control de un agente enemigo, o mientras tenga una 
+orden de ocultarse.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Dakkatralladora" hidden="false" id="7306-0792-b838-ab76">
+          <profiles>
+            <profile name="⌖ Dakkatralladora (corto alcance)" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="bb80-fcdc-59ee-8af0">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 9", Incesante</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="⌖ Dakkatralladora (largo alcance)" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="1a5c-822c-566f-6ee7">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2948-33de-ed33-6093-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2948-33de-ed33-6093-max" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Range x" id="81dc-1e04-c907-71b7" hidden="false" type="rule" targetId="a528-829e-8268-c005" />
+            <infoLink name="Ceaseless" id="5b5f-1097-0f75-e4ba" hidden="false" type="rule" targetId="752d-ce38-c325-4b8a" />
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Puñoz" hidden="false" id="0d42-b76a-f210-9fc6" type="selectionEntry" targetId="5333-ef05-230e-9cb7">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="57df-aa42-2185-323d-min" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="NOBLE ORKOMANDO" hidden="false" id="adc2-6bb4-f392-6e98">
+      <profiles>
+        <profile name="NOBLE ORKOMANDO" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="04be-a907-4556-d8a3">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">14</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="¡MANOZ A LA OBRA! (1PA)" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions" hidden="false" id="6975-995d-fca4-8285">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">APOYO. Elige un agente ORKOMANDO amigo distinto 
+(salvo GARRAPATO BOMBA) a 6" o menos de este 
+agente y visible para él. Hasta el final de la siguiente 
+activación de ese agente, suma 1 a su atributo LPA.
+ Este agente no puede realizar esta acción si se encuentra en 
+la zona de control de un agente enemigo, o como reacción.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="La hora de laz tortaz" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="ac71-6cb6-ffac-daa3">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Este agente puede realizar 2 acciones de Combatir durante su activación.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Arma cuerpo a cuerpo" id="fa64-de80-2748-650b" hidden="false" defaultSelectionEntryId="none">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Gran rebanadora" hidden="false" id="4fb4-7d26-dae3-1d23">
+              <profiles>
+                <profile name="⚔ Gran rebanadora" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="1a54-6d1b-e38e-5578">
+                  <characteristics>
+                    <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                    <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                    <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">5/6</characteristic>
+                    <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Garra d'energía" hidden="false" id="73aa-d9fe-08df-4e70">
+              <profiles>
+                <profile name="⚔ Garra d'energía" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="b1ff-c8f4-15b9-950c">
+                  <characteristics>
+                    <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                    <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                    <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">5/7</characteristic>
+                    <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Brutal, Choque</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Brutal" id="c1c4-263d-7290-862d" hidden="false" type="rule" targetId="5151-5449-ca81-70ed" />
+                <infoLink name="Shock" id="bfd6-97b4-e457-4fce" hidden="false" type="rule" targetId="c544-8d4c-4109-4eec" />
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="df7b-d2f8-d606-b595-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="df7b-d2f8-d606-b595-max" />
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink name="ORKOMANDO" hidden="false" id="e2a4-5be2-fd5c-3492" targetId="adac-44bf-e1d4-1e4e" primary="false" />
+        <categoryLink name="Leader" hidden="false" id="429b-87a1-2382-93ed" targetId="d999-8cad-8145-4efe" primary="true" />
+        <categoryLink name="Ork" hidden="false" id="30c2-4790-51fb-156e" targetId="c459-8b6a-74b6-9329" primary="false" />
+        <categoryLink name="NOBLE ORKOMANDO" hidden="false" id="8071-0fba-e3c4-db53" targetId="493a-b3bd-43dd-53cf" primary="false" />
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Piztola" hidden="false" id="ca6e-5fd2-cfb8-5478" type="selectionEntry" targetId="f030-5edc-2988-8092">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="006b-bfa7-6b18-0d0b" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="GARRAPATO BOMBA" hidden="false" id="0b84-f65f-7a38-822e">
+      <categoryLinks>
+        <categoryLink name="ORKOMANDO" hidden="false" id="4338-092e-6224-bba8" targetId="adac-44bf-e1d4-1e4e" primary="false" />
+        <categoryLink name="Ork" hidden="false" id="9bcf-5605-0d56-9015" targetId="c459-8b6a-74b6-9329" primary="false" />
+        <categoryLink name="Operative" hidden="false" id="a878-c7f0-3a6d-f698" targetId="cf83-4496-b58e-ac82" primary="true" />
+        <categoryLink name="GARRAPATO BOMBA" hidden="false" id="bb92-e205-0741-4ed3" targetId="52fa-87e5-9a2f-42af" primary="false" />
+      </categoryLinks>
+      <profiles>
+        <profile name="GARRAPATO BOMBA" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="c131-ea2f-ee2d-8db6">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="¡Bum!" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="33cf-89fb-ad27-1f9c">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Si este agente resulta incapacitado durante la batalla 
+sin haber usado sus explozivoz, tira un D6, o dos D6 si quieres. 
+Si algún dado saca 4+, este agente realiza una acción libre de 
+Disparar con sus explozivoz antes de ser retirado de la zona 
+de aniquilación.
+LA REGLAS CONTINÚAN EN EL REVERSO</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Eztúpido" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="1e34-927b-e87f-360e">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Durante la fase de tiroteo, al determinar la orden de 
+este agente, no puedes elegir ocultarse. Este agente no puede 
+realizar otras acciones que no sean Cargar, Combatir, 
+Correr, Disparar o Reposicionarse, ni usar armas que no 
+figuren en su tarjeta de datos.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Prescindible" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="2150-8394-9234-0704">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Este agente se ignora para las operaciones de 
+asesinato/eliminación de tu oponente (al quedar incapacitado, 
+y al determinar tu número inicial de agentes). También se ignora 
+para condiciones de victoria y puntuar PV si esto requiere que 
+agentes “escapen”, “sobrevivan” o queden incapacitados 
+por agentes enemigos (si escapa/sobrevive/es incapacitado, 
+al determinar cuántos agentes deben escapar/sobrevivir/ser 
+incapacitados, etc.).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Explozivoz" hidden="false" id="d763-46a9-8cfd-5481">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="da92-1b73-f3fc-c337-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="da92-1b73-f3fc-c337-max" />
+          </constraints>
+          <profiles>
+            <profile name="⌖ Explozivoz" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="c8d4-96f9-4f20-bf3d">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">6</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Área 1", Limitada 1, Explosiva*</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Blast x" id="4f21-05a3-e378-ee4c" hidden="false" type="rule" targetId="0d74-0977-b481-bd13" />
+            <infoLink name="Limited x" id="6584-2727-c276-56e1" hidden="false" type="rule" targetId="bf37-3388-40d5-eb72" />
+          </infoLinks>
+          <rules>
+            <rule name="*Explosiva" id="3af0-74e9-a987-0546" hidden="false">
+              <description>Este agente puede realizar la acción de Disparar 
+con esta arma estando en la zona de control de un agente 
+enemigo. No elijas un blanco válido. En lugar de eso, este agente 
+es siempre el blanco principal y no puede estar a cubierto 
+u ofuscado.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Mordizquitoz" hidden="false" id="aedd-fd06-aefe-ee99">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="37e4-2088-f2c3-6275-min" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="37e4-2088-f2c3-6275-max" includeChildSelections="false" />
+          </constraints>
+          <profiles>
+            <profile name="⚔ Mordizquitoz" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="2628-2a1e-c0ec-6d78">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">3</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="ORKORRASO" hidden="false" id="6a4e-135c-9d73-8b0f">
+      <categoryLinks>
+        <categoryLink name="Operative" hidden="false" id="adef-9885-2858-198c" targetId="cf83-4496-b58e-ac82" primary="true" />
+        <categoryLink name="Ork" hidden="false" id="1bb6-599d-cb0a-bb65" targetId="c459-8b6a-74b6-9329" primary="false" />
+        <categoryLink name="ORKOMANDO" hidden="false" id="c8f6-b3b6-cb02-bfd9" targetId="adac-44bf-e1d4-1e4e" primary="false" />
+        <categoryLink name="Chico" hidden="false" id="1ae4-f42c-7a46-aa8b" targetId="426a-41ac-5945-a72c" primary="false" />
+      </categoryLinks>
+      <profiles>
+        <profile name="ORKORRASO" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="5445-2135-3771-f18f">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Kachivachez táktikoz" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="5650-536b-d8a3-c092">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Puedes llevar a cabo cada una de las 
+siguientes opciones una vez por punto de inflexión:
+• Un agente ORKORRASO ORKOMANDO amigo puede 
+realizar la acción Granada de humo.
+• Un agente ORKORRASO ORKOMANDO amigo puede 
+realizar la acción Granada aturdidora.
+Las reglas para esas acciones figuran en el equipo universal. 
+Realizar esas acciones usando esta regla no cuenta para sus 
+límites de acciones (es decir, si también eliges esas granadas 
+como equipo).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Piztola" hidden="false" id="432c-6de7-cf33-9802" type="selectionEntry" targetId="f030-5edc-2988-8092">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5fd8-3b5e-2f1b-74f4" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Rebanadora" hidden="false" id="a28d-9305-5c77-2914">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8ec9-32f1-7be5-9f76-min" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ec9-32f1-7be5-9f76-max" includeChildSelections="false" />
+          </constraints>
+          <profiles>
+            <profile name="⚔ Rebanadora" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="caa9-7e5c-3249-335a">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="ORKORIETE" hidden="false" id="8585-9fbe-c813-ad55">
+      <categoryLinks>
+        <categoryLink name="Operative" hidden="false" id="8113-84ae-59fe-bc39" targetId="cf83-4496-b58e-ac82" primary="true" />
+        <categoryLink name="Ork" hidden="false" id="09bc-27b4-7270-3c85" targetId="c459-8b6a-74b6-9329" primary="false" />
+        <categoryLink name="ORKOMANDO" hidden="false" id="6606-4920-5dad-de2f" targetId="adac-44bf-e1d4-1e4e" primary="false" />
+        <categoryLink name="ORKORIETE" hidden="false" id="151b-7511-4bec-67ec" targetId="cd75-2f87-248c-a238" primary="false" />
+      </categoryLinks>
+      <profiles>
+        <profile name="ORKORIETE" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="3955-bc58-974f-16cb">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="ABRIR BRECHA (1PA)" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions" hidden="false" id="5ace-ecf5-58c6-e32b">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Coloca uno de tus marcadores de Brecha dentro de la zona de control de este 
+agente y tan cerca como sea posible de un elemento de terreno dentro de su 
+zona de control. Cuando un agente se encuentre a 1" o menos de ese marcador, 
+las partes de ese elemento de terreno que no tengan más de 1" de grosor se 
+considerarán terreno Accesible para él.
+ Este agente puede realizar esta acción durante una acción de Cargar o 
+Reposicionarse, y le cuesta 1 PA menos durante esas acciones. Tras hacerlo, 
+puede usar la distancia de movimiento que le quedase.
+ Este agente no puede realizar esta 
+acción si se encuentra en la zona de 
+control de un agente enemigo, o si 
+no hay un elemento de terreno en su 
+zona de control.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Piztola" hidden="false" id="7ef3-6b59-4662-8ab7" type="selectionEntry" targetId="f030-5edc-2988-8092">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="81c5-a70b-3869-6ef9" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Ariete de azedio" hidden="false" id="0f25-a568-cfa1-f518">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1b84-3721-0705-0477-min" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1b84-3721-0705-0477-max" includeChildSelections="false" />
+          </constraints>
+          <profiles>
+            <profile name="⚔ Ariete de azedio" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="dd1a-94da-6588-9c08">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">5/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Brutal, Choque, Severa</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Brutal" id="f839-50c4-c6bd-da2a" hidden="false" type="rule" targetId="5151-5449-ca81-70ed" />
+            <infoLink name="Severe" id="b312-ebf8-8e2e-ef19" hidden="false" type="rule" targetId="721c-65bf-dfb7-8fa2" />
+            <infoLink name="Shock" id="14cb-d279-d8c1-b00f" hidden="false" type="rule" targetId="c544-8d4c-4109-4eec" />
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="ACHICHARRADOR" hidden="false" id="b4f4-ad15-1a40-c2f2">
+      <categoryLinks>
+        <categoryLink name="Operative" hidden="false" id="c009-ab5e-f6d6-b451" targetId="cf83-4496-b58e-ac82" primary="true" />
+        <categoryLink name="Ork" hidden="false" id="01a8-079f-a31b-d7fa" targetId="c459-8b6a-74b6-9329" primary="false" />
+        <categoryLink name="ORKOMANDO" hidden="false" id="123f-182e-abd6-fc62" targetId="adac-44bf-e1d4-1e4e" primary="false" />
+        <categoryLink name="ACHICHARRADOR" hidden="false" id="a93f-a5c5-d1c4-d65e" targetId="3205-08a7-ec53-950f" primary="false" />
+      </categoryLinks>
+      <profiles>
+        <profile name="ACHICHARRADOR" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="1f02-3fcf-d0cf-ac69">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Achicharrador" hidden="false" id="2fb9-6764-552e-2a32">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2899-e906-7976-b445-min" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2899-e906-7976-b445-max" includeChildSelections="false" />
+          </constraints>
+          <profiles>
+            <profile name="⌖ Achicharrador (tromba)" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="7563-6b53-ec5e-2eb6">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">2+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/3</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 4", Buscadora, Saturación, Ráfaga 0"</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="⌖ Achicharrador (estándar)" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="4f51-6529-b7ab-42f9">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">2+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/3</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8", Ráfaga 2", Saturación</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Range x" id="8b43-9c03-7362-9898" hidden="false" type="rule" targetId="a528-829e-8268-c005" />
+            <infoLink name="Saturate" id="9060-4191-fe27-7e27" hidden="false" type="rule" targetId="3c10-2d52-d1ac-b0f6" />
+            <infoLink name="Torrent x" id="880b-d807-b6fe-c70f" hidden="false" type="rule" targetId="ad45-b4bb-1345-e4f9" />
+            <infoLink name="Seek" id="f130-a2f4-f2d1-3d2e" hidden="false" type="rule" targetId="a33d-4e90-5794-6e20" />
+          </infoLinks>
+          <rules>
+            <rule name="*Ráfaga 0&quot;" id="1c04-1bfa-d04d-60f1" hidden="false">
+              <description>Ten en cuenta que Ráfaga 0" significa que no puedes elegir blancos secundarios, pero esta arma sigue teniendo la regla de arma Ráfaga a todos los demás efectos de reglas, como la regla Bastión compacto (ver Zona de aniquilación: Volkus, Libro básico de Kill Team).</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Puñoz" hidden="false" id="9144-9077-2feb-d673" type="selectionEntry" targetId="5333-ef05-230e-9cb7">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1ea4-a197-e564-e674" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="TELEKO" hidden="false" id="4d18-ef5b-b233-c45f">
+      <categoryLinks>
+        <categoryLink name="ORKOMANDO" hidden="false" id="bd2b-d93f-dca3-5a47" targetId="adac-44bf-e1d4-1e4e" primary="false" />
+        <categoryLink name="Operative" hidden="false" id="5008-034b-499d-b257" targetId="cf83-4496-b58e-ac82" primary="true" />
+        <categoryLink name="Ork" hidden="false" id="3950-ace7-2685-d684" targetId="c459-8b6a-74b6-9329" primary="false" />
+        <categoryLink name="TELEKO" hidden="false" id="4309-6ca9-b5ad-9118" targetId="0b70-50a1-b690-30bc" primary="false" />
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Puñoz" hidden="false" id="0155-401a-37f0-5fe1" type="selectionEntry" targetId="5333-ef05-230e-9cb7">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ac59-748a-4006-a54e" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="TELEKO" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="b2da-cfb4-7831-fe98">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Tengo un plan, chavalez" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="ff85-8b76-e761-9a41">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Una vez por 
+activación de este agente, puede realizar 
+una acción de Colocar marcador, 
+Recoger marcador o una acción de 
+misión por 1 PA menos.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="EZKUCHADME (1PA)" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions" hidden="false" id="cf79-43b1-280e-7831">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">APOYO. Elige un agente 
+ORKOMANDO amigo distinto 
+(salvo GARRAPATO BOMBA) a 
+6" o menos de este agente y visible 
+para él. Hasta el final de la siguiente 
+activación de ese agente, suma 1 a su 
+atributo LPA.
+ Este agente no puede realizar esta 
+acción si está en la zona de control de 
+un agente enemigo.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Piztola kalambrazo" hidden="false" id="c765-f0e3-2cf9-ccd1">
+          <profiles>
+            <profile name="⌖ Piztola kalambrazo" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="0853-e428-3156-1d24">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">6</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">1/0</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8", Aturdidora, Devastadora 2, Severa</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Range x" id="5a65-4c18-4a5b-9d9f" hidden="false" type="rule" targetId="a528-829e-8268-c005" />
+            <infoLink name="Devastating x" id="2af5-1d23-18aa-e91e" hidden="false" type="rule" targetId="a8ba-6e3a-76b3-f05c" />
+            <infoLink name="Severe" id="13c6-3cc9-20c8-69f8" hidden="false" type="rule" targetId="721c-65bf-dfb7-8fa2" />
+            <infoLink name="Stun" id="fc6a-c403-94e8-e777" hidden="false" type="rule" targetId="5ae2-3f29-8635-fd02" />
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8838-7195-0aa0-ac35-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8838-7195-0aa0-ac35-max" />
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="KANIJO KOMANDO" hidden="false" id="70f1-6ee8-556b-da85">
+      <categoryLinks>
+        <categoryLink name="Operative" hidden="false" id="a95a-0086-5f58-654c" targetId="cf83-4496-b58e-ac82" primary="true" />
+        <categoryLink name="Ork" hidden="false" id="3016-8a54-329c-6816" targetId="c459-8b6a-74b6-9329" primary="false" />
+        <categoryLink name="ORKOMANDO" hidden="false" id="b9f4-fb3b-0c7f-3fcf" targetId="adac-44bf-e1d4-1e4e" primary="false" />
+        <categoryLink name="Grot" hidden="false" id="ae4d-da90-99e6-9e38" targetId="5cbc-b684-93f5-56a2" primary="false" />
+      </categoryLinks>
+      <profiles>
+        <profile name="KANIJO KOMANDO" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="27d5-b2c2-dddc-2fd4">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Ezkurridizo" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="e77c-a9ca-fd29-1df8">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Este agente no puede tener 
+una orden de trabarse. Siempre que este 
+agente esté tras cobertura, no puede ser 
+elegido como blanco válido, teniendo esto 
+prioridad sobre todas las demás reglas (p. 
+ej. Buscadora, terreno Aventajado) salvo 
+estar a 2" o menos.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="GANCHO PA’ TREPAR (1PA)" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions" hidden="false" id="d703-a65e-df80-0651">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Elige un punto visible en un elemento 
+de terreno para este agente. Retira a 
+este agente de la zona de aniquilación 
+y despliégalo de nuevo a 1" o menos 
+en horizontal de ese punto, en una 
+localización donde ser desplegado, 
+fuera de la zona de control de todo 
+agente enemigo y con el punto elegido 
+visible para él. Este agente no puede 
+realizar la acción Operar portillo 
+durante esta acción.
+ Esta acción se considera una acción 
+de Reposicionarse. Este agente 
+no puede realizar esta acción si se 
+encuentra en la zona de control 
+de un agente enemigo, ni durante 
+una activación en la que haya realizado 
+una acción de Cargar o Retroceder 
+(o viceversa).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Rebanadora de Grot" hidden="false" id="d67a-1049-2a91-6799">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1350-d20a-8f8a-a930-min" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1350-d20a-8f8a-a930-max" includeChildSelections="false" />
+          </constraints>
+          <profiles>
+            <profile name="⚔ Rebanadora de Grot" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="cfb1-1d7a-d3f7-5e0f">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">3</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">5+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">1/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="CHIKO KOBETE" hidden="false" id="1cb9-4b8e-7b11-3113">
+      <categoryLinks>
+        <categoryLink name="Operative" hidden="false" id="b575-58d0-32a1-f277" targetId="cf83-4496-b58e-ac82" primary="true" />
+        <categoryLink name="Ork" hidden="false" id="65af-be35-3365-e4b2" targetId="c459-8b6a-74b6-9329" primary="false" />
+        <categoryLink name="ORKOMANDO" hidden="false" id="0d17-f631-db6a-cbe7" targetId="adac-44bf-e1d4-1e4e" primary="false" />
+        <categoryLink name="CHIKO KOBETE" hidden="false" id="2a73-63c8-839f-ad21" targetId="7ea3-51fd-00e7-61ec" primary="false" />
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Puñoz" hidden="false" id="befc-a88e-821d-bc52" type="selectionEntry" targetId="5333-ef05-230e-9cb7">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c490-5627-4325-8de0" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Lanzakobetez" hidden="false" id="c7e7-afc5-4c6f-7d81">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a8b1-572a-d211-048b-min" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a8b1-572a-d211-048b-max" includeChildSelections="false" />
+          </constraints>
+          <profiles>
+            <profile name="⌖ Lanzakobetez (apuntado)" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="33d0-f1c6-bf42-331a">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">6</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Área 1", Incesante, Pesada (solo Correr)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="⌖ Lanzakobetez (móvil)" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="3d6a-52be-b9dc-7307">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">6</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Área 1"</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Blast x" id="f534-aa6b-2f78-db58" hidden="false" type="rule" targetId="0d74-0977-b481-bd13" />
+            <infoLink name="Ceaseless" id="5411-a2d3-a831-7a05" hidden="false" type="rule" targetId="752d-ce38-c325-4b8a" />
+            <infoLink name="Heavy" id="9f15-23b1-3fbd-3729" hidden="false" type="rule" targetId="816e-44a2-6be4-6a9a" />
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="CHIKO KOBETE" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="0b0e-4fb1-5a2c-f64a">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="RAJADOR" hidden="false" id="fc5d-85c6-da3e-d814">
+      <categoryLinks>
+        <categoryLink name="Operative" hidden="false" id="506a-791d-bf57-896c" targetId="cf83-4496-b58e-ac82" primary="true" />
+        <categoryLink name="ORKOMANDO" hidden="false" id="fa33-5e7d-7715-d26e" targetId="adac-44bf-e1d4-1e4e" primary="false" />
+        <categoryLink name="Ork" hidden="false" id="aec8-e00c-94f0-4d9a" targetId="c459-8b6a-74b6-9329" primary="false" />
+        <categoryLink name="RAJADOR" hidden="false" id="0f58-5ba2-9bf8-ecf5" targetId="3c4a-22d2-cf91-0f57" primary="false" />
+      </categoryLinks>
+      <profiles>
+        <profile name="RAJADOR" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="4575-39db-1f77-957c">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="¿Ez lo mejor ke zabez hazer?" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="258b-2d79-729c-1050">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Después de que este agente 
+combata o contraataque, si no resulta incapacitado puedes 
+infligir 1D3 daños al agente enemigo en dicha secuencia.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Kuchilloz arrojadizoz" hidden="false" id="54cc-895e-a8be-6465">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d395-9d15-aed6-05f8-min" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d395-9d15-aed6-05f8-max" includeChildSelections="false" />
+          </constraints>
+          <profiles>
+            <profile name="⌖ Kuchilloz arrojadizoz" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="ecc2-8f61-213f-eddf">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 6", Silenciosa</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Range x" id="7c96-acaa-77b2-0ea3" hidden="false" type="rule" targetId="a528-829e-8268-c005" />
+            <infoLink name="Silent" id="b9ed-ea80-d653-aee3" hidden="false" type="rule" targetId="1e3c-23c9-c6e2-9f62" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Rebanadoraz gemelaz" hidden="false" id="8d64-9e52-2470-4a95">
+          <profiles>
+            <profile name="⚔ Rebanadoraz gemelaz" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="a576-3133-b53e-7210">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Incesante, Letal 5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e673-9c42-cab3-0762-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e673-9c42-cab3-0762-max" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Ceaseless" id="23d2-cb25-0c1b-a602" hidden="false" type="rule" targetId="752d-ce38-c325-4b8a" />
+            <infoLink name="Lethal x+" id="bb7e-53a6-a455-3862" hidden="false" type="rule" targetId="8b97-e3e3-2857-817a" />
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="FRANCOTIRADORK" hidden="false" id="5946-e084-84e8-fcfe">
+      <categoryLinks>
+        <categoryLink name="Operative" hidden="false" id="f611-5e2d-f5d3-31c6" targetId="cf83-4496-b58e-ac82" primary="true" />
+        <categoryLink name="ORKOMANDO" hidden="false" id="8409-9d5f-befb-e604" targetId="adac-44bf-e1d4-1e4e" primary="false" />
+        <categoryLink name="Ork" hidden="false" id="d184-d9c6-32cf-43ea" targetId="c459-8b6a-74b6-9329" primary="false" />
+        <categoryLink name="FRANCOTIRADORK" hidden="false" id="c4f8-9b41-1ce3-d7ba" targetId="2a04-19ba-b18f-880b" primary="false" />
+      </categoryLinks>
+      <profiles>
+        <profile name="FRANCOTIRADORK" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="de5f-4e95-f4df-d8ff">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Puñoz" hidden="false" id="4d1e-c1fa-8849-307c" type="selectionEntry" targetId="5333-ef05-230e-9cb7">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7e1b-b2a6-1272-7efa" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Akribillador pezado" hidden="false" id="1259-b2bb-f420-49c9">
+          <profiles>
+            <profile name="⌖ Akribillador pezado" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="cffa-bdab-e0d6-737b">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/3</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Devastadora 2, Pesada</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="⌖ Akribillador pezado" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="ba38-cdf0-6141-bce3">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/3</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Devastadora 2, Pesada, Silenciosa, kon mirilla (oculto) Posición oculta*</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="⌖ Akribillador pezado" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="89fa-8ca8-927c-781b">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Pesada (solo Correr), Ráfaga 1"</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="453b-f759-ea0d-666a-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="453b-f759-ea0d-666a-max" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Devastating x" id="9b3e-3074-e042-8317" hidden="false" type="rule" targetId="a8ba-6e3a-76b3-f05c" />
+            <infoLink name="Heavy" id="935c-dbb8-72ea-7b77" hidden="false" type="rule" targetId="816e-44a2-6be4-6a9a" />
+            <infoLink name="Silent" id="e9bb-e28a-4c6b-0058" hidden="false" type="rule" targetId="1e3c-23c9-c6e2-9f62" />
+            <infoLink name="Torrent x" id="5118-0d6f-3bba-628d" hidden="false" type="rule" targetId="ad45-b4bb-1345-e4f9" />
+          </infoLinks>
+          <rules>
+            <rule name="*Posición oculta" id="d266-007b-cf51-f657" hidden="false">
+              <description>Este agente solo puede usar esta arma la primera vez que realice la acción de Disparar durante la batalla.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+  </selectionEntries>
+  <categoryEntries>
+    <categoryEntry name="ZUELTADAKKA" id="18e1-ce84-9d92-86ee" hidden="false" />
+    <categoryEntry name="ORKOMANDO" id="adac-44bf-e1d4-1e4e" hidden="false" />
+    <categoryEntry name="GARRAPATO BOMBA" id="52fa-87e5-9a2f-42af" hidden="false" />
+    <categoryEntry name="Grot" id="5cbc-b684-93f5-56a2" hidden="false" />
+    <categoryEntry name="NOBLE ORKOMANDO" id="493a-b3bd-43dd-53cf" hidden="false" />
+    <categoryEntry name="Chico" id="426a-41ac-5945-a72c" hidden="false" />
+    <categoryEntry name="ORKORIETE" id="cd75-2f87-248c-a238" hidden="false" />
+    <categoryEntry name="ACHICHARRADOR" id="3205-08a7-ec53-950f" hidden="false" />
+    <categoryEntry name="TELEKO" id="0b70-50a1-b690-30bc" hidden="false" />
+    <categoryEntry name="CHIKO KOBETE" id="7ea3-51fd-00e7-61ec" hidden="false" />
+    <categoryEntry name="RAJADOR" id="3c4a-22d2-cf91-0f57" hidden="false" />
+    <categoryEntry name="FRANCOTIRADORK" id="2a04-19ba-b18f-880b" hidden="false" />
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Puñoz" hidden="false" id="5333-ef05-230e-9cb7">
+      <profiles>
+        <profile name="⚔ Puñoz" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="b21d-3178-f59e-5782">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">3</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8df4-78f5-3a41-d321" />
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Piztola" hidden="false" id="f030-5edc-2988-8092">
+      <profiles>
+        <profile name="⌖ Piztola" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="0827-2640-89ad-3365">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8"</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Range x" id="3412-ac46-a3cd-9a2c" hidden="false" type="rule" targetId="a528-829e-8268-c005" />
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca96-fbd5-32f8-00e2" />
+      </constraints>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <forceEntries>
+    <forceEntry name="Comando Orkomandos" id="2f7a-48f9-f636-fffc" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Configuration" hidden="false" id="c4d1-8218-800f-b16f" targetId="874b-0390-e5e2-1daa" />
+        <categoryLink name="Operative" hidden="false" id="bb66-a334-d34e-5374" targetId="cf83-4496-b58e-ac82">
+          <constraints>
+            <constraint type="min" value="9" field="selections" scope="force" shared="true" id="42c3-6205-b785-f5fc-min" />
+            <constraint type="max" value="9" field="selections" scope="force" shared="true" id="42c3-6205-b785-f5fc-max" />
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="42c3-6205-b785-f5fc-min">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="5cbc-b684-93f5-56a2" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="52fa-87e5-9a2f-42af" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" value="1" field="42c3-6205-b785-f5fc-max">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="5cbc-b684-93f5-56a2" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="52fa-87e5-9a2f-42af" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink name="Leader" hidden="false" id="18f5-41c3-d17e-05fd" targetId="d999-8cad-8145-4efe">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="29c0-f0f2-df8e-97a9-min" />
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="29c0-f0f2-df8e-97a9-max" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Reference" hidden="false" id="3cfb-1b3a-4783-2d96" targetId="b318-a8d7-2d38-99a3" />
+        <categoryLink name="GARRAPATO BOMBA" hidden="false" id="d2bc-2154-2bf6-10cb" targetId="52fa-87e5-9a2f-42af">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="e30f-1e47-da09-d78c" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Grot" hidden="false" id="5577-7b75-e921-aa2d" targetId="5cbc-b684-93f5-56a2">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="ada1-ea2c-203b-bd69" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="ORKORIETE" hidden="false" id="3fdc-9c55-ccd8-c1d9" targetId="cd75-2f87-248c-a238">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="ba5a-beff-0c98-7ef1" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="ACHICHARRADOR" hidden="false" id="d8d7-e24d-0467-1de3" targetId="3205-08a7-ec53-950f">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="fc03-3b80-83d4-4b3e" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="TELEKO" hidden="false" id="8f6e-9576-59bc-32c4" targetId="0b70-50a1-b690-30bc">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="046e-e96f-21aa-374d" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="CHIKO KOBETE" hidden="false" id="2abf-b987-fb6f-5e42" targetId="7ea3-51fd-00e7-61ec">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="2137-5e99-53a7-404e" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="ZUELTADAKKA" hidden="false" id="547a-b5c9-86a7-c273" targetId="18e1-ce84-9d92-86ee">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="1ad5-1bd2-4240-72a4" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="RAJADOR" hidden="false" id="e6c7-c979-68d9-a73f" targetId="3c4a-22d2-cf91-0f57">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="c958-7fd8-ee37-e05b" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="FRANCOTIRADORK" hidden="false" id="9383-2315-964c-fb9e" targetId="2a04-19ba-b18f-880b">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="6895-68ad-6c33-6d0d" />
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <sharedProfiles>
+    <profile name="Referencia de forma" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="d6dc-f923-8235-b070">
+      <characteristics>
+        <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">⌖</characteristic>
+        <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">⚔</characteristic>
+        <characteristic name="Save" typeId="3241-5548-12d6-f103">▶</characteristic>
+        <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">◆</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <entryLinks>
+    <entryLink import="true" name="Equipment Reference" hidden="false" id="aa42-f3fc-ad50-4267" type="selectionEntry" targetId="e004-a0c4-8a03-0b8b">
+      <entryLinks>
+        <entryLink import="true" name="Equipo de facción" hidden="false" id="a1e5-59e0-0e23-d2a1" type="selectionEntryGroup" targetId="ddd2-81c8-9515-b017" />
+      </entryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Equipo de facción" id="ddd2-81c8-9515-b017" hidden="false" defaultSelectionEntryId="none">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="REBANADORAZ" hidden="false" id="6ccd-f3e0-f5d8-25a9">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6d94-fffc-8fd5-2df6" />
+          </constraints>
+          <profiles>
+            <profile name="⚔ Rebanadora" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="9155-42a3-db13-ef9c">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">3</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="ARPÓN" hidden="false" id="0ffc-5733-f550-83cb">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cf1a-82de-6baa-9e21" />
+          </constraints>
+          <profiles>
+            <profile name="⌖ Arpón" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="85ae-7c90-4996-3f70">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8", Aturdidora, Letal 5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Range x" id="f590-848d-314f-cf1a" hidden="false" type="rule" targetId="a528-829e-8268-c005" />
+            <infoLink name="Lethal x+" id="6f85-1655-e6d9-7a93" hidden="false" type="rule" targetId="8b97-e3e3-2857-817a" />
+            <infoLink name="Stun" id="2b96-1de2-af4a-7982" hidden="false" type="rule" targetId="5ae2-3f29-8635-fd02" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="DINAMITA" hidden="false" id="6f8d-dc9c-2834-d9fd">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e30f-c2d8-db45-f5e3" />
+          </constraints>
+          <profiles>
+            <profile name="⌖ Dinamita" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="4973-fc1b-e787-8a4f">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 4", Área 1", Pesada (solo Reposicionarse), Saturación</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Range x" id="d2b2-1d0b-b4d3-894c" hidden="false" type="rule" targetId="a528-829e-8268-c005" />
+            <infoLink name="Blast x" id="dd59-772c-38ec-eebf" hidden="false" type="rule" targetId="0d74-0977-b481-bd13" />
+            <infoLink name="Heavy" id="ed5d-42f7-f628-fec7" hidden="false" type="rule" targetId="816e-44a2-6be4-6a9a" />
+            <infoLink name="Saturate" id="4add-c1ac-0d04-79b3" hidden="false" type="rule" targetId="3c10-2d52-d1ac-b0f6" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="CULATA PLEGABLE" hidden="false" id="0a93-8ae6-e6b3-6d1f">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2980-06e9-eeb2-7214" />
+          </constraints>
+          <profiles>
+            <profile name="CULATA PLEGABLE" typeId="0d20-7175-9ecb-8bde" typeName="Equipment" hidden="false" id="2686-11e6-861d-baa5">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">ORKOMANDOS
+EQUIPO DE FACCIÓN
+CULATA PLEGABLE
+Los Orkomandos a menudo llevan armas modificadas
+con culatas recortadas o plegables, para aumentar su
+potencia de impacto.
+Elimina la regla de arma Alcance de las siguientes
+armas a distancia que tengan los agentes
+ORKOMANDO amigos:
+• Piztola kalambrazo
+• Piztola</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <rules>
+    <rule name="DEGOLLADOREZ" id="6b99-3402-e950-a5c1" hidden="false">
+      <description>Los Orkomandos emplean el sigilo y las distracciones 
+para acercarse al enemigo y caerle encima, algo poco 
+habitual entre los Orkos.
+Cada agente ORKOMANDO amigo (salvo 
+GARRAPATO BOMBA) puede realizar acciones de 
+Cargar aunque tenga una orden de ocultarse.</description>
+    </rule>
+  </rules>
+  <comment>Update 1.1</comment>
+</catalogue>

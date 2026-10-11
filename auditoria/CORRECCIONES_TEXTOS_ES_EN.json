@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "angels_of_death",
+    "english_section": "3. RESOLUTE",
+    "spanish_section": "3. RESUELTOS",
+    "old": "Puedes ignorar cualquier cambio al atributo LPA \nde este agente.\nCONTINÚA EN EL REVERSO",
+    "new": "Puedes ignorar cualquier cambio al atributo LPA de este agente y no le afecta la regla de arma Choque de los agentes enemigos.\nCONTINÚA EN EL REVERSO",
+    "english_authority": "You can ignore any changes to this operative’s \nAPL stat and it isn’t affected by enemy \noperatives’ Shock weapon rule.\nCONTINUES ON OTHER SIDE"
+  },
+  {
+    "slug": "angels_of_death",
+    "english_section": "8. SIEGE SPECIALIST",
+    "spanish_section": "8. ESPECIALISTAS EN ASEDIOS",
+    "old": "Las armas a distancia de este agente tienen la \nregla de arma Saturación.",
+    "new": "Las armas a distancia de este agente tienen la regla de arma Saturación. Siempre que este agente combata o contraataque, los agentes enemigos no pueden asistir.",
+    "english_authority": "This operative’s ranged weapons have the \nSaturate weapon rule. Whenever this operative \nis fighting or retaliating, enemy operatives \ncannot assist."
+  },
+  {
+    "slug": "angels_of_death",
+    "english_section": "Sharpshooter",
+    "spanish_section": "TIRADORES CERTEROS",
+    "old": "Siempre que este agente dispara durante una\nactivación en la que no haya realizado acciones\nde Cargar, Reposicionarse o Retroceder, sus\narmas bólter tienen la regla de arma Severa.",
+    "new": "Siempre que este agente dispara durante una\nactivación en la que no haya realizado acciones\nde Cargar, Reposicionarse o Retroceder, sus\narmas bólter tienen las reglas de arma Certera 1 y Severa.",
+    "english_authority": "Whenever this operative is shooting during\nan activation in which it hasn’t performed the\nCharge, Fall Back or Reposition action, its\nbolt weapons have the Accurate 1 and Severe\nweapon rules."
+  },
+  {
+    "slug": "battleclade",
+    "english_section": "Seeker of Divine Arcana",
+    "spanish_section": "Buscador de misterios divinos",
+    "old": "GAMBITO ESTRATÉGICO. \nPuedes realizar de inmediato una acción libre de \nOmniescáner, Retroceder, Colocar marcador, \nRecoger marcador, Reposicionarse o acción libre de \nmisión. Si es la acción de Retroceder o de Reposicionarse \ny este agente no está transportando un marcador, debe terminar \nese movimiento o bien dentro de tu zona de descenso (si no es \nposible, tan cerca de ella como pueda) o bien con un marcador \nde objetivo o uno de tus marcadores de misión dentro de su zona \nde control.",
+    "new": "GAMBITO ESTRATÉGICO. \nPuedes cambiar de inmediato la orden de este agente y/o realizar de inmediato una acción libre de \nOmniescáner, Retroceder, Colocar marcador, \nRecoger marcador, Reposicionarse o acción libre de \nmisión. Si es la acción de Retroceder o de Reposicionarse \ny este agente no está transportando un marcador, debe terminar \nese movimiento o bien dentro de tu zona de descenso (si no es \nposible, tan cerca de ella como pueda) o bien con un marcador \nde objetivo o uno de tus marcadores de misión dentro de su zona \nde control.",
+    "english_authority": "STRATEGIC GAMBIT. You \ncan immediately change this operative’s order and/or it can \nimmediately perform a free Omniscanner, Fall Back, Place \nMarker, Pick Up Marker, Reposition or mission action. \nIf it’s the Fall Back or Reposition action and this operative \nisn’t carrying a marker, it must end that move either within your \ndrop zone (if this isn’t possible, then as close as possible to it), or \nwith an objective marker or one of your mission markers within \nits control range."
+  },
+  {
+    "slug": "hunter_clade",
+    "english_section": "Protector Imperative",
+    "spanish_section": "Imperativo Protector",
+    "old": "Optimización: Las armas a distancia de los\nagentes CLADO DE CAZA amigos tienen la regla\nde armas Incesante.\nMenosprecio: Empeora en 1 el atributo Impactar\nde las armas a distancia de los agentes CLADO\nDE CAZA amigos. Esto no se acumula con estar\nlesionado.",
+    "new": "Optimización: Las armas a distancia de los\nagentes CLADO DE CAZA amigos tienen la regla\nde armas Incesante.\nMenosprecio: Empeora en 1 el atributo Impactar\nde las armas de combate de los agentes CLADO\nDE CAZA amigos. Esto no se acumula con estar\nlesionado.",
+    "english_authority": "Optimisation: Friendly HUNTER CLADE\noperatives’ ranged weapons have the Ceaseless\nweapon rule.\nDeprecation: Worsen the Hit stat of friendly\nHUNTER CLADE operatives’ melee weapons by\n1. This isn’t cumulative with being injured."
+  },
+  {
+    "slug": "wrecka_krew",
+    "english_section": "*Pulsa",
+    "spanish_section": "*Indukzión",
+    "old": "No selecciones un blanco válido. En su lugar, sitúa \ntu marcador de Indukzión visible para este agente, o en terreno \nventajoso de un elemento de terreno visible para este agente. Ese \nmarcador gana 1 punto de Indukzión (usa las fichas de puntos de \nIndukzión); luego tira los dados de ataque: el marcador gana 1 \npunto de Indukzión adicional por cada éxito (hasta un máximo de \n3 puntos adicionales). Inflige 1D3 de daño por separado a cada \nagente a x\" o menos de ese marcador, donde x equivale a los \npuntos de Indukzión de ese marcador. Después la acción finaliza.",
+    "new": "No selecciones un blanco válido. En su lugar, sitúa \ntu marcador de Indukzión visible para este agente, o en terreno \nventajoso de un elemento de terreno visible para este agente. Ese \nmarcador gana 1 punto de Indukzión (usa las fichas de puntos de \nIndukzión); luego tira los dados de ataque: el marcador gana 1 \npunto de Indukzión adicional por cada éxito (hasta un máximo de \n3 puntos adicionales). Inflige 1D3 de daño por separado a cada\nagente completamente a x\" o menos de ese marcador, donde x equivale a los \npuntos de Indukzión de ese marcador. Después la acción finaliza.",
+    "english_authority": "Don’t select a valid target. Instead, place your Pulsa \nmarker visible to this operative, or on Vantage terrain of a \nterrain feature that’s visible to this operative. That marker gains \n1 Pulsa point, then roll attack dice: it gains 1 additional Pulsa \npoint for each success (to a maximum of 3 additional points). \nSeparately inflict D3 damage on each operative wholly within x\" \nof that marker, where x is that marker’s Pulsa points. Then the \naction ends."
+  }
+]

@@ -1,0 +1,810 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" name="Servoarmaduras XV26" id="751c-3342-afdc-3814" battleScribeVersion="2.03" gameSystemId="c521-ad27-44df-f959" gameSystemRevision="10" library="false" revision="6" type="catalogue">
+  <categoryEntries>
+    <categoryEntry name="SERVOARMADURA SIGILO XV26" id="6eec-a43b-bec6-0958" hidden="false" />
+    <categoryEntry name="SHAS’VRE XV26" id="b1f3-b519-7b2f-1488" hidden="false" />
+    <categoryEntry name="DESIGNADOR XV26" id="c2fd-1fbb-219b-7d3c" hidden="false" />
+    <categoryEntry name="Infiltrador" id="2e3c-aa47-2877-befa" hidden="false" />
+    <categoryEntry name="LIBERADOR XV26" id="e2bc-e84a-6ae9-9e94" hidden="false" />
+    <categoryEntry name="FARO CELESTE XV26" id="ea98-12ab-5b4b-4c9b" hidden="false" />
+    <categoryEntry name="NEUTRALIZADOR XV26" id="0f50-1682-ca5c-19a3" hidden="false" />
+    <categoryEntry name="MV75 marcador" id="844b-afd7-bb6d-af0e" hidden="false" />
+    <categoryEntry name="Dron" id="03f9-0b0a-3331-0867" hidden="false" />
+    <categoryEntry name="MV15 artillero" id="101f-a899-7689-5fd2" hidden="false" />
+  </categoryEntries>
+  <entryLinks>
+    <entryLink name="Equipment Reference" id="1edd-8d27-2cc1-3fa1" hidden="false" import="true" targetId="e004-a0c4-8a03-0b8b" type="selectionEntry">
+      <entryLinks>
+        <entryLink name="Equipo de facción" id="6bb8-05c2-b4ed-ef82" hidden="false" import="true" targetId="ce40-a43f-2abb-3429" type="selectionEntryGroup" />
+      </entryLinks>
+    </entryLink>
+  </entryLinks>
+  <forceEntries>
+    <forceEntry name="Kill Team — Español" id="5fc6-62d9-48fa-efa4" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Leader" id="19ec-0ee1-9b66-3fe0" hidden="false" targetId="d999-8cad-8145-4efe">
+          <constraints>
+            <constraint id="c8b2-801a-7296-92f1" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="1" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Operative" id="3d52-3fea-02d6-0c04" hidden="false" targetId="cf83-4496-b58e-ac82">
+          <constraints>
+            <constraint id="33b6-4bd7-4874-2700-min" field="selections" includeChildSelections="true" scope="force" shared="true" type="min" value="6" />
+            <constraint id="33b6-4bd7-4874-2700-max" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="6" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Configuration" id="4b6f-135d-f7b3-5865" hidden="false" targetId="874b-0390-e5e2-1daa" />
+        <categoryLink name="Reference" id="e6da-f16b-afa4-42fe" hidden="false" targetId="b318-a8d7-2d38-99a3" />
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <infoLinks>
+    <infoLink name="Accurate x" id="77ff-7fd5-5a03-351e" hidden="false" targetId="ba48-6452-4bf6-e9fa" type="rule" />
+  </infoLinks>
+  <rules>
+    <rule name="KAUYON" id="f803-d412-9ec3-91f5" hidden="false">
+      <description>De todas las filosofías marciales veneradas por la Casta 
+del Fuego, el Kauyon es la más antigua, y es la preferida 
+por los comandos de Exoarmaduras XV26 Sigilo. 
+Traducido a grandes rasgos como el cazador paciente, 
+los principios del Kauyon hacen hincapié en atraer al 
+enemigo para que se extralimite antes de atacarle con 
+una furia coordinada. Los Shas'vres expertos en esta 
+estrategia emplean múltiples recursos móviles y tácticas 
+dilatorias para atraer a los enemigos a emboscadas o 
+acorralarlos.
+Siempre que un agente EXOARMADURA XV26 
+SIGILO amigo dispare a un agente enemigo, 
+sus armas a distancia tienen la regla de armas 
+Certera X. X se determina según la posición de 
+ese agente enemigo.
+POSICIÓN DEL AGENTE ENEMIGO CERTERA X
+A 3" o menos de tu territorio Certera 1
+En tu territorio Certera 2
+A 3" o menos de tu zona 
+Certera 3</description>
+    </rule>
+    <rule name="CAMPOS DE SIGILO" id="39db-c45f-1898-117a" hidden="false">
+      <description>La exoarmadura XV26 de cada veterano y los drones 
+que los acompañan llevan incorporados generadores 
+de campos de camuflaje que enmascaran a los agentes 
+de un comando, permitiéndoles moverse por territorios 
+peligrosos sin ser detectados.
+Un agente EXOARMADURA XV26 SIGILO amigo 
+no puede ser visible para los agentes enemigos 
+a más de 3" de él mientras tenga una orden de 
+ocultarse (esto tiene preferencia sobre cualquier 
+otra regla).
+Un agente EXOARMADURA XV26 SIGILO amigo 
+puede realizar la acción Retroceder por 1PA 
+menos mientras tenga una orden de ocultarse.</description>
+    </rule>
+  </rules>
+  <selectionEntries>
+    <selectionEntry name="SHAS’VRE XV26" id="5b68-d730-03e0-1070" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Leader" id="ef62-f253-d9f5-dc64" hidden="false" primary="true" targetId="d999-8cad-8145-4efe" />
+        <categoryLink name="SERVOARMADURA SIGILO XV26" id="2f1f-8ce8-a4c5-4a48" hidden="false" primary="false" targetId="6eec-a43b-bec6-0958" />
+        <categoryLink name="SHAS’VRE XV26" id="5296-a29c-c2da-4e0a" hidden="false" primary="false" targetId="b1f3-b519-7b2f-1488" />
+        <categoryLink name="T'au Empire" id="fbf6-c55c-ccad-8570" hidden="false" primary="false" targetId="20d3-6a95-40e4-de61" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="8ef4-a6bf-7fd9-5df0-min" field="selections" scope="5fc6-62d9-48fa-efa4" shared="true" type="min" value="1" />
+        <constraint id="8ef4-a6bf-7fd9-5df0-max" field="selections" scope="5fc6-62d9-48fa-efa4" shared="true" type="max" value="1" />
+      </constraints>
+      <entryLinks>
+        <entryLink name="Arma" id="5ab1-c28b-50bb-8e91" hidden="false" import="true" targetId="c762-019c-78a2-1db1" type="selectionEntryGroup">
+          <constraints>
+            <constraint id="20c8-f7c0-0250-b94a-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="20c8-f7c0-0250-b94a-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="SHAS’VRE XV26" id="2989-b206-bc8b-b7b1" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">13</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Controlador de Dron XV26" id="0fba-081b-1ab4-36c0" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">GAMBITO ESTRATÉGICO siempre que este agente se encuentre en la zona de aniquilación. Elige 1 
+agente EXOARMADURA XV26 SIGILO DRON amigo en la zona de aniquilación. Hasta el final de la siguiente activación de ese 
+agente, ignora los dos primeros puntos de su regla de Dron (esto tiene prioridad frente a esa regla).</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Por el Bien Supremo" id="4403-1751-f18a-48cd" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Al determinar el valor de Certera X de 
+la regla de facción Kauyon, si este agente se encuentra en la 
+zona de aniquilación, suma 1 al resultado si al menos 2 agentes 
+EXOARMADURA XV26 SIGILO amigos (salvo DRON) 
+están incapacitados (hasta un máximo de Certera 3). Recuerda 
+que debes tener un mínimo de Certera 1 para usar esta regla.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Pistola de inducción" id="9339-9366-bbf1-291a" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="d63f-d6bc-f17a-ab70-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="d63f-d6bc-f17a-ab70-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Range x" id="4c85-71c4-92ba-a2fe" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+            <infoLink name="Accurate x" id="4641-b3d1-ddd3-e17e" hidden="false" targetId="ba48-6452-4bf6-e9fa" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⌖ Pistola de inducción (a distancia)" id="c5f5-045b-32e4-069d" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8"</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="⚔ Pistola de inducción (a bocajarro)" id="685f-722e-096c-fb1d" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">3</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Certera 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="DESIGNADOR XV26" id="3ce8-5142-eb92-5e77" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Operative" id="1695-b50f-2fa2-c27c" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="SERVOARMADURA SIGILO XV26" id="09fe-cb41-0c27-ac5a" hidden="false" primary="false" targetId="6eec-a43b-bec6-0958" />
+        <categoryLink name="T'au Empire" id="37de-9ee7-a753-710d" hidden="false" primary="false" targetId="20d3-6a95-40e4-de61" />
+        <categoryLink name="DESIGNADOR XV26" id="e2e5-b78c-2955-6939" hidden="false" primary="false" targetId="c2fd-1fbb-219b-7d3c" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="48f4-014e-e133-4cd3" field="selections" scope="5fc6-62d9-48fa-efa4" shared="true" type="max" value="1" />
+      </constraints>
+      <entryLinks>
+        <entryLink name="Arma" id="c703-30a4-9105-6d00" hidden="false" import="true" targetId="c762-019c-78a2-1db1" type="selectionEntryGroup">
+          <constraints>
+            <constraint id="9c64-506a-3770-8109-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="9c64-506a-3770-8109-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+        <entryLink name="Puños" id="cb3b-dfc1-b700-90dd" hidden="false" import="true" targetId="21b1-72b6-dfbd-aecf" type="selectionEntry">
+          <constraints>
+            <constraint id="ba93-f312-fd64-8820-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="ba93-f312-fd64-8820-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+        <entryLink name="Marcador telemétrico" id="c75f-6f46-59d5-4c13" hidden="false" import="true" targetId="4926-8f5c-1df3-64e9" type="selectionEntry">
+          <constraints>
+            <constraint id="d80b-a0ed-8543-bf32-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="d80b-a0ed-8543-bf32-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="DESIGNADOR XV26" id="68d8-e134-3dcb-2268" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="MARCADOR TELEMÉTRICO CONCENTRADO (1PA)" id="786c-133e-bbe8-bb78" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Elige un agente enemigo visible para este agente. Una vez durante este punto de inflexión, cuando un agente EXOARMADURA 
+XV26 SIGILO amigo esté disparando contra ese agente enemigo, puedes usar este efecto. Si lo haces, mejora en 1 el atributo 
+Impactar de las armas a distancia en la tarjeta de datos de ese agente amigo hasta el final de esa acción.
+ Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="INFILTRADOR XV26" id="bdcf-0a0c-d0b6-5210" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Operative" id="704e-0efe-8506-bcbe" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="SERVOARMADURA SIGILO XV26" id="ad00-9b2a-e109-e5a7" hidden="false" primary="false" targetId="6eec-a43b-bec6-0958" />
+        <categoryLink name="T'au Empire" id="a5db-5c88-f08f-46c8" hidden="false" primary="false" targetId="20d3-6a95-40e4-de61" />
+        <categoryLink name="Infiltrador" id="2bb6-c1de-7ea1-c761" hidden="false" primary="false" targetId="2e3c-aa47-2877-befa" />
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Arma" id="207b-6c79-0028-7e18" hidden="false" import="true" targetId="c762-019c-78a2-1db1" type="selectionEntryGroup">
+          <constraints>
+            <constraint id="9491-2162-f2b0-2d8f-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="9491-2162-f2b0-2d8f-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+        <entryLink name="Puños" id="0e72-f53a-bfc1-7534" hidden="false" import="true" targetId="21b1-72b6-dfbd-aecf" type="selectionEntry">
+          <constraints>
+            <constraint id="87f1-361c-3bff-c270-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="87f1-361c-3bff-c270-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="INFILTRADOR XV26" id="cb40-fe7e-888a-a167" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Protocolos de encubrimiento" id="4e2f-b863-e893-2a79" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Este agente puede reaccionar independientemente de su orden, pero si tiene una orden de Ocultarse, 
+durante esa reacción solo podrá realizar acciones de Recoger marcador, Colocar marcador o de misión.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="NEUTRALIZADOR XV26" id="c51a-9e4c-dc9c-84f5" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Operative" id="a498-a22c-c75a-92e5" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="SERVOARMADURA SIGILO XV26" id="0ff0-91e7-aecf-51ed" hidden="false" primary="false" targetId="6eec-a43b-bec6-0958" />
+        <categoryLink name="T'au Empire" id="8119-6771-70e0-7910" hidden="false" primary="false" targetId="20d3-6a95-40e4-de61" />
+        <categoryLink name="NEUTRALIZADOR XV26" id="6bd0-32ab-bde6-4d77" hidden="false" primary="false" targetId="0f50-1682-ca5c-19a3" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="2772-da9d-e0aa-689f" field="selections" scope="5fc6-62d9-48fa-efa4" shared="true" type="max" value="1" />
+      </constraints>
+      <entryLinks>
+        <entryLink name="Arma" id="bb7b-a7b6-c7dd-1dda" hidden="false" import="true" targetId="c762-019c-78a2-1db1" type="selectionEntryGroup">
+          <constraints>
+            <constraint id="c118-a16e-3627-af4b-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="c118-a16e-3627-af4b-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+        <entryLink name="Puños" id="b898-1587-894f-dc47" hidden="false" import="true" targetId="21b1-72b6-dfbd-aecf" type="selectionEntry">
+          <constraints>
+            <constraint id="d93b-4f97-aa05-80d5-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="d93b-4f97-aa05-80d5-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="NEUTRALIZADOR XV26" id="9a04-f597-6aec-409d" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Pack de sensores multiespectro" id="0d1b-d8b6-10ba-8b17" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">APOYO. Puedes usar esta 
+regla una vez por punto de inflexión, cuando un agente enemigo 
+6” o menos de este agente se active. Si lo haces, cada agente 
+EXOARMADURA XV26 SIGILO amigo a 3" o menos de 
+este agente puede hacer de inmediato una de las siguientes 
+opciones:
+• Realizar una acción libre de Correr (en el orden que elijas).
+• Cambia su orden.
+Los agentes amigos que realicen la acción de Correr no pueden 
+terminar ese movimiento a 3" o menos de algún agente enemigo. 
+Recuerda que el equipo universal Aparato de comunicaciones 
+solo afecta a la segunda distancia de esta regla.
+INTERFERIR SISTEMAS 1/2PA
+ Elige un agente enemigo visible para este agente. Hasta 
+el final de la siguiente activación de ese agente, resta 1 a 
+su atributo LPA. Mientras este agente tenga una orden de 
+ocultarse, debes gastar 1PA adicional para realizar esta 
+acción.
+ Este agente no puede realizar esta acción si está en la zona 
+de control de algún agente enemigo.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="INTERFERIR SISTEMAS" id="b814-4d3a-beca-9589" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Elige un agente enemigo visible para este agente. Hasta 
+el final de la siguiente activación de ese agente, resta 1 a 
+su atributo LPA. Mientras este agente tenga una orden de 
+ocultarse, debes gastar 1PA adicional para realizar esta 
+acción.
+ Este agente no puede realizar esta acción si está en la zona 
+de control de algún agente enemigo.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="FARO CELESTE XV26" id="4a38-481b-f2bc-8eff" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Operative" id="582d-43aa-b8fc-ba1a" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="SERVOARMADURA SIGILO XV26" id="6dd2-941a-cd25-5d3c" hidden="false" primary="false" targetId="6eec-a43b-bec6-0958" />
+        <categoryLink name="T'au Empire" id="8813-6093-a696-d399" hidden="false" primary="false" targetId="20d3-6a95-40e4-de61" />
+        <categoryLink name="FARO CELESTE XV26" id="39e2-2a9b-a1af-d55a" hidden="false" primary="false" targetId="ea98-12ab-5b4b-4c9b" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="a627-43af-9436-fc5b" field="selections" scope="5fc6-62d9-48fa-efa4" shared="true" type="max" value="1" />
+      </constraints>
+      <entryLinks>
+        <entryLink name="Arma" id="6b53-417a-d59b-7715" hidden="false" import="true" targetId="c762-019c-78a2-1db1" type="selectionEntryGroup">
+          <constraints>
+            <constraint id="9859-9651-9b17-faf8-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="9859-9651-9b17-faf8-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+        <entryLink name="Puños" id="f6ae-ac8d-8436-b578" hidden="false" import="true" targetId="21b1-72b6-dfbd-aecf" type="selectionEntry">
+          <constraints>
+            <constraint id="f61b-3889-de64-7255-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="f61b-3889-de64-7255-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="FARO CELESTE XV26" id="2409-903e-3f71-d9bc" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Lanzador de electrobengalas" id="3245-9843-7f0e-36c9" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Una vez por punto de inflexión, 
+cuando un agente enemigo realice la acción Disparar y tu 
+oponente elija un blanco válido (salvo DRON), puedes usar 
+esta regla, siempre y cuando este agente no esté en la zona de 
+control de agentes enemigos. Si lo haces, hasta el final de esa 
+acción, siempre que un agente enemigo dispare a un agente 
+EXOARMADURA XV26 SIGILO amigo que sea visible para 
+este agente, se encuentre a 3" o menos de él y a más de 2" de 
+ese agente enemigo:
+• Ignora la reglas de armas Penetración.
+• Ese agente amigo está ofuscado.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Baliza" id="0e96-8d76-b678-d7a2" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Este agente porta tu marcador de baliza. Los agentes 
+(salvo DRON) pueden realizar la acción Recoger marcador 
+sobre ese marcador. La primera vez que un agente enemigo 
+realice la acción Recoger marcador sobre tu marcador de 
+baliza, descarta ese marcador (retíralo del juego).
+En el paso de Preparación de cada fase de estrategia, cuando 
+ganes PM, si tu marcador de baliza está colocado en la zona 
+de aniquilación tira 1D6, sumando +1 al resultado por cada 
+marcador de objetivo a 6" o menos de tu marcador de baliza. Si 
+el resultado es 5+, ganas 1 PM.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="LIBERADOR XV26" id="9349-efc0-c42a-bf71" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Operative" id="2766-a048-5bf9-cbe4" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="SERVOARMADURA SIGILO XV26" id="40d2-5a9b-8e65-c806" hidden="false" primary="false" targetId="6eec-a43b-bec6-0958" />
+        <categoryLink name="T'au Empire" id="53b2-6754-0f07-0196" hidden="false" primary="false" targetId="20d3-6a95-40e4-de61" />
+        <categoryLink name="LIBERADOR XV26" id="74a6-12a6-489c-06b9" hidden="false" primary="false" targetId="e2bc-e84a-6ae9-9e94" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="9d21-98a1-0124-765b" field="selections" scope="5fc6-62d9-48fa-efa4" shared="true" type="max" value="1" />
+      </constraints>
+      <entryLinks>
+        <entryLink name="Arma" id="98ac-cae4-6a7c-e8a1" hidden="false" import="true" targetId="c762-019c-78a2-1db1" type="selectionEntryGroup">
+          <constraints>
+            <constraint id="5c6f-cb4a-afb4-b612-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="5c6f-cb4a-afb4-b612-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+        <entryLink name="Puños" id="fc9e-1196-425e-386a" hidden="false" import="true" targetId="21b1-72b6-dfbd-aecf" type="selectionEntry">
+          <constraints>
+            <constraint id="ed26-7923-0d19-dbb5-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="ed26-7923-0d19-dbb5-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="LIBERADOR XV26" id="4f23-ce05-a6e4-2b66" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Granadero" id="2ced-a464-1e83-68cd" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Este agente puede usar granadas frag, perforantes, de humo y aturdidoras (ver equipo universal). Hacer esto no cuenta de 
+cara a los usos limitados que tengas (es decir, si también seleccionas esas granadas como equipo para otros agentes). Cuando este 
+agente usa una granada frag o perforante, mejora en 1 el atributo Impactar de esa arma.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Bomba PEM" id="e165-ba55-dff4-910a" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="a531-7abe-c200-ab90-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="a531-7abe-c200-ab90-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Range x" id="8428-d42f-a7e3-93d8" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+            <infoLink name="Blast x" id="a1b8-b095-cd2b-d50c" hidden="false" targetId="0d74-0977-b481-bd13" type="rule" />
+            <infoLink name="Devastating x" id="46a1-c155-b8aa-ee87" hidden="false" targetId="a8ba-6e3a-76b3-f05c" type="rule" />
+            <infoLink name="Heavy" id="3898-dff5-c9ba-ebc6" hidden="false" targetId="816e-44a2-6be4-6a9a" type="rule" />
+            <infoLink name="Lethal x+" id="10ce-816e-8da4-f8c5" hidden="false" targetId="8b97-e3e3-2857-817a" type="rule" />
+            <infoLink name="Limited x" id="6139-41ff-cc5c-adfd" hidden="false" targetId="bf37-3388-40d5-eb72" type="rule" />
+            <infoLink name="Saturate" id="ffd4-56d6-f330-0239" hidden="false" targetId="3c10-2d52-d1ac-b0f6" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⌖ Bomba PEM" id="cc62-5a08-6424-6be8" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/2</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 4", Área 2", Devastadora 1, Letal 4+, Limi- tada 1, Pesada (solo Reposicionarse), Saturación</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="DRON DE COMBATE MV15" id="d35c-6c55-ee8c-5061" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Operative" id="898f-f736-ca1e-6e16" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="SERVOARMADURA SIGILO XV26" id="e185-1d17-2b86-773a" hidden="false" primary="false" targetId="6eec-a43b-bec6-0958" />
+        <categoryLink name="T'au Empire" id="3ffe-c8b1-01a4-84ba" hidden="false" primary="false" targetId="20d3-6a95-40e4-de61" />
+        <categoryLink name="Dron" id="d749-c988-279e-3988" hidden="false" primary="false" targetId="03f9-0b0a-3331-0867" />
+        <categoryLink name="MV15 artillero" id="89aa-5d19-4a1d-383c" hidden="false" primary="false" targetId="101f-a899-7689-5fd2" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="0146-14be-e99a-f0c6-min" field="selections" scope="5fc6-62d9-48fa-efa4" shared="true" type="min" value="1" />
+        <constraint id="0146-14be-e99a-f0c6-max" field="selections" scope="5fc6-62d9-48fa-efa4" shared="true" type="max" value="1" />
+      </constraints>
+      <entryLinks>
+        <entryLink name="Topetazo" id="55df-9de6-a92b-0e18" hidden="false" import="true" targetId="febe-7b63-6c3e-c84c" type="selectionEntry">
+          <constraints>
+            <constraint id="a1d7-c44f-9f3d-5691-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="a1d7-c44f-9f3d-5691-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Dron" id="5454-03a8-96bc-37eb" hidden="false" targetId="a033-beb6-fe99-4c74" type="profile" />
+      </infoLinks>
+      <profiles>
+        <profile name="DRON DE COMBATE MV15" id="c907-4d69-2c0a-7f38" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">4+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">7</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="LANZADOR DE GRANADA DE FOTONES (1PA)" id="4857-1d7b-e0fa-4648" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Elige 1 agente enemigo visible para este agente y tira 1D6. 
+Con 3+, Hasta el final de la siguiente activación de ese 
+agente, resta 2" a su atributo Movimiento.
+ Este agente no puede realizar esta acción si está en la zona 
+de control de algún agente enemigo.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Carabina de inducción doble" id="2c9c-5623-7125-f1ad" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="6f82-894f-979a-465a-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="6f82-894f-979a-465a-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Ceaseless" id="866e-c6ed-6c68-9091" hidden="false" targetId="752d-ce38-c325-4b8a" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⌖ Carabina de inducción doble" id="c6f2-263d-9697-8f42" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Incesante</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="DRON TELEMÉTRICO MV75" id="e5f9-cfdc-f846-d5aa" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Operative" id="ffa3-4125-afc1-f47d" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="SERVOARMADURA SIGILO XV26" id="efa3-185a-7ac3-e40e" hidden="false" primary="false" targetId="6eec-a43b-bec6-0958" />
+        <categoryLink name="T'au Empire" id="9374-0a05-8b08-a03c" hidden="false" primary="false" targetId="20d3-6a95-40e4-de61" />
+        <categoryLink name="MV75 marcador" id="92df-aa6f-4c7b-929f" hidden="false" primary="false" targetId="844b-afd7-bb6d-af0e" />
+        <categoryLink name="Dron" id="6349-06b0-9a27-cdfb" hidden="false" primary="false" targetId="03f9-0b0a-3331-0867" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="7703-e398-5c3b-b714-min" field="selections" scope="5fc6-62d9-48fa-efa4" shared="true" type="min" value="1" />
+        <constraint id="7703-e398-5c3b-b714-max" field="selections" scope="5fc6-62d9-48fa-efa4" shared="true" type="max" value="1" />
+      </constraints>
+      <entryLinks>
+        <entryLink name="Topetazo" id="1fc2-da72-fd85-a966" hidden="false" import="true" targetId="febe-7b63-6c3e-c84c" type="selectionEntry">
+          <constraints>
+            <constraint id="ad45-2fa0-69dd-b014-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="ad45-2fa0-69dd-b014-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+        <entryLink name="Marcador telemétrico" id="faf3-5c00-bd1a-0c39" hidden="false" import="true" targetId="4926-8f5c-1df3-64e9" type="selectionEntry">
+          <constraints>
+            <constraint id="250a-d100-affe-ab9f-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="250a-d100-affe-ab9f-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Dron" id="c612-398e-9ba8-7a92" hidden="false" targetId="a033-beb6-fe99-4c74" type="profile" />
+      </infoLinks>
+      <profiles>
+        <profile name="DRON TELEMÉTRICO MV75" id="990a-a46c-826e-6255" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">4+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedProfiles>
+    <profile name="Referencia de forma" id="4609-0a80-95e0-d78c" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+      <characteristics>
+        <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">⌖</characteristic>
+        <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">⚔</characteristic>
+        <characteristic name="Save" typeId="3241-5548-12d6-f103">▶</characteristic>
+        <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">◆</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dron" id="a033-beb6-fe99-4c74" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Ability" typeId="3467-0678-083e-eb50">• Este agente solo puede realizar acciones de Cargar, Correr, 
+Retroceder, Combatir, Reposicionarse y Disparar.
+• Al determinar el control de un marcador de objetivo, trata el 
+atributo LPA de este agente como si fuera 1 inferior. Ten en 
+cuenta que esto no es un cambio a su atributo LPA, de modo 
+que cualquier cambio será acumulable con esto.
+• Este agente no puede usar armas que no aparezcan en su 
+tarjeta de datos.
+• Al determinar qué es visible para este agente, el disco redondo 
+en la parte superior de la miniatura es su cabeza.
+• Este agente se ignora para las operaciones de asesinato/
+eliminación de tu oponente (al quedar incapacitado, y al 
+determinar tu número inicial de agentes). También se ignora 
+para las condiciones de victoria y la obtención de PV si 
+requieren que los agentes “escapen”, “sobrevivan” o queden 
+incapacitados por agentes enemigos (si escapa/sobrevive/
+queda incapacitado, determinar cuántos agentes deben 
+escapar/sobrevivir/quedar incapacitados, etc).</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedSelectionEntries>
+    <selectionEntry name="Cañón rotativo" id="2795-8d20-915c-bf9d" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Ceaseless" id="cf96-6eb9-a8b7-6ca9" hidden="false" targetId="752d-ce38-c325-4b8a" type="rule" />
+        <infoLink name="Torrent x" id="bbe8-8d16-00bc-24e2" hidden="false" targetId="ad45-b4bb-1345-e4f9" type="rule" />
+      </infoLinks>
+      <profiles>
+        <profile name="⌖ Cañón rotativo (concentrado)" id="f50f-82a2-9df6-ae2e" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Incesante</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="⌖ Cañón rotativo (barrido)" id="6c79-87ca-ac1b-6dc4" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Incesante, Ráfaga 1"</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Bláster fundidor" id="a2d7-bd6b-7f14-fd85" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="7d2e-cd2c-261a-1d97" field="selections" includeChildSelections="true" scope="5fc6-62d9-48fa-efa4" shared="true" type="max" value="2" />
+      </constraints>
+      <infoLinks>
+        <infoLink name="Range x" id="fc3f-8431-4c9f-000a" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+        <infoLink name="Devastating x" id="9908-0e34-1c88-0e5c" hidden="false" targetId="a8ba-6e3a-76b3-f05c" type="rule" />
+        <infoLink name="Piercing x" id="cd51-61ab-fecf-6802" hidden="false" targetId="4c07-2cb3-1417-cbb7" type="rule" />
+      </infoLinks>
+      <profiles>
+        <profile name="⌖ Bláster fundidor (corto alcance)" id="b880-a1f1-d916-4210" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">6/3</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 6", Devastadora 4, Penetración 2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="⌖ Bláster fundidor (largo alcance)" id="25e2-5563-9ea4-d66f" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 12", Penetración 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Puños" id="21b1-72b6-dfbd-aecf" hidden="false" import="true" type="upgrade">
+      <profiles>
+        <profile name="⚔ Puños" id="f847-4d26-3ee8-a1a2" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">3</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Topetazo" id="febe-7b63-6c3e-c84c" hidden="false" import="true" type="upgrade">
+      <profiles>
+        <profile name="⚔ Topetazo" id="9f55-9062-6aad-8689" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">3</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">5+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/3</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Marcador telemétrico" id="4926-8f5c-1df3-64e9" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Severe" id="0e07-0b5e-2235-3caf" hidden="false" targetId="721c-65bf-dfb7-8fa2" type="rule" />
+      </infoLinks>
+      <profiles>
+        <profile name="Marcador telemétrico" id="7d33-1b99-e682-5de1" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Siempre que un agente enemigo sea un blanco válido de este agente, o sea visible para este agente y se 
+encuentre a 2" o menos de tu marcador de Emboscada (ver ardid de estrategia Preparar emboscada), está marcado. Siempre que 
+un agente EXOARMADURA XV26 SIGILO amigo dispare a un agente marcado, sus armas a distancia tienen la regla de armas 
+Severa. Recuerda que un agente puede ser un blanco válido para este agente aunque este agente no sea el agente activo.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Arma" id="c762-019c-78a2-1db1" hidden="false">
+      <entryLinks>
+        <entryLink name="Cañón rotativo" id="9d7f-2a64-88eb-1808" hidden="false" import="true" page="burst" targetId="2795-8d20-915c-bf9d" type="selectionEntry">
+          <constraints>
+            <constraint id="b3bd-651d-c711-960c" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+        <entryLink name="Bláster fundidor" id="63df-7836-08c6-015d" hidden="false" import="true" targetId="a2d7-bd6b-7f14-fd85" type="selectionEntry">
+          <constraints>
+            <constraint id="12dc-ca9a-3154-09fd" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Equipo de facción" id="ce40-a43f-2abb-3429" hidden="false">
+      <selectionEntries>
+        <selectionEntry name="SELECTORES DE OBJETIVO INTEGRADOS" id="4ff5-05ae-ead4-8313" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="c260-eb21-c971-0b22" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <profiles>
+            <profile name="SELECTORES DE OBJETIVO INTEGRADOS" id="7d70-76cf-f892-786c" hidden="false" typeId="0d20-7175-9ecb-8bde" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">EXOARMADURA XV26 SIGILO
+EQUIPO DE FACCIÓN
+SELECTORES DE OBJETIVO INTEGRADOS
+Estos selectores de objetivo chequean los parámetros
+de las amenazas enemigas y proporcionan a su usuario
+un apuntado automático. Se implantan en interfaces
+neuronales o en el cuerpo de los pilotos.
+Siempre que reacciones, puedes hacerlo con 1
+AGENTE EXOARMADURA XV26 SIGILO amigo
+que tenga una orden de ocultarse y que esté a
+más de 3" de todo agente enemigo, pero, antes
+de reaccionar, debes cambiar su orden a trabarse
+y solo puede realizar la acción Disparar durante
+esa reacción.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="MULTIAPUNTADORES XV26" id="08e1-a91b-3c8d-3515" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="3d76-9d1f-8274-16dd" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Torrent x" id="cb50-2ed4-2c94-4ee1" hidden="false" targetId="ad45-b4bb-1345-e4f9" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="MULTIAPUNTADORES XV26" id="38e0-1438-0752-b508" hidden="false" typeId="0d20-7175-9ecb-8bde" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">EXOARMADURA XV26 SIGILO
+EQUIPO DE FACCIÓN
+MULTIAPUNTADORES XV26
+Estos sistemas de apoyo generan rápidamente
+soluciones de selección de blancos, lo que permite a los
+guerreros atacar múltiples objetivos con sus cañones.
+Una vez por punto de inflexión, cuando un agente
+EXOARMADURA XV26 SIGILO amigo realice
+la acción de Disparar y elijas un cañón rotativo
+(barrido), puedes usar esta regla. Si lo haces,
+elige 1 de las siguientes opciones:
+• Hasta el final de esa acción, esa arma tiene la
+regla de arma Ráfaga 2".
+• Hasta el final de esa acción, esa arma tiene la
+regla de arma Ráfaga 3", pero no puedes elegir
+más de 1 blanco secundario.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="INTERFERIDORES DE REDES" id="2bce-f6e4-edab-3ce8" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="38ba-7d25-eed7-0f59" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <profiles>
+            <profile name="INTERFERIDORES DE REDES" id="c83c-0636-3c10-4053" hidden="false" typeId="0d20-7175-9ecb-8bde" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">EXOARMADURA XV26 SIGILO
+EQUIPO DE FACCIÓN
+INTERFERIDORES DE REDES
+Una ráfaga de infrasonidos de onda múltiple puede
+desorganizar a los enemigos cercanos. Con los
+sentidos del enemigo y su equipo de comunicaciones
+interferidos, incluso los pilotos superados en número
+pueden explotar la confusión resultante con un efecto
+devastador.
+GAMBITO ESTRATÉGICO. Selecciona un
+marcador de objetivo o de misión. Hasta el final
+del punto de inflexión, al determinar el control
+de un marcador, considera el atributo LPA total
+de los agentes agentes enemigos que lo estén
+disputando como si fuera 1 punto menor si al
+menos uno de dichos agentes enemigos está a
+3" o menos de un agente EXOARMADURAS XV26
+SIGILO amigo. Ten en cuenta que esto no es un
+cambio al atributo LPA, así que cualquier cambio
+se acumula con esto.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="FILTROS SOLNEGRO AVANZADOS" id="7102-7998-0cc5-6ad5" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="56f6-7eb8-e23a-68f5" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <profiles>
+            <profile name="FILTROS SOLNEGRO AVANZADOS" id="2bd8-e957-45a2-f1a6" hidden="false" typeId="0d20-7175-9ecb-8bde" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">EXOARMADURA XV26 SIGILO
+EQUIPO DE FACCIÓN
+FILTROS SOLNEGRO AVANZADOS
+Las exoarmaduras y los drones dotados de estos
+avanzados sistemas ópticos tienen una increíble
+claridad para identificar objetivos, incluso en las
+condiciones más antinaturales y cegadoras.
+Siempre que un agente EXOARMADURA XV26
+SIGILO amigo dispare a un agente ofuscado, no
+tienes que descartar un éxito por ello. Todos los
+demás efectos de ofuscado se siguen aplicando
+normalmente.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

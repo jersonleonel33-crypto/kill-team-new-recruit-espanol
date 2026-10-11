@@ -1,0 +1,597 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="0a72-bb02-c4a3-8c33" name="Compañía de Bailarines del vacío" gameSystemId="c521-ad27-44df-f959" gameSystemRevision="10" revision="13" battleScribeVersion="2.03" type="catalogue">
+  <entryLinks>
+    <entryLink import="true" name="Equipment Reference" hidden="false" id="ea33-7416-4c98-6279" type="selectionEntry" targetId="e004-a0c4-8a03-0b8b">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Equipo de facción" id="9236-8131-55e0-6ca6" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="MÁSCARA DE LA MUERTE" hidden="false" id="f97a-2e89-aa1a-9b20">
+              <profiles>
+                <profile name="MÁSCARA DE LA MUERTE" typeId="0d20-7175-9ecb-8bde" typeName="Equipment" hidden="false" id="1c23-52d1-492c-a83d">
+                  <characteristics>
+                    <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">COMPAÑÍA DE BAILARINES DEL VACÍO
+EQUIPO DE FACCIÓN
+MÁSCARA DE LA MUERTE
+En ocasiones, un Arlequín debe fallecer para cumplir su
+papel en el saedath. Tal dedicación alienta a aquellos en
+su compañía que siguen con vida.
+Lleva un recuento de Tragedia. Siempre que un
+agente COMPAÑÍA DE BAILARINES DEL VACÍO
+amigo que tenga una regla de GALARDÓN sea
+incapacitado, suma 1 a tu recuento de Tragedia.
+Cuando tu recuento de Tragedia llega a 3, ganas
+1PM y el recuento se detiene.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5919-20b3-384e-aaaa" includeChildSelections="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="PROYECTILES DE TOXINAS AULLADORES" hidden="false" id="1446-190b-8345-01cb">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6cee-7f02-1e2d-805b" includeChildSelections="false" />
+              </constraints>
+              <profiles>
+                <profile name="PROYECTILES DE TOXINAS AULLADORES" typeId="0d20-7175-9ecb-8bde" typeName="Equipment" hidden="false" id="4ebe-7d28-612b-efc1">
+                  <characteristics>
+                    <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">COMPAÑÍA DE BAILARINES DEL VACÍO
+EQUIPO DE FACCIÓN
+PROYECTILES
+DE TOXINAS AULLADORES
+Cubierta de virulentas toxinas genéticas, esta
+munición provoca que la carne del blanco se desfigure,
+distorsione y desgarre, con efectos devastadores.
+Una vez por punto de inflexión, cuando un agente
+COMPAÑÍA DE BAILARINES DEL VACÍO amigo
+realice una acción de Disparar y elijas una pistola
+shuriken o un cañón aullador (concentrado),
+puedes usar esta regla. Si lo haces, hasta el final
+de esa acción el arma en cuestión tiene la regla
+de armas Devastadora 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="MÁSCARA DEL SUPLENTE" hidden="false" id="0a6c-41b4-1fe8-7c96">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3ca4-e084-5d20-9aae" includeChildSelections="false" />
+              </constraints>
+              <profiles>
+                <profile name="MÁSCARA DEL SUPLENTE" typeId="0d20-7175-9ecb-8bde" typeName="Equipment" hidden="false" id="5470-8a7e-1d14-5659">
+                  <characteristics>
+                    <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">COMPAÑÍA DE BAILARINES DEL VACÍO
+EQUIPO DE FACCIÓN
+MÁSCARA DEL SUPLENTE
+Este objeto permite a los Arlequines cambiar de papel
+durante el saedath. Si alguien que interpreta un papel
+central muere, otro ocupará rápidamente su lugar.
+Una vez por batalla, cuando activas un agente
+COMPAÑÍA DE BAILARINES DEL VACÍO amigo,
+si el agente amigo tiene el PAPEL CENTRAL ha
+sido incapacitado, puedes usar esta regla. Si lo
+haces, puedes usar esta regla. Si lo haces, ese
+agente activado tiene el PAPEL CENTRAL durante
+esta batalla.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="TALISMÁN DE HUESO ESPECTRAL" hidden="false" id="026d-d208-607c-7641">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="58d0-4d18-7a52-a4fc" includeChildSelections="false" />
+              </constraints>
+              <profiles>
+                <profile name="TALISMÁN DE HUESO ESPECTRAL" typeId="0d20-7175-9ecb-8bde" typeName="Equipment" hidden="false" id="49e3-0dd1-e2ea-87b5">
+                  <characteristics>
+                    <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">COMPAÑÍA DE BAILARINES DEL VACÍO
+EQUIPO DE FACCIÓN
+TALISMÁN DE HUESO ESPECTRAL
+Cargado de poder psíquico, este objeto proporciona
+a su portador breves instantes de presciencia, que le
+permiten golpear con precisión infalible.
+Una vez por punto de inflexión, cuando un agente
+COMPAÑÍA DE BAILARINES DEL VACÍO amigo
+dispare, combata o contraataque, si sacas dos
+o más fallos, puedes descartar uno de ellos para
+guardar otro como un éxito normal en su lugar.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </entryLink>
+  </entryLinks>
+  <selectionEntries>
+    <selectionEntry type="model" import="true" name="PRIMADONNA" hidden="false" id="f446-7424-f2ce-b408">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="602b-9c33-ed19-5c7a" shared="true" id="6d50-6239-2a96-c184" includeChildSelections="false" />
+      </constraints>
+      <profiles>
+        <profile name="PRIMADONNA" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="909f-c134-2890-f217">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">7"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">4+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">9</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Liderar la actuación" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="fc54-9395-6f0a-b441">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">GAMBITO ESTRATÉGICO de una 
+vez por batalla. Si este agente está en la zona de aniquilación, 
+cambia la ALEGORÍA que elegiste para tu comando. Ten en 
+cuenta que la regla de GALARDÓN que tengan los agentes 
+amigos también cambiará.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="PANOPLIA DE ARLEQUÍN" id="e03c-b95e-6799-8415" hidden="false" type="rule" targetId="8942-39e2-4aa6-66e6" />
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Arma cuerpo a cuerpo" hidden="false" id="1e67-dd2e-28bf-d979" type="selectionEntryGroup" targetId="17a3-1dc8-3650-5833" />
+        <entryLink import="true" name="Pistola" hidden="false" id="ed99-a2d6-a57d-dad5" type="selectionEntryGroup" targetId="c08f-3627-2559-20aa" />
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Compañía de Bailarines del vacío" hidden="false" id="6e83-b568-7dda-d6d3" targetId="4bde-4db3-593b-29f5" primary="false" />
+        <categoryLink name="Aeldari" hidden="false" id="acd3-eff8-888a-0929" targetId="25a4-f061-4504-4920" primary="false" />
+        <categoryLink name="Arlequín" hidden="false" id="3c12-a240-5831-fcb6" targetId="57c2-fdf4-a93e-15e6" primary="false" />
+        <categoryLink name="Leader" hidden="false" id="c680-4e29-45b6-4c8a" targetId="d999-8cad-8145-4efe" primary="true" />
+        <categoryLink name="PRIMADONNA" hidden="false" id="e948-487f-64d3-239d" targetId="ee39-0217-44b4-0828" primary="false" />
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="INTÉRPRETE" hidden="false" id="0287-12ca-f9df-32b7">
+      <constraints>
+        <constraint type="max" value="7" field="selections" scope="602b-9c33-ed19-5c7a" shared="true" id="14da-0a82-b468-3d02" includeChildSelections="false" />
+      </constraints>
+      <profiles>
+        <profile name="INTÉRPRETE" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="eeb0-904b-7af2-aa5c">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">7"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">4+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">8</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Suerte del Dios que ríe" typeId="f887-5881-0e6d-755c" typeName="Abilities" hidden="false" id="1fdc-1dfd-7cf5-ccd0">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Una vez por punto de inflexión, puedes usar esta regla. En tal caso, puedes usar un ardid de tiroteo por 0PM si 
+este es el agente COMPAÑÍA DE BAILARINES DEL VACÍO especificado (incluyendo Repetición de mando si los dados de ataque 
+o de defensa se tiraban para este agente). No puedes elegir el mismo ardid de tiroteo para esta regla más de una vez por batalla.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="PANOPLIA DE ARLEQUÍN" id="2611-dfea-58ca-2eed" hidden="false" type="rule" targetId="8942-39e2-4aa6-66e6" />
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Arma cuerpo a cuerpo" hidden="false" id="b005-7f07-f6e8-37e7" type="selectionEntryGroup" targetId="17a3-1dc8-3650-5833" />
+        <entryLink import="true" name="Pistola" hidden="false" id="8cbd-eea1-f2ed-6b96" type="selectionEntryGroup" targetId="c08f-3627-2559-20aa" />
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Compañía de Bailarines del vacío" hidden="false" id="6c66-dba9-62fe-e3f9" targetId="4bde-4db3-593b-29f5" primary="false" />
+        <categoryLink name="Aeldari" hidden="false" id="bf12-0e89-b0e3-7c95" targetId="25a4-f061-4504-4920" primary="false" />
+        <categoryLink name="Arlequín" hidden="false" id="89eb-f4d7-ce9e-2f88" targetId="57c2-fdf4-a93e-15e6" primary="false" />
+        <categoryLink name="Operative" hidden="false" id="c226-0b13-d8a7-5590" targetId="cf83-4496-b58e-ac82" primary="true" />
+        <categoryLink name="INTÉRPRETE" hidden="false" id="c51d-5d74-ab28-e058" targetId="aae7-f78d-c118-2146" primary="false" />
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="BUFÓN DE MUERTE" hidden="false" id="f51e-6be2-1e78-ab8a">
+      <profiles>
+        <profile name="BUFÓN DE MUERTE" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="1a86-e7f4-75a0-0a61">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">7"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">4+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="PANOPLIA DE ARLEQUÍN" id="84e9-e031-1b3c-f9a7" hidden="false" type="rule" targetId="8942-39e2-4aa6-66e6" />
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="602b-9c33-ed19-5c7a" shared="true" id="1fd1-1385-8b56-712d" includeChildSelections="false" />
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Cañón aullador" hidden="false" id="640a-5867-a7c3-d779">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d622-6881-72de-f925-min" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d622-6881-72de-f925-max" includeChildSelections="false" />
+          </constraints>
+          <profiles>
+            <profile name="⌖ Cañón aullador (concentrado)" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="3200-1bed-e47d-6535">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Desgarradora, Pesada (solo Reposicionarse), Crueldad humillante*</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="⌖ Cañón aullador (barrido)" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="2f39-5ea5-91b2-0895">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Desgarradora, Pesada (solo Correr), Ráfaga 2", Crueldad humillante*</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Rending" id="0ae3-e74c-427e-98d8" hidden="false" type="rule" targetId="b903-6f79-129d-4ec9" />
+            <infoLink name="Heavy" id="55de-dcc6-cbce-6566" hidden="false" type="rule" targetId="816e-44a2-6be4-6a9a" />
+            <infoLink name="Torrent x" id="2be0-0815-8c42-cf3e" hidden="false" type="rule" targetId="ad45-b4bb-1345-e4f9" />
+          </infoLinks>
+          <rules>
+            <rule name="*Crueldad humillante" id="5506-770f-b28f-5b3c" hidden="false">
+              <description>Si el blanco de esta arma no resulta 
+incapacitado pero alguno de tus dados de ataque inflige daño, el 
+blanco obtiene una de tus fichas de Crueldad humillante (si no 
+tiene una ya). Mientras un enemigo tenga una de tus fichas de 
+Crueldad humillante, empeora en 1 el atributo Impactar de sus 
+armas y resta 2" a su atributo Movimiento. Esto no se acumula 
+con estar lesionado. Al final de la próxima activación de ese 
+agente enemigo, retira su ficha de Crueldad humillante.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Filo aullador" hidden="false" id="cfc5-1a5c-0919-9880">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="254e-832e-d0d3-4264-min" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="254e-832e-d0d3-4264-max" includeChildSelections="false" />
+          </constraints>
+          <profiles>
+            <profile name="⚔ Filo aullador" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="fc50-12aa-5c2b-eac4">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Desgarradora</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Rending" id="f2f9-6919-033e-d726" hidden="false" type="rule" targetId="b903-6f79-129d-4ec9" />
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Compañía de Bailarines del vacío" hidden="false" id="4138-6e20-e40b-b652" targetId="4bde-4db3-593b-29f5" primary="false" />
+        <categoryLink name="Aeldari" hidden="false" id="561c-530c-b1d8-cc4e" targetId="25a4-f061-4504-4920" primary="false" />
+        <categoryLink name="Arlequín" hidden="false" id="925a-ac16-ee8e-7cb3" targetId="57c2-fdf4-a93e-15e6" primary="false" />
+        <categoryLink name="BUFÓN DE MUERTE" hidden="false" id="a769-beb3-53c8-6906" targetId="f661-de1f-589b-1103" primary="false" />
+        <categoryLink name="Operative" hidden="false" id="b138-a81b-ce46-b31e" targetId="cf83-4496-b58e-ac82" primary="true" />
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="VIDENTE DE SOMBRAS" hidden="false" id="b4e8-2c72-c18c-70a5">
+      <categoryLinks>
+        <categoryLink name="Compañía de Bailarines del vacío" hidden="false" id="bc62-82ec-0cad-ee6f" targetId="4bde-4db3-593b-29f5" primary="false" />
+        <categoryLink name="Aeldari" hidden="false" id="9d8e-6105-1d24-bfe1" targetId="25a4-f061-4504-4920" primary="false" />
+        <categoryLink name="Arlequín" hidden="false" id="25b5-6843-65cf-6489" targetId="57c2-fdf4-a93e-15e6" primary="false" />
+        <categoryLink name="VIDENTE DE SOMBRAS" hidden="false" id="c6a6-ad84-7e6a-b516" targetId="5d20-987a-92c2-66e1" primary="false" />
+        <categoryLink name="Operative" hidden="false" id="ae95-5a4c-4c61-8c64" targetId="cf83-4496-b58e-ac82" primary="true" />
+        <categoryLink name="Psyker" hidden="false" id="7822-9b41-d1b3-dfe0" targetId="6f95-9b94-d661-3243" primary="false" />
+      </categoryLinks>
+      <profiles>
+        <profile name="VIDENTE DE SOMBRAS" typeId="5156-3fb9-39ce-7bdb" typeName="Operative" hidden="false" id="5bb9-8cc9-0ed7-1433">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">7"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">4+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">9</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="NIEBLA DE SUEÑOS (1PA)" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions" hidden="false" id="018b-0832-1f43-8eed">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">PSÍQUICA. Elige un agente enemigo apostado visible para este agente y tira 1D6. Hasta el final del punto de inflexión, dicho agente 
+enemigo no podrá ser activado ni realizar acciones hasta que sea el último agente enemigo en ser activado, o hasta que el oponente haya 
+activado tantos agentes enemigos tras esta acción como el resultado del D6 (lo que ocurra antes).
+ Este agente no puede realizar esta acción si se encuentra en la zona de control de un agente enemigo.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="ESPEJO DE MENTES (1PA)" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions" hidden="false" id="0346-ee7f-c2ae-6f53">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">PSÍQUICA. Elige un agente enemigo que sea un blanco 
+válido para este agente y que esté a 8" o menos de él. Ambos 
+jugadores tiran cinco dados. Empareja tus dados con los de 
+tu oponente que hayan obtenido el mismo resultado. Por 
+cada pareja, inflige 1D3 daños a ese agente enemigo (hasta 
+un máximo de 8). Por ejemplo, si has sacado 6, 5, 5, 2, 1 y 
+tu oponente ha sacado 6, 5, 4, 3, 1, infligirías 3D3 daños a 
+ese agente enemigo.
+ Este agente no puede realizar esta acción si se encuentra en 
+la zona de control de un agente enemigo.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Pistola" hidden="false" id="3063-2f1b-33f1-37fe" type="selectionEntryGroup" targetId="c08f-3627-2559-20aa" />
+      </entryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Vara de bruma" hidden="false" id="0eac-484b-f7c8-9b8c">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b7b5-9a2a-d950-61b7-min" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b7b5-9a2a-d950-61b7-max" includeChildSelections="false" />
+          </constraints>
+          <profiles>
+            <profile name="⚔ Vara de bruma" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="dc47-1890-bf98-04b5">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Choque</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Shock" id="ce79-bbc6-8236-9284" hidden="false" type="rule" targetId="c544-8d4c-4109-4eec" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Granada alucinógena" hidden="false" id="e52c-5e74-306b-7515">
+          <profiles>
+            <profile name="⌖ Granada alucinógena" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="51eb-485d-67be-dc7f">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">1/1</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 6", Área 2", Aturdidora, Buscadora (Ligero), Silenciosa, Letal 5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Range x" id="f1db-73a3-5c87-19d8" hidden="false" type="rule" targetId="a528-829e-8268-c005" />
+            <infoLink name="Blast x" id="365d-a134-7449-b390" hidden="false" type="rule" targetId="0d74-0977-b481-bd13" />
+            <infoLink name="Seek" id="62c7-5ebb-5524-e3b7" hidden="false" type="rule" targetId="a33d-4e90-5794-6e20" />
+            <infoLink name="Silent" id="a08a-a701-8e10-6d8d" hidden="false" type="rule" targetId="1e3c-23c9-c6e2-9f62" />
+            <infoLink name="Stun" id="3184-cfbe-8761-99b6" hidden="false" type="rule" targetId="5ae2-3f29-8635-fd02" />
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8c8e-4b6f-3d00-2572-min" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8c8e-4b6f-3d00-2572-max" />
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="602b-9c33-ed19-5c7a" shared="true" id="cc50-6230-294a-640d" includeChildSelections="false" />
+      </constraints>
+    </selectionEntry>
+  </selectionEntries>
+  <forceEntries>
+    <forceEntry name="Comando Compañía de Bailarines del vacío" id="602b-9c33-ed19-5c7a" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Configuration" hidden="false" id="2c27-cd10-a26c-59cd" targetId="874b-0390-e5e2-1daa" />
+        <categoryLink name="Reference" hidden="false" id="63c2-5baa-055f-5d6e" targetId="b318-a8d7-2d38-99a3" />
+        <categoryLink name="Leader" hidden="false" id="9370-71fa-3d7f-eb21" targetId="d999-8cad-8145-4efe" />
+        <categoryLink name="Operative" hidden="false" id="ed75-4aa1-9c25-e506" targetId="cf83-4496-b58e-ac82">
+          <constraints>
+            <constraint type="min" value="7" field="selections" scope="parent" shared="true" id="fb42-51cc-ae00-914a-min" includeChildSelections="false" />
+            <constraint type="max" value="7" field="selections" scope="parent" shared="true" id="fb42-51cc-ae00-914a-max" includeChildSelections="false" />
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <sharedRules>
+    <rule name="PANOPLIA DE ARLEQUÍN" id="8942-39e2-4aa6-66e6" hidden="false">
+      <description>Las herramientas de oficio de los Arlequines les otorgan 
+una mayor movilidad y dificultan mucho apuntarles con 
+armas, permitiéndoles esquivar perforantes disparos de 
+plasma y fusión.
+Siempre que un agente dispare contra un 
+agente COMPAÑÍA DE BAILARINES DEL VACÍO 
+amigo, si no se guardan dados de ataque como 
+éxitos críticos, empeora en 1 la x de la regla de 
+armas Penetración (si la hay). Eso significa que 
+Penetración 1 se ignora.
+Siempre que un agente COMPAÑÍA DE 
+BAILARINES DEL VACÍO amigo trepe, puedes 
+tratar la distancia vertical como 1" (sin importar 
+la distancia real que mueva en vertical dicho 
+agente).
+Los agentes COMPAÑÍA DE BAILARINES DEL 
+VACÍO amigos pueden mover a través de la zona 
+de control de agentes enemigos (pero deben 
+empezar y terminar el movimiento siguiendo 
+todos los requisitos del mismo).</description>
+    </rule>
+  </sharedRules>
+  <rules>
+    <rule name="SAEDATH" id="13c0-6ef2-ce0a-a500" hidden="false">
+      <description>La Compañía de Bailarines del Vacío interpreta una 
+función mientras ataca desde la Telaraña. Un único intérprete empieza, y el resto se le une progresivamente.
+Como GAMBITO ESTRATÉGICO en el primer punto 
+de inflexión, debes elegir una ALEGORÍA (Épica 
+o Melodrama a continuación) para tu comando 
+para esta batalla, y un agente COMPAÑÍA DE 
+BAILARINES DEL VACÍO amigo para que tenga el 
+PAPEL CENTRAL en esta batalla. Mientras un agente 
+tenga el PAPEL CENTRAL, tiene la regla GALARDÓN 
+de tu ALEGORÍA para esa batalla.
+Como GAMBITO ESTRATÉGICO en cada punto de 
+inflexión subsiguiente, puedes elegir un agente COM-
+PAÑÍA DE BAILARINES DEL VACÍO amigo para que 
+obtenga la regla GALARDÓN de tu ALEGORÍA para 
+esta batalla.
+Una vez por punto de inflexión, cuando un agente 
+amigo que tenga el PAPEL CENTRAL complete la 
+interpretación de tu ALEGORÍA, puedes elegir un 
+agente COMPAÑÍA DE BAILARINES DEL VACÍO 
+amigo para que obtenga la regla GALARDÓN de tu 
+ALEGORÍA durante la batalla.</description>
+    </rule>
+  </rules>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Pistola shuriken" hidden="false" id="5f41-2660-60c5-db55">
+      <profiles>
+        <profile name="⌖ Pistola shuriken" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="2feb-d08d-b84e-df5e">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8", Desgarradora</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Range x" id="0f37-6991-1259-3c88" hidden="false" type="rule" targetId="a528-829e-8268-c005" />
+        <infoLink name="Rending" id="60fa-5e99-803a-8b4b" hidden="false" type="rule" targetId="b903-6f79-129d-4ec9" />
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Pistola" id="c08f-3627-2559-20aa" hidden="false" defaultSelectionEntryId="none">
+      <entryLinks>
+        <entryLink import="true" name="Pistola shuriken" hidden="false" id="1c34-64ac-b1b1-27c0" type="selectionEntry" targetId="5f41-2660-60c5-db55" />
+      </entryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Neurodisruptor" hidden="false" id="f66d-4e78-2b80-85f2">
+          <profiles>
+            <profile name="⌖ Neurodisruptor" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="95fc-0aac-7843-8b33">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8", Aturdidora, Penetración 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Range x" id="699d-cc25-0b4f-77cc" hidden="false" type="rule" targetId="a528-829e-8268-c005" />
+            <infoLink name="Piercing x" id="7d10-f717-09df-6f44" hidden="false" type="rule" targetId="4c07-2cb3-1417-cbb7" />
+            <infoLink name="Stun" id="5a81-70c7-b74b-9f90" hidden="false" type="rule" targetId="5ae2-3f29-8635-fd02" />
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="602b-9c33-ed19-5c7a" shared="true" id="f5c7-4fc6-3b79-d8c6" includeChildSelections="true" />
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Pistola fundidora" hidden="false" id="68da-a5c1-b7cf-a09c">
+          <profiles>
+            <profile name="⌖ Pistola fundidora" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="b92a-5366-4dab-c598">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">5/3</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 3", Devastadora 3, Penetración 2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Range x" id="4e00-d72e-8c1a-988b" hidden="false" type="rule" targetId="a528-829e-8268-c005" />
+            <infoLink name="Piercing x" id="7ac0-e34c-ac17-ab0d" hidden="false" type="rule" targetId="4c07-2cb3-1417-cbb7" />
+            <infoLink name="Devastating x" id="5e8a-a557-c7b2-200b" hidden="false" type="rule" targetId="a8ba-6e3a-76b3-f05c" />
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b4e8-2c72-c18c-70a5" shared="true" />
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="602b-9c33-ed19-5c7a" shared="true" id="9db3-9257-2546-23d7" includeChildSelections="true" />
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bdee-153c-df81-ef72-min" includeChildSelections="false" />
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bdee-153c-df81-ef72-max" includeChildSelections="false" />
+      </constraints>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Arma cuerpo a cuerpo" id="17a3-1dc8-3650-5833" hidden="false" defaultSelectionEntryId="none">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="056c-d2a7-ee0b-de39-min" includeChildSelections="false" />
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="056c-d2a7-ee0b-de39-max" includeChildSelections="false" />
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Arma de filo" hidden="false" id="e4ac-dc24-df34-958a">
+          <profiles>
+            <profile name="⚔ Arma de filo" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="835d-3613-bd6a-5273">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/6</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Caricia" hidden="false" id="cc3d-c68c-a555-6c89">
+          <profiles>
+            <profile name="⚔ Caricia" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="20d1-3592-af8b-3b64">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Desgarradora</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Rending" id="a0dd-a521-e4f8-e4cb" hidden="false" type="rule" targetId="b903-6f79-129d-4ec9" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Abrazo" hidden="false" id="0a08-2f63-f889-5714">
+          <profiles>
+            <profile name="⚔ Abrazo" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="0d57-c72b-01f8-f108">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Brutal</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Brutal" id="0914-0d03-59b8-1e80" hidden="false" type="rule" targetId="5151-5449-ca81-70ed" />
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Beso" hidden="false" id="7629-a0a1-21b5-dcd7">
+          <profiles>
+            <profile name="⚔ Beso" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="99df-64e7-105f-ea87">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/7</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Arma de energía" hidden="false" id="519d-f2fa-a51a-11a0">
+          <profiles>
+            <profile name="⚔ Arma de energía" typeId="f25f-4b13-b724-d5a8" typeName="Weapons" hidden="false" id="9e77-2507-d16e-db66">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/6</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Letal 5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Lethal x+" id="7317-c75a-7d5c-69ee" hidden="false" type="rule" targetId="8b97-e3e3-2857-817a" />
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="f446-7424-f2ce-b408" shared="true" />
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <categoryEntries>
+    <categoryEntry name="Compañía de Bailarines del vacío" id="4bde-4db3-593b-29f5" hidden="false" />
+    <categoryEntry name="Arlequín" id="57c2-fdf4-a93e-15e6" hidden="false" />
+    <categoryEntry name="PRIMADONNA" id="ee39-0217-44b4-0828" hidden="false" />
+    <categoryEntry name="INTÉRPRETE" id="aae7-f78d-c118-2146" hidden="false" />
+    <categoryEntry name="BUFÓN DE MUERTE" id="f661-de1f-589b-1103" hidden="false" />
+    <categoryEntry name="VIDENTE DE SOMBRAS" id="5d20-987a-92c2-66e1" hidden="false" />
+  </categoryEntries>
+  <comment>Update 1.3</comment>
+</catalogue>

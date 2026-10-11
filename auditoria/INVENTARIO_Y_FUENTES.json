@@ -1,0 +1,1582 @@
+{
+  "teams": 44,
+  "files": 45,
+  "base_repository": "https://github.com/BSData/wh40k-killteam",
+  "base_commit": "7a6bec167e75e477a508e83963895702efc3a2c5",
+  "ids_and_selection_logic_preserved": true,
+  "technical_profile_keys_preserved": true,
+  "revision_incremented": true,
+  "display_name_modifiers_translated": 2,
+  "missing_references_already_in_original": [],
+  "catalogues": [
+    {
+      "file": "2024 - Angels of Death.cat",
+      "name": "Ángeles de la Muerte",
+      "id": "4f46-f795-734e-6076",
+      "revision": "10",
+      "sha256": "0827fa6bbc8a1621518025af758b8b68697bb08e61fab58d9e640e07da4de341",
+      "original_sha256": "bda35a8cf01e48616cce82b4439a25d937c7cecbb6b38f4889c09b3f475b7f00",
+      "profiles": {
+        "Operative": 10,
+        "Abilities": 8,
+        "Weapons": 22,
+        "Unique Actions": 1,
+        "Chapter Tactics": 8,
+        "Equipment": 4
+      }
+    },
+    {
+      "file": "2024 - Battleclade.cat",
+      "name": "Comando clado de batalla",
+      "id": "67c0-a22d-585b-3425",
+      "revision": "7",
+      "sha256": "1b1775b571e4c787b0c13acad8049e228e1cb881c371b65276067657a17c31df",
+      "original_sha256": "42c38033e28a359be54952aec2320b2e24bdd30bade25dace0d9a28932873897",
+      "profiles": {
+        "Operative": 7,
+        "Abilities": 3,
+        "Weapons": 17,
+        "Unique Actions": 6,
+        "Equipment": 4
+      }
+    },
+    {
+      "file": "2024 - Blades of Khaine.cat",
+      "name": "Filos de Khaine",
+      "id": "4df5-2e8e-b772-6f0e",
+      "revision": "10",
+      "sha256": "b4630dfab8d30080639f912f321d56f8b2c914b8290ced994fb6616fd103e400",
+      "original_sha256": "606688724dca26075997c833354d46f57dbd3ffc80375ade014c284236eed611",
+      "profiles": {
+        "Operative": 6,
+        "Weapons": 20,
+        "Abilities": 6,
+        "Dire Avenger Aspect Techniques": 5,
+        "Howling Banshee Aspect Techniques": 5,
+        "Striking Scorpion Aspect Techniques": 5,
+        "Equipment": 4
+      }
+    },
+    {
+      "file": "2024 - Blooded.cat",
+      "name": "Ungidos",
+      "id": "5bc6-6769-454c-a4f1",
+      "revision": "4",
+      "sha256": "4dee84f8354be9306fc8bcf7f036287c75e23a0ef155fbc8d400aef486337b06",
+      "original_sha256": "ad8d31bf6893bf846bf3cdd3032a9a9c7089ebb1b3c71cb23cb52c4500bd2dac",
+      "profiles": {
+        "Weapons": 28,
+        "Operative": 14,
+        "Abilities": 18,
+        "Unique Actions": 4,
+        "Equipment": 4
+      }
+    },
+    {
+      "file": "2024 - Brood Brothers.cat",
+      "name": "Hermanos de Progenie",
+      "id": "1c6d-5999-b652-644e",
+      "revision": "8",
+      "sha256": "c22ba368180612e28cee45b881866afff77e05c5437001c101226a10c0004785",
+      "original_sha256": "2e8df07909e8d289b7c8d9d8030368e5c1a73ed5ec9f1f2da888f09077b5fc2f",
+      "profiles": {
+        "Operative": 16,
+        "Abilities": 22,
+        "Weapons": 34,
+        "Unique Actions": 9,
+        "Equipment": 4
+      }
+    },
+    {
+      "file": "2024 - Canoptek Circle.cat",
+      "name": "Círculo Canóptico",
+      "id": "0e19-7ab2-c4a6-76e7",
+      "revision": "7",
+      "sha256": "a60efdf9a754428b03b26eb63819cee6dd7190b9212a65fb59b76b47e334306f",
+      "original_sha256": "cb5ab285b741e5a7c556b11fd614010676ae7ef2fc3130078065d99d16c6427f",
+      "profiles": {
+        "Operative": 6,
+        "Abilities": 7,
+        "Unique Actions": 6,
+        "Weapons": 15,
+        "Equipment": 4
+      }
+    },
+    {
+      "file": "2024 - Chaos Cult.cat",
+      "name": "Culto del Caos",
+      "id": "b117-ed88-b249-f291",
+      "revision": "6",
+      "sha256": "4f615df2348f54f45ce8046e00e28873c87314cc53ab6c184449d29bd17ee164",
+      "original_sha256": "71ea3c36cbeef6e173e3d068790a8fda3152ce19e2d8de03d5a7c593ccc7f995",
+      "profiles": {
+        "Equipment": 4,
+        "Operative": 7,
+        "Unique Actions": 5,
+        "Weapons": 10,
+        "Abilities": 9,
+        "Accursed Gifts": 6
+      }
+    },
+    {
+      "file": "2024 - Corsair Voidscarred.cat",
+      "name": "Corsarios del Vacío",
+      "id": "0af9-5310-bfda-445d",
+      "revision": "7",
+      "sha256": "eca98cdd4e5825462071b21c487fbe82665d5243530987f0e72f1528c9cf11b1",
+      "original_sha256": "20dbf4f071ce5563ae822b52964cde53fd7af6f331ead3ad9bd8510c092e7fa9",
+      "profiles": {
+        "Weapons": 20,
+        "Operative": 12,
+        "Abilities": 11,
+        "Unique Actions": 5,
+        "Equipment": 4
+      }
+    },
+    {
+      "file": "2024 - Death Korps.cat",
+      "name": "Korps de la Muerte",
+      "id": "1806-03da-8d4c-a045",
+      "revision": "10",
+      "sha256": "1cb00502aec5d52f5824fff8af0a64ac583c844bc65cf41fd2012c392668aee5",
+      "original_sha256": "91df0477ca27efe6d1fdd1dcec0b88d12591348c1f6849f2af0e083c5c45ab84",
+      "profiles": {
+        "Equipment": 3,
+        "Weapons": 23,
+        "Operative": 13,
+        "Abilities": 13,
+        "Guardsmen Orders": 4,
+        "Unique Actions": 3
+      }
+    },
+    {
+      "file": "2024 - Deathwatch.cat",
+      "name": "Comando Vigías De La Muerte",
+      "id": "b3c0-fea0-7505-777b",
+      "revision": "6",
+      "sha256": "e56c964874a9ed3899d10a863f37f7e034def1e926ea37675d95a34d7de87167",
+      "original_sha256": "9b1fc71509e77f01e50123bbf145b41c976509523bd240e3dfd05c3216583575",
+      "profiles": {
+        "Equipment": 4,
+        "Operative": 11,
+        "Abilities": 11,
+        "Weapons": 25
+      }
+    },
+    {
+      "file": "2024 - Elucidian Starstriders.cat",
+      "name": "Recorrestrellas Elucidianos",
+      "id": "702b-b6d8-a1e3-82e5",
+      "revision": "5",
+      "sha256": "a2f1e950495080276f99308141751a4c8080d9b042d88702d6378ae13f3a1127",
+      "original_sha256": "fcd4618134a34781fe5bd7b1bea139d1c9e23a9ade860dce9b900509a812ffad",
+      "profiles": {
+        "Operative": 7,
+        "Abilities": 19,
+        "Weapons": 20,
+        "Unique Actions": 5,
+        "Warrant of Trade": 7,
+        "Equipment": 3
+      }
+    },
+    {
+      "file": "2024 - Exaction Squad.cat",
+      "name": "Escuadra de Exacción",
+      "id": "14cd-959e-52b3-cb9b",
+      "revision": "9",
+      "sha256": "8e5e6cd101d1e9c6929e6ee865352ae0950991465d40d189a9a9440e030cbd63",
+      "original_sha256": "d9759f477daa00a2cc22e1e0b2c1c4a6367886907d59e9feacd88825bfa0f536",
+      "profiles": {
+        "Weapons": 17,
+        "Operative": 13,
+        "Unique Actions": 8,
+        "Abilities": 13,
+        "Equipment": 4
+      }
+    },
+    {
+      "file": "2024 - Farstalker Kinband.cat",
+      "name": "Bandaestirpe Acechante",
+      "id": "1846-3fbb-36f1-6e36",
+      "revision": "8",
+      "sha256": "000d4e6fdb1445b4480c0d5567c7944264140af0a9d11803e46ed564c90a0105",
+      "original_sha256": "c5a21aaae7f0d305ab17b976352061018c288b9847333ce1bd292ea680809fe3",
+      "profiles": {
+        "Equipment": 4,
+        "Operative": 11,
+        "Weapons": 19,
+        "Abilities": 11,
+        "Unique Actions": 6
+      }
+    },
+    {
+      "file": "2024 - Fellgor Ravagers.cat",
+      "name": "Expoliagores Impíos",
+      "id": "1831-b3f5-0709-1a99",
+      "revision": "8",
+      "sha256": "6f3f7942a04695bf26660b7bb616581fb1f94ffa9f9e2bee0e933c0b2610a8ef",
+      "original_sha256": "508768f8c4477e7340fb756acea2bbbbdc8538770c5ecbbdd913dfe2ce9566c0",
+      "profiles": {
+        "Equipment": 4,
+        "Operative": 12,
+        "Abilities": 17,
+        "Weapons": 16,
+        "Unique Actions": 7
+      }
+    },
+    {
+      "file": "2024 - Gellerpox Infected.cat",
+      "name": "Infectados Geller",
+      "id": "6df0-7fd2-fdf4-865e",
+      "revision": "5",
+      "sha256": "79c21636b63526284cdd28c1454b754fa86af63a6fd8216cc70ebce5af866ad7",
+      "original_sha256": "5ca60fefd97b262f1b04b1548519ab98afc14a28c5655cd554a2cd7797060daa",
+      "profiles": {
+        "Equipment": 4,
+        "Weapons": 19,
+        "Abilities": 15,
+        "Operative": 10
+      }
+    },
+    {
+      "file": "2024 - Goremonger.cat",
+      "name": "SIEMBRASANGRE",
+      "id": "7d0f-d6d2-15b2-1f2f",
+      "revision": "8",
+      "sha256": "1e07bb191a7bd8404a8e9a0a2b6748f9c3961b48de2dedfeceed49e9c1ee6214",
+      "original_sha256": "68d5b2981044ecdcb49841d51abbfd67441b00b2f880baefdb985e93b7395b1b",
+      "profiles": {
+        "Operative": 7,
+        "Abilities": 8,
+        "Weapons": 11,
+        "Unique Actions": 3,
+        "Sanguavitae": 6,
+        "Equipment": 4
+      }
+    },
+    {
+      "file": "2024 - Hand of the Archon.cat",
+      "name": "Mano del Arconte",
+      "id": "899f-9e21-612d-19d2",
+      "revision": "7",
+      "sha256": "5ae5371d5446c3d4c6f5ea718bb131095cd0498f2b7ce56b130d8cc16a408748",
+      "original_sha256": "7ef4f4513d813422c4d838cefc36cb025efe9c22e4a92b0e013668cb3d203d81",
+      "profiles": {
+        "Weapons": 18,
+        "Abilities": 8,
+        "Operative": 9,
+        "Unique Actions": 3,
+        "Equipment": 4
+      }
+    },
+    {
+      "file": "2024 - Hearthkyn Salvagers.cat",
+      "name": "Sucesores Recuperadores",
+      "id": "58da-24b8-ca3c-2bf4",
+      "revision": "10",
+      "sha256": "9f11831a53861bc5e96caea0e5addc1bb8cc0dfcb81449bbfa9f5a02426c6674",
+      "original_sha256": "a38b6d60555bdb4499e33c85cc793cbf3dd85f5c9839e78a874bcf7a62477144",
+      "profiles": {
+        "Weapons": 20,
+        "Operative": 11,
+        "Abilities": 12,
+        "Unique Actions": 8,
+        "Equipment": 4
+      }
+    },
+    {
+      "file": "2024 - Hernkyn Yaegirs.cat",
+      "name": "Yaegirs Hernkyn",
+      "id": "8b76-6335-308e-7ddb",
+      "revision": "8",
+      "sha256": "bc125f75c1ae79f7af7db2b95d72a47bdb28b6b9dce92c90655584e37129de9d",
+      "original_sha256": "768ca8a6793e0829ebadf453bdcded33dba97bdfa3f138e493be7435aab70355",
+      "profiles": {
+        "Equipment": 4,
+        "Weapons": 19,
+        "Operative": 8,
+        "Abilities": 14
+      }
+    },
+    {
+      "file": "2024 - Hierotek Circle.cat",
+      "name": "Círculo de Hierotecnólogos",
+      "id": "f32e-c4e5-72a3-dd71",
+      "revision": "15",
+      "sha256": "a9c03ecf508a775f52ef4bf798f120b23490f9f18894420ab1b87a633122d24d",
+      "original_sha256": "ebb47e9a2aba2e6c6378c3cf865730d2327827e43a21c229d7beda09ca12c06c",
+      "profiles": {
+        "Equipment": 4,
+        "Unique Actions": 14,
+        "Operative": 9,
+        "Weapons": 18,
+        "Abilities": 4
+      }
+    },
+    {
+      "file": "2024 - Hunter Clade.cat",
+      "name": "Clado de Caza",
+      "id": "2a57-e709-8451-610a",
+      "revision": "6",
+      "sha256": "8c19028aed600af30a4d4af6790dc967718e6ce534d181b21d06e7496ac0e096",
+      "original_sha256": "9ec4979a11e21c51d1caf95c49cfe2237ecb20e31d31d9d177f035e881e3682d",
+      "profiles": {
+        "Weapons": 19,
+        "Operative": 14,
+        "Abilities": 10,
+        "Doctrina Imperatives": 5,
+        "Equipment": 4,
+        "Unique Actions": 2
+      }
+    },
+    {
+      "file": "2024 - Imperial Navy Breachers.cat",
+      "name": "Abordadores de la Armada Imperial",
+      "id": "ed31-9fdf-e3c4-1ba7",
+      "revision": "8",
+      "sha256": "99b1d7bf37f3bf1b4b4d37b37939ee22a59621088c3e65d4683f96b9903b6006",
+      "original_sha256": "ce8884e05d5e8576174dce783a5dd0f3b6f8493d2f8df746c4555eb12cb80ec4",
+      "profiles": {
+        "Operative": 12,
+        "Abilities": 10,
+        "Unique Actions": 8,
+        "Weapons": 20,
+        "Equipment": 3
+      }
+    },
+    {
+      "file": "2024 - Inquisitorial Agents.cat",
+      "name": "Operativos Inquisitoriales",
+      "id": "a018-5b5c-33fa-f85b",
+      "revision": "17",
+      "sha256": "7a698e223ab074b2b326cf3c10a5bd12aff35ea8aac1c8b3ab10131d0d0c01ba",
+      "original_sha256": "946abb74c87129b0af4ade337af207689f3bba6f3f730fc6a310e59b10f5382e",
+      "profiles": {
+        "Equipment": 4,
+        "Weapons": 83,
+        "Operative": 56,
+        "Abilities": 64,
+        "Unique Actions": 25
+      }
+    },
+    {
+      "file": "2024 - Kasrkin.cat",
+      "name": "Kasrkin",
+      "id": "6d15-88a6-0c03-0e47",
+      "revision": "9",
+      "sha256": "1b5af871766a09643e7e1f8063ca51dedf0b224c73345a6c9a46b14969dd17b4",
+      "original_sha256": "afc989519792a75745d1f0e84a215f9e39d7315e00f7f8f0a71d4d5788142fb8",
+      "profiles": {
+        "Equipment": 3,
+        "Abilities": 10,
+        "Weapons": 20,
+        "Operative": 8,
+        "Unique Actions": 4
+      }
+    },
+    {
+      "file": "2024 - Kommandos.cat",
+      "name": "Orkomandos",
+      "id": "0d41-a809-1fff-b8b1",
+      "revision": "7",
+      "sha256": "c855db2349a8b275bf6273a1ae8622c1b8ed0e738c3660afb8b853544eeb37f0",
+      "original_sha256": "573f6bada8b0d8210d76cac90e68a673fd88e0242be4ef24f34cc430c26c7259",
+      "profiles": {
+        "Operative": 12,
+        "Unique Actions": 5,
+        "Weapons": 24,
+        "Abilities": 8,
+        "Equipment": 1
+      }
+    },
+    {
+      "file": "2024 - Legionaries.cat",
+      "name": "Legionarios",
+      "id": "5fa4-88e8-89fb-2e9c",
+      "revision": "6",
+      "sha256": "441a649cd0892fa0ec4599dfd67676e706efca0e86096bd4a0e179f1626421d0",
+      "original_sha256": "af98e5d86a419b57508c87f1d2c3688b67fcef74b80f49ce028030ba36477c09",
+      "profiles": {
+        "Abilities": 15,
+        "Equipment": 4,
+        "Weapons": 29,
+        "Operative": 10,
+        "Unique Actions": 1
+      }
+    },
+    {
+      "file": "2024 - Mandrakes.cat",
+      "name": "Mandrágoras",
+      "id": "d8d1-628b-09cd-d8a1",
+      "revision": "5",
+      "sha256": "36c771fc87ea803c0240fd82140fb0fa9682522bcfdf2e6f2877f7d135dc9fbb",
+      "original_sha256": "f5c5e2b59162eaf0fd7c9b2503616ee70988ce09612cb8ad44fa6bed0d30d681",
+      "profiles": {
+        "Equipment": 4,
+        "Weapons": 8,
+        "Operative": 6,
+        "Abilities": 8,
+        "Unique Actions": 3
+      }
+    },
+    {
+      "file": "2024 - Nemesis Claw.cat",
+      "name": "Garra Némesis",
+      "id": "9adb-bf40-a96a-16be",
+      "revision": "10",
+      "sha256": "ddc348f270fd4489cbbab92730a222d55c2ad1e60b549fcacddf58145d53f5c0",
+      "original_sha256": "94ab07bc31ad312f96b817057ecfa3034bb7980d124dc3509413a388684af76f",
+      "profiles": {
+        "Weapons": 24,
+        "Abilities": 10,
+        "Operative": 9,
+        "Unique Actions": 3,
+        "Equipment": 4
+      }
+    },
+    {
+      "file": "2024 - Novitiates.cat",
+      "name": "Novicias",
+      "id": "083c-072e-01c0-5f45",
+      "revision": "6",
+      "sha256": "294a4810c863d1c9d94ed108eda42ae485a9daef6f932d91cc706b8008fdc02a",
+      "original_sha256": "6d8bfd68537c06aaa923df8d5a30ae3bed9b47309bab29f63a93006969d42965",
+      "profiles": {
+        "Equipment": 4,
+        "Operative": 12,
+        "Abilities": 13,
+        "Weapons": 20,
+        "Unique Actions": 5
+      }
+    },
+    {
+      "file": "2024 - Pathfinders.cat",
+      "name": "Rastreadores",
+      "id": "2099-65f1-56cf-d9c0",
+      "revision": "11",
+      "sha256": "2b650e5a378ad98895a9023467c8c46d0fc5ec22a8b6b0dfb02ee6d893a15c77",
+      "original_sha256": "b3ca2c719ed255ca49c2fa2efc5b0ee00d5b444c69e6956fe1bf656af4a7c1ef",
+      "profiles": {
+        "Equipment": 4,
+        "Unique Actions": 7,
+        "Abilities": 14,
+        "Operative": 16,
+        "Weapons": 15,
+        "Markerlight Tokens": 5
+      }
+    },
+    {
+      "file": "2024 - Phobos Strike Team.cat",
+      "name": "Asaltantes Phobos",
+      "id": "deb4-15a0-8800-eecb",
+      "revision": "5",
+      "sha256": "d0967e1554c6d38a07f98350ba3b2bdb423c9c87f55254a36ae7192b4e1eef36",
+      "original_sha256": "e05cf343ddcc113e59cf8df632474182a3c8aba7bafa7793468ed4be772d14f8",
+      "profiles": {
+        "Operative": 13,
+        "Weapons": 10,
+        "Abilities": 11,
+        "Unique Actions": 2,
+        "Equipment": 4
+      }
+    },
+    {
+      "file": "2024 - Plague Marines.cat",
+      "name": "Marines de la Plaga",
+      "id": "5907-ff9e-cba1-354b",
+      "revision": "12",
+      "sha256": "e47f428cb74f1cbe9d855f6836924a0de23f5ed4724b096ab94028d3fe6a3dd1",
+      "original_sha256": "6316ae60a98a05540bd9cfe41db132f2d5c929fa997189a7656eed6de7425789",
+      "profiles": {
+        "Operative": 7,
+        "Abilities": 5,
+        "Weapons": 14,
+        "Unique Actions": 3,
+        "Equipment": 4
+      }
+    },
+    {
+      "file": "2024 - Ratling.cat",
+      "name": "RATLING",
+      "id": "e482-b469-a757-5368",
+      "revision": "11",
+      "sha256": "50ee5b465c0d16e191e7edf206eb02b13da452902ac4be9db9a2c80e1136505d",
+      "original_sha256": "de84318d2f54f3398901b96a02bb8c34e9e135a13f528504530bd48e57c9668d",
+      "profiles": {
+        "Equipment": 4,
+        "Operative": 13,
+        "Abilities": 16,
+        "Weapons": 21,
+        "Unique Actions": 4
+      }
+    },
+    {
+      "file": "2024 - Raveners.cat",
+      "name": "Mántifex",
+      "id": "4b1c-f3e1-5479-b7e2",
+      "revision": "10",
+      "sha256": "697a8bf374ff10c1ba94d92aa92fdf5799456291118705f9494b7ca59bfdb657",
+      "original_sha256": "41ee6b24eb58df4e4fdbdc8b4949b7d66d14502ca636f3b90773a2c05f0bbbbd",
+      "profiles": {
+        "Operative": 7,
+        "Abilities": 5,
+        "Weapons": 10,
+        "Unique Actions": 3,
+        "Equipment": 4
+      }
+    },
+    {
+      "file": "2024 - Sanctifier.cat",
+      "name": "SANTIFICADOR",
+      "id": "111c-537d-5e9f-0180",
+      "revision": "7",
+      "sha256": "bfb5fba55e1d62e92fd9a36544ed83e1ee19897b46b52f3813db2e823bc61d4b",
+      "original_sha256": "c06dc37bdef52aa3853392f90d8593a16fbfadb34a793592f26355f4978e7136",
+      "profiles": {
+        "Equipment": 4,
+        "Weapons": 22,
+        "Abilities": 17,
+        "Operative": 11,
+        "Unique Actions": 4
+      }
+    },
+    {
+      "file": "2024 - Scout Squad.cat",
+      "name": "Escuadra de Exploradores",
+      "id": "5db8-793c-2184-a8d9",
+      "revision": "9",
+      "sha256": "c171f85691774b61a9a45410ae7b9e0f6600d4a8de7c53a384ce0ecdc0245271",
+      "original_sha256": "e58aa72a80e16a8d33a76cdd12800fbcf1651abe9da7f551f7eabfdfdc734efb",
+      "profiles": {
+        "Operative": 7,
+        "Abilities": 8,
+        "Weapons": 13,
+        "Equipment": 3,
+        "Unique Actions": 3
+      }
+    },
+    {
+      "file": "2024 - Tempestus Aquilons.cat",
+      "name": "Tempestus Aquilons",
+      "id": "70dd-e7c9-fef1-aa50",
+      "revision": "8",
+      "sha256": "c54e348835f65b94dec3b60fce13f7b5d85f854cf727d993ba773b0515f5c995",
+      "original_sha256": "94a3eee1dd4df89f511cfdea439b0d8f6130287ae0920a0f0a1d3db5282b0038",
+      "profiles": {
+        "Operative": 9,
+        "Abilities": 10,
+        "Unique Actions": 1,
+        "Weapons": 23,
+        "Equipment": 3
+      }
+    },
+    {
+      "file": "2024 - Vespid Stingwings.cat",
+      "name": "Aguijones Alados Véspid",
+      "id": "c31e-b272-42a3-51b7",
+      "revision": "7",
+      "sha256": "8470edf97fc16d735a671b4bbf7eccb3651d8b90dcb4da6a209918a3dec09723",
+      "original_sha256": "d412bc379faaf936ccdbc2ccf605a5fab50d4f05f1893d5881c182db4dff6330",
+      "profiles": {
+        "Operative": 8,
+        "Abilities": 7,
+        "Weapons": 10,
+        "Unique Actions": 2,
+        "Equipment": 4
+      }
+    },
+    {
+      "file": "2024 - Void-dancer Troupe.cat",
+      "name": "Compañía de Bailarines del vacío",
+      "id": "0a72-bb02-c4a3-8c33",
+      "revision": "13",
+      "sha256": "4972d59627fff0928dea811b98d868ec587feadf150456471592a2fa0d8c41b0",
+      "original_sha256": "c38ac23388237bd515450cc90c73c72541e2821b3ef6be69cb5405376bdce35d",
+      "profiles": {
+        "Equipment": 4,
+        "Operative": 4,
+        "Abilities": 2,
+        "Weapons": 13,
+        "Unique Actions": 2
+      }
+    },
+    {
+      "file": "2024 - Warpcoven.cat",
+      "name": "Aquelarre Disforme",
+      "id": "2c48-0a38-f96d-2fbf",
+      "revision": "13",
+      "sha256": "7ef5dd849800e0af702906952bdee6071dba56428e92695c5623c396b284f8c5",
+      "original_sha256": "b440a4e55e4ddf3199a52634acec5b60b9edc46cd3dc0f30de0c840d1f1b2788",
+      "profiles": {
+        "Boons of Tzeentch": 8,
+        "Abilities": 12,
+        "Operative": 10,
+        "Unique Actions": 6,
+        "Weapons": 20
+      }
+    },
+    {
+      "file": "2024 - Wolf Scouts.cat",
+      "name": "Exploradores Lobo",
+      "id": "7eee-ea5a-4273-265e",
+      "revision": "8",
+      "sha256": "6671070f2b42e2f16605dff252884fb431371c42e52e822fa7907053d6c8cbcb",
+      "original_sha256": "0231085ad572aa7394028d7c4718bf72f30da6ca92a022bc78295c74345bd50d",
+      "profiles": {
+        "Operative": 8,
+        "Abilities": 11,
+        "Weapons": 13,
+        "Unique Actions": 2,
+        "Equipment": 4
+      }
+    },
+    {
+      "file": "2024 - Wrecka Krew.cat",
+      "name": "Demoledorez",
+      "id": "f08d-6683-822f-0955",
+      "revision": "8",
+      "sha256": "43ecb4e554b28ecb5fe9d885b5e29178988f4b7a7b81977101c7229bde8223d1",
+      "original_sha256": "e3cd469e0c1ff793d7b7b7c8a269c28a2f2db4026ea1e2a638bf039169e425f5",
+      "profiles": {
+        "Operative": 7,
+        "Abilities": 8,
+        "Weapons": 16,
+        "Unique Actions": 1,
+        "Equipment": 4
+      }
+    },
+    {
+      "file": "2024 - Wyrmblade.cat",
+      "name": "Filosierpe",
+      "id": "d953-a8cd-d581-475e",
+      "revision": "6",
+      "sha256": "7a88972e05c1b5743a016ccfbeb38978e91c09fb3f2abe8949bcb897239945dc",
+      "original_sha256": "1c263fd1050b0a25302d6b7e0a9f0acf78ff0b4b44c9e00e73f06e0535db3aea",
+      "profiles": {
+        "Operative": 9,
+        "Abilities": 12,
+        "Weapons": 30,
+        "Unique Actions": 4,
+        "Equipment": 4
+      }
+    },
+    {
+      "file": "2024 - XV26 Battlesuits.cat",
+      "name": "Servoarmaduras XV26",
+      "id": "751c-3342-afdc-3814",
+      "revision": "6",
+      "sha256": "6857810b509d18dd19303374e668d738fb7a94d9082d7d908ae664f498f467ab",
+      "original_sha256": "f2c6dec6a3806cd56f7d836f2a2bbb9db7bdc047cc0f574e82cc631004a84983",
+      "profiles": {
+        "Operative": 9,
+        "Abilities": 9,
+        "Weapons": 10,
+        "Unique Actions": 3,
+        "Equipment": 4
+      }
+    },
+    {
+      "file": "2024 - Kill Team.gst",
+      "name": "Kill Team (2024) — Español",
+      "id": "c521-ad27-44df-f959",
+      "revision": "10",
+      "sha256": "1ee4a0c5421fc64fd97622f3dd2229faec810cd8a62854d31a012797084cbc1c",
+      "original_sha256": "2104b89f49e82ec508c69e4a768ac37a27d0679e0731d99c848a3be84c92b29f",
+      "profiles": {
+        "Operative": 1,
+        "Equipment": 10,
+        "Unique Actions": 4,
+        "Abilities": 1,
+        "Weapons": 2
+      }
+    }
+  ],
+  "sources": [
+    {
+      "team": "Angels of Death",
+      "slug": "angels_of_death",
+      "language": "EN",
+      "name": "Angels of Death",
+      "url": "https://assets.warhammer-community.com/eng_26-08_killteam_angels_of_death_online_rules-1rwlnicmkz-qjtykwlybg.pdf",
+      "date": "26/08/2026",
+      "bytes": 7990645,
+      "sha256": "2accbc12dd174a170173ecff0022234a42611a6cf20b8f11e31e65239a25d9c5"
+    },
+    {
+      "team": "Angels of Death",
+      "slug": "angels_of_death",
+      "language": "ES",
+      "name": "Ángeles de la Muerte",
+      "url": "https://assets.warhammer-community.com/spa_26-08_killteam_angels_of_death_online_rules-3bsjic05vq-yhwgfqnmdp.pdf",
+      "date": "26/08/2026",
+      "bytes": 8610483,
+      "sha256": "51c682baf5e5f231a4fe3dbaccc0fca266eac58b4f7d0b6503e8a4d6cd25c297"
+    },
+    {
+      "team": "Battleclade",
+      "slug": "battleclade",
+      "language": "EN",
+      "name": "Battleclade",
+      "url": "https://assets.warhammer-community.com/eng_battleclade_online_rules-crotgv4bz2-4lvylnxlku.pdf",
+      "date": "26/08/2026",
+      "bytes": 9902199,
+      "sha256": "fd98b8d5bf1e37f956e9202b256f12fbf23456e6195624be82d3e2122af6ca4c"
+    },
+    {
+      "team": "Battleclade",
+      "slug": "battleclade",
+      "language": "ES",
+      "name": "Comando clado de batalla",
+      "url": "https://assets.warhammer-community.com/spa_battleclade_online_rules-lggxpac8vd-xirpzjin9z.pdf",
+      "date": "26/08/2026",
+      "bytes": 11198780,
+      "sha256": "4b63c8635b1b00a5416323d695ca403f6da7760fb097d1d63c24248ec5d0cdeb"
+    },
+    {
+      "team": "Blades of Khaine",
+      "slug": "blades_of_khaine",
+      "language": "EN",
+      "name": "Blades of Khaine",
+      "url": "https://assets.warhammer-community.com/eng_29-04_killl_team_team_rules_blades_of_khaine-p7jsqt6jno-y4kh2lus1f.pdf",
+      "date": "29/04/2026",
+      "bytes": 7599684,
+      "sha256": "02458a0f200bd931a7bee1d429c559502c4a224572fd047e4a80aba6bd794e43"
+    },
+    {
+      "team": "Blades of Khaine",
+      "slug": "blades_of_khaine",
+      "language": "ES",
+      "name": "Filos de Khaine",
+      "url": "https://assets.warhammer-community.com/spa_29-04_killl_team_team_rules_blades_of_khaine-qsnvs1zdc8-k7uinkxkhv.pdf",
+      "date": "29/04/2026",
+      "bytes": 7573046,
+      "sha256": "831f7075b1c3e73f35e97020075203981dc45fc6f26cce94ec376d18b64f0015"
+    },
+    {
+      "team": "Blooded",
+      "slug": "blooded",
+      "language": "EN",
+      "name": "Blooded",
+      "url": "https://assets.warhammer-community.com/eng_29-04_kill_team_team_rules_blooded-djvqgciu6s-zvnlalulmo.pdf",
+      "date": "29/04/2026",
+      "bytes": 9221245,
+      "sha256": "0bf0ae64b0879aa17d1b516f2336e11ca199a4f6c426e552b3c3fae35a95ad6a"
+    },
+    {
+      "team": "Blooded",
+      "slug": "blooded",
+      "language": "ES",
+      "name": "Ungidos",
+      "url": "https://assets.warhammer-community.com/spa_29-04_kill_team_team_rules_blooded-jxnlpd097d-vpkw3ezm5o.pdf",
+      "date": "29/04/2026",
+      "bytes": 9054495,
+      "sha256": "49379921f9005750f30c78f5ec0a11aead109630c3ce5cc805363f401ffb206a"
+    },
+    {
+      "team": "Brood Brothers",
+      "slug": "brood_brothers",
+      "language": "EN",
+      "name": "Brood Brothers",
+      "url": "https://assets.warhammer-community.com/eng_brood_brothers_online_rules-ztviivggwv-tdvilxxaue.pdf",
+      "date": "26/08/2026",
+      "bytes": 7777832,
+      "sha256": "b184ff3b545ce39890cbb7e6d6b4b9fad0affc87b2af6b5c05d4076e0f504a9b"
+    },
+    {
+      "team": "Brood Brothers",
+      "slug": "brood_brothers",
+      "language": "ES",
+      "name": "Hermanos de Progenie",
+      "url": "https://assets.warhammer-community.com/spa_brood_brothers_online_rules-ejigbxw6uo-qwx7qvkk6j.pdf",
+      "date": "26/08/2026",
+      "bytes": 8315741,
+      "sha256": "7b7b69dcd09884cf7eefdca86404ebd16e723ec29f11517e3766a5f0634d3323"
+    },
+    {
+      "team": "Canoptek Circle",
+      "slug": "canoptek_circle",
+      "language": "EN",
+      "name": "Canoptek Circle",
+      "url": "https://assets.warhammer-community.com/eng_canoptek_circle_online_rules-oyuqtupnb7-kwrjrlduzv.pdf",
+      "date": "26/08/2026",
+      "bytes": 12684635,
+      "sha256": "1fdb059fa796381ed25dbbee41570b571ef95afa16c4a914c130446be1cad0a9"
+    },
+    {
+      "team": "Canoptek Circle",
+      "slug": "canoptek_circle",
+      "language": "ES",
+      "name": "Círculo Canóptico",
+      "url": "https://assets.warhammer-community.com/spa_canoptek_circle_online_rules-esecxuebsi-rnia59rmcp.pdf",
+      "date": "26/08/2026",
+      "bytes": 13339696,
+      "sha256": "25dcfc2379f89dc58083ce3f1df5cced1ffcaa3140b1ed995afd7ce4c09da047"
+    },
+    {
+      "team": "Chaos Cult",
+      "slug": "chaos_cult",
+      "language": "EN",
+      "name": "Chaos Cult",
+      "url": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_chaos_cult-x4tsrknbaq-lc1rwd37iy.pdf",
+      "date": "17/12/2025",
+      "bytes": 13433895,
+      "sha256": "b49e5052284432c3d7b4fff28e69a9d26e61c1241770b8493f0f8fdf1be2f6e6"
+    },
+    {
+      "team": "Chaos Cult",
+      "slug": "chaos_cult",
+      "language": "ES",
+      "name": "Culto del Caos",
+      "url": "https://assets.warhammer-community.com/spa_17-12_kill_team_team_rules_chaos_cult-8x5adirzig-heyxwd7x77.pdf",
+      "date": "17/12/2025",
+      "bytes": 13428946,
+      "sha256": "53e6cb2e9b288879eb5ee73fe60f3d9b9b87101a08c1eea2a0922ca80f8f62de"
+    },
+    {
+      "team": "Corsair Voidscarred",
+      "slug": "corsair_voidscarred",
+      "language": "EN",
+      "name": "Corsair Voidscarred",
+      "url": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_corsair_voidscarred-3war9i1i61-vjohvdpcb9.pdf",
+      "date": "28/01/2026",
+      "bytes": 18315171,
+      "sha256": "db46adfeb1d99c0e587944ad25a2f6660b2912ac184e7f29e0263a93d846c97f"
+    },
+    {
+      "team": "Corsair Voidscarred",
+      "slug": "corsair_voidscarred",
+      "language": "ES",
+      "name": "Corsarios del Vacío",
+      "url": "https://assets.warhammer-community.com/spa_28-01_kill_team_team_rules_corsair_voidscarred-b7loikpvmt-polme6u6ra.pdf",
+      "date": "28/01/2026",
+      "bytes": 18338118,
+      "sha256": "40b179faafca165044b071732d924e3d8bd017c0bb40bc3e713ea1635eb93068"
+    },
+    {
+      "team": "Death Korps",
+      "slug": "death_korps",
+      "language": "EN",
+      "name": "Death Korps",
+      "url": "https://assets.warhammer-community.com/eng_29-04_kill_team_team_rules_death_korps-t7f9rdqq5a-uzoyjhayvf.pdf",
+      "date": "29/04/2026",
+      "bytes": 9280783,
+      "sha256": "1743df415a29476d1d151c01f7ccbabad76b0dfb22d36c4b921a83ab8320564d"
+    },
+    {
+      "team": "Death Korps",
+      "slug": "death_korps",
+      "language": "ES",
+      "name": "Korps de la Muerte",
+      "url": "https://assets.warhammer-community.com/spa_29-04_kill_team_team_rules_death_korps-jwdcpltiws-sdhhz6g0wt.pdf",
+      "date": "29/04/2026",
+      "bytes": 9303121,
+      "sha256": "75c3567b27e86069c92882626cbe55993c406afc01fed967b298cd47379d0690"
+    },
+    {
+      "team": "Deathwatch",
+      "slug": "deathwatch",
+      "language": "EN",
+      "name": "Deathwatch",
+      "url": "https://assets.warhammer-community.com/eng_deathwatch_online_rules-vn8chdq2c8-xfl54bekws.pdf",
+      "date": "26/08/2026",
+      "bytes": 10927151,
+      "sha256": "a757952f653e51aa377dfec4e7f7bfb5bbf2d25d4bccfe8dfe31aa81c41bd33b"
+    },
+    {
+      "team": "Deathwatch",
+      "slug": "deathwatch",
+      "language": "ES",
+      "name": "Comando Vigías De La Muerte",
+      "url": "https://assets.warhammer-community.com/spa_deathwatch_online_rules-azftroiiur-kilr9i6gne.pdf",
+      "date": "26/08/2026",
+      "bytes": 11576313,
+      "sha256": "27d8095c0af07bd9de8fd943a041b2df04777de09abe96c957df96f4a2ad4a7c"
+    },
+    {
+      "team": "Elucidian Starstriders",
+      "slug": "elucidian_starstriders",
+      "language": "EN",
+      "name": "Elucidian Starstriders",
+      "url": "https://assets.warhammer-community.com/eng_29-04_kill_team_team_rules_elucidian_starstriders-4c0hnv9gz9-4fuvbi96ce.pdf",
+      "date": "29/04/2026",
+      "bytes": 8759118,
+      "sha256": "0df3d6cd167a659277d79fc017e018c4480929ab98ff321c5c28c458f8d1c02e"
+    },
+    {
+      "team": "Elucidian Starstriders",
+      "slug": "elucidian_starstriders",
+      "language": "ES",
+      "name": "Recorrestrellas Elucidianos",
+      "url": "https://assets.warhammer-community.com/spa_29-04_kill_team_team_rules_elucidian_starstriders-g1lrgjp1ly-yrizrvvxca.pdf",
+      "date": "29/04/2026",
+      "bytes": 8773394,
+      "sha256": "3bc9fc9b30ec4842f116c2f0eba5eee7469c87ff5156e8cc78ecfebe99e93697"
+    },
+    {
+      "team": "Exaction Squad",
+      "slug": "exaction_squad",
+      "language": "EN",
+      "name": "Exaction Squad",
+      "url": "https://assets.warhammer-community.com/eng_17-06_kill_team_team_rules_exaction_squad_online_rules-w6tqairoed-qhpndqu8fq.pdf",
+      "date": "17/06/2026",
+      "bytes": 7822040,
+      "sha256": "c266a0ab700ab7dee766b0e25c39648eb9dc9c70e8fe6ee697d2845f6c510106"
+    },
+    {
+      "team": "Exaction Squad",
+      "slug": "exaction_squad",
+      "language": "ES",
+      "name": "Escuadra de Exacción",
+      "url": "https://assets.warhammer-community.com/spa_17-06_kill_team_team_rules_exaction_squad_online_rules-ozfvawo42t-4j42tsppld.pdf",
+      "date": "17/06/2026",
+      "bytes": 8822802,
+      "sha256": "8b59f9b0a1b4b60d601c5ed431b706c7b2f594276bdfd4d0dc9a455625c50dac"
+    },
+    {
+      "team": "Farstalker Kinband",
+      "slug": "farstalker_kinband",
+      "language": "EN",
+      "name": "Farstalker Kinband",
+      "url": "https://assets.warhammer-community.com/eng_22-07_kill_team_team_rules_farstalker_kinband-d5j2c72vs0-mulu2ghc6b.pdf",
+      "date": "22/07/2026",
+      "bytes": 7761669,
+      "sha256": "ff03dd9facab3dcac0a59fe6877204e34db8a3fdece2f43de032b5fcafebbf63"
+    },
+    {
+      "team": "Farstalker Kinband",
+      "slug": "farstalker_kinband",
+      "language": "ES",
+      "name": "Bandaestirpe Acechante",
+      "url": "https://assets.warhammer-community.com/spa_22-07_kill_team_team_rules_farstalker_kinband-i1w9qcai8t-0xmbn11g5n.pdf",
+      "date": "22/07/2026",
+      "bytes": 8272579,
+      "sha256": "4be5a507b324b2568e5d9518c319cb76fc0b021200f41e37f744440ca7e89738"
+    },
+    {
+      "team": "Fellgor Ravager",
+      "slug": "fellgor_ravagers",
+      "language": "EN",
+      "name": "Fellgor Ravagers",
+      "url": "https://assets.warhammer-community.com/eng_fellgor_ravagers_online_rules-98ktzb7tza-d8lud7bdhh.pdf",
+      "date": "26/08/2026",
+      "bytes": 7742185,
+      "sha256": "4eb7968bf7fa9669a310d4bbc02edd377d29b8dd06077e4074d5ee815b2e5a1d"
+    },
+    {
+      "team": "Fellgor Ravager",
+      "slug": "fellgor_ravagers",
+      "language": "ES",
+      "name": "Expoliagores Impíos",
+      "url": "https://assets.warhammer-community.com/spa_fellgor_ravagers_online_rules-rh6y8ezsut-s3argcfmkc.pdf",
+      "date": "26/08/2026",
+      "bytes": 7675173,
+      "sha256": "d893fe803bb22a8f4f0763c54286ad061ac100692ad29d9a4f8ea9c91a4c4392"
+    },
+    {
+      "team": "Gellerpox Infected",
+      "slug": "gellerpox_infected",
+      "language": "EN",
+      "name": "Gellerpox Infected",
+      "url": "https://assets.warhammer-community.com/eng_gellerpox_infected_online_rules-cchcqkm6eu-fsvtx5g2ca.pdf",
+      "date": "26/08/2026",
+      "bytes": 10351643,
+      "sha256": "6205bcfeb76bfd84eafd2cc1031432fce90d21840f9ea6f84f2400d7cb601957"
+    },
+    {
+      "team": "Gellerpox Infected",
+      "slug": "gellerpox_infected",
+      "language": "ES",
+      "name": "Infectados Geller",
+      "url": "https://assets.warhammer-community.com/spa_gellerpox_infected_online_rules-fk4atl2czv-oaurxaahkb.pdf",
+      "date": "26/08/2026",
+      "bytes": 10999652,
+      "sha256": "41095d102c9c750b3d7d1bb081522b78d52a3b33a849900469644af8df232a24"
+    },
+    {
+      "team": "Goremongers",
+      "slug": "goremongers",
+      "language": "EN",
+      "name": "Goremongers",
+      "url": "https://assets.warhammer-community.com/eng_goremongers_online_rules-9ba5skdxij-r0u7lafcas.pdf",
+      "date": "26/08/2026",
+      "bytes": 11082168,
+      "sha256": "ca509694909c893a6952746b2cf6a996c59488f744e2bc4e36e55941ed3f852e"
+    },
+    {
+      "team": "Goremongers",
+      "slug": "goremongers",
+      "language": "ES",
+      "name": "Siembrasangres",
+      "url": "https://assets.warhammer-community.com/spa_goremongers_online_rules-fpuvqdu3u9-hzra1hwbcm.pdf",
+      "date": "26/08/2026",
+      "bytes": 11078335,
+      "sha256": "4b6adf7f3083c3a24ca594ad1c018610a5b314d4a5e3cf938e8f8f9e5e59d3b4"
+    },
+    {
+      "team": "Hand of the Archon",
+      "slug": "hand_of_the_archon",
+      "language": "EN",
+      "name": "Hand of the Archon",
+      "url": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_hand_of_the_archon-ijq4ui6dxc-qnz6k5jaxl.pdf",
+      "date": "28/01/2026",
+      "bytes": 14738965,
+      "sha256": "283d3718baa5b5731c18e542f5bbeb0e96db6b864744191dfc43b40adb60e560"
+    },
+    {
+      "team": "Hand of the Archon",
+      "slug": "hand_of_the_archon",
+      "language": "ES",
+      "name": "Mano del Arconte",
+      "url": "https://assets.warhammer-community.com/spa_28-01_kill_team_team_rules_hand_of_the_archon-cqajyh9hxz-fiizq2szvo.pdf",
+      "date": "28/01/2026",
+      "bytes": 14708082,
+      "sha256": "d0abe107d6f4e43237b147b4ba4ca0180f6e771b17c72f7094daf9ef3c57633c"
+    },
+    {
+      "team": "Hearthkyn Salvager",
+      "slug": "hearthkyn_salvagers",
+      "language": "EN",
+      "name": "Hearthkyn Salvagers",
+      "url": "https://assets.warhammer-community.com/eng_29-04_kill_team_team_rules_hearthkyn_salvagers-7ih6r2u7u4-sof3ovjopi.pdf",
+      "date": "29/04/2026",
+      "bytes": 8658042,
+      "sha256": "1150abc0749c1135985f3dbfaed8442c41c04afca073b725d20c261211f508b1"
+    },
+    {
+      "team": "Hearthkyn Salvager",
+      "slug": "hearthkyn_salvagers",
+      "language": "ES",
+      "name": "Sucesores Recuperadores",
+      "url": "https://assets.warhammer-community.com/spa_29-04_kill_team_team_rules_hearthkyn_salvagers-rk5vjffm7l-2noqah11qa.pdf",
+      "date": "29/04/2026",
+      "bytes": 8662329,
+      "sha256": "c788a3ddf79ebc71e12d526e7d27c1f446a1074d5b512ecbdd6035277d6848c1"
+    },
+    {
+      "team": "Hernkyn Yaegirs",
+      "slug": "hernkyn_yaegirs",
+      "language": "EN",
+      "name": "Hernkyn Yaegirs",
+      "url": "https://assets.warhammer-community.com/eng_hernkyn_yaegirs_online_rules-7vprxsaew8-0p1ctuqlni.pdf",
+      "date": "26/08/2026",
+      "bytes": 7037431,
+      "sha256": "6891007b0fc5220cdac922d8ff3ab5939dff97f7f2e126229aab9824db0a5b5a"
+    },
+    {
+      "team": "Hernkyn Yaegirs",
+      "slug": "hernkyn_yaegirs",
+      "language": "ES",
+      "name": "Yaegirs Hernkyn",
+      "url": "https://assets.warhammer-community.com/spa_hernkyn_yaegirs_online_rules-qzslzewkhw-i7hxvmhqvj.pdf",
+      "date": "26/08/2026",
+      "bytes": 7543733,
+      "sha256": "1f18559794e74408ed77c5f988e77383d3df0f9b006aa55c474b6a7e1da6b703"
+    },
+    {
+      "team": "Hierotek Circle",
+      "slug": "hierotek_circle",
+      "language": "EN",
+      "name": "Hierotek Circle",
+      "url": "https://assets.warhammer-community.com/eng_hierotek_circle_online_rules-df98wqycag-bek3q27dqk.pdf",
+      "date": "26/08/2026",
+      "bytes": 12693852,
+      "sha256": "28410d873e8aaa03b33ba803eb82828c5d884d4fce302f6e426b1dc3a081f189"
+    },
+    {
+      "team": "Hierotek Circle",
+      "slug": "hierotek_circle",
+      "language": "ES",
+      "name": "Círculo de Hierotecnólogos",
+      "url": "https://assets.warhammer-community.com/spa_hierotek_circle_online_rules-woynwidh8v-rgahzb3r5d.pdf",
+      "date": "26/08/2026",
+      "bytes": 13621075,
+      "sha256": "1aa40a499a37920056d1f17d08e297b96280071d739f9aec4010d9942f8df9fd"
+    },
+    {
+      "team": "Hunter Clade",
+      "slug": "hunter_clade",
+      "language": "EN",
+      "name": "Hunter Clade",
+      "url": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_hunter_clade-iw4pezoqcm-axjoncdqci.pdf",
+      "date": "28/01/2026",
+      "bytes": 19152030,
+      "sha256": "87994116786a116d5cad00abacc5f58dcde8ecb0b1d3a0a3aa6560c1394bdb5d"
+    },
+    {
+      "team": "Hunter Clade",
+      "slug": "hunter_clade",
+      "language": "ES",
+      "name": "Clado de Caza",
+      "url": "https://assets.warhammer-community.com/spa_28-01_kill_team_team_rules_hunter_clade-eykmmlz5ys-a1bldbgmbm.pdf",
+      "date": "28/01/2026",
+      "bytes": 19164641,
+      "sha256": "56aab967ac94f6276a804f8f0a04f49a2eea52ae6f98e3a8886e3f33cd263a65"
+    },
+    {
+      "team": "Imperial Navy Breachers",
+      "slug": "imperial_navy_breachers",
+      "language": "EN",
+      "name": "Imperial Navy Breachers",
+      "url": "https://assets.warhammer-community.com/eng_imperial_navy_breachers_online_rules-n7skbopw8m-0bb7tzt799.pdf",
+      "date": "26/08/2026",
+      "bytes": 8689147,
+      "sha256": "4f018d21c64a3f5f6e4ce84283f6ec37b05bcb8bac0b5d1deb9d06107887d34d"
+    },
+    {
+      "team": "Imperial Navy Breachers",
+      "slug": "imperial_navy_breachers",
+      "language": "ES",
+      "name": "Abordadores de la Armada Imperial",
+      "url": "https://assets.warhammer-community.com/spa_imperial_navy_breachers_online_rules-o5qih54kfi-yzccm1danm.pdf",
+      "date": "26/08/2026",
+      "bytes": 9198779,
+      "sha256": "c113bd87f10cf5bad43e523f3423fffec1c70aef5bbdc82dd101309dd26a5eb3"
+    },
+    {
+      "team": "Inquisitorial Agents",
+      "slug": "inquisitorial_agents",
+      "language": "EN",
+      "name": "Inquisitorial Agents",
+      "url": "https://assets.warhammer-community.com/eng_inquisitorial_agents_online_rules-wxk0cybqst-vpe1dopkcv.pdf",
+      "date": "26/08/2026",
+      "bytes": 8755121,
+      "sha256": "2e29152f2d5a234e5687dc933cf4a34ac64ed38036f70618f1dbbf148da52170"
+    },
+    {
+      "team": "Inquisitorial Agents",
+      "slug": "inquisitorial_agents",
+      "language": "ES",
+      "name": "Operativos Inquisitoriales",
+      "url": "https://assets.warhammer-community.com/spa_inquisitorial_agents_online_rules-znt9yvp7dy-xbeyctu7v9.pdf",
+      "date": "26/08/2026",
+      "bytes": 9764579,
+      "sha256": "d48115ed48fad6c36b0ae92317b9cd9f940645caca27b6c5d9b516464a831fbb"
+    },
+    {
+      "team": "Kasrkin",
+      "slug": "kasrkin",
+      "language": "EN",
+      "name": "Kasrkin",
+      "url": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_kasrkin-9s2gsy4iq7-hexyjwjqrx.pdf",
+      "date": "29/04/2026",
+      "bytes": 8809057,
+      "sha256": "7e1013d9b6b1b2ba34917f7cf81d2e5928d5e6f808c76072ce6ceb20904b7918"
+    },
+    {
+      "team": "Kasrkin",
+      "slug": "kasrkin",
+      "language": "ES",
+      "name": "Kasrkin",
+      "url": "https://assets.warhammer-community.com/spa_29-04_kt_teamrules_kasrkin-4xm5qp2o5r-vhypsbfldk.pdf",
+      "date": "29/04/2026",
+      "bytes": 8906537,
+      "sha256": "a0be0f8d0583a1e1b27ec0be23bf293b6ba5aa515f00552fac803011ec485d5f"
+    },
+    {
+      "team": "Kommandos",
+      "slug": "kommandos",
+      "language": "EN",
+      "name": "Kommandos",
+      "url": "https://assets.warhammer-community.com/eng_17-06_kill_team_team_rules_kommandos_online_rules-ova8v1kjds-ds3ouz4k04.pdf",
+      "date": "17/06/2026",
+      "bytes": 7813359,
+      "sha256": "ca6631e25c4324a7a278305a0fabd9a50d847e29c68ff257e6405e3ac7aaab6c"
+    },
+    {
+      "team": "Kommandos",
+      "slug": "kommandos",
+      "language": "ES",
+      "name": "Orkomandos",
+      "url": "https://assets.warhammer-community.com/spa_17-06_kill_team_team_rules_kommandos_online_rules-arp511zdgg-39qoimpu2t.pdf",
+      "date": "17/06/2026",
+      "bytes": 8334717,
+      "sha256": "2d1f0931be765703aeefe89438638bc623f1fdc2c207736bb5499e2bd5233e40"
+    },
+    {
+      "team": "Legionary",
+      "slug": "legionaries",
+      "language": "EN",
+      "name": "Legionaries",
+      "url": "https://assets.warhammer-community.com/eng_17-12_kt_legionaries_online_rules-wdpu85w6pv-8ndq4m5egw.pdf",
+      "date": "17/12/2025",
+      "bytes": 15761768,
+      "sha256": "7482128142403e9f14d366f57c6fad676a8fc92fbfde4e106925d8edd916fb44"
+    },
+    {
+      "team": "Legionary",
+      "slug": "legionaries",
+      "language": "ES",
+      "name": "Legionarios",
+      "url": "https://assets.warhammer-community.com/spa_17-12_kt_legionaries_online_rules-vzgo54yqwk-wcjrs2ascz.pdf",
+      "date": "17/12/2025",
+      "bytes": 15742166,
+      "sha256": "b7d64680581a6aa803096e1b64f7b73797af5f5848bce143a04ffb5dcd82303c"
+    },
+    {
+      "team": "Mandrakes",
+      "slug": "mandrakes",
+      "language": "EN",
+      "name": "Mandrakes",
+      "url": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_mandrakes-w2j9qwhaxz-oveknnlmoe.pdf",
+      "date": "28/01/2026",
+      "bytes": 15505032,
+      "sha256": "ee587fa5d71721f14c8440da5d6bde9af2dc3e1067220f5cf9e42f51cf21e81c"
+    },
+    {
+      "team": "Mandrakes",
+      "slug": "mandrakes",
+      "language": "ES",
+      "name": "Mandrágoras",
+      "url": "https://assets.warhammer-community.com/spa_28-01_kill_team_team_rules_mandrakes-1jkyt49je8-hqgioekr6u.pdf",
+      "date": "28/01/2026",
+      "bytes": 15526388,
+      "sha256": "87c937f988fc0b0582c779d8af122db89f3ef3053611b12f6074219e6226ebf9"
+    },
+    {
+      "team": "Nemesis Claw",
+      "slug": "nemesis_claw",
+      "language": "EN",
+      "name": "Nemesis Claw",
+      "url": "https://assets.warhammer-community.com/eng_17-06_kill_team_team_rules_nemesis_claw_online_rules-oyryxud2oc-jylng5bujl.pdf",
+      "date": "17/06/2026",
+      "bytes": 8803743,
+      "sha256": "2d966bb9fdaafb462586d735897c253174f75fa8de43d70c8a68229afff3e139"
+    },
+    {
+      "team": "Nemesis Claw",
+      "slug": "nemesis_claw",
+      "language": "ES",
+      "name": "Garra Némesis",
+      "url": "https://assets.warhammer-community.com/spa_17-06_kill_team_team_rules_nemesis_claw_online_rules-xrdxijo7sb-9zzkgk2tdg.pdf",
+      "date": "17/06/2026",
+      "bytes": 9840928,
+      "sha256": "2fbfe59270afc2d67f2b61593c263ff64439c868bc2977ccc286ebc7ee9b1752"
+    },
+    {
+      "team": "Novitiates",
+      "slug": "novitiates",
+      "language": "EN",
+      "name": "Novitiates",
+      "url": "https://assets.warhammer-community.com/eng_novitiates_online_rules-b4a5xsy3fu-5twxaatuzc.pdf",
+      "date": "26/08/2026",
+      "bytes": 8050850,
+      "sha256": "b02563f4b3dabfb18e621bc33f036e57defdad1832f996a5ff641ecfb466f19d"
+    },
+    {
+      "team": "Novitiates",
+      "slug": "novitiates",
+      "language": "ES",
+      "name": "Novicias",
+      "url": "https://assets.warhammer-community.com/spa_novitiates_online_rules-le2kqkoodr-eayarvoxgl.pdf",
+      "date": "26/08/2026",
+      "bytes": 8504694,
+      "sha256": "7c7678a4bfc51b4dfb1562981be3afaec4a0a941be7879e03026d8f9a4f1cb79"
+    },
+    {
+      "team": "Pathfinders",
+      "slug": "pathfinders",
+      "language": "EN",
+      "name": "Pathfinders",
+      "url": "https://assets.warhammer-community.com/eng_pathfinders_online_rules-dj9snutji1-zk16jiuxxe.pdf",
+      "date": "26/08/2026",
+      "bytes": 9753815,
+      "sha256": "387b2ee199a76f884cca7aafccbe3c2605092940b4bad7e4e6348c2d0314663c"
+    },
+    {
+      "team": "Pathfinders",
+      "slug": "pathfinders",
+      "language": "ES",
+      "name": "Rastreadores",
+      "url": "https://assets.warhammer-community.com/spa_pathfinders_online_rules-tyopq9qikd-jhvvdg6h81.pdf",
+      "date": "26/08/2026",
+      "bytes": 10704200,
+      "sha256": "b026dd16823f222b10f4b691c77c3e911cd216689cd968484cdc98d3035370fd"
+    },
+    {
+      "team": "Phobos Strike Team",
+      "slug": "phobos_strike_team",
+      "language": "EN",
+      "name": "Phobos Strike Team",
+      "url": "https://assets.warhammer-community.com/eng_17-12_kt_phobos_strike_team_online_rules-6mf867flcl-2xdbnfouex.pdf",
+      "date": "17/12/2025",
+      "bytes": 16116010,
+      "sha256": "56b10a4fb1b97cb43c453759485a770083289aa67c8d482b454af3b87009f1e5"
+    },
+    {
+      "team": "Phobos Strike Team",
+      "slug": "phobos_strike_team",
+      "language": "ES",
+      "name": "Asaltantes Phobos",
+      "url": "https://assets.warhammer-community.com/spa_17-12_kt_phobos_strike_team_online_rules-mrpnlfaz7q-ujcgvx8j9a.pdf",
+      "date": "17/12/2025",
+      "bytes": 16129958,
+      "sha256": "485f72f25b5a59c971c60ed3a17fcf5567b1e759d7e8dd1a28955eea40024d0a"
+    },
+    {
+      "team": "Plague Marines",
+      "slug": "plague_marines",
+      "language": "EN",
+      "name": "Plague Marines",
+      "url": "https://assets.warhammer-community.com/eng_plague_marines_online_rules-wqjvit50wj-jvekzllwdl.pdf",
+      "date": "26/08/2026",
+      "bytes": 11208031,
+      "sha256": "cb87c7a2e4178cb2f4635b66d83c9de181af98c2f7d6391ce47d67ad6018b7d9"
+    },
+    {
+      "team": "Plague Marines",
+      "slug": "plague_marines",
+      "language": "ES",
+      "name": "Marines de la Plaga",
+      "url": "https://assets.warhammer-community.com/spa_plague_marines_online_rules-sqihsat5ng-0aem2ebbw4.pdf",
+      "date": "26/08/2026",
+      "bytes": 11214723,
+      "sha256": "30d40bf57074cc4615c6c0c114c7dbe3260d5b9f31e09be4a1fa141ce387c462"
+    },
+    {
+      "team": "Ratlings",
+      "slug": "ratlings",
+      "language": "EN",
+      "name": "Ratlings",
+      "url": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_ratlings-ulbqsnxhjb-jmv6tjlrsi.pdf",
+      "date": "29/04/2026",
+      "bytes": 10560304,
+      "sha256": "fac43967a7e53d1f27d162ba0680d4e654415f064db67ad529abdb3d091a7426"
+    },
+    {
+      "team": "Ratlings",
+      "slug": "ratlings",
+      "language": "ES",
+      "name": "Rátidos",
+      "url": "https://assets.warhammer-community.com/spa_29-04_kt_teamrules_ratlings-wuueme54ht-gw0fk7rnzk.pdf",
+      "date": "29/04/2026",
+      "bytes": 9824512,
+      "sha256": "0acbb9e38ee95219d46a48bc0f98f5781e7cd4047ea862c2b235d051d98a8532"
+    },
+    {
+      "team": "Raveners",
+      "slug": "raveners",
+      "language": "EN",
+      "name": "Raveners",
+      "url": "https://assets.warhammer-community.com/eng_raveners_online_rules-8vfeyxgbks-nf6lxfcbfw.pdf",
+      "date": "26/08/2026",
+      "bytes": 10068572,
+      "sha256": "4ec96e2d486dd73b6e37b897ac143cb0ad725afd0f33605ce3408f47e9b6e23e"
+    },
+    {
+      "team": "Raveners",
+      "slug": "raveners",
+      "language": "ES",
+      "name": "Mántifex",
+      "url": "https://assets.warhammer-community.com/spa_raveners_online_rules-v7xufji8zn-t9yupgybwi.pdf",
+      "date": "26/08/2026",
+      "bytes": 11374398,
+      "sha256": "7b4ddfade3494a435ae6ba9c73f497436773d3b1a771ceaf91da4551e9914544"
+    },
+    {
+      "team": "Sanctifiers",
+      "slug": "sanctifiers",
+      "language": "EN",
+      "name": "Sanctifiers",
+      "url": "https://assets.warhammer-community.com/eng_25-02_kt_teamrules_sanctifiers-3vpsecfbfe-vclbyfaed7.pdf",
+      "date": "25/02/2026",
+      "bytes": 4270804,
+      "sha256": "b5e7192765e69557c017da678be50988e7c3eef3b852dcde8cfc1dc79107360c"
+    },
+    {
+      "team": "Sanctifiers",
+      "slug": "sanctifiers",
+      "language": "ES",
+      "name": "Santificadores",
+      "url": "https://assets.warhammer-community.com/spa_25-02_kt_teamrules_sanctifiers-1na06t1xyu-9zmdotkjtl.pdf",
+      "date": "25/02/2026",
+      "bytes": 11514925,
+      "sha256": "5fb85f8a65e9eeaad588b52e2a166a2eb99eb70f648da811bfbf0cae47d3ce9e"
+    },
+    {
+      "team": "Scout Squad",
+      "slug": "scout_squad",
+      "language": "EN",
+      "name": "Scout Squad",
+      "url": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_scout_squad-gsh9kmjzgi-cx2xtxmp8b.pdf",
+      "date": "29/04/2026",
+      "bytes": 9284852,
+      "sha256": "82054fa904561ff3e6875b93664c9a87f93e9a554578323e3a6489a3e3e9a825"
+    },
+    {
+      "team": "Scout Squad",
+      "slug": "scout_squad",
+      "language": "ES",
+      "name": "Escuadra de Exploradores",
+      "url": "https://assets.warhammer-community.com/spa_29-04_kt_teamrules_scout_squad-5nvutpp8wu-htthm8kj2i.pdf",
+      "date": "29/04/2026",
+      "bytes": 9393622,
+      "sha256": "9c9fe19d78e66e10d9c80458ee066a66acc5b15357c97e22702556198ebf6992"
+    },
+    {
+      "team": "Tempestus Aquilons",
+      "slug": "tempestus_aquilons",
+      "language": "EN",
+      "name": "Tempestus Aquilons",
+      "url": "https://assets.warhammer-community.com/eng_tempestus_aquilons_online_rules-ulwuv6xiox-urjoo7nn95.pdf",
+      "date": "26/08/2026",
+      "bytes": 11811379,
+      "sha256": "d1b5a63dd04a52966e437f60a0d4aaf80d9bd4d9094da12e3adcf7485e373acf"
+    },
+    {
+      "team": "Tempestus Aquilons",
+      "slug": "tempestus_aquilons",
+      "language": "ES",
+      "name": "Tempestus Aquilons",
+      "url": "https://assets.warhammer-community.com/spa_tempestus_aquilons_online_rules-da2ynswoma-nwarwf73hx.pdf",
+      "date": "26/08/2026",
+      "bytes": 13108889,
+      "sha256": "0b23d70f77ab781f34cf55325b05e89cb415cfdd2a80f46a9997ba932af3ba03"
+    },
+    {
+      "team": "Vespids Stingwing",
+      "slug": "vespid_stingwings",
+      "language": "EN",
+      "name": "Vespid Stingwings",
+      "url": "https://assets.warhammer-community.com/eng_vespid_stingwings_online_rules-im3is77cs2-gtnx7xocbs.pdf",
+      "date": "26/08/2026",
+      "bytes": 11881574,
+      "sha256": "ad688285678a1f5b0c8b9f8dc05b871926dacfc6bdc7e8d85cca4f659d370441"
+    },
+    {
+      "team": "Vespids Stingwing",
+      "slug": "vespid_stingwings",
+      "language": "ES",
+      "name": "Aguijones Alados Véspid",
+      "url": "https://assets.warhammer-community.com/spa_vespid_stingwings_online_rules-ym0f336hil-knlk2gjsgy.pdf",
+      "date": "26/08/2026",
+      "bytes": 13147211,
+      "sha256": "1750a40c562e9243be1b8280c1c61ccb2498b581fe044f82118453649442b1c0"
+    },
+    {
+      "team": "Void-dancer Troupe",
+      "slug": "void_dancer_troupe",
+      "language": "EN",
+      "name": "Void-Dancer Troupe",
+      "url": "https://assets.warhammer-community.com/eng_17-06_kill_team_team_rules_void-dancer_troupe_online_rules-ee8qymqvq4-w24lgiuhhz.pdf",
+      "date": "17/06/2026",
+      "bytes": 6498909,
+      "sha256": "40ca1c367c28b8413597aae0ec8b11554ba03d6a96692dc66ecc4f6f007e0bca"
+    },
+    {
+      "team": "Void-dancer Troupe",
+      "slug": "void_dancer_troupe",
+      "language": "ES",
+      "name": "Compañía de Bailarines del vacío",
+      "url": "https://assets.warhammer-community.com/spa_17-06_kill_team_team_rules_void-dancer_troupe_online_rules-lmzz8cirla-kjxu9nblk2.pdf",
+      "date": "17/06/2026",
+      "bytes": 7801474,
+      "sha256": "a5efa2f808a3f3186c1c22c0be06631d600b055ca4c3f1f1a72aa1c33db0f39d"
+    },
+    {
+      "team": "Warpcoven",
+      "slug": "warpcoven",
+      "language": "EN",
+      "name": "Warpcoven",
+      "url": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_warpcoven-dlvflmyfdc-tqfq81iy7v.pdf",
+      "date": "29/04/2026",
+      "bytes": 11056990,
+      "sha256": "468140fce74077922df86f83f634f9ca247a26b7ff375236d4d5d7fe68098ef6"
+    },
+    {
+      "team": "Warpcoven",
+      "slug": "warpcoven",
+      "language": "ES",
+      "name": "Aquelarre Disforme",
+      "url": "https://assets.warhammer-community.com/spa_29-04_kt_teamrules_warpcoven-k1tst8e7a6-2mehx1ioqo.pdf",
+      "date": "29/04/2026",
+      "bytes": 10632539,
+      "sha256": "5e1a7668841d1dc56105e65d629f8edf8f290c88f0b1d31c1ff86e8bb70e69db"
+    },
+    {
+      "team": "Wolf Scouts",
+      "slug": "wolf_scouts",
+      "language": "EN",
+      "name": "Wolf Scouts",
+      "url": "https://assets.warhammer-community.com/eng_wolf_scouts_online_rules-hgzknhj5cl-c3yqxctedv.pdf",
+      "date": "26/08/2026",
+      "bytes": 9948650,
+      "sha256": "89d2d33a4f225f4a9a1095a0f12959ace6e6e5b9b544043d5a3957e63a773536"
+    },
+    {
+      "team": "Wolf Scouts",
+      "slug": "wolf_scouts",
+      "language": "ES",
+      "name": "Exploradores Lobo",
+      "url": "https://assets.warhammer-community.com/spa_wolf_scouts_online_rules-p1oismtoou-vqsynrotvk.pdf",
+      "date": "26/08/2026",
+      "bytes": 10601161,
+      "sha256": "e9aa25804f9595602ddfd737716b4e716f45c3418cfa232090517294c3579801"
+    },
+    {
+      "team": "Wrecka Krew",
+      "slug": "wrecka_krew",
+      "language": "EN",
+      "name": "Wrecka Krew",
+      "url": "https://assets.warhammer-community.com/eng_17-06_kill_team_team_rules_wrecka_krew_online_rules-1o31d0dshf-1p2z1ugswl.pdf",
+      "date": "17/06/2026",
+      "bytes": 9630805,
+      "sha256": "3b956943653f93526b5eb8369d57e953b8519faa33d0a697e186e3ccd18d80ba"
+    },
+    {
+      "team": "Wrecka Krew",
+      "slug": "wrecka_krew",
+      "language": "ES",
+      "name": "Demoledorez",
+      "url": "https://assets.warhammer-community.com/spa_17-06_kill_team_team_rules_wrecka_krew_online_rules-7km56fxsly-4ky2wu0u8p.pdf",
+      "date": "17/06/2026",
+      "bytes": 9238957,
+      "sha256": "49cfd79042108cceec7174a1d001b5fc93b606ae2257fd075132fae22cf98833"
+    },
+    {
+      "team": "Wyrmblade",
+      "slug": "wyrmblade",
+      "language": "EN",
+      "name": "Wyrmblade",
+      "url": "https://assets.warhammer-community.com/eng_17-12_killteam_wyrmblade_online_rules-nzx8yswdj0-9lcmzodiqo.pdf",
+      "date": "17/12/2025",
+      "bytes": 13142799,
+      "sha256": "42fd6036b851aae1c469dc9b172e602140f045a3bbac37576e1e9f2c97958e11"
+    },
+    {
+      "team": "Wyrmblade",
+      "slug": "wyrmblade",
+      "language": "ES",
+      "name": "Filosierpe",
+      "url": "https://assets.warhammer-community.com/spa_17-12_killteam_wyrmblade_online_rules-y3vunl19pa-rwt6ty6504.pdf",
+      "date": "17/12/2025",
+      "bytes": 13176211,
+      "sha256": "bd1e830d4e64469a8a9d96463f742d0f948f298286ee6f674891efebc8cfa35f"
+    },
+    {
+      "team": "XV26 Stealth Battlesuits",
+      "slug": "xv26_stealth_battlesuits",
+      "language": "EN",
+      "name": "XV26 Stealth Battlesuits",
+      "url": "https://assets.warhammer-community.com/eng_xv26_stealth_battlesuits_online_rules-ghynf2pcnr-7rcqocpns8.pdf",
+      "date": "26/08/2026",
+      "bytes": 9678128,
+      "sha256": "af457a503c4cdffe81ce072abaed9807b1a6a4f21d1c380d3c39130d1c6739a3"
+    },
+    {
+      "team": "XV26 Stealth Battlesuits",
+      "slug": "xv26_stealth_battlesuits",
+      "language": "ES",
+      "name": "Exoarmaduras XV26 Sigilo",
+      "url": "https://assets.warhammer-community.com/spa_xv26_stealth_battlesuits_online_rules-54pcmg51jc-m4wgvn1sfe.pdf",
+      "date": "26/08/2026",
+      "bytes": 10339550,
+      "sha256": "e8437f02df57345137c7be30e8a50814310a1fc6f9320c8ee92d250199861b41"
+    }
+  ],
+  "known_uncertainty": [
+    "Pathfinders: la acción oficial EN/ES limita a cuatro marcadores; la tabla EN conserva una quinta fila ausente en ES. Se conserva esa fila del original y se traduce, sin resolver por suposición la discrepancia."
+  ],
+  "verification_limits": [
+    "Comprobación de estructura XML, IDs, referencias y correspondencias de perfiles. No constituye una prueba ejecutada dentro de Tabletop Simulator."
+  ]
+}

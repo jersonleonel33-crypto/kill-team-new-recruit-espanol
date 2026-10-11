@@ -1,0 +1,238 @@
+{
+  "chaos_cult": {
+    "5bb2-572c-397f-baf7": {
+      "name": "Referencia de dones malditos",
+      "body": "Los DONES MALDITOS son reglas que obtienen\nlos agentes CULTO DEL CAOS amigos cuando\nse convierten en otro tipo de agente (ver regla\nde facción Mutación). La primera vez que un\nagente DEVOTO amigo se convierte en un agente\nMUTANTE durante la batalla, elige tu DON\nMALDITO primario. La primera vez que un agente\nMUTANTE amigo se convierte en un agente\nTORMENTO durante la batalla, elige tu DON\nMALDITO secundario.\nTodos los agentes MUTANTE amigos tienen tu\nDON MALDITO primario, y todos los agentes\nTORMENTO amigos tienen tus DONES MALDITOS\nprimario y secundario. No puedes elegir el mismo\nDON MALDITO más de una vez por batalla.",
+      "source": {
+        "kind": "TRADUCCION_CONTRASTADA_PDF_OFICIAL"
+      }
+    },
+    "f894-8402-b1e3-d031": {
+      "name": "Nervudo",
+      "body": "Puedes ignorar cualquier cambio al atributo Impactar de las armas de combate de este agente por estar lesionado. Las armas de combate de este agente tienen la regla de arma Brutal.",
+      "source": {
+        "kind": "TRADUCCION_CONTRASTADA_PDF_OFICIAL"
+      }
+    }
+  },
+  "death_korps": {
+    "fe0d-743c-22d0-5651": {
+      "name": "Órdenes de Guardia",
+      "body": "GAMBITO ESTRATÉGICO y APOYO. Un agente\nVIGÍA KORPS DE LA MUERTE amigo puede dar\nuna ORDEN DE GUARDIA. Cuando haga tal cosa,\nelige una ORDEN DE GUARDIA que recibirán\ntodos los agentes KORPS DE LA MUERTE\namigos a 6\" o menos de él.\nSiempre que un agente amigo reciba una ORDEN\nDE GUARDIA, aplica sus reglas hasta el final\ndel punto de inflexión. Los agentes no pueden\nbeneficiarse de más de una ORDEN DE GUARDIA\na la vez; solo se benefician de la orden más\nreciente que hayan recibido durante el punto\nde inflexión.",
+      "source": {
+        "kind": "TRADUCCION_CONTRASTADA_PDF_OFICIAL"
+      }
+    },
+    "b4fd-0531-e2d3-75a3": {
+      "name": "¡Apunten!",
+      "body": "Las armas a distancia de los agentes que hayan recibido esta orden (salvo andanada de mortero y detonador remoto) tienen la regla de arma Incesante.",
+      "source": {
+        "kind": "TRADUCCION_CONTRASTADA_PDF_OFICIAL"
+      }
+    },
+    "44a8-0bc3-70d7-da14": {
+      "name": "¡Fijen bayonetas!",
+      "body": "Las armas de combate de los agentes que hayan recibido esta orden tienen la regla de arma Incesante.",
+      "source": {
+        "kind": "TRADUCCION_CONTRASTADA_PDF_OFICIAL"
+      }
+    },
+    "14f2-dc42-9bdb-d56c": {
+      "name": "¡Atrinchérense!",
+      "body": "Siempre que un agente dispare contra un agente amigo que haya recibido esta orden, si puedes guardar alguna salvación por cobertura, puedes repetir todos tus dados de defensa que hayan sacado el mismo resultado a tu elección (p. ej. todos los resultados de 2).",
+      "source": {
+        "kind": "TRADUCCION_CONTRASTADA_PDF_OFICIAL"
+      }
+    },
+    "e68b-6547-3216-ee5b": {
+      "name": "¡Vamos, vamos, muévanse!",
+      "body": "Siempre que un agente que haya recibido esta orden realiza una acción de Reposicionarse, suma 1\" a su atributo Movimiento.",
+      "source": {
+        "kind": "TRADUCCION_CONTRASTADA_PDF_OFICIAL"
+      }
+    },
+    "6895-98aa-4d29-e2d3": {
+      "name": "Botiquín (1PA)",
+      "body": "Elige un agente KORPS DE LA MUERTE amigo en \nla zona de control de este agente para que recupere 2D3 \nheridas perdidas. No puede ser un agente con el que se haya \nusado la regla ¡Sanitario! durante este punto de inflexión.\n Este agente no puede realizar esta acción si se encuentra en \nla zona de control de un agente enemigo.",
+      "source": {
+        "kind": "TRADUCCION_CONTRASTADA_PDF_OFICIAL"
+      }
+    }
+  },
+  "inquisitorial_agents": {
+    "dc33-1ffa-5898-1913": {
+      "name": "Botiquín (1PA)",
+      "body": "Elige un agente OPERATIVO INQUISITORIAL amigo en \nla zona de control de este agente para que recupere 2D3 \nheridas perdidas. No puede ser un agente con el que se haya \nusado la regla ¡Sanitario! durante este punto de inflexión.\n Este agente no puede realizar esta acción si se encuentra en \nla zona de control de un agente enemigo.",
+      "source": {
+        "kind": "PDF_OFICIAL_REQUISICION_SUSTITUCION_CLAVE",
+        "original_faction": "death_korps"
+      }
+    }
+  },
+  "elucidian_starstriders": {
+    "77a0-489d-075c-3dbc": {
+      "name": "Reclamar",
+      "fields": {
+        "When": "En la fase de estrategia, tras desempatar para determinar la iniciativa.",
+        "Effect": "Puedes repetir la tirada."
+      },
+      "source": {
+        "kind": "TRADUCCION_CONTRASTADA_PDF_OFICIAL"
+      }
+    }
+  },
+  "goremongers": {
+    "00bd-ae39-d64b-e242": {
+      "name": "Combustible sanguinolento (1PA)",
+      "body": "Disminuye el DEPÓSITO SANGRIENTO de este agente. Hasta que este agente use cualquier perfil de su clavacarnes, todos los perfiles de esa arma tienen la regla de arma Severa.\nEste agente no puede realizar esta acción si está en la zona de control de un agente enemigo o si su DEPÓSITO SANGRIENTO está vacío.",
+      "source": {
+        "kind": "TRADUCCION_PROPIA_EN_OFICIAL_SIN_REVERSO_ES",
+        "page": 2,
+        "slot": 0
+      }
+    }
+  },
+  "kommandos": {
+    "1c04-1bfa-d04d-60f1": {
+      "name": "Ráfaga 0\"",
+      "body": "Ten en cuenta que Ráfaga 0\" significa que no puedes elegir blancos secundarios, pero esta arma sigue teniendo la regla de arma Ráfaga a todos los demás efectos de reglas, como la regla Bastión compacto (ver Zona de aniquilación: Volkus, Libro básico de Kill Team).",
+      "source": {
+        "kind": "TRADUCCION_PROPIA_EN_OFICIAL"
+      }
+    }
+  },
+  "novitiates": {
+    "7482-b87e-071c-5bb3": {
+      "name": "Actos de fe",
+      "body": "En el paso de preparación de cada fase de\nestrategia, ganas un número de puntos de\nfe igual a la mitad del número de agentes\nNOVICIA amigas que no hayan sido\nincapacitadas (redondeando al alza). Siempre\nque una agente NOVICIA amiga dispare,\ncombata o contraataque, o un agente dispare\ncontra ella, en el paso de tirar dados de ataque\n(o el paso de tirar dados de defensa si un agente\ndispara contra ella), puedes gastar tus puntos de\nfe para usar un ACTO DE FE. No puedes usar más\nde un ACTO DE FE por secuencia, y su coste y\nefectos son los siguientes (ver reverso):\n\nGUÍA — 1 PUNTO DE FE: Puedes repetir uno de tus dados.\nBENDICIÓN — 2 PUNTOS DE FE: Puedes guardar uno de tus éxitos normales como un éxito crítico en su lugar.\nINTERVENCIÓN — 3 PUNTOS DE FE: Puedes guardar uno de tus fallos como un éxito normal en lugar de descartarlo.",
+      "source": {
+        "kind": "TRADUCCION_CONTRASTADA_PDF_OFICIAL"
+      }
+    }
+  },
+  "pathfinders": {
+    "3421-8c71-5fca-d631": {
+      "name": "1+",
+      "body": "Reglas de arma Saturación y Equilibrada.",
+      "source": {
+        "kind": "TRADUCCION_CONTRASTADA_PDF_OFICIAL"
+      }
+    },
+    "6628-9273-5897-efa4": {
+      "name": "2+",
+      "body": "Mejora en 1 el atributo Imp de las armas a distancia de ese agente amigo (hasta un máximo de 3+).",
+      "source": {
+        "kind": "TRADUCCION_CONTRASTADA_PDF_OFICIAL"
+      }
+    },
+    "530e-c904-30ea-7049": {
+      "name": "3+",
+      "body": "El blanco no puede estar ofuscado.",
+      "source": {
+        "kind": "TRADUCCION_CONTRASTADA_PDF_OFICIAL"
+      }
+    },
+    "c9cd-0dad-d9e7-d71e": {
+      "name": "4+",
+      "body": "Regla de arma Buscadora (Ligero).",
+      "source": {
+        "kind": "TRADUCCION_CONTRASTADA_PDF_OFICIAL"
+      }
+    },
+    "d8cb-68e7-1eef-d0d0": {
+      "name": "5+",
+      "body": "Regla de arma Buscadora.",
+      "source": {
+        "kind": "FILA_5_SOLO_EN_OFICIAL",
+        "note": "La acción limita a cuatro fichas en EN/ES; la tabla EN conserva una quinta fila que no está en ES."
+      }
+    }
+  },
+  "scout_squad": {
+    "e6cd-d7d3-1afc-d9ee": {
+      "name": "Filopuñales",
+      "body": "Los agentes ESCUADRA DE EXPLORADORES amigos tienen la siguiente arma de combate. Ten en cuenta que algunos agentes ya tienen esta arma pero con mejores atributos; en esos casos, usa la mejor versión.\nFilopuñal: ATK 3, HIT 3+, DMG 4/5.",
+      "source": {
+        "kind": "TRADUCCION_CONTRASTADA_PDF_OFICIAL"
+      }
+    },
+    "d9cc-7978-eedc-755a": {
+      "name": "Equipo adaptable",
+      "body": "Puedes llevar a cabo cada una de las \nsiguientes opciones una vez por punto de inflexión:\n• Un agente COMBATIENTE ESCUADRA DE \nEXPLORADORES amigo puede realizar la acción \nde Granada de humo.\n• Un agente COMBATIENTE ESCUADRA DE \nEXPLORADORES amigo puede realizar la acción de \nGranada aturdidora.\nLas reglas de esas acciones figuran en el equipo universal. Realizar \nesas acciones usando esta regla no cuenta para sus límites de \nacción (p.ej. si también has elegido esas granadas como equipo).",
+      "source": {
+        "kind": "TRADUCCION_CONTRASTADA_PDF_OFICIAL"
+      }
+    },
+    "571f-99ed-98cc-5482": {
+      "name": "Exploración adelantada",
+      "body": "ESCUADRA DE EXPLORADORES\nREGLA DE FACCIÓN\nEXPLORACIÓN ADELANTADA\nUna parte esencial del papel de los Exploradores\nMarines Espaciales es hacer batidas por delante de su\nfuerza de choque, y pasar largos periodos tendiendo\ntrampas, asaltando patrullas enemigas, reuniendo\ninformación y reconociendo el terreno en preparación\npara el asalto de su Capítulo.\nAl final del paso de Desplegar agentes, puedes\nelegir y resolver hasta 6 opciones de Exploración\nadelantada. Cada opción tiene un número entre\nparéntesis, que es el máximo número de veces\nque puedes elegirla y resolverla en esa batalla.\nPor ejemplo, tus 6 elecciones podrían ser\nReposicionar (2), Cable alarma (1), Bomba de\nproximidad (1) y Crear distracción (1). Si ambos\njugadores tienen esta habilidad, turnaos para\nresolverla de elección en elección, empezando\npor el jugador que tiene la iniciativa.\nLAS OPCIONES DE EXPLORACIÓN ADELANTADA\nSE PRESENTAN EN CARTAS PROPIAS\n\nESCUADRA DE EXPLORADORES\nREGLA DE FACCIÓN\nEXPLORACIÓN ADELANTADA\nRedesplegar (1)\nCambia el despliegue de un tercio de tus agentes\n(redondeando al alza).\nReposicionar (2)\nRealiza una acción libre de Reposicionarse con un\nagente amigo que se encuentre completamente\nen tu zona de descenso. Debe terminar dicho\nmovimiento completamente a 3\" o menos de tu zona\nde descenso.\nCable alarma (2)\nColoca uno de tus marcadores de Cable alarma a más\nde 6\" de la zona de descenso de tu oponente. Durante\nel primer y segundo punto de inflexión, siempre que\nun agente ESCUADRA DE EXPLORADORES amigo\ndispare contra un agente enemigo que se encuentre a\n2\" o menos de ese marcador, las armas a distancia de\nese agente amigo tienen la regla de arma Buscadora.\nEn el paso de preparación de la tercera fase de\nestrategia, retira ese marcador.\n\nESCUADRA DE EXPLORADORES\nREGLA DE FACCIÓN\nEXPLORACIÓN ADELANTADA\nBomba de proximidad (1)\nColoca 1 de tus marcadores de bomba de\nproximidad a más de 6\" de la zona de descenso\nde tu oponente y a más de 2\" de todo otro\nmarcador, punto de acceso y terreno Accesible.\nLa primera vez que un marcador de bomba\nde proximidad quede en la zona de control de\nun agente enemigo, retira dicho marcador e\ninflige 2D3 daños a dicho agente; si no queda\nincapacitado, su acción termina (si procede),\nincluso aunque los efectos de esa acción no se\nhayan cumplido. Si el marcador de bomba de\nproximidad no puede ser colocado, muévelo la\ndistancia mínima para poder colocarlo.\nManiobra táctica (1)\nGAMBITO ESTRATÉGICO dos veces vez por\nbatalla. Elige 1 agente amigo. Hasta el final de la\nsiguiente activación de este agente, suma 1 a su\natributo LPA.\n\nESCUADRA DE EXPLORADORES\nREGLA DE FACCIÓN\nEXPLORACIÓN ADELANTADA\nCrear distracción (1)\nGAMBITO ESTRATÉGICO una vez por batalla. Elige\nun agente enemigo a 6\" o menos de un borde de\nzona de aniquilación. Hasta el final de la siguiente\nactivación de ese agente, resta 1 a su atributo LPA.\nTrazar plan (1)\nGanas 1PM.\nDesignar blanco (1)\nElige un agente enemigo para que obtenga una\nde tus fichas de Blanco. Siempre que un agente\nESCUADRA DE EXPLORADORES amigo dispare,\ncombate o contraataque contra un agente\nenemigo que tenga una de tus fichas de Blanco,\npuedes repetir uno de tus dados de ataque.\nEspiar (1)\nSolo Operaciones Aprobadas. Tu oponente debe\nrevelar su operación táctica elegida.",
+      "source": {
+        "kind": "PDF_OFICIAL_TODAS_CONTINUACIONES",
+        "cards": [
+          {
+            "page": 3,
+            "slot": 1
+          },
+          {
+            "page": 3,
+            "slot": 2
+          },
+          {
+            "page": 3,
+            "slot": 3
+          },
+          {
+            "page": 4,
+            "slot": 0
+          }
+        ]
+      }
+    }
+  },
+  "canoptek_circle": {
+    "e5b5-2e7e-84bc-2338": {
+      "name": "Matriz de nodos de obeliscos",
+      "body": "CÍRCULO CANÓPTICO\nREGLA DE FACCIÓN\nMATRIZ DE NODOS DE OBELISCOS\nLos nodos de obeliscos son concentraciones de tecnología necrona, núcleos de energía y centros de datos. Ya\nsea alzados de sus antiguos sepulcros, formados a partir\nde materia local reestructurada o transportados desde\notra dimensión, estos nodos alimentan a un Criptecnólogo y a sus siervos. Integrados en una matriz de energía,\nayudan al Criptecnólogo y entorpecen a sus enemigos.\nComo GAMBITO ESTRATÉGICO en el primer punto de\ninflexión, coloca tus tres marcadores de NODO DE OBE-\nLISCOS completamente dentro de tu territorio. Como\nGAMBITO ESTRATÉGICO en cada punto de inflexión\ntras el primero, puedes mover cada uno de tus marcadores NODO DE OBELISCOS hasta 3\" en horizontal.\nTus marcadores de NODO DE OBELISCOS controlan otros marcadores a 1\" o menos de ellos que\nno estén disputados por agentes enemigos (para\neste propósito, trata tus marcadores de NODO DE\nOBELISCOS como agentes amigos). Si más de un\njugador fuera a usar sus marcadores de NODO DE\nOBELISCOS para controlar el mismo marcador, ningún marcador de NODO DE OBELISCOS lo controla.\nCONTINÚA EN EL REVERSO",
+      "source": {
+        "kind": "PDF_OFICIAL_TODAS_CONTINUACIONES",
+        "cards": [
+          {
+            "page": 4,
+            "slot": 1
+          }
+        ]
+      }
+    }
+  },
+  "kasrkin": {
+    "1509-80ae-2768-bb67": {
+      "name": "Habilidad con armas",
+      "body": "KASRKIN\nREGLA DE FACCIÓN\nHABILIDAD CON ARMAS\nLos Kasrkin van donde se les necesita. Curtidos,\nimplacables y equipados con las mejores armas\ndisponibles, estos veteranos cumplen sus objetivos\ncon profesionalidad, experiencia merecida y\ndeterminación tenaz.\nGAMBITO ESTRATÉGICO. Elige una HABILIDAD\nCON ARMAS para que la tengan los agentes\nKASRKIN amigos hasta el paso de Preparación\nde la siguiente fase de estrategia.\nLAS OPCIONES DE HABILIDAD CON ARMAS SE\nPRESENTAN EN CARTAS SEPARADAS\n\nKASRKIN\nREGLA DE FACCIÓN\nHABILIDAD CON ARMAS\nAcribilladlos\nEstableciendo campos de disparo superpuestos\nmientras avanzan, los Kasrkin reaccionan a cualquier\nmovimiento enemigo con una andanada letal.\nLas armas a distancia de los agentes KASRKIN\namigos tienen la regla de arma Severa.\n\nKASRKIN\nREGLA DE FACCIÓN\nHABILIDAD CON ARMAS\nGolpead deprisa\nLos Kasrkin se enorgullecen de su capacidad física y\npueden cubrir distancias rápidamente, incluso cargando\ncon pesado equipo de combate.\nCuando un agente KASRKIN amigo realice\nuna acción de Reposicionarse, suma 1\" a su\natributo Movimiento.\n\nKASRKIN\nREGLA DE FACCIÓN\nHABILIDAD CON ARMAS\nFríos como el hielo\nTodo Cadiano experimenta una vida de guerra sin cesar.\nLos elegidos para unirse a las filas de los Kasrkin se\ncuentan entre los más irreductibles.\nSiempre que un agente KASRKIN amigo\ncombate o contraataca, o que un agente dispara\ncontra él, la primera vez que un dado de ataque\ninflija Daño normal de 3 o más a este agente\ndurante esa secuencia, reduce en 1 el daño\nque le inflige ese dado.\n\nKASRKIN\nREGLA DE FACCIÓN\nHABILIDAD CON ARMAS\n¡Por Cadia!\nTodos los Kasrkin aspiran a preservar el honor de su\nmundo natal destruido.\nSuma 1 al atributo Ataque de las armas de\ncombate de los agentes KASRKIN amigos\n(hasta un máximo de 4). Siempre que un agente\nKASRKIN amigo combata, la primera vez\nque golpees durante esa secuencia, inflige 1\ndaño adicional.",
+      "source": {
+        "kind": "PDF_OFICIAL_TODAS_CONTINUACIONES",
+        "cards": [
+          {
+            "page": 4,
+            "slot": 2
+          },
+          {
+            "page": 4,
+            "slot": 3
+          },
+          {
+            "page": 5,
+            "slot": 0
+          },
+          {
+            "page": 5,
+            "slot": 1
+          },
+          {
+            "page": 5,
+            "slot": 2
+          }
+        ]
+      }
+    }
+  }
+}

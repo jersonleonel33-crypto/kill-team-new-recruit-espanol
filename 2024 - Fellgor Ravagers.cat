@@ -1,0 +1,1114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" name="Expoliagores Impíos" id="1831-b3f5-0709-1a99" battleScribeVersion="2.03" gameSystemId="c521-ad27-44df-f959" gameSystemRevision="10" library="false" revision="8" type="catalogue">
+  <comment>Update 1.2</comment>
+  <categoryEntries>
+    <categoryEntry name="Expoliagores Impíos" id="827d-3e9d-bab3-e84c" hidden="false" />
+    <categoryEntry name="EXPOLIAGOR CUERNOFÉRREO" id="f001-f2d2-2aff-978f" hidden="false" />
+    <categoryEntry name="EXPOLIAGOR PENA DE MUERTE" id="441e-a540-c390-c294" hidden="false" />
+    <categoryEntry name="EXPOLIAGOR PORTALACRAS" id="a016-5654-77e1-f171" hidden="false" />
+    <categoryEntry name="EXPOLIAGOR FLUJOGREY" id="e174-d30c-b00a-de94" hidden="false" />
+    <categoryEntry name="EXPOLIAGOR CUERNOENTRAÑAS" id="2816-0054-0b14-f597" hidden="false" />
+    <categoryEntry name="EXPOLIAGOR DOMADOR" id="5c91-04fd-fdd5-a348" hidden="false" />
+    <categoryEntry name="EXPOLIAGOR CHAMÁN" id="bc10-4a0d-d98a-fd7b" hidden="false" />
+    <categoryEntry name="EXPOLIAGOR PUTRECUERNO" id="7bad-b5ae-ef92-a559" hidden="false" />
+    <categoryEntry name="EXPOLIAGOR VÁNDALO" id="0857-155e-30cd-ee06" hidden="false" />
+  </categoryEntries>
+  <entryLinks>
+    <entryLink name="Equipment Reference" id="5a28-bea1-dfaa-7168" hidden="false" import="true" targetId="e004-a0c4-8a03-0b8b" type="selectionEntry">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Equipo de facción" id="2af6-d774-c0ed-748e" hidden="false">
+          <selectionEntries>
+            <selectionEntry name="ADORNOS DE BRONCE" id="acb3-434b-7789-adb2" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="1ca5-1c14-1071-a228" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+              </constraints>
+              <profiles>
+                <profile name="ADORNOS DE BRONCE" id="cdb0-a739-139c-a80b" hidden="false" typeId="0d20-7175-9ecb-8bde" typeName="Equipment">
+                  <characteristics>
+                    <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">EXPOLIAGORES IMPÍOS
+EQUIPO DE FACCIÓN
+ADORNOS DE BRONCE
+Pezuñas y cuernos recubiertos de bronce y púas de
+armadura incitan entre los Expoliagores Impíos aún más
+sed de violencia, y le dan armas adicionales con las
+que ejecutarla.
+Una vez por batalla, puedes usar los ardides
+de tiroteo Furia animal y Rabia salvaje por 0PM
+cada uno.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="MARCAS SANGRANTES" id="398a-c9b0-14f8-8236" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="dcfd-620a-ae19-d4e5" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+              </constraints>
+              <profiles>
+                <profile name="MARCAS SANGRANTES" id="0225-d22e-9e2f-7c5d" hidden="false" typeId="0d20-7175-9ecb-8bde" typeName="Equipment">
+                  <characteristics>
+                    <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">EXPOLIAGORES IMPÍOS
+EQUIPO DE FACCIÓN
+MARCAS SANGRANTES
+Infligidas a un Expoliagor Impío por sus Chamanes,
+estas heridas siguen sangrando a lo largo de la batalla, y
+el olor a sangre fresca potencia a los Hombres Bestia.
+Una vez por punto de inflexión, cuando un
+agente EXPOLIAGOR IMPÍO amigo combata o
+contraataque, puedes usar esta regla. Si lo haces,
+inflige 1 daño a ese agente amigo y repite uno de
+tus dados de ataque. Si el resultado es un fallo,
+inflige 1 año adicional a ese agente amigo.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="SELLO DEL CAOS" id="6dcb-8be3-20c7-a033" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="0853-567a-bae6-d894" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+              </constraints>
+              <profiles>
+                <profile name="SELLO DEL CAOS" id="5dd9-2b76-b533-5127" hidden="false" typeId="0d20-7175-9ecb-8bde" typeName="Equipment">
+                  <characteristics>
+                    <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">EXPOLIAGORES IMPÍOS
+EQUIPO DE FACCIÓN
+SELLO DEL CAOS
+Imbuido con energías disformes y bendecido por un
+Chamán, este icono ofrece protección a un adorador
+dedicado de los Dioses del Caos.
+Una vez por punto de inflexión, cuando un agente
+dispare contra un agente EXPOLIAGOR IMPÍO
+amigo, al inicio del paso de Tirar dados de
+defensa, puedes usar esta regla. Si lo haces,
+empeora en 1 la x de la regla de armas
+Penetración (si la hay) hasta el final de esa
+secuencia. Eso significa que Penetración 1
+se ignoraría.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="PINTURA DE GUERRA" id="b4e2-f24a-f209-de4e" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="8162-9c68-a806-ac84" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+              </constraints>
+              <profiles>
+                <profile name="PINTURA DE GUERRA" id="dca2-4512-dc5b-b701" hidden="false" typeId="0d20-7175-9ecb-8bde" typeName="Equipment">
+                  <characteristics>
+                    <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">EXPOLIAGORES IMPÍOS
+EQUIPO DE FACCIÓN
+PINTURA DE GUERRA
+Aplicada de forma ritual antes de la batalla, la pintura
+de guerra envalentona a los Expoliagores Impíos,
+haciendo que ignoren sus heridas y se lancen a la pelea.
+Puedes ignorar cualquier cambio al atributo
+Movimiento de agentes EXPOLIAGOR IMPÍO
+amigos debido a estar lesionados.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </entryLink>
+  </entryLinks>
+  <forceEntries>
+    <forceEntry name="Kill Team — Español" id="d9fd-9344-019d-a4b0" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Configuration" id="8ede-7f6b-4063-f8d9" hidden="false" targetId="874b-0390-e5e2-1daa" />
+        <categoryLink name="Reference" id="15d4-b5e5-dcd2-85f4" hidden="false" targetId="b318-a8d7-2d38-99a3" />
+        <categoryLink name="Leader" id="8352-f147-1993-aae0" hidden="false" targetId="d999-8cad-8145-4efe" />
+        <categoryLink name="Operative" id="5d32-3ee7-1671-6c3e" hidden="false" targetId="cf83-4496-b58e-ac82">
+          <constraints>
+            <constraint id="5c87-6b04-0f90-6809-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="9" />
+            <constraint id="5c87-6b04-0f90-6809-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="9" />
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <selectionEntries>
+    <selectionEntry name="EXPOLIAGOR CUERNOFÉRREO" id="7fe3-9c72-34d3-8505" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Expoliagores Impíos" id="5fdc-3112-03ca-9a8e" hidden="false" primary="false" targetId="827d-3e9d-bab3-e84c" />
+        <categoryLink name="Chaos" id="0259-3917-76b7-1deb" hidden="false" primary="false" targetId="13fe-a54f-f2f2-f034" />
+        <categoryLink name="Leader" id="f08e-e70a-14f9-fb1c" hidden="false" primary="true" targetId="d999-8cad-8145-4efe" />
+        <categoryLink name="EXPOLIAGOR CUERNOFÉRREO" id="c041-6ef3-76de-6f5a" hidden="false" primary="false" targetId="f001-f2d2-2aff-978f" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="dd8d-08c5-65dc-affa" field="selections" includeChildSelections="false" scope="force" shared="true" type="max" value="-1" />
+      </constraints>
+      <infoLinks>
+        <infoLink name="FURIA ASESINA" id="7bc8-82e4-80e6-4a54" hidden="false" targetId="b6c5-3ef4-1a3f-7012" type="rule" />
+      </infoLinks>
+      <modifiers>
+        <modifier field="dd8d-08c5-65dc-affa" type="set" value="1">
+          <conditions>
+            <condition childId="d9fd-9344-019d-a4b0" field="selections" includeChildSelections="false" scope="force" shared="true" type="instanceOf" value="1" />
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="EXPOLIAGOR CUERNOFÉRREO" id="bc46-fa69-f525-682f" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">11</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="¡Al ataque!" id="d509-5206-1044-025a" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">GAMBITO ESTRATÉGICO si este agente no tiene ninguna de tus fichas de furia asesina. Elige un agente 
+EXPOLIAGOR IMPÍO amigo a 6” o menos de este agente y visible para él. Ese agente elegido y cada otro agente EXPOLIAGOR 
+IMPÍO amigo a 2” o menos de este agente y visible para él pueden realizar, inmediatamente, una acción libre de Correr en el 
+orden que elijas.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Armas" id="d9df-2814-add6-2fa5" defaultSelectionEntryId="none" hidden="false">
+          <constraints>
+            <constraint id="78bf-cc74-0173-3918-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="78bf-cc74-0173-3918-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry name="Pistola corrompida; Espada sierra corrompida" id="01b3-0401-c128-86ba" hidden="false" import="true" type="upgrade">
+              <selectionEntries>
+                <selectionEntry name="Pistola corrompida" id="e5c9-cecd-a3c7-b056" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="70f0-dac7-e162-f31a-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1" />
+                    <constraint id="70f0-dac7-e162-f31a-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Range x" id="38a2-590e-8c60-1fec" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+                    <infoLink name="Rending" id="c8da-9750-226c-5b3b" hidden="false" targetId="b903-6f79-129d-4ec9" type="rule" />
+                  </infoLinks>
+                  <profiles>
+                    <profile name="⌖ Pistola corrompida" id="057f-0d91-10ee-b194" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                        <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                        <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/5</characteristic>
+                        <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8", Desgarradora</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry name="Espada sierra corrompida" id="2969-5d15-563b-6ef9" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="dbcc-7820-c982-d4f4-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1" />
+                    <constraint id="dbcc-7820-c982-d4f4-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Range x" id="17ed-2887-4d19-fd64" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+                    <infoLink name="Rending" id="4e09-eec6-1196-84c7" hidden="false" targetId="b903-6f79-129d-4ec9" type="rule" />
+                  </infoLinks>
+                  <profiles>
+                    <profile name="⚔ Espada sierra corrompida" id="76d7-791e-1a3a-8f16" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                        <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                        <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                        <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Desgarradora</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry name="Pistola de plasma; Maza bestial" id="cb4e-1486-1cc2-9b61" hidden="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink name="Maza bestial" id="025f-ad6a-e7c0-5e86" hidden="false" import="true" targetId="3805-d175-2a6a-2178" type="selectionEntry" />
+              </entryLinks>
+              <selectionEntries>
+                <selectionEntry name="Pistola de plasma" id="ef1c-c59b-01c8-59d0" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="1901-699c-23ad-9200" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1" />
+                    <constraint id="f35f-110a-796d-5080" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Hot" id="5274-890b-5227-2517" hidden="false" targetId="ec63-40e6-6282-8420" type="rule" />
+                    <infoLink name="Piercing x" id="b0c5-8aab-a90c-999f" hidden="false" targetId="4c07-2cb3-1417-cbb7" type="rule" />
+                    <infoLink name="Lethal x+" id="15db-5ab8-64d3-c5e5" hidden="false" targetId="8b97-e3e3-2857-817a" type="rule" />
+                    <infoLink name="Range x" id="8684-276c-05dc-96d8" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+                  </infoLinks>
+                  <profiles>
+                    <profile name="⌖ Pistola de plasma (normal)" id="2eda-aa3b-3d01-f1b5" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                        <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                        <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/5</characteristic>
+                        <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8", Penetración 1</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="⌖ Pistola de plasma (sobrecarga)" id="29d0-4066-382c-e60f" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                        <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                        <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                        <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8", Letal 5+, Penetración 1, Sobrecalentamiento</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="EXPOLIAGOR PORTALACRAS" id="66cb-3112-fd9b-94bd" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Expoliagores Impíos" id="ee2a-8775-aef6-1c3b" hidden="false" primary="false" targetId="827d-3e9d-bab3-e84c" />
+        <categoryLink name="Chaos" id="e320-5e9d-3ad1-f501" hidden="false" primary="false" targetId="13fe-a54f-f2f2-f034" />
+        <categoryLink name="Operative" id="7975-383a-755c-5d8a" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="EXPOLIAGOR PORTALACRAS" id="80e3-3eb7-fda0-55ce" hidden="false" primary="false" targetId="a016-5654-77e1-f171" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="9216-d448-e6ea-58b2" field="selections" includeChildSelections="false" scope="force" shared="true" type="max" value="-1" />
+      </constraints>
+      <entryLinks>
+        <entryLink name="Pistola automática" id="293b-10c2-48c8-c0d3" hidden="false" import="true" targetId="57ce-f16d-dd4f-4f15" type="selectionEntry" />
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="FURIA ASESINA" id="99d5-6adf-5fee-edb1" hidden="false" targetId="b6c5-3ef4-1a3f-7012" type="rule" />
+      </infoLinks>
+      <modifiers>
+        <modifier field="9216-d448-e6ea-58b2" type="set" value="1">
+          <conditions>
+            <condition childId="d9fd-9344-019d-a4b0" field="selections" includeChildSelections="false" scope="force" shared="true" type="instanceOf" value="1" />
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="EXPOLIAGOR PORTALACRAS" id="eefe-40f2-7aaf-eec8" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Astuto" id="f775-2e63-81c3-828e" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Al final de la activación de este 
+agente, puedes cambiar su orden.
+ATAQUE CONTUNDENTE 1PA
+ Realiza una acción libre de Combatir con este agente, y a continuación realiza 
+una acción libre de Disparar con este agente (o viceversa). Este agente puede 
+realizar dicha acción de Disparar aún estando en la zona de control de un agente 
+enemigo, pero si lo hace, puede y debe tomar como blanco a un agente enemigo 
+en su zona de control (aunque haya otros agentes amigos en la zona de control de 
+ese agente enemigo). Solo puedes elegir una pistola automática para esa acción 
+de Disparar.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Gong de guerra" id="07d9-cbb7-cf01-6686" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Siempre que un dado de ataque vaya a infligir 
+Daño crítico a un agente EXPOLIAGOR IMPÍO amigo a 3" o 
+menos de este agente, si este agente no tiene una de tus fichas 
+de Furia asesina, puedes decidir que ese dado de ataque inflija 
+Daño normal en su lugar.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="ATAQUE CONTUNDENTE (1PA)" id="aa50-f3bd-3544-5960" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Realiza una acción libre de Combatir con este agente, y a continuación realiza 
+una acción libre de Disparar con este agente (o viceversa). Este agente puede 
+realizar dicha acción de Disparar aún estando en la zona de control de un agente 
+enemigo, pero si lo hace, puede y debe tomar como blanco a un agente enemigo 
+en su zona de control (aunque haya otros agentes amigos en la zona de control de 
+ese agente enemigo). Solo puedes elegir una pistola automática para esa acción 
+de Disparar.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Puño biónico" id="5f75-be78-40ef-552e" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="9cd3-3aed-bdc9-c272-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="9cd3-3aed-bdc9-c272-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Brutal" id="5216-fd08-496b-8ee2" hidden="false" targetId="5151-5449-ca81-70ed" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⚔ Puño biónico" id="7aab-b5a0-eb44-0f5e" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Brutal</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="EXPOLIAGOR FLUJOGREY" id="027c-12d9-1494-ba76" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Expoliagores Impíos" id="eae1-7a79-1f8b-149e" hidden="false" primary="false" targetId="827d-3e9d-bab3-e84c" />
+        <categoryLink name="Chaos" id="e7cd-0c6e-84fa-b19a" hidden="false" primary="false" targetId="13fe-a54f-f2f2-f034" />
+        <categoryLink name="Operative" id="2931-b768-bedc-776c" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="EXPOLIAGOR FLUJOGREY" id="19cf-ae4f-e1e3-d5ee" hidden="false" primary="false" targetId="e174-d30c-b00a-de94" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="fced-6e02-2ad8-cb31" field="selections" includeChildSelections="false" scope="force" shared="true" type="max" value="-1" />
+      </constraints>
+      <infoLinks>
+        <infoLink name="FURIA ASESINA" id="d7da-a5d2-5440-3343" hidden="false" targetId="b6c5-3ef4-1a3f-7012" type="rule" />
+      </infoLinks>
+      <modifiers>
+        <modifier field="fced-6e02-2ad8-cb31" type="set" value="1">
+          <conditions>
+            <condition childId="d9fd-9344-019d-a4b0" field="selections" includeChildSelections="false" scope="force" shared="true" type="instanceOf" value="1" />
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="EXPOLIAGOR FLUJOGREY" id="c071-e3df-194d-7e4a" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Filos giratorios" id="5948-e815-f81b-69aa" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Cuando este agente 
+combata o contraataque, si no tiene una 
+de tus fichas de Furia asesina, puedes 
+resolver uno de tus éxitos antes del orden 
+normal. Si lo haces, ese éxito debe usarse 
+para bloquear.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="TORBELLINO DE CUCHILLAS (2PA)" id="472e-a51a-7d9f-ae1a" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Realiza una acción libre de Reposicionarse con este agente. Durante esa acción, 
+puede moverse 2" adicionales, y puede mover a través de la zona de control de 
+agentes enemigos (pero no puede empezar ni terminar el movimiento en ella). 
+Inflige 1D3+1 daños a cada agente enemigo por cuya zona de control haya movido 
+(tira por separado por cada uno tras mover, en el orden en que haya movido por su 
+zona de control).
+ Este agente no puede realizar esta acción si tiene una orden de ocultarse.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Cuchillas triples" id="7822-f060-e81b-d765" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="69e6-3590-f14b-069c-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="69e6-3590-f14b-069c-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Ceaseless" id="4f34-2e3f-ee3d-27ef" hidden="false" targetId="752d-ce38-c325-4b8a" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⚔ Cuchillas triples" id="1d6f-cb32-4916-9367" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Incesante</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="EXPOLIAGOR DOMADOR" id="e8ab-d568-6c9d-e8c3" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Expoliagores Impíos" id="0457-5457-6cda-6464" hidden="false" primary="false" targetId="827d-3e9d-bab3-e84c" />
+        <categoryLink name="Chaos" id="90c5-d1dc-ea1f-0d61" hidden="false" primary="false" targetId="13fe-a54f-f2f2-f034" />
+        <categoryLink name="Operative" id="93a2-16e6-f994-fc0c" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="EXPOLIAGOR DOMADOR" id="0978-0b1d-2c23-4160" hidden="false" primary="false" targetId="5c91-04fd-fdd5-a348" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="be1e-ea12-5333-e54e" field="selections" includeChildSelections="false" scope="force" shared="true" type="max" value="-1" />
+      </constraints>
+      <entryLinks>
+        <entryLink name="Pistola automática" id="8842-16cb-0a46-435f" hidden="false" import="true" targetId="57ce-f16d-dd4f-4f15" type="selectionEntry" />
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="FURIA ASESINA" id="96dc-5961-ba33-c00e" hidden="false" targetId="b6c5-3ef4-1a3f-7012" type="rule" />
+      </infoLinks>
+      <modifiers>
+        <modifier field="be1e-ea12-5333-e54e" type="set" value="1">
+          <conditions>
+            <condition childId="d9fd-9344-019d-a4b0" field="selections" includeChildSelections="false" scope="force" shared="true" type="instanceOf" value="1" />
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="EXPOLIAGOR DOMADOR" id="0094-7a50-f027-82fe" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="A latigazos" id="eca1-ae0b-0363-45c8" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Siempre que un agente enemigo se encuentre a 3" 
+o menos de este agente y sea visible para él, si este agente no se 
+encuentra en la zona de control de ningún otro agente enemigo:
+• Resta 1 al atributo Ataque de las armas de combate de ese 
+agente enemigo (hasta un mínimo de 1).
+• Tu oponente debe gastar 1 PA adicional para que ese agente 
+enemigo pueda realizar una acción de Retroceder.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="INCITAR FURIA (1PA)" id="930d-0fa3-e992-1eab" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Elige otro agente EXPOLIAGOR IMPÍO amigo distinto 
+(salvo CHAMÁN o CUERNOFÉRREO) a 3" o menos de 
+este agente y visible para él. Hasta el final de la siguiente 
+activación de ese agente, suma 1 a su atributo LPA.
+ Este agente no puede realizar esta acción si se encuentra en 
+la zona de control de un agente enemigo.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Látigo de púas" id="a0c1-c1b1-95f4-cdde" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="81c1-1916-6084-180e-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="81c1-1916-6084-180e-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Stun" id="e2cc-aeb2-74f2-4f67" hidden="false" targetId="5ae2-3f29-8635-fd02" type="rule" />
+            <infoLink name="Range x" id="cac8-b0ce-1291-5006" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+            <infoLink name="Lethal x+" id="4472-a990-05fd-dbb9" hidden="false" targetId="8b97-e3e3-2857-817a" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⌖ Látigo de púas (disparo)" id="bc36-50da-75e8-c424" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">2+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/3</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 3", Aturdidora, Letal 4+</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="⚔ Látigo de púas (combate)" id="9052-ea61-36b4-c3e2" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/3</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Choque, Letal 4+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Guerrero con cachiporra" id="be8b-068d-eb73-c6fb" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Expoliagores Impíos" id="fe11-52a9-49f3-5c1d" hidden="false" primary="false" targetId="827d-3e9d-bab3-e84c" />
+        <categoryLink name="Chaos" id="1d53-b355-5d27-979c" hidden="false" primary="false" targetId="13fe-a54f-f2f2-f034" />
+        <categoryLink name="EXPOLIAGOR PENA DE MUERTE" id="bd1d-1d09-a8a0-89f7" hidden="false" primary="false" targetId="441e-a540-c390-c294" />
+        <categoryLink name="Operative" id="a28f-49bb-561e-fdf6" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="4ac5-fe42-4d50-10b6" field="selections" includeChildSelections="false" scope="force" shared="true" type="max" value="-1" />
+      </constraints>
+      <entryLinks>
+        <entryLink name="Maza bestial" id="c807-8864-0671-4c15" hidden="false" import="true" targetId="3805-d175-2a6a-2178" type="selectionEntry" />
+        <entryLink name="Pistola automática" id="2cba-194f-a1a1-f5d2" hidden="false" import="true" targetId="57ce-f16d-dd4f-4f15" type="selectionEntry" />
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="FURIA ASESINA" id="344e-5787-0490-9694" hidden="false" targetId="b6c5-3ef4-1a3f-7012" type="rule" />
+      </infoLinks>
+      <modifiers>
+        <modifier field="4ac5-fe42-4d50-10b6" type="set" value="9">
+          <conditions>
+            <condition childId="d9fd-9344-019d-a4b0" field="selections" includeChildSelections="false" scope="force" shared="true" type="instanceOf" value="1" />
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="EXPOLIAGOR COMBATIENTE" id="8226-1311-99bc-cc95" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Furia del guerrero" id="befb-49fb-6bdc-1d49" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Mientras este agente tenga una de tus 
+fichas de Furia asesina, no puede estar lesionado. Esto tiene 
+preferencia sobre las reglas normales de Furia asesina.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="EXPOLIAGOR CUERNOENTRAÑAS" id="4e20-4cc5-7050-c39f" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Expoliagores Impíos" id="b7a5-732a-7d74-e176" hidden="false" primary="false" targetId="827d-3e9d-bab3-e84c" />
+        <categoryLink name="Chaos" id="812e-822e-7544-e86a" hidden="false" primary="false" targetId="13fe-a54f-f2f2-f034" />
+        <categoryLink name="Operative" id="922b-99f3-c67b-5de9" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="EXPOLIAGOR CUERNOENTRAÑAS" id="6367-58fb-1bbf-f618" hidden="false" primary="false" targetId="2816-0054-0b14-f597" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="db7b-03aa-1d0b-a051" field="selections" includeChildSelections="false" scope="force" shared="true" type="max" value="-1" />
+      </constraints>
+      <entryLinks>
+        <entryLink name="Pistola automática" id="47c5-9917-8785-7855" hidden="false" import="true" targetId="57ce-f16d-dd4f-4f15" type="selectionEntry" />
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="FURIA ASESINA" id="7e73-127c-9839-e851" hidden="false" targetId="b6c5-3ef4-1a3f-7012" type="rule" />
+      </infoLinks>
+      <modifiers>
+        <modifier field="db7b-03aa-1d0b-a051" type="set" value="1">
+          <conditions>
+            <condition childId="d9fd-9344-019d-a4b0" field="selections" includeChildSelections="false" scope="force" shared="true" type="instanceOf" value="1" />
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="EXPOLIAGOR CUERNOENTRAÑAS" id="d1b6-2e2e-891e-7c99" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Campeón" id="d879-425c-3c41-0b53" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Este agente puede realizar dos acciones de 
+Combatir durante su activación.
+*</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="*Cazacabezas" id="8fb3-30fa-5342-dec1" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Siempre que este agente incapacite a un agente 
+con esta arma, tira 1D3:
+• Este agente recupera un número de heridas perdidas igual al 
+resultado (a menos que tenga una ficha de Furia asesina).
+• Hasta el final de la batalla, suma el resultado al atributo Daño 
+crítico del cortacráneos de este agente (hasta un máximo de 8).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Cortacráneos" id="2c5c-aa0b-a1d1-9f10" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="c9b3-0274-afc1-bca6-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="c9b3-0274-afc1-bca6-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Lethal x+" id="397b-4031-a6bf-4c4c" hidden="false" targetId="8b97-e3e3-2857-817a" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⚔ Cortacráneos" id="91dc-fd21-0210-ca4b" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Letal 5+, Cazacabezas*</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="EXPOLIAGOR TRITURADOR" id="4ac6-5137-a4d4-2cd4" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Expoliagores Impíos" id="9be1-4c47-51dc-b7ef" hidden="false" primary="false" targetId="827d-3e9d-bab3-e84c" />
+        <categoryLink name="Chaos" id="824b-1b38-bc58-18d2" hidden="false" primary="false" targetId="13fe-a54f-f2f2-f034" />
+        <categoryLink name="Operative" id="bcac-077d-532a-3d7e" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="EXPOLIAGOR FLUJOGREY" id="2f92-2782-922f-78f9" hidden="false" primary="false" targetId="e174-d30c-b00a-de94" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="d109-58dd-b774-da4a" field="selections" includeChildSelections="false" scope="force" shared="true" type="max" value="-1" />
+      </constraints>
+      <infoLinks>
+        <infoLink name="FURIA ASESINA" id="877d-0d30-a975-4d89" hidden="false" targetId="b6c5-3ef4-1a3f-7012" type="rule" />
+      </infoLinks>
+      <modifiers>
+        <modifier field="d109-58dd-b774-da4a" type="set" value="1">
+          <conditions>
+            <condition childId="d9fd-9344-019d-a4b0" field="selections" includeChildSelections="false" scope="force" shared="true" type="instanceOf" value="1" />
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="EXPOLIAGOR TRITURADOR" id="c629-501c-bf7c-1579" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="*Cazador sensorial" id="6c93-c6a6-f585-d1c0" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Siempre que este agente combata con 
+esta arma contra un agente usado, la primera vez que golpees 
+con un éxito crítico durante esa secuencia, puedes resolver 
+inmediatamente otro de tus éxitos como un golpe (antes que 
+tu oponente).</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Bersérker" id="a277-0b66-6703-bbbd" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Este agente no puede realizar acciones de Disparar 
+(salvo Ponerse en guardia, pero en tal caso no puede luego 
+realizar una acción libre de Disparar durante la interrupción). 
+Debes gastar 1 PA adicional para que este agente realice 
+acciones de Recoger marcador y acciones de misión (salvo 
+Operar portillo).</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Salvaje" id="6e6c-22e6-12b3-3bd6" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">La primera vez que este agente realice una acción de 
+Combatir durante cada una de sus activaciones, si no resulta 
+incapacitado, puede realizar inmediatamente una acción libre 
+de Combatir a continuación (y no hace falta que elijas al 
+mismo agente enemigo para combatir contra él). Esto tiene 
+preferencia sobre las restricciones de acción, y no puedes usar 
+el ardid de tiroteo Asalto despiadado entre esas dos acciones 
+de Combatir.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Garras letales" id="e0e4-0565-0697-e349" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="c823-4b2f-e009-3d0a-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="c823-4b2f-e009-3d0a-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Ceaseless" id="99e7-228c-a051-8407" hidden="false" targetId="752d-ce38-c325-4b8a" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⚔ Garras letales" id="fd37-7d7f-2701-fde8" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/6</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Incesante, Cazador sensorial*</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="EXPOLIAGOR CHAMÁN" id="8a5d-9080-38b7-e233" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Expoliagores Impíos" id="c01a-1791-6efc-68ab" hidden="false" primary="false" targetId="827d-3e9d-bab3-e84c" />
+        <categoryLink name="Chaos" id="a44b-0226-7edd-6c02" hidden="false" primary="false" targetId="13fe-a54f-f2f2-f034" />
+        <categoryLink name="Psyker" id="8a1f-8410-8219-2b53" hidden="false" primary="false" targetId="6f95-9b94-d661-3243" />
+        <categoryLink name="EXPOLIAGOR CHAMÁN" id="cb52-828a-33f8-aa43" hidden="false" primary="false" targetId="bc10-4a0d-d98a-fd7b" />
+        <categoryLink name="Operative" id="69e4-1523-2305-d1fd" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="81e1-5b61-02c4-e32f" field="selections" includeChildSelections="false" scope="force" shared="true" type="max" value="-1" />
+      </constraints>
+      <entryLinks>
+        <entryLink name="Pistola automática" id="8b3f-b71c-dc55-b311" hidden="false" import="true" targetId="57ce-f16d-dd4f-4f15" type="selectionEntry" />
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="FURIA ASESINA" id="ae3c-db01-fe62-7b7b" hidden="false" targetId="b6c5-3ef4-1a3f-7012" type="rule" />
+      </infoLinks>
+      <modifiers>
+        <modifier field="81e1-5b61-02c4-e32f" type="set" value="1">
+          <conditions>
+            <condition childId="d9fd-9344-019d-a4b0" field="selections" includeChildSelections="false" scope="force" shared="true" type="instanceOf" value="1" />
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="EXPOLIAGOR CHAMÁN" id="b4e3-6a30-808c-ad80" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="CAPA DE OSCURIDAD (1PA)" id="1b85-c73e-74d8-6425" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">PSÍQUICA. Hasta el inicio de la siguiente activación de este 
+agente o hasta que resulte incapacitado (lo que ocurra antes), 
+siempre que un agente EXPOLIAGOR IMPÍO amigo sea 
+visible para este agente, esté a 3" o menos de él, tenga una 
+orden de ocultarse y esté a cubierto, ese agente amigo no 
+puede ser elegido como blanco válido, y eso tiene preferencia 
+sobre todas las demás reglas (p. ej. Buscadora, terreno 
+Aventajado) salvo estar a 2" o menos.
+ Este agente no puede realizar esta acción si se encuentra en 
+la zona de control de un agente enemigo.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="REJUVENECIMIENTO APOPLÉJICO (2PA)" id="1dac-349b-1725-c64c" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Elige un agente EXPOLIAGOR IMPÍO amigo a 6" o menos de este agente y visible para él que no tenga una de tus fichas 
+de Furia asesina. Ese agente amigo recupera hasta 2D3 heridas perdidas; si ese agente ha incapacitado a un agente enemigo 
+mientras combate o contraataca durante la batalla, en su lugar recupera 6 heridas perdidas.
+ Este agente no puede realizar esta acción si se encuentra en la zona de control de un agente enemigo.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Maldición tecnológica" id="185f-bc02-76a6-e06c" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="ff51-b8a1-cb91-f9c5-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="ff51-b8a1-cb91-f9c5-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Saturate" id="5453-fccf-bbfa-902d" hidden="false" targetId="3c10-2d52-d1ac-b0f6" type="rule" />
+            <infoLink name="Rending" id="5d04-525f-e948-7b23" hidden="false" targetId="b903-6f79-129d-4ec9" type="rule" />
+            <infoLink name="Seek" id="80f4-713d-6780-5fde" hidden="false" targetId="a33d-4e90-5794-6e20" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⌖ Maldición tecnológica" id="774d-376d-933c-c0dc" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">1/3</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Buscadora (ligero), Desgarradora, Saturación, PSÍQUICA</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Báculo de la grey" id="9c6d-4f47-e12e-6093" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="e1eb-6c7e-37d9-5c02-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="e1eb-6c7e-37d9-5c02-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Shock" id="4381-52af-26e8-4e8b" hidden="false" targetId="c544-8d4c-4109-4eec" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⚔ Báculo de la grey" id="7d5c-0760-1feb-0069" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Choque</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="EXPOLIAGOR PUTRECUERNO" id="8b8a-4dd3-4ed9-7bbf" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Expoliagores Impíos" id="5195-a083-ef4c-6727" hidden="false" primary="false" targetId="827d-3e9d-bab3-e84c" />
+        <categoryLink name="Chaos" id="3de4-3f20-135a-188d" hidden="false" primary="false" targetId="13fe-a54f-f2f2-f034" />
+        <categoryLink name="Operative" id="53ab-291e-d60b-2d08" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="EXPOLIAGOR PUTRECUERNO" id="4ee9-5386-0e02-0798" hidden="false" primary="false" targetId="7bad-b5ae-ef92-a559" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="ddbf-7a9a-0e18-73f6" field="selections" includeChildSelections="false" scope="force" shared="true" type="max" value="-1" />
+      </constraints>
+      <entryLinks>
+        <entryLink name="Pistola automática" id="5634-4040-851c-2374" hidden="false" import="true" targetId="57ce-f16d-dd4f-4f15" type="selectionEntry" />
+        <entryLink name="Cuchilla" id="0b27-cefc-62f1-1f46" hidden="false" import="true" targetId="16ec-03a2-6459-8b67" type="selectionEntry" />
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="FURIA ASESINA" id="0d69-4bc9-541c-6217" hidden="false" targetId="b6c5-3ef4-1a3f-7012" type="rule" />
+      </infoLinks>
+      <modifiers>
+        <modifier field="ddbf-7a9a-0e18-73f6" type="set" value="1">
+          <conditions>
+            <condition childId="d9fd-9344-019d-a4b0" field="selections" includeChildSelections="false" scope="force" shared="true" type="instanceOf" value="1" />
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="EXPOLIAGOR PUTRECUERNO" id="8d5a-7730-1ae8-203c" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Dones tóxicos" id="4a64-707c-ef55-13ee" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Puedes ignorar cualquier cambio al atributo 
+LPA de este agente, y además no se ve afectado por la regla de 
+armas Choque de los agentes enemigos. Siempre que un dado 
+de ataque inflija Daño normal de 3 o más a este agente, tira 1D6: 
+con 5+, resta 1 a ese daño infligido.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Bomba de viruelas" id="ec63-00bc-ca08-f57a" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Este agente puede usar granadas 
+aturdidoras (ver equipo universal). Hacer esto no cuenta de cara 
+a los usos limitados que tengas (es decir, si también seleccionas 
+esas granadas como equipo para otros agentes). Siempre que 
+un agente enemigo hace un chequeo de aturdimiento como 
+resultado de que este agente realice una acción de Granada 
+aturdidora, si el resultado es 3+, inflige también tanto daño 
+a ese agente enemigo como la mitad del resultado del D6 
+(redondeando al alza).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="EXPOLIAGOR VÁNDALO" id="e140-5009-6d7c-98ee" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Expoliagores Impíos" id="835e-c879-267a-d729" hidden="false" primary="false" targetId="827d-3e9d-bab3-e84c" />
+        <categoryLink name="Chaos" id="4d58-8503-8bbc-37d4" hidden="false" primary="false" targetId="13fe-a54f-f2f2-f034" />
+        <categoryLink name="Operative" id="ebf8-bb4b-f08f-6918" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="EXPOLIAGOR VÁNDALO" id="d0a4-6e6f-6b06-e29e" hidden="false" primary="false" targetId="0857-155e-30cd-ee06" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="dd30-db85-83eb-2622" field="selections" includeChildSelections="false" scope="force" shared="true" type="max" value="-1" />
+      </constraints>
+      <infoLinks>
+        <infoLink name="FURIA ASESINA" id="e198-b8f3-9c4e-c007" hidden="false" targetId="b6c5-3ef4-1a3f-7012" type="rule" />
+      </infoLinks>
+      <modifiers>
+        <modifier field="dd30-db85-83eb-2622" type="set" value="1">
+          <conditions>
+            <condition childId="d9fd-9344-019d-a4b0" field="selections" includeChildSelections="false" scope="force" shared="true" type="instanceOf" value="1" />
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="EXPOLIAGOR VÁNDALO" id="a9a7-de9e-562c-e830" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="*Golpes demoledores" id="d50a-b27c-8853-9954" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Cuando este agente combate, esta arma 
+tiene la regla de armas Incesante.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="GOLPE CIRCULAR (1PA)" id="4f9d-e44a-1bd4-6a54" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Inflige 1D3+1 daños a cada otro agente a 2" o menos de este 
+agente y visible para él.
+ Este agente no puede realizar esta acción si tiene una orden 
+de ocultarse.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Aplastacuerpos" id="0fdf-2ee0-406b-c2ec" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="eea2-23cc-cbd2-d104-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="eea2-23cc-cbd2-d104-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Brutal" id="c4c8-7681-be03-267c" hidden="false" targetId="5151-5449-ca81-70ed" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⚔ Aplastacuerpos" id="4cf1-d620-58cd-637e" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">5/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Brutal, Golpes demoledores*</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="EXPOLIAGOR PENA DE MUERTE" id="4091-0cdd-2df0-3026" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Expoliagores Impíos" id="d305-b339-4248-7196" hidden="false" primary="false" targetId="827d-3e9d-bab3-e84c" />
+        <categoryLink name="Chaos" id="b289-8d66-8558-ac17" hidden="false" primary="false" targetId="13fe-a54f-f2f2-f034" />
+        <categoryLink name="EXPOLIAGOR PENA DE MUERTE" id="3ccf-ce11-232a-d66f" hidden="false" primary="false" targetId="441e-a540-c390-c294" />
+        <categoryLink name="Operative" id="5b0a-c2ea-6cdf-980b" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="5dd5-578b-3202-4e8d" field="selections" includeChildSelections="false" scope="force" shared="true" type="max" value="-1" />
+      </constraints>
+      <entryLinks>
+        <entryLink name="Maza bestial" id="8822-2f51-519b-bdcd" hidden="false" import="true" targetId="3805-d175-2a6a-2178" type="selectionEntry" />
+        <entryLink name="Pistola automática" id="3271-c870-af9e-158d" hidden="false" import="true" targetId="57ce-f16d-dd4f-4f15" type="selectionEntry" />
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="FURIA ASESINA" id="c55c-e1e6-9975-204d" hidden="false" targetId="b6c5-3ef4-1a3f-7012" type="rule" />
+      </infoLinks>
+      <modifiers>
+        <modifier field="5dd5-578b-3202-4e8d" type="set" value="1">
+          <conditions>
+            <condition childId="d9fd-9344-019d-a4b0" field="selections" includeChildSelections="false" scope="force" shared="true" type="instanceOf" value="1" />
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="EXPOLIAGOR PENA DE MUERTE" id="4196-eb2e-0cf9-8ec1" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">4+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Portaicono" id="7469-28ff-e713-fa9f" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Este agente no se ve afectado por el punto sobre 
+control de marcadores de la regla de facción Furia asesina. Al 
+determinar el control de un marcador, trata el atributo LPA de este 
+agente como si fuera 1 mayor. Esto no es un cambio a su atributo 
+LPA, de modo que cualquier cambio será acumulable con esto.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Gong de guerra" id="643b-e715-1f06-33e5" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Siempre que un dado de ataque vaya a infligir 
+Daño crítico a un agente EXPOLIAGOR IMPÍO amigo a 3" o 
+menos de este agente, si este agente no tiene una de tus fichas 
+de Furia asesina, puedes decidir que ese dado de ataque inflija 
+Daño normal en su lugar.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="TAÑIDO DE GONG (1PA)" id="b1bf-a7b6-2460-7104" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Hasta el inicio de la siguiente activación de este agente 
+o hasta que este agente sea incapacitado (lo que ocurra 
+antes), siempre que un agente dispare contra este agente, 
+mejora en 1 el atributo Salvación de este agente.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Guerrero con cuchilla" id="dac3-3839-5e44-3bea" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Expoliagores Impíos" id="5ace-ce5d-ae5c-f084" hidden="false" primary="false" targetId="827d-3e9d-bab3-e84c" />
+        <categoryLink name="Chaos" id="d4a6-9648-008f-128b" hidden="false" primary="false" targetId="13fe-a54f-f2f2-f034" />
+        <categoryLink name="EXPOLIAGOR PENA DE MUERTE" id="e6ed-e81f-98ef-f582" hidden="false" primary="false" targetId="441e-a540-c390-c294" />
+        <categoryLink name="Operative" id="ee77-240f-0583-fa37" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="b977-65be-9b05-8a13" field="selections" includeChildSelections="false" scope="force" shared="true" type="max" value="-1" />
+      </constraints>
+      <entryLinks>
+        <entryLink name="Cuchilla" id="0885-9107-18e9-bc08" hidden="false" import="true" targetId="16ec-03a2-6459-8b67" type="selectionEntry" />
+        <entryLink name="Pistola automática" id="f05a-3425-d196-1e20" hidden="false" import="true" targetId="57ce-f16d-dd4f-4f15" type="selectionEntry" />
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="FURIA ASESINA" id="caa2-905a-91e7-4890" hidden="false" targetId="b6c5-3ef4-1a3f-7012" type="rule" />
+      </infoLinks>
+      <modifiers>
+        <modifier field="b977-65be-9b05-8a13" type="set" value="9">
+          <conditions>
+            <condition childId="d9fd-9344-019d-a4b0" field="selections" includeChildSelections="false" scope="force" shared="true" type="instanceOf" value="1" />
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="EXPOLIAGOR COMBATIENTE" id="7973-ec7c-ba32-7b30" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Furia del guerrero" id="c0ff-11b3-8bd8-d56b" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Mientras este agente tenga una de tus 
+fichas de Furia asesina, no puede estar lesionado. Esto tiene 
+preferencia sobre las reglas normales de Furia asesina.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedRules>
+    <rule name="FURIA ASESINA" id="b6c5-3ef4-1a3f-7012" hidden="false">
+      <description>Los Expoliagores Impíos canalizan su dolor en furia.
+Siempre que un agente EXPOLIAGOR IMPÍO 
+amigo que no tenga una de tus fichas de Furia asesina 
+vaya a quedar incapacitado durante la batalla, no 
+queda incapacitado y gana una de tus fichas de Furia 
+asesina. Todos los dados de ataque restantes se 
+descartan (incluyendo los tuyos si este agente está 
+combatiendo o contraatacando). Si tiene una orden 
+de ocultarse, cámbiala por trabarse.
+Siempre que un agente EXPOLIAGOR IMPÍO amigo 
+tenga una de tus fichas de Furia asesina:
+• Solo queda incapacitado tal como se describe en 
+el reverso.
+• No puede tener una orden de ocultarse.
+• Está lesionado.
+• No puede realizar la acción de Recoger marcador, 
+acciones únicas (salvo Golpe de barrido, ver VÁN-
+DALO) ni acciones de misión (salvo Operar portillo).
+• A efectos de determinar el control de marcadores 
+y las áreas de la zona de aniquilación, su atributo 
+LPA se considera 1. Esto tiene preferencia sobre 
+cualquier cambio al atributo.</description>
+    </rule>
+  </sharedRules>
+  <sharedSelectionEntries>
+    <selectionEntry name="Maza bestial" id="3805-d175-2a6a-2178" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="6a00-6198-0883-36da-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1" />
+        <constraint id="6a00-6198-0883-36da-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+      </constraints>
+      <infoLinks>
+        <infoLink name="Brutal" id="b419-a9f8-0a71-d042" hidden="false" targetId="5151-5449-ca81-70ed" type="rule" />
+      </infoLinks>
+      <profiles>
+        <profile name="⚔ Maza bestial" id="6127-931d-6fab-fd2e" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/4</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Brutal</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Pistola automática" id="57ce-f16d-dd4f-4f15" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="8d8e-8656-fa8b-9223-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1" />
+        <constraint id="8d8e-8656-fa8b-9223-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+      </constraints>
+      <infoLinks>
+        <infoLink name="Range x" id="dc6d-27b5-7ed1-3331" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+      </infoLinks>
+      <profiles>
+        <profile name="⌖ Pistola automática" id="b9de-fc4e-432d-9e54" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/3</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8"</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Cuchilla" id="16ec-03a2-6459-8b67" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="1c4e-30e7-f530-4b72-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1" />
+        <constraint id="1c4e-30e7-f530-4b72-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+      </constraints>
+      <profiles>
+        <profile name="⚔ Cuchilla" id="4ace-b132-b1c4-a698" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

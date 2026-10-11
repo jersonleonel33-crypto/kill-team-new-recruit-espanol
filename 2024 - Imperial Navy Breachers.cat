@@ -1,0 +1,1284 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" name="Abordadores de la Armada Imperial" id="ed31-9fdf-e3c4-1ba7" battleScribeVersion="2.03" gameSystemId="c521-ad27-44df-f959" gameSystemRevision="10" library="false" revision="8" type="catalogue">
+  <comment>July '25</comment>
+  <categoryEntries>
+    <categoryEntry name="INCURSOR DE LA ARMADA IMPERIAL" id="58e7-b898-191e-d375" hidden="false" />
+    <categoryEntry name="UNIDAD G.A.T .O. DE LA ARMADA" id="21a5-8652-3c5a-3152" hidden="false" />
+    <categoryEntry name="ESPECTROCRÁNEO DE LA ARMADA" id="f8f4-a028-7bb9-b4b8" hidden="false" />
+    <categoryEntry name="INTERFERIDOR DE LA ARMADA" id="6613-0e9a-196b-471b" hidden="false" />
+    <categoryEntry name="Supervisor" id="5989-546e-cc8e-db07" hidden="false" />
+    <categoryEntry name="INFANTE DE LA ARMADA" id="a7e0-95a8-19c6-a8ac" hidden="false" />
+    <categoryEntry name="HACHERO DE LA ARMADA" id="c7d6-f37a-469e-6111" hidden="false" />
+    <categoryEntry name="DEFENSOR DE LA ARMADA" id="3440-e0be-c390-da53" hidden="false" />
+    <categoryEntry name="CORTAHIERROS DE LA ARMADA" id="f710-6ab0-63d4-9931" hidden="false" />
+    <categoryEntry name="Granadero" id="33ae-ae7e-2407-fed2" hidden="false" />
+    <categoryEntry name="SARGENTO DE LA ARMADA" id="0931-0009-f125-94d4" hidden="false" />
+  </categoryEntries>
+  <entryLinks>
+    <entryLink name="INFANTE DE LA ARMADA" id="eed9-075d-68b9-4662" hidden="false" import="true" targetId="2b31-a92e-c940-3ce2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="INCURSOR DE LA ARMADA IMPERIAL" id="7b17-deb6-4060-6173" hidden="false" primary="false" targetId="58e7-b898-191e-d375" />
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="CORTAHIERROS DE LA ARMADA" id="a331-3187-2da1-f4d6" hidden="false" import="true" targetId="8865-1f4d-a578-0791" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="INCURSOR DE LA ARMADA IMPERIAL" id="afb5-987e-fd0a-01fc" hidden="false" primary="false" targetId="58e7-b898-191e-d375" />
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="INTERFERIDOR DE LA ARMADA" id="8aa1-1375-02aa-90a3" hidden="false" import="true" targetId="b28d-2d13-e720-5fe5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="INCURSOR DE LA ARMADA IMPERIAL" id="4b6f-89dd-0a21-e00e" hidden="false" primary="false" targetId="58e7-b898-191e-d375" />
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="TIRADOR DE LA ARMADA" id="009d-1eff-8b41-2af0" hidden="false" import="true" targetId="13d1-7545-c1ad-9777" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="INCURSOR DE LA ARMADA IMPERIAL" id="9aa6-1818-6a28-e63b" hidden="false" primary="false" targetId="58e7-b898-191e-d375" />
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="GRANADERO DE LA ARMADA" id="621c-cd25-3285-2dad" hidden="false" import="true" targetId="9cfa-0e56-d499-f2f4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="INCURSOR DE LA ARMADA IMPERIAL" id="3a57-95f8-8888-0789" hidden="false" primary="false" targetId="58e7-b898-191e-d375" />
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="ESPECTROCRÁNEO DE LA ARMADA" id="a3e5-078e-8a9d-127b" hidden="false" import="true" targetId="7729-ae65-99aa-cc6d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="INCURSOR DE LA ARMADA IMPERIAL" id="f790-5d30-613c-bfc4" hidden="false" primary="false" targetId="58e7-b898-191e-d375" />
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="DEFENSOR DE LA ARMADA" id="3ca0-8a25-fd9a-2ffc" hidden="false" import="true" targetId="8d51-7b82-c741-251f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="INCURSOR DE LA ARMADA IMPERIAL" id="73a2-ce1a-c281-af68" hidden="false" primary="false" targetId="58e7-b898-191e-d375" />
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="UNIDAD G.A.T .O. DE LA ARMADA" id="879b-58ea-a0d3-b65a" hidden="false" import="true" targetId="412e-e61b-467c-5795" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="INCURSOR DE LA ARMADA IMPERIAL" id="0c14-ab07-cc55-d9f9" hidden="false" primary="false" targetId="58e7-b898-191e-d375" />
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="HACHERO DE LA ARMADA" id="df1c-e111-da4f-a526" hidden="false" import="true" targetId="c683-9c9e-4f75-4a53" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="INCURSOR DE LA ARMADA IMPERIAL" id="441e-8af1-4668-da06" hidden="false" primary="false" targetId="58e7-b898-191e-d375" />
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="PROSPECTOR DE LA ARMADA" id="093c-886c-5d69-cabe" hidden="false" import="true" targetId="021b-5804-5c4f-eedc" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="INCURSOR DE LA ARMADA IMPERIAL" id="4ed4-45e0-37b5-6ae6" hidden="false" primary="false" targetId="58e7-b898-191e-d375" />
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="Equipment Reference" id="7233-94b3-6d40-bd46" hidden="false" import="true" targetId="e004-a0c4-8a03-0b8b" type="selectionEntry">
+      <entryLinks>
+        <entryLink name="Equipo de facción" id="bc41-858a-1a8d-122d" hidden="false" import="true" targetId="f34c-335f-eecc-bbc0" type="selectionEntryGroup" />
+      </entryLinks>
+    </entryLink>
+  </entryLinks>
+  <forceEntries>
+    <forceEntry name="Comando Abordadores de la Armada Imperial" id="9558-3761-e41e-86fd" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Reference" id="7b69-b703-b6a9-9446" hidden="false" targetId="b318-a8d7-2d38-99a3" />
+        <categoryLink name="Configuration" id="8f9c-3a1f-8346-3936" hidden="false" targetId="874b-0390-e5e2-1daa" />
+        <categoryLink name="Operative" id="14e2-66e2-5140-b22a" hidden="false" targetId="cf83-4496-b58e-ac82">
+          <constraints>
+            <constraint id="c21a-5b15-fe24-e08b-min" field="selections" scope="force" shared="true" type="min" value="10" />
+            <constraint id="c21a-5b15-fe24-e08b-max" field="selections" scope="force" shared="true" type="max" value="10" />
+          </constraints>
+          <modifiers>
+            <modifier field="c21a-5b15-fe24-e08b-min" type="set" value="11">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="21a5-8652-3c5a-3152" field="selections" scope="force" shared="true" type="atLeast" value="1" />
+                    <condition childId="f8f4-a028-7bb9-b4b8" field="selections" scope="force" shared="true" type="atLeast" value="1" />
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier field="c21a-5b15-fe24-e08b-max" type="set" value="11">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="21a5-8652-3c5a-3152" field="selections" scope="force" shared="true" type="atLeast" value="1" />
+                    <condition childId="f8f4-a028-7bb9-b4b8" field="selections" scope="force" shared="true" type="atLeast" value="1" />
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink name="Leader" id="adf4-f06b-a3f4-913b" hidden="false" targetId="d999-8cad-8145-4efe">
+          <constraints>
+            <constraint id="7b8d-9bce-2506-8e56-min" field="selections" scope="force" shared="true" type="min" value="1" />
+            <constraint id="7b8d-9bce-2506-8e56-max" field="selections" scope="force" shared="true" type="max" value="1" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="UNIDAD G.A.T .O. DE LA ARMADA" id="f456-0ce9-73a6-24e6" hidden="false" targetId="21a5-8652-3c5a-3152">
+          <constraints>
+            <constraint id="91e4-a4d0-976b-2e7b" field="selections" scope="force" shared="true" type="max" value="0" />
+          </constraints>
+          <modifiers>
+            <modifier field="91e4-a4d0-976b-2e7b" type="set" value="1">
+              <conditions>
+                <condition childId="5989-546e-cc8e-db07" field="selections" scope="force" shared="true" type="atLeast" value="1" />
+              </conditions>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink name="ESPECTROCRÁNEO DE LA ARMADA" id="ffee-abd8-0b7b-1eb3" hidden="false" targetId="f8f4-a028-7bb9-b4b8">
+          <constraints>
+            <constraint id="bf57-af90-2f5f-567b" field="selections" scope="force" shared="true" type="max" value="0" />
+          </constraints>
+          <modifiers>
+            <modifier field="bf57-af90-2f5f-567b" type="set" value="1">
+              <conditions>
+                <condition childId="6613-0e9a-196b-471b" field="selections" scope="force" shared="true" type="atLeast" value="1" />
+              </conditions>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink name="Gunner" id="d5ec-79f9-3477-9e6d" hidden="false" targetId="3033-7558-d28f-53cf">
+          <constraints>
+            <constraint id="ce31-2bec-e881-00a2" field="selections" scope="force" shared="true" type="max" value="2" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="DEFENSOR DE LA ARMADA" id="8f2e-c5e9-5bad-3e2a" hidden="false" targetId="3440-e0be-c390-da53">
+          <constraints>
+            <constraint id="944c-e098-29b7-fb68" field="selections" scope="force" shared="true" type="max" value="1" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="HACHERO DE LA ARMADA" id="6846-a543-a6dc-b53a" hidden="false" targetId="c7d6-f37a-469e-6111">
+          <constraints>
+            <constraint id="2364-9c34-e228-92cd" field="selections" scope="force" shared="true" type="max" value="1" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Granadero" id="23f5-0965-d136-811b" hidden="false" targetId="33ae-ae7e-2407-fed2">
+          <constraints>
+            <constraint id="68a9-054b-75d0-d0b4" field="selections" scope="force" shared="true" type="max" value="1" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="CORTAHIERROS DE LA ARMADA" id="5d42-a591-49a5-3a62" hidden="false" targetId="f710-6ab0-63d4-9931">
+          <constraints>
+            <constraint id="155e-23e8-cbc7-cf7f" field="selections" scope="force" shared="true" type="max" value="1" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Supervisor" id="79b6-4bf4-b416-193c" hidden="false" targetId="5989-546e-cc8e-db07">
+          <constraints>
+            <constraint id="00b3-3a23-ad3e-5ffb" field="selections" scope="force" shared="true" type="max" value="1" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="INTERFERIDOR DE LA ARMADA" id="3c5d-bcb3-e6fc-0ae8" hidden="false" targetId="6613-0e9a-196b-471b">
+          <constraints>
+            <constraint id="4bde-e6c4-bff3-432e" field="selections" scope="force" shared="true" type="max" value="1" />
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <infoLinks>
+    <infoLink name="ARMADURA DE VACÍO" id="6dd7-1ae6-ad69-a1d5" hidden="false" targetId="341b-6506-28fa-cb71" type="rule" />
+  </infoLinks>
+  <rules>
+    <rule name="ABRIR Y DESPEJAR" id="d7b5-3952-385f-c965" hidden="false">
+      <description>Los Abordadores de la Armada Imperial son metódicos, 
+profesionales, están bien entrenados y trabajan en 
+equipo para despejar los pasillos y cámaras de naves 
+enemigas, pecios espaciales y estaciones orbitales.
+Una vez por punto de inflexión, cuando un agente 
+ABORDADOR DE LA ARMADA IMPERIAL amigo 
+apostado es activado, puedes usar esta regla. 
+Si lo haces, elige otro agente ABORDADOR DE 
+LA ARMADA IMPERIAL amigo apostado que 
+se encuentre a 3" o menos de ese agente y sea 
+visible para él. Cuando ese primer agente amigo 
+quede usado, puedes activar al otro agente amigo 
+antes de que active tu oponente.</description>
+    </rule>
+  </rules>
+  <selectionEntries>
+    <selectionEntry name="SARGENTO DE LA ARMADA" id="e1d9-e19b-932a-0d25" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Leader" id="2ac9-d637-56ce-ce39" hidden="false" primary="true" targetId="d999-8cad-8145-4efe" />
+        <categoryLink name="INCURSOR DE LA ARMADA IMPERIAL" id="f945-6b98-f7c5-179d" hidden="false" primary="false" targetId="58e7-b898-191e-d375" />
+        <categoryLink name="Imperium" id="cb49-f270-32cf-c2dc" hidden="false" primary="false" targetId="45a7-2d2f-ecfb-1d13" />
+        <categoryLink name="SARGENTO DE LA ARMADA" id="4764-b93e-ffb7-e311" hidden="false" primary="false" targetId="0931-0009-f125-94d4" />
+      </categoryLinks>
+      <profiles>
+        <profile name="SARGENTO DE LA ARMADA" id="d914-636f-7e2f-47f3" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">4+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">9</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Liderar abordaje" id="7f35-a279-453f-df4d" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Siempre que vayas a usar los ardides de estrategia Orden de ataque u Orden de defensa, 
+si este agente está en la zona de aniquilación, dicho ardid te cuesta 0PM. Una vez durante cada una de las 
+activaciones de este agente, antes o después de que realice una acción, si tu marcador de Orden de ataque u 
+Orden de defensa se encuentra en la zona de aniquilación (ver los ardides de estrategia relevantes), puedes 
+elegir una de las siguientes opciones (únicamente una):
+• Retira ese marcador y colócalo de nuevo.
+• Cambia el ardid elegido al otro (es decir, Orden de ataque a Orden de defensa o viceversa). Este cambio no 
+cuesta PM.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Armas" id="2568-5881-e803-ec77" defaultSelectionEntryId="none" hidden="false">
+          <constraints>
+            <constraint id="3459-5019-48b6-e555-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="3459-5019-48b6-e555-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry name="Escopeta de la Armada; Hacha de la Armada" id="bafb-128d-a0d9-4ce0" hidden="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink name="Escopeta de la Armada" id="ec01-6969-c5f5-8dc8" hidden="false" import="true" targetId="49f2-ca27-c1d7-ed91" type="selectionEntry">
+                  <constraints>
+                    <constraint id="440c-b328-ddb9-a0b2-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+                    <constraint id="440c-b328-ddb9-a0b2-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+                  </constraints>
+                </entryLink>
+                <entryLink name="Hacha de la Armada" id="5270-59ce-1ba0-a3c6" hidden="false" import="true" targetId="bd7b-2194-a012-b4a3" type="selectionEntry">
+                  <constraints>
+                    <constraint id="b38c-3d55-6a8f-7a46-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+                    <constraint id="b38c-3d55-6a8f-7a46-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry name="Pistola bólter; Espada sierra" id="1c6e-7769-418a-601a" hidden="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink name="Pistola bólter" id="ac3e-c53e-b432-c17d" hidden="false" import="true" targetId="ecf1-0a15-b0c1-9187" type="selectionEntry">
+                  <constraints>
+                    <constraint id="7046-2a7a-71d9-1b1a-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+                    <constraint id="7046-2a7a-71d9-1b1a-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+                  </constraints>
+                </entryLink>
+                <entryLink name="Espada sierra" id="375e-c3db-b4e7-9780" hidden="false" import="true" targetId="b7ec-eebd-933b-9904" type="selectionEntry">
+                  <constraints>
+                    <constraint id="3294-d7cd-c7b4-3d31-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+                    <constraint id="3294-d7cd-c7b4-3d31-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry name="Pistola bólter; Arma de energía" id="d8a7-63b8-6f44-7bff" hidden="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink name="Pistola bólter" id="abcd-dec5-79dd-dfbf" hidden="false" import="true" targetId="ecf1-0a15-b0c1-9187" type="selectionEntry">
+                  <constraints>
+                    <constraint id="84ff-6c45-5a18-0cb2-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+                    <constraint id="84ff-6c45-5a18-0cb2-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+                  </constraints>
+                </entryLink>
+                <entryLink name="Arma de energía" id="8c52-5585-6eab-a6c8" hidden="false" import="true" targetId="b083-914c-8040-6da8" type="selectionEntry">
+                  <constraints>
+                    <constraint id="16ca-2c47-69e3-ed3d-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+                    <constraint id="16ca-2c47-69e3-ed3d-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry name="Pistola automática heredada; Espada sierra" id="ec84-2699-5665-c1ff" hidden="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink name="Pistola automática heredada" id="7fe8-7e80-e2d0-fbec" hidden="false" import="true" targetId="7962-463d-75b3-c44f" type="selectionEntry">
+                  <constraints>
+                    <constraint id="4d04-9b45-a1de-fbe5-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+                    <constraint id="4d04-9b45-a1de-fbe5-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+                  </constraints>
+                </entryLink>
+                <entryLink name="Espada sierra" id="321c-95cc-f622-bf4b" hidden="false" import="true" targetId="b7ec-eebd-933b-9904" type="selectionEntry">
+                  <constraints>
+                    <constraint id="da8e-2324-98a3-86aa-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+                    <constraint id="da8e-2324-98a3-86aa-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry name="Pistola automática heredada; Arma de energía" id="5d74-c4c9-c275-b43c" hidden="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink name="Pistola automática heredada" id="99ec-c9d1-edbc-eb5d" hidden="false" import="true" targetId="7962-463d-75b3-c44f" type="selectionEntry">
+                  <constraints>
+                    <constraint id="0c90-dfee-69ab-90b3-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+                    <constraint id="0c90-dfee-69ab-90b3-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+                  </constraints>
+                </entryLink>
+                <entryLink name="Arma de energía" id="9188-0ecc-25a4-6180" hidden="false" import="true" targetId="b083-914c-8040-6da8" type="selectionEntry">
+                  <constraints>
+                    <constraint id="f8cd-39dc-0968-95f3-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+                    <constraint id="f8cd-39dc-0968-95f3-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedProfiles>
+    <profile name="Referencia de forma" id="5016-56c0-9791-29df" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+      <characteristics>
+        <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">⌖</characteristic>
+        <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">⚔</characteristic>
+        <characteristic name="Save" typeId="3241-5548-12d6-f103">▶</characteristic>
+        <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">◆</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedRules>
+    <rule name="ARMADURA DE VACÍO" id="341b-6506-28fa-cb71" hidden="false">
+      <description>Las armaduras que llevan los Infantes de la 
+Armada Imperial están selladas al vacío, lo que significa 
+que pueden luchar en condiciones de gravedad y 
+atmósfera cero. También les hace menos vulnerables a 
+explosiones y llamaradas.
+Siempre que un agente dispare contra un agente 
+ABORDADOR DE LA ARMADA IMPERIAL amigo, 
+si el arma a distancia de esa secuencia tiene 
+la regla de armas Área o Ráfaga (salvo armas 
+que tengan un perfil de barrido), puedes repetir 
+uno de tus dados de defensa, o hasta dos de 
+tus dados de defensa si ese agente amigo es 
+un GRANADERO.
+Los agentes ABORDADOR DE LA ARMADA 
+IMPERIAL amigos no se ven afectados por 
+la regla de armas x" Devastadora x (es decir, 
+Devastadora con una distancia) a menos que sea 
+el blanco en esa secuencia.</description>
+    </rule>
+  </sharedRules>
+  <sharedSelectionEntries>
+    <selectionEntry name="INFANTE DE LA ARMADA" id="2b31-a92e-c940-3ce2" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Operative" id="a6e9-9ee0-72c7-101b" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="Imperium" id="c7bf-60e4-d09f-b301" hidden="false" primary="false" targetId="45a7-2d2f-ecfb-1d13" />
+        <categoryLink name="INFANTE DE LA ARMADA" id="ce4a-498a-7d5e-57fd" hidden="false" primary="false" targetId="a7e0-95a8-19c6-a8ac" />
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Escopeta de la Armada" id="02c2-a7df-17b4-d3e8" hidden="false" import="true" targetId="49f2-ca27-c1d7-ed91" type="selectionEntry">
+          <constraints>
+            <constraint id="b87a-2db3-f3df-9a9e-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="b87a-2db3-f3df-9a9e-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+        <entryLink name="Hacha de la Armada" id="8cc3-99b0-ed6b-1c86" hidden="false" import="true" targetId="bd7b-2194-a012-b4a3" type="selectionEntry">
+          <constraints>
+            <constraint id="5b1f-6efc-c933-8a21-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="5b1f-6efc-c933-8a21-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="INFANTE DE LA ARMADA" id="b316-3330-2f29-0ab2" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">4+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">8</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Activación de grupo" id="da55-22ea-d3fd-1ec8" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Siempre que este agente quede 
+usado, a continuación debes activar otro agente INFANTE 
+ABORDADOR DE LA ARMADA IMPERIAL amigo 
+apostado (si puedes) antes de que tu oponente se active. Una 
+vez que ese otro oponente quede usado, tu oponente se activa 
+de manera normal (en otras palabras, no puedes activar a más 
+de dos agentes seguidos mediante esta regla). Ignora esta regla 
+cuando estés usando la regla de facción Penetrar y limpiar.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="CORTAHIERROS DE LA ARMADA" id="8865-1f4d-a578-0791" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Operative" id="fb53-6c2b-653e-7dcb" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="Imperium" id="7597-617f-6692-8753" hidden="false" primary="false" targetId="45a7-2d2f-ecfb-1d13" />
+        <categoryLink name="CORTAHIERROS DE LA ARMADA" id="a9f6-720c-1966-0475" hidden="false" primary="false" targetId="f710-6ab0-63d4-9931" />
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Pistola automática" id="9067-5468-43c4-df24" hidden="false" import="true" targetId="d26f-0833-9bf0-ef75" type="selectionEntry">
+          <constraints>
+            <constraint id="011c-406a-4dd4-6d7d-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="011c-406a-4dd4-6d7d-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="CORTAHIERROS DE LA ARMADA" id="49c3-b61a-df57-a778" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">4+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">8</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="SOLDAR (1PA)" id="99dc-7311-bbcb-ec12" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Elige una escotilla cerrada (p. ej. Zona de aniquilación: 
+Mundo Necrópolis) en la zona de control de este agente. Los 
+demás agentes deben gastar 1 PA adicional para realizar una 
+acción de Operar portillo para abrir esa escotilla. Este 
+efecto termina cuando se abre dicha escotilla. Este agente 
+no se ve afectado por este efecto.
+ Este agente no puede realizar esta acción si se encuentra 
+en la zona de control de un agente enemigo, o si no se 
+encuentra a 1" o menos de una escotilla cerrada.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="PUNTO DE BRECHA (1PA)" id="7cb9-8183-b370-8d88" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Elige un elemento de terreno en la zona de control de este 
+agente. Coloca uno de tus marcadores de Brecha dentro 
+de la zona de control de este agente y tan cerca como sea 
+posible de ese elemento de terreno. Cuando un agente se 
+encuentre a 1" o menos de ese marcador, las partes de ese 
+elemento de terreno que no tengan más de 1" de grosor se 
+considerarán terreno Accesible para él.
+ Este agente no puede realizar esta acción si se encuentra 
+en la zona de control de un agente enemigo, o si no hay un 
+elemento de terreno en su zona de control.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Puño sierra" id="b374-e2c7-81f5-7779" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="48b0-230c-1974-c82e-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="48b0-230c-1974-c82e-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Brutal" id="573e-786f-94ab-5c0a" hidden="false" targetId="5151-5449-ca81-70ed" type="rule" />
+            <infoLink name="Rending" id="9876-0357-60a9-3182" hidden="false" targetId="b903-6f79-129d-4ec9" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⚔ Puño sierra" id="f2f5-9584-8c9c-99aa" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">5/6</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Brutal, Desgarradora</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="INTERFERIDOR DE LA ARMADA" id="b28d-2d13-e720-5fe5" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Operative" id="65a6-f0ba-e843-5800" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="Imperium" id="9149-6241-20e5-cf6c" hidden="false" primary="false" targetId="45a7-2d2f-ecfb-1d13" />
+        <categoryLink name="INTERFERIDOR DE LA ARMADA" id="107b-40d5-8194-21f9" hidden="false" primary="false" targetId="6613-0e9a-196b-471b" />
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Escopeta de la Armada" id="d69c-68a3-ee2b-e188" hidden="false" import="true" targetId="49f2-ca27-c1d7-ed91" type="selectionEntry">
+          <constraints>
+            <constraint id="f422-e76d-dcf6-ca8a-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="f422-e76d-dcf6-ca8a-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+        <entryLink name="Hacha de la Armada" id="c407-bf49-b81c-eaa8" hidden="false" import="true" targetId="bd7b-2194-a012-b4a3" type="selectionEntry">
+          <constraints>
+            <constraint id="33e9-bb58-86e2-e30c-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="33e9-bb58-86e2-e30c-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="INTERFERIDOR DE LA ARMADA" id="42e6-ffab-4dc2-6a19" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">4+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">8</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="PULSO DE INTERFERENCIA (1PA)" id="8a8a-4cae-79b7-a75c" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Elige un agente enemigo a 8" o menos de un agente 
+ESPECTROCRÁNEO amigo y visible para el mismo. Tira 
+1D6, sumando 1 al resultado si ese agente enemigo es 
+un blanco válido para ese agente ESPECTROCRÁNEO 
+amigo: con 3+, resta 1 al atributo LPA de ese agente enemigo 
+hasta el final de su siguiente activación.
+ Este agente no puede realizar esta acción si se encuentra 
+en la zona de control de un agente enemigo, o si no hay 
+un agente ESPECTROCRÁNEO amigo en la zona 
+de aniquilación.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Detonador de Espectrocráneo" id="76fc-3e3e-838c-f45a" hidden="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink name="Blast x" id="9310-06f0-4c28-936b" hidden="false" targetId="0d74-0977-b481-bd13" type="rule" />
+            <infoLink name="Lethal x+" id="9830-a073-e667-f344" hidden="false" targetId="8b97-e3e3-2857-817a" type="rule" />
+            <infoLink name="Limited x" id="333d-0e25-595a-1265" hidden="false" targetId="bf37-3388-40d5-eb72" type="rule" />
+            <infoLink name="Silent" id="7724-c486-4f58-6aa0" hidden="false" targetId="1e3c-23c9-c6e2-9f62" type="rule" />
+            <infoLink name="Stun" id="9417-ae2f-1fd8-5d06" hidden="false" targetId="5ae2-3f29-8635-fd02" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⌖ Detonador de Espectrocráneo" id="7af6-705d-f85e-0972" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Área 1", Aturdidora, Limitada 1, Letal 4+, Silenciosa, Detonar*</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule name="*Detonar" id="969b-6b10-de07-adf3" hidden="false">
+              <description>No elijas un blanco válido. En lugar de eso, el blanco principal es siempre un agente ESPECTROCRÁNEO 
+ABORDADOR DE LA ARMADA IMPERIAL amigo, y no puede estar a cubierto u ofuscado. Si ese agente no se encuentra en la 
+zona de aniquilación, no puedes elegir esta arma.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="TIRADOR DE LA ARMADA" id="13d1-7545-c1ad-9777" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Operative" id="1f07-236b-7bf8-4403" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="Imperium" id="8176-502e-b543-6428" hidden="false" primary="false" targetId="45a7-2d2f-ecfb-1d13" />
+        <categoryLink name="Gunner" id="dae1-9b2a-de25-795e" hidden="false" primary="false" targetId="3033-7558-d28f-53cf" />
+      </categoryLinks>
+      <profiles>
+        <profile name="TIRADOR DE LA ARMADA" id="c29b-b605-cc31-81cd" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">4+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Culata" id="c586-6f3f-b53f-a61d" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="70e3-a740-8475-0725-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="70e3-a740-8475-0725-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <profiles>
+            <profile name="⚔ Culata" id="c115-648b-e00f-d15b" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">3</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/3</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Arma a distancia" id="1fee-015a-b3c2-60e1" defaultSelectionEntryId="none" hidden="false">
+          <constraints>
+            <constraint id="d994-696c-95d7-46f1-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="d994-696c-95d7-46f1-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry name="Rifle de fusión" id="b700-8d6f-9b0c-5a76" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="f66e-3454-5948-5c90" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="-1" />
+              </constraints>
+              <infoLinks>
+                <infoLink name="Range x" id="f9c5-3ad2-8367-439c" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+                <infoLink name="Devastating x" id="fe2a-64c4-922f-0d30" hidden="false" targetId="a8ba-6e3a-76b3-f05c" type="rule" />
+                <infoLink name="Piercing x" id="cf70-c722-8f2c-ed97" hidden="false" targetId="4c07-2cb3-1417-cbb7" type="rule" />
+              </infoLinks>
+              <modifiers>
+                <modifier field="f66e-3454-5948-5c90" type="set" value="1">
+                  <conditions>
+                    <condition childId="9558-3761-e41e-86fd" field="selections" scope="force" shared="true" type="instanceOf" value="1" />
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile name="⌖ Rifle de fusión" id="7c13-9248-511b-5e1e" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                    <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                    <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">6/3</characteristic>
+                    <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 6", Devastadora 4, Penetración 2</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Repetidor láser de la Armada" id="37aa-0615-e257-675e" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="1ecd-ee7a-99d4-3cf8" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="-1" />
+              </constraints>
+              <infoLinks>
+                <infoLink name="Heavy" id="d2a0-fc96-ed75-7f8f" hidden="false" targetId="816e-44a2-6be4-6a9a" type="rule" />
+                <infoLink name="Rending" id="3e0a-5be8-393d-3775" hidden="false" targetId="b903-6f79-129d-4ec9" type="rule" />
+                <infoLink name="Torrent x" id="9d47-8f41-5c41-5ed0" hidden="false" targetId="ad45-b4bb-1345-e4f9" type="rule" />
+              </infoLinks>
+              <modifiers>
+                <modifier field="1ecd-ee7a-99d4-3cf8" type="set" value="1">
+                  <conditions>
+                    <condition childId="9558-3761-e41e-86fd" field="selections" scope="force" shared="true" type="instanceOf" value="1" />
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile name="⌖ Repetidor láser de la Armada (concentrado)" id="2b06-150e-db93-e26f" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                    <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                    <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                    <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Desgarradora, Pesada (solo Correr)</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="⌖ Repetidor láser de la Armada (barrido)" id="0a4f-4b80-7bc0-ccd8" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                    <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                    <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                    <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Desgarradora, Pesada (solo Correr), Ráfaga 1"</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Rifle de plasma" id="f893-91c3-008e-5314" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="56f8-ddaa-8b91-716c" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="-1" />
+              </constraints>
+              <infoLinks>
+                <infoLink name="Piercing x" id="f2e2-ff78-4eea-ef4f" hidden="false" targetId="4c07-2cb3-1417-cbb7" type="rule" />
+                <infoLink name="Hot" id="ee0c-b5e9-7987-e06a" hidden="false" targetId="ec63-40e6-6282-8420" type="rule" />
+                <infoLink name="Lethal x+" id="741d-deff-4e3a-f3fc" hidden="false" targetId="8b97-e3e3-2857-817a" type="rule" />
+              </infoLinks>
+              <modifiers>
+                <modifier field="56f8-ddaa-8b91-716c" type="set" value="1">
+                  <conditions>
+                    <condition childId="9558-3761-e41e-86fd" field="selections" scope="force" shared="true" type="instanceOf" value="1" />
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile name="⌖ Rifle de plasma (normal)" id="1357-05cd-a3a8-4c80" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                    <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                    <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/6</characteristic>
+                    <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Penetración 1</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="⌖ Rifle de plasma (sobrecarga)" id="5a93-541e-49d2-a6a9" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                    <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                    <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">5/6</characteristic>
+                    <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Letal 5+, Penetración 1, Sobrecalentamiento</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="GRANADERO DE LA ARMADA" id="9cfa-0e56-d499-f2f4" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Operative" id="985d-5d09-ed9b-f258" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="Imperium" id="2407-2b8b-473e-3c66" hidden="false" primary="false" targetId="45a7-2d2f-ecfb-1d13" />
+        <categoryLink name="Granadero" id="028d-6fc3-8541-8d90" hidden="false" primary="false" targetId="33ae-ae7e-2407-fed2" />
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Escopeta de la Armada" id="7e21-9f75-2163-a7dd" hidden="false" import="true" targetId="49f2-ca27-c1d7-ed91" type="selectionEntry">
+          <constraints>
+            <constraint id="4391-768a-4852-b22c-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="4391-768a-4852-b22c-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+        <entryLink name="Hacha de la Armada" id="e8a1-5203-dac8-aceb" hidden="false" import="true" targetId="bd7b-2194-a012-b4a3" type="selectionEntry">
+          <constraints>
+            <constraint id="c865-cbaa-73e1-38b3-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="c865-cbaa-73e1-38b3-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="GRANADERO DE LA ARMADA" id="721d-e34b-e143-6e2f" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">4+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">8</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Granadero" id="e1df-8f5a-2de4-3f54" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Este agente puede usar granadas frag, perforantes y aturdidoras (ver equipo universal). Hacer esto no cuenta de cara a 
+los usos limitados que tengas (es decir, si también seleccionas esas granadas como equipo para otros agentes). Cuando este agente 
+usa una granada frag o perforante, mejora en 1 el atributo Impactar de esa arma.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Carga de demolición" id="b00b-c9e5-9dc0-f033" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="cfeb-efae-eb05-f35d-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="cfeb-efae-eb05-f35d-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Range x" id="b395-9875-7733-0c69" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+            <infoLink name="Blast x" id="ba42-0312-2db9-ce66" hidden="false" targetId="0d74-0977-b481-bd13" type="rule" />
+            <infoLink name="Heavy" id="82db-d312-57ca-7ee0" hidden="false" targetId="816e-44a2-6be4-6a9a" type="rule" />
+            <infoLink name="Limited x" id="c417-17c9-d301-979e" hidden="false" targetId="bf37-3388-40d5-eb72" type="rule" />
+            <infoLink name="Piercing x" id="0d40-5218-7ebe-41b1" hidden="false" targetId="4c07-2cb3-1417-cbb7" type="rule" />
+            <infoLink name="Saturate" id="7ce7-cbc0-75de-de44" hidden="false" targetId="3c10-2d52-d1ac-b0f6" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="Carga de demolición" id="2330-8c2c-4e19-68ee" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/6</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 3", Área 2", Limitada 1, Penetración 1, Pesada (solo Reposicionarse), Saturación</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="ESPECTROCRÁNEO DE LA ARMADA" id="7729-ae65-99aa-cc6d" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Operative" id="fa20-cd20-dbf8-9fc5" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="Imperium" id="dc30-87fe-e72f-7e0b" hidden="false" primary="false" targetId="45a7-2d2f-ecfb-1d13" />
+        <categoryLink name="ESPECTROCRÁNEO DE LA ARMADA" id="a68d-56d0-4467-cc1f" hidden="false" primary="false" targetId="f8f4-a028-7bb9-b4b8" />
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="-" id="26e7-bb45-2f1d-dfae" hidden="false" import="true" targetId="816f-d700-2068-2271" type="selectionEntry" />
+      </entryLinks>
+      <profiles>
+        <profile name="ESPECTROCRÁNEO DE LA ARMADA" id="c32a-197e-5c81-d287" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">8"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Prescindible" id="4e49-261b-4341-09e6" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Este agente se ignora para las operaciones de asesinato/
+eliminación de tu oponente (al quedar incapacitado, y al determinar tu 
+número inicial de agentes). También se ignora para condiciones de victoria 
+y puntuar PV si esto requiere que agentes “escapen”, “sobrevivan” o 
+queden incapacitados por agentes enemigos (si escapa/sobrevive/queda 
+incapacitado, al determinar cuántos agentes deben escapar/sobrevivir/quedar 
+incapacitados, etc.).</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Máquina" id="492a-2d83-ddb7-ebc8" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">• Las únicas acciones que puede realizar este 
+agente son Acelerón, Cargar, Correr, 
+Retroceder y Reposicionarse.
+• No puede contraatacar ni asistir en un combate.
+• Al determinar el control de un marcador, trata 
+el atributo LPA de este agente como si fuera 1 
+inferior. Ten en cuenta que esto no es un cambio 
+a su atributo LPA, de modo que cualquier cambio 
+será acumulable con esto.
+• Si este agente tiene una orden de ocultarse y 
+está tras cobertura, no puede ser tomado como 
+blanco válido, y esto tiene prioridad sobre todas 
+las demás reglas (p. ej., Buscadora, terreno 
+Aventajado), salvo estar a 2" o menos.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="ACELERÓN (1PA)" id="9f62-1dc9-71b8-3c55" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">La próxima vez que este agente realice una acción de Cargar durante su 
+activación, suma 4” a la distancia que puede mover (en lugar de 2").
+ Este agente solo puede realizar esta acción una vez por batalla, y no puede 
+realizarla durante el primer punto de inflexión.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="DEFENSOR DE LA ARMADA" id="8d51-7b82-c741-251f" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Operative" id="35b3-d5f8-75cc-9124" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="Imperium" id="87be-b85b-1c1b-90e3" hidden="false" primary="false" targetId="45a7-2d2f-ecfb-1d13" />
+        <categoryLink name="DEFENSOR DE LA ARMADA" id="f99b-48a2-d17b-d793" hidden="false" primary="false" targetId="3440-e0be-c390-da53" />
+      </categoryLinks>
+      <profiles>
+        <profile name="DEFENSOR DE LA ARMADA" id="f7e6-8dad-5623-6cff" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">4"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">2+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">11</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Cubrebrechas" id="e35d-a641-cc12-63c1" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Cuando tu oponente elija un blanco válido, nunca 
+puede elegir otro agente ABORDADOR DE LA ARMADA 
+IMPERIAL amigo cuya peana toque la de este agente si este 
+agente tiene una orden de trabarse y se encuentra interpuesto. 
+Esta regla no tiene efecto si hay más de un agente amigo cuyas 
+peanas toquen las de este agente.
+*</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Destrabarse" id="882c-69b7-b130-d9dd" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Este agente puede realizar la acción de 
+Retroceder por 1 PA menos.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Escopeta pesada de la Armada" id="138f-7316-c165-2a45" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="8fbc-07db-1952-c256-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="8fbc-07db-1952-c256-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Relentless" id="4d76-f221-a0b9-c2ab" hidden="false" targetId="1bc8-9f8d-d899-64ed" type="rule" />
+            <infoLink name="Range x" id="4039-1d5f-e02d-c82b" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⌖ Escopeta pesada de la Armada (corto alcance)" id="f8fe-ea06-1e04-f64f" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/3</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 6", Implacable</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="⌖ Escopeta pesada de la Armada (largo alcance)" id="3a23-c929-bf71-8175" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">5+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">1/2</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Implacable</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Golpe con escudo" id="3091-8a1a-c7e4-d169" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="0889-e0fc-76a1-2991-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="0889-e0fc-76a1-2991-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Brutal" id="74bf-37ee-e0bd-101c" hidden="false" targetId="5151-5449-ca81-70ed" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="Golpe con escudo" id="7526-81e2-4858-b41c" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">3</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">1/2</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Brutal, Escudo*</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule name="*Escudo" id="3ac3-ff67-474e-b996" hidden="false">
+              <description>Cuando este agente combata o contraataque con esta 
+arma, cada uno de tus bloqueos puede asignarse para bloquear 
+dos éxitos sin resolver (en lugar de uno).</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="UNIDAD G.A.T .O. DE LA ARMADA" id="412e-e61b-467c-5795" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Operative" id="e049-c3e4-9bc0-f8db" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="Imperium" id="c95f-c0b4-824c-b49c" hidden="false" primary="false" targetId="45a7-2d2f-ecfb-1d13" />
+        <categoryLink name="UNIDAD G.A.T .O. DE LA ARMADA" id="d83f-b388-891d-1489" hidden="false" primary="false" targetId="21a5-8652-3c5a-3152" />
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="-" id="f359-0183-bbfb-740a" hidden="false" import="true" targetId="816f-d700-2068-2271" type="selectionEntry" />
+      </entryLinks>
+      <profiles>
+        <profile name="UNIDAD G.A.T .O. DE LA ARMADA" id="394b-0edf-f763-ba0e" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">8"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Máquina" id="c5a1-f470-066b-a754" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">• Este agente no puede ser activado o realizar acciones si se 
+encuentra en la zona de control de un agente enemigo, o si un 
+agente PROSPECTOR ABORDADOR DE LA ARMADA 
+IMPERIAL amigo ha sido incapacitado. El punto de inflexión 
+puede terminar aunque este agente se encuentre aún apostado.
+• Este agente solo puede realizar acciones de Cargar, Correr, 
+Retroceder, Reposicionarse y Avistar.
+• No puede contraatacar, asistir en un combate, trepar ni saltar.
+• Al determinar el control de un marcador, trata el atributo LPA 
+de este agente como si fuera 1 inferior. Ten en cuenta que esto 
+no es un cambio a su atributo LPA, de modo que cualquier 
+cambio será acumulable con esto.
+• Si este agente tiene una orden de ocultarse y está tras 
+cobertura, no puede ser tomado como blanco válido, y esto 
+tiene prioridad sobre todas las demás reglas (p. ej., Buscadora, 
+terreno Aventajado), salvo estar a 2" o menos.
+• Al determinar qué es visible para este agente, traza la línea 
+desde cualquier parte de la miniatura.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Prescindible" id="6550-c50a-4bfb-3d6d" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Este agente se ignora 
+para las operaciones de asesinato/
+eliminación de tu oponente (al quedar 
+incapacitado, y al determinar tu número 
+inicial de agentes). También se ignora 
+para condiciones de victoria y puntuar PV 
+si esto requiere que agentes “escapen”, 
+“sobrevivan” o queden incapacitados por 
+agentes enemigos (si escapa/sobrevive/
+queda incapacitado, al determinar 
+cuántos agentes deben escapar/
+sobrevivir/quedar incapacitados, etc.).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="AVISTAR" id="da43-1bbb-fe64-ea00" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="cd78-e7ba-7b73-e827-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="cd78-e7ba-7b73-e827-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Seek" id="430d-8ad8-3750-cc91" hidden="false" targetId="a33d-4e90-5794-6e20" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="AVISTAR (1PA)" id="6a84-7d74-cad0-3757" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+              <characteristics>
+                <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Elige un agente enemigo visible para este agente. Hasta el final del punto de 
+inflexión, hasta que ese agente enemigo deje de ser visible para este agente o hasta 
+que este agente realice esta acción de nuevo (lo que ocurra antes), siempre que un 
+agente ABORDADOR DE LA ARMADA IMPERIAL amigo dispare contra ese 
+agente enemigo, puedes usar este efecto. Si lo haces:
+• Las armas a distancia de ese agente amigo tienen la regla de armas 
+Buscadora (Ligero).
+• Ese agente enemigo no puede estar ofuscado.
+ Este agente no puede realizar esta acción si se encuentra en la zona de control de 
+un agente enemigo.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="HACHERO DE LA ARMADA" id="c683-9c9e-4f75-4a53" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Operative" id="93e6-61af-8f9e-143f" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="Imperium" id="4b70-50a9-9fa9-9fb7" hidden="false" primary="false" targetId="45a7-2d2f-ecfb-1d13" />
+        <categoryLink name="HACHERO DE LA ARMADA" id="079e-574e-763b-6354" hidden="false" primary="false" targetId="c7d6-f37a-469e-6111" />
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Pistola automática" id="7412-0b57-3a91-0d92" hidden="false" import="true" targetId="d26f-0833-9bf0-ef75" type="selectionEntry">
+          <constraints>
+            <constraint id="1ec3-1208-2c9e-02fd-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="1ec3-1208-2c9e-02fd-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+        <entryLink name="Arma de energía" id="432b-ec13-fb95-df17" hidden="false" import="true" targetId="b083-914c-8040-6da8" type="selectionEntry">
+          <constraints>
+            <constraint id="477e-32c3-5b80-078c-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="477e-32c3-5b80-078c-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="HACHERO DE LA ARMADA" id="49f8-390b-a38c-a48e" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">4+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">8</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Envalentonado" id="cf84-6fab-920e-8ef2" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Siempre que un dado de ataque inflija un daño 
+de 3 o más a este agente durante un punto de inflexión en el que 
+haya realizado una acción de Cargar, tira 1D6: con 5+, resta 1 
+a ese daño infligido.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Escopeta de la Armada" id="49f2-ca27-c1d7-ed91" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Range x" id="2a9a-18d6-8e0f-8500" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+      </infoLinks>
+      <profiles>
+        <profile name="⌖ Escopeta de la Armada (corto alcance)" id="6994-7c1c-d5dd-cca6" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/3</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 6"</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="⌖ Escopeta de la Armada (largo alcance)" id="b80e-fbef-6740-7394" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">5+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">1/2</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Hacha de la Armada" id="bd7b-2194-a012-b4a3" hidden="false" import="true" type="upgrade">
+      <profiles>
+        <profile name="⚔ Hacha de la Armada" id="71da-113f-fbed-d862" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">3</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Arma de energía" id="b083-914c-8040-6da8" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Lethal x+" id="991f-c2e7-bcc1-c0e0" hidden="false" targetId="8b97-e3e3-2857-817a" type="rule" />
+      </infoLinks>
+      <profiles>
+        <profile name="⚔ Arma de energía" id="8bcb-116c-3357-e864" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/6</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Letal 5+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Pistola automática" id="d26f-0833-9bf0-ef75" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Range x" id="65da-6f80-99fd-a16c" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+      </infoLinks>
+      <profiles>
+        <profile name="⌖ Pistola automática" id="664a-a5c1-bf79-1494" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/3</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8"</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Pistola automática heredada" id="7962-463d-75b3-c44f" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Range x" id="1ae0-4997-0dab-9bd5" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+        <infoLink name="Lethal x+" id="00e8-2579-f79d-d5bb" hidden="false" targetId="8b97-e3e3-2857-817a" type="rule" />
+      </infoLinks>
+      <profiles>
+        <profile name="⌖ Pistola automática heredada" id="edc7-0a50-e7b2-50b9" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/4</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8", Letal 5+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Pistola bólter" id="ecf1-0a15-b0c1-9187" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Range x" id="010a-494f-3250-cb52" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+      </infoLinks>
+      <profiles>
+        <profile name="⌖ Pistola bólter" id="f47b-7aab-38dd-0fd7" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8"</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Espada sierra" id="b7ec-eebd-933b-9904" hidden="false" import="true" type="upgrade">
+      <profiles>
+        <profile name="⚔ Espada sierra" id="ce87-7817-ba12-eace" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="PROSPECTOR DE LA ARMADA" id="021b-5804-5c4f-eedc" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Operative" id="f1a8-f878-ecce-5ed4" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="Imperium" id="eae5-575f-6a27-5c71" hidden="false" primary="false" targetId="45a7-2d2f-ecfb-1d13" />
+        <categoryLink name="Supervisor" id="947d-fa39-9e2c-c30b" hidden="false" primary="false" targetId="5989-546e-cc8e-db07" />
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Escopeta de la Armada" id="e2d1-546b-fe3a-6aa9" hidden="false" import="true" targetId="49f2-ca27-c1d7-ed91" type="selectionEntry">
+          <constraints>
+            <constraint id="8485-1922-0245-422d-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="8485-1922-0245-422d-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+        <entryLink name="Hacha de la Armada" id="74bf-4595-8bf4-d387" hidden="false" import="true" targetId="bd7b-2194-a012-b4a3" type="selectionEntry">
+          <constraints>
+            <constraint id="736c-7387-7bdf-1f3b-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="736c-7387-7bdf-1f3b-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="PROSPECTOR DE LA ARMADA" id="9e7c-7153-1485-9f88" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">4+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">8</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="ORIENTAR (1PA)" id="aa9a-5594-e783-8ba3" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">APOYO. Elige otro agente ABORDADOR DE LA ARMADA IMPERIAL amigo 
+(que no sea UNIDAD G.A.T.O. ni ESPECTROCRÁNEO) a 6" o menos de este agente 
+y visible para él, o a 6" o menos de un agente UNIDAD G.A.T.O. ABORDADOR DE 
+LA ARMADA IMPERIAL amigo y visible para el mismo. Hasta el final de la siguiente 
+activación de ese agente, suma 1 a su atributo LPA. A efectos de la pieza de equipo 
+universal Aparato de comunicaciones, el agente desde el que se está determinando la 
+distancia debe controlar dicho marcador.
+ Este agente no puede realizar esta 
+acción si se encuentra en la zona de 
+control de un agente enemigo.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="CONTROL REMOTO (1PA)" id="5edb-d9ce-f131-65a4" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Elige un agente UNIDAD G.A.T.O. ABORDADOR DE LA 
+ARMADA IMPERIAL amigo. Ese agente puede realizar 
+inmediatamente una acción libre, pero no puede mover más 
+de 3" durante esa acción.
+ Este agente no puede realizar esta acción si se encuentra 
+en la zona de control de un agente enemigo, o si no 
+hay un agente UNIDAD G.A.T.O. amigo en la zona 
+de aniquilación.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Equipo de facción" id="f34c-335f-eecc-bbc0" defaultSelectionEntryId="none" hidden="false">
+      <selectionEntries>
+        <selectionEntry name="RESPIRADORES" id="d97e-6305-b905-d32f" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="e12a-1501-95d5-4bc7" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <profiles>
+            <profile name="RESPIRADORES" id="a54c-7838-3fc1-90b0" hidden="false" typeId="0d20-7175-9ecb-8bde" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">ABORDADORES DE LA ARMADA IMPERIAL
+EQUIPO DE FACCIÓN
+RESPIRADORES
+Estas máscaras reciclan un suministro de oxígeno,
+permitiendo al portador sobrevivir durante periodos
+extensos en atmósferas venenosas, bajo el agua o en el
+vacío del espacio.
+Puedes ignorar cualquier cambio al atributo
+LPA de los agentes ABORDADOR DE LA
+ARMADA IMPERIAL amigos, y además no se
+ven afectados por la regla de armas Choque de
+agentes enemigos.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="DISPOSITIVO DE INTRUSIÓN" id="9192-2303-5da7-c9ea" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="999c-f034-3d15-740d" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <profiles>
+            <profile name="DISPOSITIVO DE INTRUSIÓN" id="a943-df57-ac15-7463" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+              <characteristics>
+                <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">ABORDADORES DE LA ARMADA IMPERIAL
+EQUIPO DE FACCIÓN
+DISPOSITIVO DE INTRUSIÓN
+Este dispositivo, cuando se fija a paneles cogitadores,
+redirige la energía de los mecanismos de cierre,
+permitiendo a los Abordadores forzar la entrada.
+Una vez por punto de inflexión, un agente
+ABORDADOR DE LA ARMADA IMPERIAL amigo
+puede realizar la acción de Operar portillo por 1
+PA menos.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="ESTIMULANTES DE COMBATE" id="621d-23af-b120-f488" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="ab88-660c-8373-2f91" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <profiles>
+            <profile name="ESTIMULANTES DE COMBATE" id="fd19-db6c-eef2-4dc3" hidden="false" typeId="0d20-7175-9ecb-8bde" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">ABORDADORES DE LA ARMADA IMPERIAL
+EQUIPO DE FACCIÓN
+ESTIMULANTES DE COMBATE
+Muchos soldados imperiales llevan estimulantes de
+combate diseñados para anular la fatiga y el dolor, y
+aumentar la concentración.
+Puedes ignorar cualquier cambio al atributo
+Movimiento de los agentes ABORDADOR
+DE LA ARMADA IMPERIAL amigos por
+estar lesionados.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="POSTAS" id="df44-2b0f-a065-531d" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="a240-c401-4510-6185" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Accurate x" id="9cc6-7fba-9f0f-99a9" hidden="false" targetId="ba48-6452-4bf6-e9fa" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="POSTAS" id="a2ef-81f5-e408-f902" hidden="false" typeId="0d20-7175-9ecb-8bde" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">ABORDADORES DE LA ARMADA IMPERIAL
+EQUIPO DE FACCIÓN
+POSTAS
+Estos pesados proyectiles pueden dispararse desde
+una escopeta, sacrificiando impacto a corta distancia
+a cambio de mayor alcance y letalidad contra un
+único blanco.
+Hasta tres veces por punto de inflexión, cuando
+un agente ABORDADOR DE LA ARMADA
+IMPERIAL amigo realice una acción de
+Disparar y elijas una escopeta de la Armada
+(largo alcance), puedes usar esta regla. Si lo
+haces, hasta el final de esa acción, mejora en 1
+el atributo Impactar de esa arma y suma 1 a sus
+dos atributos Daño , y esa arma tiene la regla de
+arma Certera.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

@@ -1,0 +1,827 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" name="Exploradores Lobo" id="7eee-ea5a-4273-265e" battleScribeVersion="2.03" gameSystemId="c521-ad27-44df-f959" gameSystemRevision="10" library="false" revision="8" type="catalogue">
+  <categoryEntries>
+    <categoryEntry name="EXPLORADOR LOBO" id="d8ff-94fa-64bb-f06e" hidden="false" />
+    <categoryEntry name="Lobos Espaciales" id="6800-4b5a-bf51-440c" hidden="false" />
+    <categoryEntry name="PORTACOLMILLOS EXPLORADOR LOBO" id="3a35-9383-8208-9e3b" hidden="false" />
+    <categoryEntry name="LOBO FENRISIANO EXPLORADOR LOBO" id="e557-0613-8935-01cd" hidden="false" />
+    <categoryEntry name="OJOGÉLIDO EXPLORADOR LOBO" id="9a8f-0a83-6bfc-b0cf" hidden="false" />
+    <categoryEntry name="CAZADOR EXPLORADOR LOBO" id="0a60-b903-2861-233c" hidden="false" />
+    <categoryEntry name="JEFE DE MANADA EXPLORADOR LOBO" id="8beb-96b5-d4a7-3c4f" hidden="false" />
+    <categoryEntry name="SACERDOTE RÚNICO ESCALDO EXPLORADOR LOBO" id="2825-17d1-b30f-ae28" hidden="false" />
+    <categoryEntry name="MAESTRO TRAMPERO EXPLORADOR LOBO" id="7fa0-54c0-0197-d91a" hidden="false" />
+  </categoryEntries>
+  <entryLinks>
+    <entryLink name="Equipment Reference" id="c60a-bb8d-2b37-5d54" hidden="false" import="true" targetId="e004-a0c4-8a03-0b8b" type="selectionEntry">
+      <entryLinks>
+        <entryLink name="Equipo de facción" id="258e-2ae1-2ec1-e354" hidden="false" import="true" targetId="f5a1-086e-5b84-60db" type="selectionEntryGroup" />
+      </entryLinks>
+    </entryLink>
+  </entryLinks>
+  <forceEntries>
+    <forceEntry name="Kill Team — Español" id="7950-e932-defb-e9bf" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Operative" id="4bb6-949a-f5be-4eb3" hidden="false" targetId="cf83-4496-b58e-ac82">
+          <constraints>
+            <constraint id="d417-e7a1-0774-c63c-min" field="selections" scope="parent" shared="true" type="min" value="6" />
+            <constraint id="d417-e7a1-0774-c63c-max" field="selections" scope="parent" shared="true" type="max" value="6" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Reference" id="8efb-a76a-e010-390a" hidden="false" targetId="b318-a8d7-2d38-99a3" />
+        <categoryLink name="Configuration" id="4b47-32fd-4fd3-31d3" hidden="false" targetId="874b-0390-e5e2-1daa" />
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <rules>
+    <rule name="ASTARTES A LA CAZA" id="f98f-afd7-0526-2d65" hidden="false">
+      <description>Los Exploradores Lobo son experimentados Marines 
+Espaciales letales en la caza. Estos superhumanos 
+modificados genéticamente son despiadados y 
+aprovechan extraños fenómenos climáticos para 
+ocultarse.
+Durante la activación de cada agente 
+EXPLORADOR LOBO amigo, este puede realizar 
+dos acciones de Disparar o dos acciones de 
+Combatir. Si realiza dos acciones de Disparar:
+• Se debe gastar 1PA adicional para la segunda 
+acción si en ambas se usa un rifle de plasma o 
+una pistola de plasma.
+• No puedes elegir dos armas a distancia 
+PSÍQUICA.
+Todo agente EXPLORADOR LOBO amigo puede 
+reaccionar sin importar su orden. Siempre que lo 
+haga completamente dentro de tu TORMENTA, 
+puedes cambiar primero su orden, o cambiar su 
+orden en lugar de realizar una acción (en este 
+caso, se sigue considerando que ha reaccionado 
+en este punto de inflexión).</description>
+    </rule>
+    <rule name="TORMENTA ELEMENTAL" id="11cc-695c-44d0-1c01" hidden="false">
+      <description>Algunos Vlka Fenryka dicen que los Exploradores Lobo 
+de su Capítulo llevan la tormenta con ellos. A menudo, 
+estas tempestades son realmente sobrenaturales, 
+llamadas por el Sacerdote Rúnico Escaldo que los 
+acompaña. En otras ocasiones, programan hábilmente 
+sus cacerías para coincidir con tormentas locales o las 
+causan con tecnología arcana. Los Exploradores Lobo 
+pueden operar durante largo tiempo ocultos por esas 
+tormentas, usando la cobertura para enmascarar sus 
+movimientos y confundir a sus presas, que sienten que 
+están luchando contra los propios elementos.
+GAMBITO ESTRATÉGICO. Retira tu marcador 
+de tormenta de la zona de aniquilación (si hay 
+alguno), y colócalo en la zona de aniquilación. 
+Siempre que un agente esté a completamente a 
+6" o menos horizontalmente de tu marcador de 
+tormenta, se considera completamente dentro de 
+tu TORMENTA.
+Todo agente EXPLORADOR LOBO amigo puede 
+realizar la acción de Cargar mientras tiene 
+una orden de ocultarse si termina esa acción 
+completamente dentro de tu TORMENTA.</description>
+    </rule>
+  </rules>
+  <selectionEntries>
+    <selectionEntry name="LOBO FENRISIANO EXPLORADOR LOBO" id="176a-afac-9ea4-c1b8" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="EXPLORADOR LOBO" id="0dae-1012-be59-353e" hidden="false" primary="false" targetId="d8ff-94fa-64bb-f06e" />
+        <categoryLink name="Adeptus Astartes" id="2737-78e0-e702-d223" hidden="false" primary="false" targetId="ad17-a237-65f9-a559" />
+        <categoryLink name="Lobos Espaciales" id="98e1-c4c7-f63c-700e" hidden="false" primary="false" targetId="6800-4b5a-bf51-440c" />
+        <categoryLink name="Imperium" id="2478-ae4a-2ef6-f749" hidden="false" primary="false" targetId="45a7-2d2f-ecfb-1d13" />
+        <categoryLink name="LOBO FENRISIANO EXPLORADOR LOBO" id="71f3-33d8-bcc3-7807" hidden="false" primary="false" targetId="e557-0613-8935-01cd" />
+        <categoryLink name="Operative" id="be6d-fde7-d46b-5188" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="b963-dd5e-b90a-883d-min" field="selections" scope="7950-e932-defb-e9bf" shared="true" type="min" value="1" />
+        <constraint id="b963-dd5e-b90a-883d-max" field="selections" scope="7950-e932-defb-e9bf" shared="true" type="max" value="1" />
+      </constraints>
+      <profiles>
+        <profile name="LOBO FENRISIANO EXPLORADOR LOBO" id="ba7c-5e58-3244-88a3" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">8"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">9</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Depredador instintivo" id="92b1-2f16-710d-621e" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Este agente solo puede realizar las 
+acciones de Cargar, Correr, Retroceder, Combatir, 
+Ponerse en guardia y Reposicionarse. No puede 
+usar armas que no estén en su hoja de datos. Este agente 
+puede realizar la acción de Cargar mientras tenga una 
+orden de ocultarse.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Sin parar" id="1cd1-d2cc-3ac4-f7d9" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Una vez por batalla GAMBITO ESTRATÉGICO. 
+Si el atributo LPA de este agente es 2 o más, este agente 
+puede realizar una acción libre de Cargar, Retroceder o 
+Reposicionarse. Si lo hace, hasta el final de su siguiente 
+activación, resta 1 a su atributo LPA y no puede realizar ninguna 
+de las acciones anteriores.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Colmillos" id="2782-fcc7-689c-d57b" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="2b61-d323-9dfa-bd62-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="2b61-d323-9dfa-bd62-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Rending" id="4644-f5bd-cf38-fa51" hidden="false" targetId="b903-6f79-129d-4ec9" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⚔ Colmillos" id="bf2c-c6bc-f4fa-61ad" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Desgarradora</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="JEFE DE MANADA EXPLORADOR LOBO" id="0e0e-f0b1-f491-270f" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="EXPLORADOR LOBO" id="91c7-65bf-dacf-f233" hidden="false" primary="false" targetId="d8ff-94fa-64bb-f06e" />
+        <categoryLink name="Adeptus Astartes" id="5908-a44d-9443-c943" hidden="false" primary="false" targetId="ad17-a237-65f9-a559" />
+        <categoryLink name="Lobos Espaciales" id="372e-fc43-8e4a-55ec" hidden="false" primary="false" targetId="6800-4b5a-bf51-440c" />
+        <categoryLink name="Imperium" id="9ae4-23a0-76ed-54ef" hidden="false" primary="false" targetId="45a7-2d2f-ecfb-1d13" />
+        <categoryLink name="JEFE DE MANADA EXPLORADOR LOBO" id="aca0-c51f-d288-30c2" hidden="false" primary="false" targetId="8beb-96b5-d4a7-3c4f" />
+        <categoryLink name="Leader" id="3506-ca36-946d-3494" hidden="false" primary="false" targetId="d999-8cad-8145-4efe" />
+        <categoryLink name="Operative" id="b71d-19b5-752e-206f" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="cdd9-e768-294c-f3b4" field="selections" scope="7950-e932-defb-e9bf" shared="true" type="max" value="1" />
+      </constraints>
+      <entryLinks>
+        <entryLink name="Pistola de plasma" id="1613-d5de-1459-4b19" hidden="false" import="true" targetId="597c-79e9-e2e2-3dde" type="selectionEntry">
+          <constraints>
+            <constraint id="1a79-0d61-4f22-ddf2-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="1a79-0d61-4f22-ddf2-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="JEFE DE MANADA EXPLORADOR LOBO" id="3ca0-de17-fe46-49e4" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">7"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">13</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Astucia lupina" id="1918-061b-2129-9c12" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Una vez por batalla, después de desempatar 
+para decidir la iniciativa, si este agente está en la zona de 
+aniquilación, puedes repetir tu D6.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Rudo veterano" id="b2b6-ba42-677d-4034" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">La primera vez que este agente quedaría 
+incapacitado durante la batalla, no queda incapacitado, le 
+queda 1 herida restante y no puede ser incapacitado durante 
+el resto de la acción. Todos los dados de ataque restantes se 
+descartan (incluyendo los tuyos si este agente está combatiendo 
+o contraatacando). No puedes usar el ardid de tiroteo 
+Contraataque para infligir daño como resultado de el ardid de 
+estrategia Luchadores salvajes al final de esa acción.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Arma de energía" id="278f-239f-d499-facb" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="2a9d-310b-c622-17fa-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="2a9d-310b-c622-17fa-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Lethal x+" id="449e-6dc8-e1ba-2b7e" hidden="false" targetId="8b97-e3e3-2857-817a" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⚔ Arma de energía" id="f0ca-2c2c-632e-2805" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/6</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Letal 5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="PORTACOLMILLOS EXPLORADOR LOBO" id="5b0f-e151-5a15-396c" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="EXPLORADOR LOBO" id="eba8-e232-5f7d-fa05" hidden="false" primary="false" targetId="d8ff-94fa-64bb-f06e" />
+        <categoryLink name="Operative" id="4c07-de14-bb34-c5f3" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="Adeptus Astartes" id="9d90-b260-b2b9-9df4" hidden="false" primary="false" targetId="ad17-a237-65f9-a559" />
+        <categoryLink name="Lobos Espaciales" id="a77f-6629-f2a8-85bf" hidden="false" primary="false" targetId="6800-4b5a-bf51-440c" />
+        <categoryLink name="Imperium" id="1237-f950-5d73-5674" hidden="false" primary="false" targetId="45a7-2d2f-ecfb-1d13" />
+        <categoryLink name="PORTACOLMILLOS EXPLORADOR LOBO" id="76a4-dcb3-83ed-c9c5" hidden="false" primary="false" targetId="3a35-9383-8208-9e3b" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="a356-1234-4215-ddba" field="selections" scope="7950-e932-defb-e9bf" shared="true" type="max" value="1" />
+      </constraints>
+      <entryLinks>
+        <entryLink name="Filopuñal" id="8a93-ef2a-2704-9bfe" hidden="false" import="true" targetId="b4dc-e145-90b3-58ce" type="selectionEntry">
+          <constraints>
+            <constraint id="5dd2-6459-fd27-2703-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="5dd2-6459-fd27-2703-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="PORTACOLMILLOS EXPLORADOR LOBO" id="40f7-9a2f-a0d5-9888" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">7"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">13</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Cirugía espiritual" id="52e9-ad5c-96b8-824e" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Puedes ignorar los cambios a los atributos 
+de los agentes EXPLORADOR LOBO amigos (salvo LOBO 
+FENRISIANO) por estar lesionados (incluyendo los atributos 
+de sus armas). Recuerda que los agentes amigos solo tienen 
+estas reglas si incluyes a este agente en la batalla (incluso si 
+luego resulta incapacitado).</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="BÁLSAMOS CURATIVOS (1PA)" id="0131-2ea3-f311-7dfb" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Elige un agente EXPLORADOR LOBO amigo en la zona 
+de control de este agente. Ese agente recupera hasta 1D3+3 
+heridas perdidas.
+ Este agente no puede realizar esta acción si se encuentra en 
+la zona de control de algún agente enemigo, ni más de una 
+vez por punto de inflexión.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Pistola bólter absolvor" id="b03e-90fd-4488-e1b6" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="0f70-e3eb-3d7e-0ce2-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="0f70-e3eb-3d7e-0ce2-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Range x" id="54b1-4f1f-f04d-a56e" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+            <infoLink name="Piercing x" id="8007-9bc2-480a-a099" hidden="false" targetId="4c07-2cb3-1417-cbb7" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⌖ Pistola bólter absolvor" id="bacc-fcc3-6c7d-6631" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8", Críticos de penetración 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="OJOGÉLIDO EXPLORADOR LOBO" id="08ae-f84e-6b38-de6c" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="EXPLORADOR LOBO" id="d0c3-3fee-6ebf-5366" hidden="false" primary="false" targetId="d8ff-94fa-64bb-f06e" />
+        <categoryLink name="Operative" id="f5b5-8561-7b28-2fc0" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="Adeptus Astartes" id="80ae-938e-f3ea-69c0" hidden="false" primary="false" targetId="ad17-a237-65f9-a559" />
+        <categoryLink name="Lobos Espaciales" id="656f-446b-f995-90f8" hidden="false" primary="false" targetId="6800-4b5a-bf51-440c" />
+        <categoryLink name="Imperium" id="8381-4115-83c6-3724" hidden="false" primary="false" targetId="45a7-2d2f-ecfb-1d13" />
+        <categoryLink name="OJOGÉLIDO EXPLORADOR LOBO" id="d170-1376-dc3b-d774" hidden="false" primary="false" targetId="9a8f-0a83-6bfc-b0cf" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="0dfb-0bc0-f4b5-74b2" field="selections" scope="7950-e932-defb-e9bf" shared="true" type="max" value="1" />
+      </constraints>
+      <entryLinks>
+        <entryLink name="Filopuñal" id="de64-8d40-c467-b7c3" hidden="false" import="true" targetId="b4dc-e145-90b3-58ce" type="selectionEntry">
+          <constraints>
+            <constraint id="b32b-9b21-6c3d-5435-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="b32b-9b21-6c3d-5435-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="OJOGÉLIDO EXPLORADOR LOBO" id="3f7e-3dc4-f430-c622" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">7"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">13</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Tormenta ejecutora" id="b77f-a092-aeef-0185" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Siempre que este agente esté completamente dentro de tu TORMENTA:
+• Puede realizar la acción de Ponerse en guardia independientemente de la zona de aniquilación (ver reglas de combate cerrado, 
+Reglamento básico de Kill Team).
+• Puede realizar la acción de Ponerse en guardia mientras tiene una orden de ocultarse.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="SENTIDOS DE CAZADOR (1PA)" id="55f4-a914-ae71-e939" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Elige 1 de las siguientes reglas de la carabina bólter 
+instigador de este agente. La tendrán hasta el inicio de su 
+siguiente activación:
+• Severa.
+• Saturación, y siempre que este agente dispare con esa arma, 
+los agentes enemigos no pueden estar ofuscados.
+ Este agente no puede realizar esta acción si se encuentra en 
+la zona de control de algún agente enemigo.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Carabina bólter instigador" id="060f-d4aa-2315-6d25" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="3870-d565-aaaa-d884-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="3870-d565-aaaa-d884-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Piercing x" id="600d-fc68-2363-83df" hidden="false" targetId="4c07-2cb3-1417-cbb7" type="rule" />
+            <infoLink name="Silent" id="4d63-fa0c-860a-ba1d" hidden="false" targetId="1e3c-23c9-c6e2-9f62" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⌖ Carabina bólter instigador" id="372f-c662-e453-26d7" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Críticos de penetración 1, Silenciosa</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Artillero" id="3ee3-9983-aedc-3c50" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="EXPLORADOR LOBO" id="5205-8803-dcac-6fd6" hidden="false" primary="false" targetId="d8ff-94fa-64bb-f06e" />
+        <categoryLink name="Operative" id="7ed0-19c4-3bbc-493a" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="Adeptus Astartes" id="4d4f-3b40-5dd3-b739" hidden="false" primary="false" targetId="ad17-a237-65f9-a559" />
+        <categoryLink name="Lobos Espaciales" id="7da7-ca7f-794e-e272" hidden="false" primary="false" targetId="6800-4b5a-bf51-440c" />
+        <categoryLink name="Imperium" id="58a5-c848-d167-ecf5" hidden="false" primary="false" targetId="45a7-2d2f-ecfb-1d13" />
+        <categoryLink name="Gunner" id="456e-1502-ebdf-99fe" hidden="false" primary="false" targetId="3033-7558-d28f-53cf" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="12ac-05e2-7dc8-4b71" field="selections" scope="7950-e932-defb-e9bf" shared="true" type="max" value="1" />
+      </constraints>
+      <entryLinks>
+        <entryLink name="Filopuñal" id="5353-f7aa-fe0f-224d" hidden="false" import="true" targetId="b4dc-e145-90b3-58ce" type="selectionEntry">
+          <constraints>
+            <constraint id="b0da-4cbb-0cba-7f0d-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="b0da-4cbb-0cba-7f0d-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="TIRADOR EXPLORADOR LOBO" id="403f-346e-de33-dc40" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">7"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">13</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Rifle de plasma" id="ff42-f20f-4bda-3549" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="12ee-a2c3-a3c5-77f3-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="12ee-a2c3-a3c5-77f3-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Hot" id="e26a-44a3-25cb-24cf" hidden="false" targetId="ec63-40e6-6282-8420" type="rule" />
+            <infoLink name="Lethal x+" id="e337-0ee1-40a3-257e" hidden="false" targetId="8b97-e3e3-2857-817a" type="rule" />
+            <infoLink name="Piercing x" id="b5ed-15b7-6db1-3e74" hidden="false" targetId="4c07-2cb3-1417-cbb7" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⌖ Rifle de plasma (normal)" id="e061-269f-f479-9850" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/6</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Penetración 1</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="⌖ Rifle de plasma (sobrecarga)" id="13d0-97c8-a573-806f" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">5/6</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Letal 5+, Penetración 1, Sobrecalentamiento</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Furia de la tempestad" id="201c-f475-ef50-f395" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="27f8-caac-0c1a-28ef-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="27f8-caac-0c1a-28ef-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Punishing" id="c833-7075-55f0-a2c4" hidden="false" targetId="4805-d37d-3ff2-5c9e" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="Furia de la tempestad" id="e497-95cc-66fb-014e" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Ability" typeId="3467-0678-083e-eb50">Siempre que este agente esté completamente dentro de tu TORMENTA:
+• Todos los perfiles de su rifle de plasma tienen la regla de armas Castigadora.
+• Su rifle de plasma (sobrecarga) no tiene la regla de armas Sobrecalentamiento.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="MAESTRO TRAMPERO EXPLORADOR LOBO" id="f7e9-7c2d-f96e-1f1c" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="EXPLORADOR LOBO" id="ef12-3c6d-e4c2-70b9" hidden="false" primary="false" targetId="d8ff-94fa-64bb-f06e" />
+        <categoryLink name="Operative" id="66bc-4a08-107f-717f" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="Adeptus Astartes" id="d1d0-91e9-f269-2862" hidden="false" primary="false" targetId="ad17-a237-65f9-a559" />
+        <categoryLink name="Lobos Espaciales" id="0855-0897-000a-7a08" hidden="false" primary="false" targetId="6800-4b5a-bf51-440c" />
+        <categoryLink name="Imperium" id="9801-b293-03a3-6514" hidden="false" primary="false" targetId="45a7-2d2f-ecfb-1d13" />
+        <categoryLink name="MAESTRO TRAMPERO EXPLORADOR LOBO" id="a867-647b-26b3-8037" hidden="false" primary="false" targetId="7fa0-54c0-0197-d91a" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="1905-44fa-50a1-205e" field="selections" scope="7950-e932-defb-e9bf" shared="true" type="max" value="1" />
+      </constraints>
+      <entryLinks>
+        <entryLink name="Pistola de plasma" id="7e7c-60d7-1ed3-5db7" hidden="false" import="true" targetId="597c-79e9-e2e2-3dde" type="selectionEntry">
+          <constraints>
+            <constraint id="d04a-a8cd-3190-7cc3-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="d04a-a8cd-3190-7cc3-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+        <entryLink name="Filopuñal" id="02c1-0d8b-6dc9-1514" hidden="false" import="true" targetId="b4dc-e145-90b3-58ce" type="selectionEntry">
+          <constraints>
+            <constraint id="cce0-c52d-a1d9-9fc9-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="cce0-c52d-a1d9-9fc9-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="MAESTRO TRAMPERO EXPLORADOR LOBO" id="bd00-3bbb-10c4-107e" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">7"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">13</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Mina de disrupción" id="25b5-278b-4c54-2977" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Este agente lleva tu marcador de Mina de 
+disrupción. Puede realizar la acción de Recoger marcador 
+sobre ese marcador, pero ese marcador no puede ser colocado 
+en la zona de control de un agente enemigo (si este agente queda 
+incapacitado mientras lleva el marcador en cuestión y el marcador 
+no puede ser colocado, es retirado junto con este agente).</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Mina de proximidad" id="5ecf-8b66-a53e-d46e" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">La primera vez que tu marcador de Mina 
+de disrupción quede dentro de la zona de control de otro agente, 
+retira ese marcador, resta 1 al atributo LPA de ese agente hasta el 
+final de su siguiente activación, e inflígele 2D3+3 daños (o 1D3+6 
+si ese marcador está a 6” o menos en horizontal de tu marcador 
+de Tormenta); si no resulta incapacitado, termina su acción (si 
+está realizando una), aunque los efectos de la misma no se hayan 
+completado. Si no puede ser colocado, muévelo la distancia mínima 
+hasta que pueda. Este agente se ignora de cara a esos efectos (no 
+puede activar ese marcador ni sufrir daños debido al mismo).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="CAZADOR EXPLORADOR LOBO" id="6214-9880-03b2-8c2a" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="EXPLORADOR LOBO" id="1450-ba7e-c8a2-7f5b" hidden="false" primary="false" targetId="d8ff-94fa-64bb-f06e" />
+        <categoryLink name="Operative" id="49f2-248b-c2f7-7508" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="Adeptus Astartes" id="4e35-101a-1939-02d5" hidden="false" primary="false" targetId="ad17-a237-65f9-a559" />
+        <categoryLink name="Lobos Espaciales" id="b8c0-01d2-d6c1-3bca" hidden="false" primary="false" targetId="6800-4b5a-bf51-440c" />
+        <categoryLink name="Imperium" id="f2a4-681a-b0ab-5b2c" hidden="false" primary="false" targetId="45a7-2d2f-ecfb-1d13" />
+        <categoryLink name="CAZADOR EXPLORADOR LOBO" id="d15e-86e5-4718-e844" hidden="false" primary="false" targetId="0a60-b903-2861-233c" />
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Filopuñal" id="3a85-0f52-5064-f350" hidden="false" import="true" targetId="b4dc-e145-90b3-58ce" type="selectionEntry">
+          <constraints>
+            <constraint id="d807-7840-a9dc-83f4-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="d807-7840-a9dc-83f4-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+        <entryLink name="Pistola de plasma" id="fb7a-3bbc-a485-a120" hidden="false" import="true" targetId="597c-79e9-e2e2-3dde" type="selectionEntry">
+          <constraints>
+            <constraint id="8975-f17d-912b-d9af-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="8975-f17d-912b-d9af-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="CAZADOR EXPLORADOR LOBO" id="b8bc-e004-b1e2-be93" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">7"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">13</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Temperamento fiero" id="f98c-395e-5553-9032" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Siempre que este agente esté 
+completamente dentro de tu TORMENTA, sus armas tienen la 
+regla de armas Severa.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="SACERDOTE RÚNICO ESCALDO EXPLORADOR LOBO" id="b2a5-608c-a53c-b13e" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="EXPLORADOR LOBO" id="d5f3-1863-7491-c26d" hidden="false" primary="false" targetId="d8ff-94fa-64bb-f06e" />
+        <categoryLink name="Operative" id="74ed-da7f-06eb-dfec" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="Adeptus Astartes" id="e3b8-083e-460b-68d3" hidden="false" primary="false" targetId="ad17-a237-65f9-a559" />
+        <categoryLink name="Lobos Espaciales" id="bded-0f20-7d1c-7d16" hidden="false" primary="false" targetId="6800-4b5a-bf51-440c" />
+        <categoryLink name="Imperium" id="68e2-a571-f1a9-3cf7" hidden="false" primary="false" targetId="45a7-2d2f-ecfb-1d13" />
+        <categoryLink name="SACERDOTE RÚNICO ESCALDO EXPLORADOR LOBO" id="28f2-b6b1-07b6-7bd4" hidden="false" primary="false" targetId="2825-17d1-b30f-ae28" />
+        <categoryLink name="Psyker" id="f5b8-9514-7eb6-e119" hidden="false" primary="false" targetId="6f95-9b94-d661-3243" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="3fbb-3b72-4b54-ac7b" field="selections" scope="7950-e932-defb-e9bf" shared="true" type="max" value="1" />
+      </constraints>
+      <profiles>
+        <profile name="SACERDOTE RÚNICO ESCALDO EXPLORADOR LOBO" id="f7ac-ad37-a7ff-a195" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">7"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">13</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Lanzar las runas" id="c17f-ad6a-2224-835e" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Tras elegir este agente, antes de la batalla, tira tres D6 y déjalos a un lado. Por cada 1-4, puedes usar el ardid de 
+tiroteo Repetición de mando por 0PM una vez durante el punto de inflexión que coincida con el resultado. Si alguno de los resultados 
+es 5-6, ganas 1PM. Por ejemplo, si obtuviste 2, 2, y 5, ganas 1PM y durante el segundo punto de inflexión podrás usar Repetición de 
+mando dos veces por 0PM.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Pistola bólter" id="d157-f75f-6344-6836" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="cf07-9da9-1bf9-0796-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="cf07-9da9-1bf9-0796-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Range x" id="2a3f-4510-2e36-ec2a" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⌖ Pistola bólter" id="3687-cbe2-b654-a1ca" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8"</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Fauces del Mundo Lobo" id="0768-c3c4-e3ce-3e9d" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="c47c-8491-e812-73ea-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="c47c-8491-e812-73ea-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Severe" id="d5c6-0202-ca00-7394" hidden="false" targetId="721c-65bf-dfb7-8fa2" type="rule" />
+            <infoLink name="Blast x" id="6fc9-0dfe-5efb-5098" hidden="false" targetId="0d74-0977-b481-bd13" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⌖ Fauces del Mundo Lobo" id="2784-6b6f-5008-8910" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">P SÍQUICA, Área 2", Severa</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Golpe de trueno" id="7462-ea12-159f-654a" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="2908-0afa-29ca-9a8b-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="2908-0afa-29ca-9a8b-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Range x" id="4ddc-eef1-d65f-9cc3" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+            <infoLink name="Saturate" id="5de3-4d06-a98b-0d63" hidden="false" targetId="3c10-2d52-d1ac-b0f6" type="rule" />
+            <infoLink name="Seek" id="1442-88f9-0861-3fd2" hidden="false" targetId="a33d-4e90-5794-6e20" type="rule" />
+            <infoLink name="Stun" id="82a1-d20b-24f1-988b" hidden="false" targetId="5ae2-3f29-8635-fd02" type="rule" />
+            <infoLink name="Torrent x" id="8607-f2c5-5ce1-0314" hidden="false" targetId="ad45-b4bb-1345-e4f9" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⌖ Golpe de trueno" id="be99-2576-f190-3c20" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">2+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/2</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">PSÍQUICA, Alcance 6", Aturdidora, Buscadora (Ligero), Ráfaga 2", Saturación</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Báculo rúnico" id="5a0b-8471-d0e4-3c57" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="5e98-b3de-aebd-92df-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="5e98-b3de-aebd-92df-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Shock" id="317f-241e-2204-c3d9" hidden="false" targetId="c544-8d4c-4109-4eec" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⚔ Báculo rúnico" id="a88e-07f0-5fc7-3af5" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/6</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">PSÍQUICA, Choque</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry name="Filopuñal" id="b4dc-e145-90b3-58ce" hidden="false" import="true" type="upgrade">
+      <profiles>
+        <profile name="⚔ Filopuñal" id="cdc5-0003-9fee-0b9e" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier field="6056-b741-7cf3-5b43" type="set" value="4">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition childId="9a8f-0a83-6bfc-b0cf" field="selections" scope="parent" shared="true" type="instanceOf" value="1" />
+                    <condition childId="3033-7558-d28f-53cf" field="selections" scope="parent" shared="true" type="instanceOf" value="1" />
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Pistola de plasma" id="597c-79e9-e2e2-3dde" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Range x" id="a822-f17e-0667-420d" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+        <infoLink name="Hot" id="761e-a1b5-05da-5d35" hidden="false" targetId="ec63-40e6-6282-8420" type="rule" />
+        <infoLink name="Lethal x+" id="14b3-8a7d-2d5b-01e3" hidden="false" targetId="8b97-e3e3-2857-817a" type="rule" />
+        <infoLink name="Piercing x" id="b852-af00-d10f-4ea1" hidden="false" targetId="4c07-2cb3-1417-cbb7" type="rule" />
+      </infoLinks>
+      <profiles>
+        <profile name="⌖ Pistola de plasma (normal)" id="677f-5479-2b70-9c52" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/5</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8", Penetración 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="⌖ Pistola de plasma (sobrecarga)" id="9b61-5fd3-0bb8-df2c" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8", Letal 5+, Penetración 1, Sobrecalentamiento</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Equipo de facción" id="f5a1-086e-5b84-60db" hidden="false">
+      <selectionEntries>
+        <selectionEntry name="ARMAS GÉLIDAS" id="2ad1-8532-0a6f-f1b1" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="1f42-e2dd-581e-d9d6" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Lethal x+" id="c2de-2ec0-5a5b-0975" hidden="false" targetId="8b97-e3e3-2857-817a" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="ARMAS GÉLIDAS" id="4cb9-f27d-20e5-79fe" hidden="false" typeId="0d20-7175-9ecb-8bde" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">EXPLORADORES LOBO
+EQUIPO DE FACCIÓN
+ARMAS GÉLIDAS
+Estas armas han sido fabricadas por un maestro
+Sacerdote de Hierro y poseen filos letales. Algunas
+incorporan colmillos de kraken, mientras que otras son
+fragmentos de diamante energizado, forjados con el
+hielo más puro.
+Siempre que un agente EXPLORADOR LOBO
+amigo esté completamente dentro de tu
+TORMENTA, su filopuñal (si aplica) tiene la regla
+de armas Letal 4+.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="COLGANTES RÚNICOS" id="f4c0-e6e7-2e5e-2747" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="3030-ac37-ac1b-ea20" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <profiles>
+            <profile name="COLGANTES RÚNICOS" id="82ca-53ec-b897-1fa2" hidden="false" typeId="0d20-7175-9ecb-8bde" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">EXPLORADORES LOBO
+EQUIPO DE FACCIÓN
+COLGANTES RÚNICOS
+Muchas piezas del equipo de un guerrero llevan runas
+inscritas, pero solo los enigmáticos Sacerdotes Rúnicos
+conocen los secretos para grabarlas. Todo Lobo Espacial
+cree que protegen incluso sus almas.
+Una vez por punto de inflexión, cuando un agente
+dispare a un agente EXPLORADOR LOBO
+(salvo LOBO FENRISIANO) amigo que esté
+completamente dentro de tu TORMENTA, al
+inicio del paso de Tirar dados de defensa puedes
+usar esta regla. Si lo haces, hasta el final de
+esa secuencia empeora en 1 la x de la regla de
+armas Penetración (si aplica). Eso significa que
+Penetración 1 se ignoraría.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="COLLARES DE DIENTES DE LOBO" id="17c2-e83f-744f-7b0d" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="64af-292d-9dc1-1d18" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <profiles>
+            <profile name="COLLARES DE DIENTES DE LOBO" id="e309-adf7-f69f-4801" hidden="false" typeId="0d20-7175-9ecb-8bde" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">EXPLORADORES LOBO
+EQUIPO DE FACCIÓN
+COLLARES DE DIENTES DE LOBO
+El derecho a llevar uno de estos fetiches puede ganarse
+en los juegos de fuerza que se celebran en el Colmillo,
+la fortaleza monasterio del Capítulo. Reconocen la
+destreza del portador y su capacidad para recurrir a
+grandes reservas de fuerza y perseverancia aumentadas
+genéticamente.
+Una vez por punto de inflexión, cuando un agente
+EXPLORADOR LOBO (salvo LOBO FENRISIANO)
+amigo dispare, combata o contraataque, si sacas
+dos o más fallos, puedes descartar uno de ellos
+para guardar otro como un éxito normal en su lugar.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="TROFEOS Y TALISMANES" id="129e-19ab-f33b-4fdd" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="13f1-8eea-6a02-43ad" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <profiles>
+            <profile name="TROFEOS Y TALISMANES" id="0a66-de11-acd2-f779" hidden="false" typeId="0d20-7175-9ecb-8bde" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">EXPLORADORES LOBO
+EQUIPO DE FACCIÓN
+TROFEOS Y TALISMANES
+Gruesas pieles, cráneos y colas adornan a estos hijos
+de Russ. Estos trofeos, tomados de enormes bestias
+lupinas que han cazado en Fenris, se consideran
+potentes símbolos de suerte y protección contra
+ataques malignos.
+Siempre que un agente EXPLORADOR LOBO
+amigo (salvo LOBO FENRISIANO) que esté
+completamente dentro de tu TORMENTA
+combata o contraataque, en el paso de Resolver
+dados de ataque, puedes restar 1 al daño que
+sufra por uno de los éxitos normales.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

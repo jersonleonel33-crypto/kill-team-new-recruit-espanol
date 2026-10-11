@@ -1,0 +1,774 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" name="Marines de la Plaga" id="5907-ff9e-cba1-354b" battleScribeVersion="2.03" gameSystemId="c521-ad27-44df-f959" gameSystemRevision="10" library="false" revision="12" type="catalogue">
+  <comment>January '26</comment>
+  <categoryEntries>
+    <categoryEntry name="MARINE DE PLAGA" id="c701-080a-247e-7fb0" hidden="false" />
+    <categoryEntry name="CAMPEÓN MARINE DE PLAGA" id="298e-7041-bc7f-6a7e" hidden="false" />
+    <categoryEntry name="CONJURAPLAGAS MALIGNO" id="0c7f-4359-9be5-7e2b" hidden="false" />
+    <categoryEntry name="BOMBARDERO MARINE DE PLAGA" id="89cb-a7d7-d592-f467" hidden="false" />
+    <categoryEntry name="LUCHADOR MARINE DE PLAGA" id="8776-233b-6452-b542" hidden="false" />
+    <categoryEntry name="Portador del icono" id="492e-b7aa-d777-d719" hidden="false" />
+  </categoryEntries>
+  <entryLinks>
+    <entryLink name="Equipment Reference" id="8910-0ccb-1db3-5aa7" hidden="false" import="true" targetId="e004-a0c4-8a03-0b8b" type="selectionEntry">
+      <entryLinks>
+        <entryLink name="Equipo de facción" id="dc02-adbd-369d-0dba" hidden="false" import="true" targetId="70a2-647f-5777-6eed" type="selectionEntryGroup" />
+      </entryLinks>
+    </entryLink>
+  </entryLinks>
+  <forceEntries>
+    <forceEntry name="Comando Marines de la Plaga" id="3e21-75a2-d221-36e3" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Reference" id="3194-094a-5645-a921" hidden="false" targetId="b318-a8d7-2d38-99a3" />
+        <categoryLink name="Configuration" id="5748-1cf7-8e78-a4d4" hidden="false" targetId="874b-0390-e5e2-1daa" />
+        <categoryLink name="Leader" id="5f02-51cc-57c3-3e14" hidden="false" targetId="d999-8cad-8145-4efe" />
+        <categoryLink name="Operative" id="2a56-ce5c-b7ca-8a5a" hidden="false" targetId="cf83-4496-b58e-ac82">
+          <constraints>
+            <constraint id="b0de-13b4-0618-92cf-min" field="selections" scope="force" shared="true" type="min" value="5" />
+            <constraint id="b0de-13b4-0618-92cf-max" field="selections" scope="force" shared="true" type="max" value="5" />
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <rules>
+    <rule name="ASTARTES" id="4166-d3e8-8b71-6641" hidden="false">
+      <description>Los Marines Espaciales son transhumanos mejorados 
+genéticamente creados con un único propósito: la guerra.
+Durante la activación de cada agente MARINE 
+DE PLAGA amigo, este puede realizar o bien 
+dos acciones de Combatir, o bien dos acciones 
+de Disparar. Si son dos acciones de Disparar, 
+debe seleccionarse una pistola bólter, un bólter 
+o un arma PSÍQUICA para al menos una de ellas. 
+No puedes elegir la misma arma a distancia 
+PSÍQUICA más de una vez por activación.
+Cada agente MARINE DE PLAGA amigo puede 
+reaccionar sin importar cuál sea su orden.</description>
+    </rule>
+    <rule name="ASQUEROSAMENTE RESISTENTES" id="5adf-c927-a6a5-f996" hidden="false">
+      <description>Los seguidores de Nurgle poseen una resistencia extrema 
+contra balas y golpes, pues sus horribles cuerpos están 
+repletos de muerte, enfermedades y descomposición.
+Siempre que un dado de ataque inflija un daño 
+de 3 o más a un agente MARINE DE PLAGA 
+amigo, tira 1D6: con 4+, resta 1 al daño infligido.</description>
+    </rule>
+  </rules>
+  <selectionEntries>
+    <selectionEntry name="CAMPEÓN MARINE DE PLAGA" id="ea9d-4f9c-d6c5-0c1a" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="MARINE DE PLAGA" id="be60-a10f-2794-4187" hidden="false" primary="false" targetId="c701-080a-247e-7fb0" />
+        <categoryLink name="Leader" id="cf8b-b419-9e6d-57c2" hidden="false" primary="true" targetId="d999-8cad-8145-4efe" />
+        <categoryLink name="Chaos" id="6b34-6799-ac9c-b5de" hidden="false" primary="false" targetId="13fe-a54f-f2f2-f034" />
+        <categoryLink name="Heretic Astartes" id="52d0-1100-e328-4897" hidden="false" primary="false" targetId="3873-6aee-38ef-34cd" />
+        <categoryLink name="CAMPEÓN MARINE DE PLAGA" id="6c14-6185-9881-2e78" hidden="false" primary="false" targetId="298e-7041-bc7f-6a7e" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="dee9-8bf4-4283-d92f-min" field="selections" scope="3e21-75a2-d221-36e3" shared="true" type="min" value="1" />
+        <constraint id="dee9-8bf4-4283-d92f-max" field="selections" scope="3e21-75a2-d221-36e3" shared="true" type="max" value="1" />
+      </constraints>
+      <profiles>
+        <profile name="CAMPEÓN MARINE DE PLAGA" id="ae84-e453-b2d3-d8fa" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">5"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">15</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Bendición del Abuelo" id="bfdb-6095-48be-670d" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Siempre que un agente enemigo que 
+tenga 1 de tus fichas de veneno pierda alguna herida a 7" o 
+menos de este agente, este agente recupera tantas heridas 
+como las perdidas por ese agente (hasta un máximo de 3 
+heridas perdidas por punto de inflexión, y solo si este agente no 
+está incapacitado).
+*</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Pistola de plasma" id="c5f1-7365-0366-2613" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="16db-e8c7-1b60-35b4-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="16db-e8c7-1b60-35b4-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Range x" id="bc9f-63b7-1b87-8dc0" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+            <infoLink name="Hot" id="5a08-2415-1b36-9bb5" hidden="false" targetId="ec63-40e6-6282-8420" type="rule" />
+            <infoLink name="Lethal x+" id="1c92-3451-ead1-e4ef" hidden="false" targetId="8b97-e3e3-2857-817a" type="rule" />
+            <infoLink name="Piercing x" id="b16e-a5b7-abf5-85af" hidden="false" targetId="4c07-2cb3-1417-cbb7" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⌖ Pistola de plasma (normal)" id="9b92-9783-928a-e2dd" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8", Penetración 1</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="⌖ Pistola de plasma (sobrecarga)" id="a4e0-e4cd-462d-667c" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8", Letal 5+, Penetración 1, Sobrecalentamiento</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Espada de plaga" id="45f6-8061-def6-a20a" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="8c6d-7a5b-35c2-0425-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="8c6d-7a5b-35c2-0425-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Severe" id="c92e-7e72-2367-58b8" hidden="false" targetId="721c-65bf-dfb7-8fa2" type="rule" />
+            <infoLink name="*VENENO" id="d7e1-1d3b-8dcb-fb36" hidden="false" targetId="274d-df2b-3a9b-ae57" type="rule" />
+            <infoLink name="*Tóxica" id="4516-23b0-28c8-fa33" hidden="false" targetId="9506-a75a-7ca1-039a" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⚔ Espada de plaga" id="e64f-95cc-734f-b57e" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Severa, Tóxica*, Veneno*</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="CONJURAPLAGAS MALIGNO" id="6709-b9bf-2551-9582" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="MARINE DE PLAGA" id="4873-1903-1340-981f" hidden="false" primary="false" targetId="c701-080a-247e-7fb0" />
+        <categoryLink name="Operative" id="a39f-73cb-259f-eb85" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="Chaos" id="4fba-6267-374c-5dd8" hidden="false" primary="false" targetId="13fe-a54f-f2f2-f034" />
+        <categoryLink name="Heretic Astartes" id="0c51-9623-b6aa-0429" hidden="false" primary="false" targetId="3873-6aee-38ef-34cd" />
+        <categoryLink name="Psyker" id="d900-5160-14db-0b14" hidden="false" primary="false" targetId="6f95-9b94-d661-3243" />
+        <categoryLink name="CONJURAPLAGAS MALIGNO" id="9d35-3985-32ce-6461" hidden="false" primary="false" targetId="0c7f-4359-9be5-7e2b" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="8d7b-6e44-816f-a552" field="selections" scope="3e21-75a2-d221-36e3" shared="true" type="max" value="1" />
+      </constraints>
+      <profiles>
+        <profile name="CONJURAPLAGAS MALIGNO" id="ea81-9e91-2d20-482b" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">5"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">14</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="MIASMA VENENOSO (1PA)" id="df06-09df-43f7-6018" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">PSÍQUICA. Elige un agente enemigo a 7" o menos de este 
+agente y visible para él, o un agente enemigo que sea un 
+blanco válido para este agente. Ese agente enemigo obtiene 
+una de tus fichas de Veneno (si no tiene una ya). Si ya tiene 
+una, en su lugar inflige 3 daños a ese agente enemigo.
+ Este agente no puede realizar esta acción si está en la zona 
+de control de un agente enemigo.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="VITALIDAD PÚTRIDA (1PA)" id="e2b6-713f-79e8-cb76" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">PSÍQUICA. Elige un agente amigo a 3" o menos de este 
+agente y visible para él, y luego tira 2D6: si el resultado es 
+7, el agente elegido recupera 7 heridas perdidas; en caso 
+contrario, el agente elegido recupera tantas heridas perdidas 
+como el resultado más elevado entre ambos D6.
+ Este agente no puede realizar esta acción si está en la zona 
+de control de un agente enemigo, ni más de una vez por 
+punto de inflexión.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Entropía" id="8386-a799-80bc-eed0" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="268b-ba5d-dbb1-a8cd-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="268b-ba5d-dbb1-a8cd-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Range x" id="d85e-6689-f419-090e" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+            <infoLink name="Saturate" id="d84d-8822-b14a-23d1" hidden="false" targetId="3c10-2d52-d1ac-b0f6" type="rule" />
+            <infoLink name="Severe" id="16ed-d312-1429-1824" hidden="false" targetId="721c-65bf-dfb7-8fa2" type="rule" />
+            <infoLink name="*VENENO" id="8d0a-e3fa-93fa-e789" hidden="false" targetId="274d-df2b-3a9b-ae57" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⌖ Entropía" id="9707-fe9c-cf29-9c1d" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/7</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">PSÍQUICA, Alcance 7", Saturación, Severa, Veneno*</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Viento de plaga" id="cecf-a18b-fa44-8314" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="8acf-0398-412e-7f1a-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="8acf-0398-412e-7f1a-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="*VENENO" id="3edb-f455-7554-f9a9" hidden="false" targetId="274d-df2b-3a9b-ae57" type="rule" />
+            <infoLink name="Torrent x" id="f0ad-f03d-ebfb-c8ee" hidden="false" targetId="ad45-b4bb-1345-e4f9" type="rule" />
+            <infoLink name="Saturate" id="1aa0-66ab-de6e-5d65" hidden="false" targetId="3c10-2d52-d1ac-b0f6" type="rule" />
+            <infoLink name="Severe" id="7a94-902b-03bc-4fa7" hidden="false" targetId="721c-65bf-dfb7-8fa2" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⌖ Viento de plaga" id="1ace-aaa7-426a-9596" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">6</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/3</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">PSÍQUICA, Ráfaga 1", Saturación, Severa, Veneno*</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Báculo corrompido" id="2e07-0fa7-d200-d83d" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="2ff3-b663-7032-f3ac-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="2ff3-b663-7032-f3ac-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="*VENENO" id="0c2c-4f8c-6450-78c7" hidden="false" targetId="274d-df2b-3a9b-ae57" type="rule" />
+            <infoLink name="Severe" id="fc82-227b-ce69-cccf" hidden="false" targetId="721c-65bf-dfb7-8fa2" type="rule" />
+            <infoLink name="Shock" id="e9c2-f609-eb88-ebbd" hidden="false" targetId="c544-8d4c-4109-4eec" type="rule" />
+            <infoLink name="Stun" id="9339-d569-69ee-678c" hidden="false" targetId="5ae2-3f29-8635-fd02" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⚔ Báculo corrompido" id="92c2-3bc7-2834-4025" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">PSÍQUICA, Aturdidora, Choque, Severa, Veneno*</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="BOMBARDERO MARINE DE PLAGA" id="e286-065f-d715-2461" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="MARINE DE PLAGA" id="b645-271e-47f4-fc1c" hidden="false" primary="false" targetId="c701-080a-247e-7fb0" />
+        <categoryLink name="Operative" id="d143-a814-a254-006f" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="Chaos" id="9cc7-0057-0737-abb8" hidden="false" primary="false" targetId="13fe-a54f-f2f2-f034" />
+        <categoryLink name="Heretic Astartes" id="4586-b603-bb94-6b59" hidden="false" primary="false" targetId="3873-6aee-38ef-34cd" />
+        <categoryLink name="BOMBARDERO MARINE DE PLAGA" id="0ca2-271d-b90e-7bbc" hidden="false" primary="false" targetId="89cb-a7d7-d592-f467" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="29e5-4611-7663-e363" field="selections" scope="3e21-75a2-d221-36e3" shared="true" type="max" value="1" />
+      </constraints>
+      <entryLinks>
+        <entryLink name="Puños" id="6bf5-befc-06af-25cc" hidden="false" import="true" targetId="f85b-67e3-7527-a9a6" type="selectionEntry">
+          <constraints>
+            <constraint id="9b5f-1698-adc0-32da-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="9b5f-1698-adc0-32da-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+        <entryLink name="Bólter" id="65e3-7791-a73d-584a" hidden="false" import="true" targetId="6e2e-2437-8650-69de" type="selectionEntry">
+          <constraints>
+            <constraint id="fc3f-2469-ee68-7a7c-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="fc3f-2469-ee68-7a7c-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="BOMBARDERO MARINE DE PLAGA" id="ace1-3179-05b4-af78" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">5"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">14</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Granadero" id="a3cb-ead2-b47d-206b" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="522b-4b5c-6f7a-aa0b-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="522b-4b5c-6f7a-aa0b-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="*Tóxica" id="dc18-06af-2a8b-0298" hidden="false" targetId="9506-a75a-7ca1-039a" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="Granadero" id="df77-b351-63db-00a4" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Ability" typeId="3467-0678-083e-eb50">Este agente puede usar granadas de plaga y 
+perforantes (ver equipo de facción y universal). Hacer esto 
+no cuenta de cara a los usos limitados que tengas (es decir, 
+si también seleccionas esas granadas como equipo para 
+otros agentes). Cuando hace tal cosa, mejora en 1 el atributo 
+Impactar de esa arma y las granadas de plaga tienen la regla 
+de arma Tóxica (ver debajo).
+*</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="LUCHADOR MARINE DE PLAGA" id="58be-4f15-ca50-8870" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="MARINE DE PLAGA" id="0a9f-70ae-b4a5-b142" hidden="false" primary="false" targetId="c701-080a-247e-7fb0" />
+        <categoryLink name="Operative" id="f76b-7caa-edd6-97b9" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="Chaos" id="43d6-79a4-14f5-ca6a" hidden="false" primary="false" targetId="13fe-a54f-f2f2-f034" />
+        <categoryLink name="Heretic Astartes" id="013d-b8b3-2aa5-bbdb" hidden="false" primary="false" targetId="3873-6aee-38ef-34cd" />
+        <categoryLink name="LUCHADOR MARINE DE PLAGA" id="d138-ae1d-45ca-b382" hidden="false" primary="false" targetId="8776-233b-6452-b542" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="c882-0566-0586-46a2" field="selections" scope="3e21-75a2-d221-36e3" shared="true" type="max" value="1" />
+      </constraints>
+      <entryLinks>
+        <entryLink name="Pistola bólter" id="e07f-9a04-ca82-1087" hidden="false" import="true" targetId="9e27-8a81-f421-b75e" type="selectionEntry">
+          <constraints>
+            <constraint id="aa29-fc4e-c466-670d-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="aa29-fc4e-c466-670d-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="LUCHADOR MARINE DE PLAGA" id="50f3-c6c1-1b31-b230" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">5"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">14</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="MAYAL GIRATORIO (1PA)" id="8cb5-c7dc-dff1-a89c" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Inflige 1D3+2 daños a cada otro agente que esté a 2" o 
+menos de este agente y sea visible para él. Tira por separado 
+por cada uno: si se trata de un agente enemigo y el resultado 
+del D3 es 3, ese agente enemigo obtiene además una de tus 
+fichas de Veneno (si no tiene una ya).
+ A efectos de las restricciones de acciones y la regla de 
+facción Astartes, esta acción se trata como una acción 
+de Combatir. Este agente no puede realizar esta acción 
+mientras tenga una orden de ocultarse.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Mayal de corrupción" id="f83c-a2e6-c910-5690" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="4a96-f9ee-2910-528f-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="4a96-f9ee-2910-528f-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Brutal" id="2e71-b558-7412-45fb" hidden="false" targetId="5151-5449-ca81-70ed" type="rule" />
+            <infoLink name="Severe" id="9904-0b37-b26f-a3da" hidden="false" targetId="721c-65bf-dfb7-8fa2" type="rule" />
+            <infoLink name="Shock" id="e037-e7fc-b58e-94fd" hidden="false" targetId="c544-8d4c-4109-4eec" type="rule" />
+            <infoLink name="*VENENO" id="ea9a-b851-45da-cda8" hidden="false" targetId="274d-df2b-3a9b-ae57" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⚔ Mayal de corrupción" id="64d7-599e-b28f-d3cd" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Brutal, Choque, Severa, Veneno*</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="PORTAICONO MARINE DE PLAGA" id="c3fe-b40b-c529-cd2f" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="MARINE DE PLAGA" id="d6d3-b01f-34c1-0138" hidden="false" primary="false" targetId="c701-080a-247e-7fb0" />
+        <categoryLink name="Operative" id="b414-b21f-7a4a-7b9e" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="Chaos" id="63e4-f29e-fde8-8745" hidden="false" primary="false" targetId="13fe-a54f-f2f2-f034" />
+        <categoryLink name="Heretic Astartes" id="dfd8-3c2e-4791-8f5d" hidden="false" primary="false" targetId="3873-6aee-38ef-34cd" />
+        <categoryLink name="Portador del icono" id="2c9c-3804-2ebe-e664" hidden="false" primary="false" targetId="492e-b7aa-d777-d719" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="cffd-4d5b-3fab-c5e9" field="selections" scope="3e21-75a2-d221-36e3" shared="true" type="max" value="1" />
+      </constraints>
+      <entryLinks>
+        <entryLink name="Cuchillo de plaga" id="ad11-3fd3-e05a-a2b6" hidden="false" import="true" targetId="7258-b1df-a1df-0e15" type="selectionEntry">
+          <constraints>
+            <constraint id="3f17-442c-df70-0b86-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="3f17-442c-df70-0b86-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="PORTAICONO MARINE DE PLAGA" id="acce-bc8a-fa8a-76f3" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">5"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">14</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Portador del icono" id="ece6-c4d9-4675-9599" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Al determinar el control de un marcador, 
+trata el atributo LPA de este agente como si fuese 1 mayor de 
+lo que es. Ten en cuenta que esto no es un cambio al atributo 
+LPA, por lo que cualquier cambio es acumulativo con esto.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Icono del contagio" id="820c-18d9-6edd-c3cd" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Si este agente está en el territorio del 
+oponente, el ardid de estrategia Contagio te cuesta 0PM.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Pistola bólter" id="ea0e-f6ee-c2ae-8df7" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="26fd-734a-8ef3-58bc-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="26fd-734a-8ef3-58bc-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Range x" id="275e-1d16-7dce-b73a" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⌖ Pistola bólter" id="1cd9-4791-2204-28ac" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8"</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="COMBATIENTE MARINE DE PLAGA" id="7103-7a28-0737-df37" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="MARINE DE PLAGA" id="b935-0948-451f-fea0" hidden="false" primary="false" targetId="c701-080a-247e-7fb0" />
+        <categoryLink name="Operative" id="92df-76b1-f27b-dab7" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="Chaos" id="5663-b0ad-2c95-60b9" hidden="false" primary="false" targetId="13fe-a54f-f2f2-f034" />
+        <categoryLink name="Heretic Astartes" id="0428-c877-64ab-fcac" hidden="false" primary="false" targetId="3873-6aee-38ef-34cd" />
+        <categoryLink name="Warrior" id="3b7b-22f7-4992-11dc" hidden="false" primary="false" targetId="2b69-f2aa-bd5c-70b2" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="a5dc-4168-61e8-107b" field="selections" scope="3e21-75a2-d221-36e3" shared="true" type="max" value="1" />
+      </constraints>
+      <entryLinks>
+        <entryLink name="Cuchillo de plaga" id="b271-b8b5-b69c-e4cf" hidden="false" import="true" targetId="7258-b1df-a1df-0e15" type="selectionEntry">
+          <constraints>
+            <constraint id="e8d2-1213-aac9-4527-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="e8d2-1213-aac9-4527-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+        <entryLink name="Bólter" id="36ed-3501-0c33-e8d1" hidden="false" import="true" targetId="6e2e-2437-8650-69de" type="selectionEntry">
+          <constraints>
+            <constraint id="4add-9403-1850-9083-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="4add-9403-1850-9083-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="COMBATIENTE MARINE DE PLAGA" id="5092-3603-9d39-58b9" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">5"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">14</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Fortaleza repugnante" id="d559-b31d-30e5-6efc" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Siempre que un agente dispara contra 
+este agente, los resultados de 5+ en los dados de defensa son 
+éxitos críticos.
+*</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="TIRADOR PESADO MARINE DE PLAGA" id="0578-8e6d-6a33-7830" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="MARINE DE PLAGA" id="400a-1119-3be5-1cb3" hidden="false" primary="false" targetId="c701-080a-247e-7fb0" />
+        <categoryLink name="Operative" id="723d-d058-374a-a0d9" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="Chaos" id="b611-b277-2ef5-33ff" hidden="false" primary="false" targetId="13fe-a54f-f2f2-f034" />
+        <categoryLink name="Heretic Astartes" id="0dd3-f3d3-0352-aa65" hidden="false" primary="false" targetId="3873-6aee-38ef-34cd" />
+        <categoryLink name="Heavy Gunner" id="3308-e796-6147-2aa5" hidden="false" primary="false" targetId="73b9-55cd-a334-d65c" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="fc48-1eb7-9de8-ace2" field="selections" scope="3e21-75a2-d221-36e3" shared="true" type="max" value="1" />
+      </constraints>
+      <entryLinks>
+        <entryLink name="Puños" id="ff00-2724-2e63-1542" hidden="false" import="true" targetId="f85b-67e3-7527-a9a6" type="selectionEntry">
+          <constraints>
+            <constraint id="0510-ca04-9f27-6f1c-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="0510-ca04-9f27-6f1c-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+        <entryLink name="Pistola bólter" id="84c5-9e2d-8c61-91ce" hidden="false" import="true" targetId="9e27-8a81-f421-b75e" type="selectionEntry">
+          <constraints>
+            <constraint id="9c68-c3ba-c29e-f500-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="9c68-c3ba-c29e-f500-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="TIRADOR PESADO MARINE DE PLAGA" id="f05f-a161-28ed-ad50" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">5"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">14</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Regurgitador de plaga" id="245e-aa1d-2ddc-2829" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="6d5f-9aa6-9920-e3ab-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="6d5f-9aa6-9920-e3ab-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Range x" id="9966-f2ce-5575-5af9" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+            <infoLink name="Saturate" id="dd02-c07e-6bc0-60b4" hidden="false" targetId="3c10-2d52-d1ac-b0f6" type="rule" />
+            <infoLink name="Severe" id="1e82-d40c-42fa-e76f" hidden="false" targetId="721c-65bf-dfb7-8fa2" type="rule" />
+            <infoLink name="Torrent x" id="e78a-fbfb-9450-e556" hidden="false" targetId="ad45-b4bb-1345-e4f9" type="rule" />
+            <infoLink name="*VENENO" id="0d9d-193f-8593-e0a6" hidden="false" targetId="274d-df2b-3a9b-ae57" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⌖ Regurgitador de plaga" id="4491-6a9f-32a2-359b" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">2+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/3</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 7", Ráfaga 2", Saturación, Severa, Veneno*</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedRules>
+    <rule name="*VENENO" id="274d-df2b-3a9b-ae57" hidden="false">
+      <description>En el paso Resolver dados de ataque, si 
+infliges algún daño con éxito, el agente contra el 
+que se usa esta arma (salvo agentes MARINE DE 
+PLAGA amigos) recibe 1 de tus fichas de veneno 
+(si no tiene una ya). Siempre que un agente que 
+tenga una de tus fichas de Veneno sea activado, 
+inflígele 1 daño.</description>
+    </rule>
+    <rule name="*Tóxica" id="9506-a75a-7ca1-039a" hidden="false">
+      <description>Siempre que este agente usa esta arma contra un 
+agente enemigo que tenía una de tus fichas de Veneno, 
+al inicio de esa acción, suma 1 a ambos atributos de Daño de 
+esta arma.</description>
+    </rule>
+  </sharedRules>
+  <sharedSelectionEntries>
+    <selectionEntry name="Puños" id="f85b-67e3-7527-a9a6" hidden="false" import="true" type="upgrade">
+      <profiles>
+        <profile name="⚔ Puños" id="75ce-bea9-3459-d4ac" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Cuchillo de plaga" id="7258-b1df-a1df-0e15" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Severe" id="18e3-5c85-9fc4-66e3" hidden="false" targetId="721c-65bf-dfb7-8fa2" type="rule" />
+        <infoLink name="*VENENO" id="ad29-ec9f-cdcc-bfb5" hidden="false" targetId="274d-df2b-3a9b-ae57" type="rule" />
+      </infoLinks>
+      <profiles>
+        <profile name="⚔ Cuchillo de plaga" id="3648-4eb4-e096-9dd5" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Severa, Veneno*</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier field="6056-b741-7cf3-5b43" type="set" value="5">
+              <conditions>
+                <condition childId="492e-b7aa-d777-d719" field="selections" scope="root-entry" shared="true" type="instanceOf" value="1" />
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Bólter" id="6e2e-2437-8650-69de" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="*Tóxica" id="e08a-7168-f00d-8332" hidden="false" targetId="9506-a75a-7ca1-039a" type="rule">
+          <modifiers>
+            <modifier field="hidden" type="set" value="true">
+              <conditions>
+                <condition childId="2b69-f2aa-bd5c-70b2" field="selections" scope="root-entry" shared="true" type="notInstanceOf" value="1" />
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <profiles>
+        <profile name="⌖ Bólter" id="3517-93fe-621f-7362" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier field="05b8-00a1-69af-14b6" type="set" value="Toxic*">
+              <conditions>
+                <condition childId="2b69-f2aa-bd5c-70b2" field="selections" scope="root-entry" shared="true" type="instanceOf" value="1" />
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Pistola bólter" id="9e27-8a81-f421-b75e" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Range x" id="b040-a9bb-af8c-ea6c" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+      </infoLinks>
+      <profiles>
+        <profile name="⌖ Pistola bólter" id="b2a9-582c-c4cc-6c94" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8"</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Equipo de facción" id="70a2-647f-5777-6eed" hidden="false">
+      <selectionEntries>
+        <selectionEntry name="CAMPANAS DE LA PLAGA" id="8ce7-0d85-2f14-d50a" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="b2b1-1642-7984-0525" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <profiles>
+            <profile name="CAMPANAS DE LA PLAGA" id="38e6-0dc3-83d4-38a0" hidden="false" typeId="0d20-7175-9ecb-8bde" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">MARINES DE PLAGA
+EQUIPO DE FACCIÓN
+CAMPANAS DE LA PLAGA
+Cuando suenan las campanas de la plaga, la Guardia de la
+Muerte se ve imbuida de energía corruptora, que potencia
+su resistencia impía hasta niveles extraordinarios.
+Puedes ignorar cualquier cambio a los atributos
+de agentes MARINE DE PLAGA amigos por
+estar lesionados (incluyendo los atributos de
+sus armas).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="VENTILACIÓN DE VENENO" id="befa-4338-c3c6-568a" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="d702-ff1a-bc0d-ccf9" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <profiles>
+            <profile name="VENTILACIÓN DE VENENO" id="7ef8-645a-90bd-3287" hidden="false" typeId="0d20-7175-9ecb-8bde" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">MARINES DE PLAGA
+EQUIPO DE FACCIÓN
+VENTILACIÓN DE VENENO
+Al activar los respiraderos de sus servoarmaduras, los
+Marines de Plaga pueden liberar nubes de vapores
+enfermizos que obstruyen los pulmones de los
+enemigos cercanos.
+Siempre que un agente enemigo se active a 3" o
+menos de algún agente MARINE DE PLAGA amigo:
+• Si ese agente enemigo no tiene ninguna de
+tus fichas de venenos, tira 1D3. Con un 3,
+recibe una.
+• Si ese agente enemigo tiene alguna de tus
+fichas de veneno, inglígele 1D3 daños (en
+lugar de 1).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="MUNICIÓN DE PLAGA" id="d8fc-15b3-5a12-8179" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="aae6-7156-9374-2958" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Severe" id="f31d-c6be-9955-1ee7" hidden="false" targetId="721c-65bf-dfb7-8fa2" type="rule" />
+            <infoLink name="*VENENO" id="cc82-8a14-26a7-2935" hidden="false" targetId="274d-df2b-3a9b-ae57" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="MUNICIÓN DE PLAGA" id="aed4-bd1e-15de-cda7" hidden="false" typeId="0d20-7175-9ecb-8bde" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">MARINES DE PLAGA
+EQUIPO DE FACCIÓN
+MUNICIÓN DE PLAGA
+Virulentas toxinas supuran de estos proyectiles,
+que infectan con enfermedades mortíferas a
+quienes alcanzan.
+Los bólteres y pistolas bólter de los agentes
+MARINE DE PLAGA amigos tienen las reglas
+de armas Severa y Veneno.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="GRANADAS DE PLAGA" id="fc81-4712-dc16-536d" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="69dc-fba4-3135-c3e0" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Range x" id="d90f-8044-8d7d-f4a1" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+            <infoLink name="Blast x" id="b33b-0157-5e8e-f732" hidden="false" targetId="0d74-0977-b481-bd13" type="rule" />
+            <infoLink name="Saturate" id="897c-6149-86a6-97f9" hidden="false" targetId="3c10-2d52-d1ac-b0f6" type="rule" />
+            <infoLink name="Severe" id="6814-c313-b1db-1f05" hidden="false" targetId="721c-65bf-dfb7-8fa2" type="rule" />
+            <infoLink name="*VENENO" id="5475-763b-ffb8-1fa1" hidden="false" targetId="274d-df2b-3a9b-ae57" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="GRANADAS DE PLAGA" id="d0be-5bd1-1b4f-bf35" hidden="false" typeId="0d20-7175-9ecb-8bde" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">MARINES DE PLAGA
+EQUIPO DE FACCIÓN
+GRANADAS DE PLAGA
+Estos dispositivos están repletos de explosivos, esquirlas
+de metal cortante y patógenos letales que envenenan a
+los desdichados que sobrevivan al estallido inicial.
+Los agentes MARINE DE PLAGA amigos tienen
+la siguiente arma a distancia (no puedes elegirla
+para su uso más de dos veces durante la batalla):
+NOMBRE ATAQ. IMP. DAÑO
+Granada de plaga 4 4+ 2/4
+REGLAS DE ARMAS
+Alcance 6", Área 2", Saturación, Severa, Veneno*</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="⌖ Granada de plaga" id="04da-1246-13f8-def0" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 6", Área 2", Saturación, Severa, Veneno*</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

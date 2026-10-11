@@ -1,0 +1,750 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" name="Círculo Canóptico" id="0e19-7ab2-c4a6-76e7" battleScribeVersion="2.03" gameSystemId="c521-ad27-44df-f959" gameSystemRevision="10" library="false" revision="7" type="catalogue">
+  <categoryEntries>
+    <categoryEntry name="Círculo Canóptico" id="66ba-b080-7363-3743" hidden="false" />
+    <categoryEntry name="Necrón" id="b99b-676b-f5d9-ed8a" hidden="false" />
+    <categoryEntry name="TREPATUMBAS CANÓPTICO" id="9096-ce1f-fcf6-2c87" hidden="false" />
+    <categoryEntry name="Canóptico" id="bddb-af4c-c7aa-fd62" hidden="false" />
+    <categoryEntry name="GEOMANTE" id="c3aa-ed5c-8a75-27c1" hidden="false" />
+    <categoryEntry name="ACELERADOR MACROCITO CANÓPTICO" id="9728-f3be-fec1-1492" hidden="false" />
+    <categoryEntry name="REANIMADOR MACROCITO CANÓPTICO" id="6cbc-3812-a829-e8c5" hidden="false" />
+    <categoryEntry name="Criptecnólogo" id="8bf8-11d8-18f5-d072" hidden="false" />
+    <categoryEntry name="Macrócito" id="c39e-a2c8-542b-4c8c" hidden="false" />
+  </categoryEntries>
+  <entryLinks>
+    <entryLink name="Equipment Reference" id="30b5-01a7-84c6-da0e" hidden="false" import="true" targetId="e004-a0c4-8a03-0b8b" type="selectionEntry">
+      <entryLinks>
+        <entryLink name="Equipo de facción" id="ae85-cb71-cf32-2f09" hidden="false" import="true" targetId="49d4-1642-6ac5-6e1f" type="selectionEntryGroup" />
+      </entryLinks>
+    </entryLink>
+  </entryLinks>
+  <forceEntries>
+    <forceEntry name="Kill Team — Español" id="51a4-6a68-395e-cffe" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Leader" id="6150-0443-1a9f-4be1" hidden="false" targetId="d999-8cad-8145-4efe" />
+        <categoryLink name="Operative" id="dd42-e8e3-2bd1-7b2f" hidden="false" targetId="cf83-4496-b58e-ac82">
+          <constraints>
+            <constraint id="bb63-484e-8d3f-2b14-min" field="selections" includeChildSelections="true" scope="force" shared="true" type="min" value="7" />
+            <constraint id="bb63-484e-8d3f-2b14-max" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="7" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Configuration" id="226b-f5bf-a0b3-9628" hidden="false" targetId="874b-0390-e5e2-1daa" />
+        <categoryLink name="Reference" id="7355-ab0e-376c-94e9" hidden="false" targetId="b318-a8d7-2d38-99a3" />
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <rules>
+    <rule name="Matriz de nodos de obeliscos" id="e5b5-2e7e-84bc-2338" hidden="false">
+      <description>CÍRCULO CANÓPTICO
+REGLA DE FACCIÓN
+MATRIZ DE NODOS DE OBELISCOS
+Los nodos de obeliscos son concentraciones de tecnología necrona, núcleos de energía y centros de datos. Ya
+sea alzados de sus antiguos sepulcros, formados a partir
+de materia local reestructurada o transportados desde
+otra dimensión, estos nodos alimentan a un Criptecnólogo y a sus siervos. Integrados en una matriz de energía,
+ayudan al Criptecnólogo y entorpecen a sus enemigos.
+Como GAMBITO ESTRATÉGICO en el primer punto de
+inflexión, coloca tus tres marcadores de NODO DE OBE-
+LISCOS completamente dentro de tu territorio. Como
+GAMBITO ESTRATÉGICO en cada punto de inflexión
+tras el primero, puedes mover cada uno de tus marcadores NODO DE OBELISCOS hasta 3" en horizontal.
+Tus marcadores de NODO DE OBELISCOS controlan otros marcadores a 1" o menos de ellos que
+no estén disputados por agentes enemigos (para
+este propósito, trata tus marcadores de NODO DE
+OBELISCOS como agentes amigos). Si más de un
+jugador fuera a usar sus marcadores de NODO DE
+OBELISCOS para controlar el mismo marcador, ningún marcador de NODO DE OBELISCOS lo controla.
+CONTINÚA EN EL REVERSO</description>
+    </rule>
+  </rules>
+  <selectionEntries>
+    <selectionEntry name="REANIMADOR MACROCITO CANÓPTICO" id="fc55-f008-0d1f-bf04" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Círculo Canóptico" id="5fb6-b4c4-69ba-bc84" hidden="false" primary="false" targetId="66ba-b080-7363-3743" />
+        <categoryLink name="Necrón" id="cee8-3d67-c9fc-7f02" hidden="false" primary="false" targetId="b99b-676b-f5d9-ed8a" />
+        <categoryLink name="Operative" id="d52b-1013-59d3-2c87" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="REANIMADOR MACROCITO CANÓPTICO" id="05cf-6a57-5630-2bf4" hidden="false" primary="false" targetId="6cbc-3812-a829-e8c5" />
+        <categoryLink name="Canóptico" id="eb6e-6b8a-3188-083d" hidden="false" primary="false" targetId="bddb-af4c-c7aa-fd62" />
+        <categoryLink name="Macrócito" id="08db-eb42-2361-6e81" hidden="false" primary="false" targetId="c39e-a2c8-542b-4c8c" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="a4c0-f9ec-9a63-767c-min" field="selections" scope="51a4-6a68-395e-cffe" shared="true" type="min" value="1" />
+        <constraint id="a4c0-f9ec-9a63-767c-max" field="selections" scope="51a4-6a68-395e-cffe" shared="true" type="max" value="1" />
+      </constraints>
+      <profiles>
+        <profile name="REANIMADOR MACROCITO CANÓPTICO" id="0e5a-8e75-cf8f-4015" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">7"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">4+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">7</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Reanimar" id="31e3-69a5-311c-efe3" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Una vez por punto de inflexión, cuando otro agente 
+CÍRCULO CANÓPTICO amigo vaya a quedar incapacitado, si 
+está a 6" o menos de este agente y visible para él, o si este agente 
+y ese otro agente amigo están en tu MATRIZ DE NODOS DE 
+OBELISCOS, puedes usar esta regla, siempre que ni este ni ese 
+agente estén en la zona de control de un agente enemigo. Si lo 
+haces, ese otro agente amigo no resulta incapacitado, le queda 1 
+herida restante y no puede quedar incapacitado durante el resto de 
+la acción. Después de esa acción, ese agente amigo puede realizar 
+de inmediato una acción libre de Correr, pero debe terminar 
+esa acción en la zona de control de este agente o dentro de tu 
+MATRIZ DE NODOS DE OBELISCOS. Resta 1 a los atributos 
+LPA de este agente y ese otro agente hasta el final de sus siguientes 
+activaciones respectivas, y si esta regla se usó durante la activación 
+de ese agente amigo, dicha activación termina. No puedes usar 
+esta regla si este agente resulta incapacitado, o si es una acción de</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="HAZ DE NANOESCARABAJOS (1PA)" id="799e-a504-6501-e002" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Elige un agente CÍRCULO CANÓPTICO a 6" o menos 
+de este agente y visible para él. Como alternativa, si este 
+agente se encuentra en tu MATRIZ DE NODOS DE 
+OBELISCOS, puedes elegir otro agente CÍRCULO 
+CANÓPTICO amigo distinto en tu MATRIZ DE NODOS 
+DE OBELISCOS. El agente elegido recupera hasta 3D3 
+heridas perdidas. No puede ser un agente sobre el que 
+se haya usado la regla Reanimar durante este punto de 
+inflexión.
+ Este agente no puede realizar esta acción si está en la zona 
+de control de algún agente enemigo, ni más de 1 vez por 
+punto de inflexión.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Rayo atomizador" id="c4df-a146-d2f3-7c0e" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="3ca7-52d5-c24b-e3fb-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="3ca7-52d5-c24b-e3fb-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Range x" id="1b1e-9254-e08d-47a0" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+            <infoLink name="Lethal x+" id="05c5-25ec-553e-31d3" hidden="false" targetId="8b97-e3e3-2857-817a" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⌖ Rayo atomizador" id="c14f-e822-7f26-e9c2" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 6", Letal 5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Garras y cola" id="2cb5-ff97-991b-e9ed" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="0ce0-12c9-0278-e4bd-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="0ce0-12c9-0278-e4bd-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <profiles>
+            <profile name="⚔ Garras y cola" id="495a-abcf-029f-98de" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="TREPATUMBAS CANÓPTICO" id="3da9-f217-828a-edcc" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Círculo Canóptico" id="0b56-4f5e-3d25-e189" hidden="false" primary="false" targetId="66ba-b080-7363-3743" />
+        <categoryLink name="Necrón" id="ac89-74c5-9aa0-0a93" hidden="false" primary="false" targetId="b99b-676b-f5d9-ed8a" />
+        <categoryLink name="TREPATUMBAS CANÓPTICO" id="7b3c-3e1e-1a66-0729" hidden="false" primary="false" targetId="9096-ce1f-fcf6-2c87" />
+        <categoryLink name="Operative" id="6dd8-1dc7-22f4-f7c2" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="Canóptico" id="2ca6-5b9b-cec2-453a" hidden="false" primary="false" targetId="bddb-af4c-c7aa-fd62" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="144b-60a5-7812-f58e-min" field="selections" scope="51a4-6a68-395e-cffe" shared="true" type="min" value="2" />
+        <constraint id="144b-60a5-7812-f58e-max" field="selections" scope="51a4-6a68-395e-cffe" shared="true" type="max" value="2" />
+      </constraints>
+      <profiles>
+        <profile name="TREPATUMBAS CANÓPTICO" id="ee2b-6faa-4cb6-03bd" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">5"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">18</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Centinela armado" id="a531-c349-ecd2-7b3c" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Cuando tu oponente elige un blanco válido, si 
+este agente tiene una orden de ocultarse, no puede usar terreno 
+ligero como cobertura. Esto puede permitir que el agente sea 
+tomado como blanco (suponiendo que sea visible), pero no le 
+niega la salvación por cobertura de la que disponga.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Firmeza" id="e1b8-d5cf-fbd3-adb8" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Al determinar el control de un marcador, puedes 
+considerar que este agente tiene un atributo LPA de 3. Si lo 
+haces, esto tiene preferencia sobre todas las demás reglas, lo 
+que significa que cualquier cambio a su atributo LPA se ignora.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Garras" id="73c5-4ea1-ee86-80ae" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="2c7e-069d-bf36-5865-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="2c7e-069d-bf36-5865-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <profiles>
+            <profile name="⚔ Garras" id="bbdd-7027-ed33-373f" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Arma" id="055e-6543-5b5d-c6bc" hidden="false">
+          <constraints>
+            <constraint id="454c-713e-5bd8-d95d-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="454c-713e-5bd8-d95d-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry name="Segador gauss doble" id="e766-9a90-d7a5-5176" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="f497-5884-f503-41c1" field="selections" scope="parent" shared="true" type="max" value="1" />
+              </constraints>
+              <infoLinks>
+                <infoLink name="Severe" id="2004-9705-cdf4-eabe" hidden="false" targetId="721c-65bf-dfb7-8fa2" type="rule" />
+                <infoLink name="Piercing x" id="a0a0-03bc-3db0-35e4" hidden="false" targetId="4c07-2cb3-1417-cbb7" type="rule" />
+                <infoLink name="Torrent x" id="0b40-0898-7cfe-2e20" hidden="false" targetId="ad45-b4bb-1345-e4f9" type="rule" />
+              </infoLinks>
+              <profiles>
+                <profile name="⌖ Segador gauss doble (barrido)" id="40bf-dc1a-9acf-820b" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                    <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                    <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                    <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Penetración 1, Severa, Ráfaga 1"</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="⌖ Segador gauss doble (concentrado)" id="fd05-a252-6c3e-4a5a" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                    <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                    <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                    <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Penetración 1, Severa</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Aislador transdimensional" id="a3b8-7cd3-0112-c71c" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="b19d-123a-5573-e14f" field="selections" scope="parent" shared="true" type="max" value="1" />
+                <constraint id="617b-5688-16a2-c4ef" field="selections" includeChildSelections="true" scope="51a4-6a68-395e-cffe" shared="true" type="max" value="1" />
+              </constraints>
+              <profiles>
+                <profile name="⌖ Aislador transdimensional" id="5971-c6f9-e3a9-32ba" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                    <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                    <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">5/6</characteristic>
+                    <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Destierro dimensional*</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule name="*Destierro dimensional" id="dfd6-0666-e1ad-9b03" hidden="false">
+                  <description>Después de que este agente use su 
+arma, si has infligido daño o guardado uno o más éxitos críticos 
+y el blanco no está incapacitado, tira 2D6: con un resultado 
+mayor que las heridas restantes del blanco, dicho blanco queda 
+incapacitado (esto tiene preferencia frente a reglas que impiden 
+quedar incapacitado, como ¡Sanitario!, o Furia asesina de
+EXPOLIAGORES IMPÍOS ) y, si iba a hacerlo, tu oponente 
+no puede poner marcadores de reanimación (CÍRCULO DE 
+HIEROTECNÓLOGOS ) para ese agente. Esta regla no 
+tiene efecto si el blanco es un agente NÉMESIS o un ANJ 
+TERROR ROJO.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="ACELERADOR MACROCITO CANÓPTICO" id="8e68-38c3-6a58-3397" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Círculo Canóptico" id="55e2-4099-b2fb-a74a" hidden="false" primary="false" targetId="66ba-b080-7363-3743" />
+        <categoryLink name="Necrón" id="aefd-8267-042c-c865" hidden="false" primary="false" targetId="b99b-676b-f5d9-ed8a" />
+        <categoryLink name="ACELERADOR MACROCITO CANÓPTICO" id="345f-51bd-19c1-54d0" hidden="false" primary="false" targetId="9728-f3be-fec1-1492" />
+        <categoryLink name="Operative" id="8af9-601b-8f81-55ff" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="Canóptico" id="a157-2465-b587-fa6f" hidden="false" primary="false" targetId="bddb-af4c-c7aa-fd62" />
+        <categoryLink name="Macrócito" id="c83d-748f-d20e-48ee" hidden="false" primary="false" targetId="c39e-a2c8-542b-4c8c" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="c63f-42f3-8539-334e-min" field="selections" scope="51a4-6a68-395e-cffe" shared="true" type="min" value="1" />
+        <constraint id="c63f-42f3-8539-334e-max" field="selections" scope="51a4-6a68-395e-cffe" shared="true" type="max" value="1" />
+      </constraints>
+      <profiles>
+        <profile name="ACELERADOR MACROCITO CANÓPTICO" id="4811-143e-2eba-938f" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">7"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">4+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">7</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="SOBRECARGA (1PA)" id="45bc-c29d-76d5-5828" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Elige un agente CANÓPTICO CÍRCULO CANÓPTICO 
+a 3" o menos de este agente y visible para él. Como 
+alternativa, si este agente se encuentra en tu MATRIZ DE 
+NODOS DE OBELISCOS, puedes elegir a otro agente 
+CANÓPTICO CÍRCULO CANÓPTICO amigo en tu 
+MATRIZ DE NODOS DE OBELISCOS. Hasta el final 
+de la siguiente activación del agente elegido, suma 1 a su 
+atributo LPA.
+ Este agente no puede realizar esta acción si se encuentra en 
+la zona de control de un agente enemigo.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="SOBRECARGA CRANEAL (1PA)" id="2eba-ef67-38b6-d85e" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Elige un agente enemigo a 3" o menos de este agente y 
+visible para él. Como alternativa, si este agente se encuentra 
+en tu MATRIZ DE NODOS DE OBELISCOS, puedes 
+elegir un agente enemigo en tu MATRIZ DE NODOS DE 
+OBELISCOS. Hasta el final de la siguiente activación de 
+ese agente enemigo, resta 1 a su atributo LPA.
+ Este agente no puede realizar esta acción si se encuentra en 
+la zona de control de un agente enemigo.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Chispazo" id="bd7d-4fc9-e8af-ca81" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="affc-0d8b-bdfe-129d-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="affc-0d8b-bdfe-129d-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Range x" id="70ea-5103-032e-02e3" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+            <infoLink name="Piercing x" id="6495-8fcc-199a-58d6" hidden="false" targetId="4c07-2cb3-1417-cbb7" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⌖ Chispazo" id="8eaf-dd6f-eec4-f6ca" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/3</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 4", Penetración 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Garras y chispazo" id="6b09-0e2b-2bba-df90" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="ff47-3ac1-613d-2e22-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="ff47-3ac1-613d-2e22-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Lethal x+" id="ad9d-514e-ace8-f32d" hidden="false" targetId="8b97-e3e3-2857-817a" type="rule" />
+            <infoLink name="Stun" id="f7b4-ffba-e6f0-fc25" hidden="false" targetId="5ae2-3f29-8635-fd02" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⚔ Garras y chispazo" id="7937-2682-588f-d934" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">3</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Letal 5+, Aturdir</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="COMBATIENTE MACROCITO CANÓPTICO" id="4680-d0c5-2b79-926c" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Círculo Canóptico" id="85e4-c6cc-3a5f-1da1" hidden="false" primary="false" targetId="66ba-b080-7363-3743" />
+        <categoryLink name="Necrón" id="c138-c8d3-db47-8f7d" hidden="false" primary="false" targetId="b99b-676b-f5d9-ed8a" />
+        <categoryLink name="Operative" id="0620-a922-eb36-64df" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="Warrior" id="5c10-b4f3-b8dd-9fb8" hidden="false" primary="false" targetId="2b69-f2aa-bd5c-70b2" />
+        <categoryLink name="Canóptico" id="4672-e018-7e39-a902" hidden="false" primary="false" targetId="bddb-af4c-c7aa-fd62" />
+        <categoryLink name="Macrócito" id="68c4-c0f5-8be2-8a67" hidden="false" primary="false" targetId="c39e-a2c8-542b-4c8c" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="f394-3c63-26d5-cf81-min" field="selections" scope="51a4-6a68-395e-cffe" shared="true" type="min" value="3" />
+        <constraint id="f394-3c63-26d5-cf81-max" field="selections" scope="51a4-6a68-395e-cffe" shared="true" type="max" value="3" />
+      </constraints>
+      <profiles>
+        <profile name="COMBATIENTE MACROCITO CANÓPTICO" id="10a6-aed2-f11a-4c14" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">7"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">4+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">7</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Constructo prescindible" id="a2d8-0d3a-72a2-922e" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Este agente se ignora para las 
+operaciones de asesinato/eliminación de tu oponente (al quedar 
+incapacitado, y al determinar tu número inicial de agentes). 
+También se ignora para condiciones de victoria y para obtener 
+PV que requieran (en ambos casos) que agentes “escapen”, 
+“sobrevivan” o sean incapacitados por agentes enemigos 
+(si escapa/sobrevive/es incapacitado, al determinar cuántos 
+agentes deben escapar/sobrevivir/ser incapacitados, etc.).</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Escabullirse incesantemente" id="396a-4d7a-984a-28fd" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Como GAMBITO 
+ESTRATÉGICO en cada punto de inflexión tras el primero, 
+si tienes menos de tres agentes COMBATIENTECÍRCULO 
+CANÓPTICO amigos no incapacitados, puedes desplegar 
+en tu zona de descenso a otro más apostado y con una orden 
+de ocultarse (puedes elegir sus opciones de armas de manera 
+normal).</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Defensa agresiva" id="c880-8b64-d753-4c96" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Si este agente resulta incapacitado por un 
+agente enemigo que está a 2" o menos, tira 1D3 antes de retirar 
+este agente de la zona de aniquilación: con 2+, inflige a ese 
+agente enemigo una cantidad de daño igual al resultado.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Garras y cola" id="43b9-cc53-be7c-3cb2" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="936e-fe92-3d69-7121-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="936e-fe92-3d69-7121-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <profiles>
+            <profile name="⚔ Garras y cola" id="cb1a-58f2-8462-d945" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">3</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Arma" id="82db-0a65-a19d-9526" hidden="false">
+          <constraints>
+            <constraint id="be18-e0f3-8803-01ef-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="be18-e0f3-8803-01ef-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry name="Escalpelo gauss" id="4513-c067-8c7b-a281" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="5d4d-c64b-b364-3c4c" field="selections" scope="parent" shared="true" type="max" value="1" />
+              </constraints>
+              <infoLinks>
+                <infoLink name="Piercing x" id="5911-1db6-465e-728a" hidden="false" targetId="4c07-2cb3-1417-cbb7" type="rule" />
+              </infoLinks>
+              <profiles>
+                <profile name="⌖ Escalpelo gauss" id="4ce2-3eb6-765b-1324" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                    <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                    <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/3</characteristic>
+                    <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Penetración 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Lanzapartículas tesla" id="1759-7e0f-fa51-f4d6" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="c6e3-23f3-9479-46ff" field="selections" scope="parent" shared="true" type="max" value="1" />
+              </constraints>
+              <infoLinks>
+                <infoLink name="Blast x" id="ef9b-2a31-f0f7-2bf7" hidden="false" targetId="0d74-0977-b481-bd13" type="rule" />
+              </infoLinks>
+              <profiles>
+                <profile name="⌖ Lanzapartículas tesla (concentrado)" id="d234-531e-621d-f29d" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                    <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                    <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/3</characteristic>
+                    <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="⌖ Lanzapartículas tesla (relámpago viviente)" id="5ba4-e440-a1ba-e5e4" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                    <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                    <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">2/3</characteristic>
+                    <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Área 2"</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="GEOMANTE" id="2e62-6dac-0191-0b43" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Leader" id="750d-7bc6-1e8a-2eab" hidden="false" primary="true" targetId="d999-8cad-8145-4efe" />
+        <categoryLink name="Círculo Canóptico" id="b8eb-4c53-0386-ede2" hidden="false" primary="false" targetId="66ba-b080-7363-3743" />
+        <categoryLink name="Necrón" id="afec-d02d-f930-fa88" hidden="false" primary="false" targetId="b99b-676b-f5d9-ed8a" />
+        <categoryLink name="GEOMANTE" id="54bd-22f7-2f37-bef8" hidden="false" primary="false" targetId="c3aa-ed5c-8a75-27c1" />
+        <categoryLink name="Criptecnólogo" id="a9fa-60d5-fbe9-95b0" hidden="false" primary="false" targetId="8bf8-11d8-18f5-d072" />
+      </categoryLinks>
+      <constraints>
+        <constraint id="2e35-2731-0b0a-d05b-min" field="selections" scope="51a4-6a68-395e-cffe" shared="true" type="min" value="1" />
+        <constraint id="2e35-2731-0b0a-d05b-max" field="selections" scope="51a4-6a68-395e-cffe" shared="true" type="max" value="1" />
+      </constraints>
+      <profiles>
+        <profile name="GEOMANTE" id="8992-99cd-6cea-3d8e" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">3</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">14</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Control de Nodo de obeliscos" id="f3a1-2d0c-6320-064a" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Siempre que este agente fuera 
+a llevar a cabo una acción de misión (salvo Recoger marcador 
+o Recuperar, Operaciones Aprobadas 2025), si dicha acción 
+requiere que este agente controle un marcador de objetivo, en su 
+lugar puedes determinar el control desde uno de tus marcadores 
+de NODO DE OBELISCOS (ver la regla de facción Matriz de 
+Nodos de obeliscos). Siempre que este agente vaya a realizar 
+la acción Operar portillo, en su lugar puedes abrir o cerrar 
+una escotilla cuyo punto de acceso se encuentre a 1" o menos 
+de uno de tus marcadores de NODO DE OBELISCOS. Ten 
+en cuenta aún así deberás cumplir las condiciones de la acción 
+Operar portillo.
+LAS ACCIONES DEL GEOMANTE SE PRESENTAN EN SUS PROPIAS TARJETAS.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="BRECHA MOLECULAR (1PA)" id="bac2-b6dc-758d-adbf" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">APOYO. Elige un agente CÍRCULO CANÓPTICO a 6" 
+o menos de este agente y visible para él. Como alternativa, 
+puedes elegir un agente CÍRCULO CANÓPTICO amigo 
+que sea visible para este agente y se encuentre dentro de tu 
+MATRIZ DE NODOS DE OBELISCOS (APOYO no se 
+aplica a esta selección).
+ La próxima vez que este agente realice una acción en la que 
+se mueva, no lo muevas. En su lugar, retíralo de la zona de 
+aniquilación y vuelve a desplegarlo completamente a una 
+distancia de su ubicación original igual o menor que su atributo 
+Movimiento (o a 3” o menos si la acción era de Correr) en 
+horizontal (en una zona de aniquilación que utilice las reglas 
+de combate cerrado, como por ejemplo Zona de aniquilación: 
+Mundo Necrópolis, esta distancia puede medirse por encima y 
+a través de terreno de Muro y el agente puede ser desplegado 
+en el otro lado). Ten en cuenta que el agente no gana distancia 
+adicional al realizar la acción de Cargar. Debe ser desplegado 
+en una ubicación en la que pueda ser colocado y, a menos que 
+la acción fuera de Cargar, no puede desplegarse dentro de la 
+zona de control de un agente enemigo.
+ Este agente no puede realizar esta acción si se encuentra en 
+la zona de control de un agente enemigo.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="CONTROL CANÓPTICO (1PA)" id="e615-5d09-f165-88d8" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">APOYO. Elige un agente CANÓPTICO CÍRCULO 
+CANÓPTICO amigo a 6" o menos de este agente y 
+visible para él. Como alternativa, puedes elegir un agente 
+CANÓPTICO CÍRCULO CANÓPTICO amigo que sea 
+visible para este agente y se encuentre en tu MATRIZ DE 
+NODOS DE OBELISCOS (APOYO no se aplica a esta 
+selección). El agente elegido puede realizar de inmediato una 
+acción libre de 1PA; durante esa acción, no puede moverse 
+más de 2" ni ser retirado y desplegado de nuevo a más de 2".
+ Este agente no puede realizar esta acción si se encuentra en 
+la zona de control de un agente enemigo, o como reacción.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="PERTURBACIÓN GEOMÁNTICA (1PA)" id="f431-e73f-dbba-eff0" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Elige un punto en un elemento de terreno; ese punto debe 
+encontrarse a 8" o menos de este agente y ser visible para 
+él. Tira por separado 2D6 por cada agente a 2" o menos de 
+ese punto. Si el resultado es mayor que las heridas restantes 
+de ese agente, inflígele una cantidad de daño igual a la 
+diferencia.
+ Este agente no puede realizar esta acción si se encuentra en 
+la zona de control de un agente enemigo, o si tiene una orden 
+de ocultarse.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Tembloarcha" id="fb7e-344d-7245-6c6a" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="f8f4-ae1e-6b1d-88d3-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="f8f4-ae1e-6b1d-88d3-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Piercing x" id="6862-f1dc-ad3a-7936" hidden="false" targetId="4c07-2cb3-1417-cbb7" type="rule" />
+            <infoLink name="Blast x" id="c22a-8ae7-37db-537d" hidden="false" targetId="0d74-0977-b481-bd13" type="rule" />
+            <infoLink name="Seek" id="7242-fd5f-8361-acb5" hidden="false" targetId="a33d-4e90-5794-6e20" type="rule" />
+            <infoLink name="Stun" id="2940-891f-5403-c04f" hidden="false" targetId="5ae2-3f29-8635-fd02" type="rule" />
+            <infoLink name="Severe" id="9dd6-741d-e0d4-5185" hidden="false" targetId="721c-65bf-dfb7-8fa2" type="rule" />
+            <infoLink name="Shock" id="ae9f-fe6b-a9ed-b704" hidden="false" targetId="c544-8d4c-4109-4eec" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⌖ Tembloarcha (partemateria)" id="736c-c7b0-fb85-19ef" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Penetración 1, Críticos de penetración 2</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="⌖ Tembloarcha (seísmo)" id="a387-e1a8-8cf6-d61e" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">5</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">1/2</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Área 2", Buscadora (Ligero), Aturdir</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="⚔ Tembloarcha (barrido)" id="60e4-088c-1a6b-4306" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/5</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Severa, Choque, Aturdir</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedProfiles>
+    <profile name="Referencia de forma" id="24e3-ea10-131e-a830" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+      <characteristics>
+        <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">⌖</characteristic>
+        <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">⚔</characteristic>
+        <characteristic name="Save" typeId="3241-5548-12d6-f103">▶</characteristic>
+        <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">◆</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Equipo de facción" id="49d4-1642-6ac5-6e1f" hidden="false">
+      <selectionEntries>
+        <selectionEntry name="ATAUD DE NANOESCARABAJOS" id="02ab-8087-8e7f-7944" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="36d2-49d9-2d68-c810" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <profiles>
+            <profile name="ATAUD DE NANOESCARABAJOS" id="e3b9-29af-8f65-26b6" hidden="false" typeId="0d20-7175-9ecb-8bde" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">CÍRCULO CANÓPTICO
+EQUIPO DE FACCIÓN
+ATAUD DE NANOESCARABAJOS
+Estos pequeños dispositivos parecen liberar volutas
+de vapor espectral. En realidad, se trata de nubes
+de diminutos constructos reparadores que sellan los
+desperfectos en el metal viviente.
+Siempre que un agente CÍRCULO CANÓPTICO
+amigo se active, recupera hasta 1D3 heridas
+perdidas.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="MANIPULADOR DE MATRIZ" id="43d8-d079-e68b-d122" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="aefd-c36c-aec2-814d" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <profiles>
+            <profile name="MANIPULADOR DE MATRIZ" id="5de6-48d5-00e2-9af5" hidden="false" typeId="0d20-7175-9ecb-8bde" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">CÍRCULO CANÓPTICO
+EQUIPO DE FACCIÓN
+MANIPULADOR DE MATRIZ
+Con un chasquido de los dedos, un buen Geomante es
+capaz de usar este manipulador geomántico avanzado
+como un nodo de obeliscos y extender la matriz.
+Una vez por batalla, durante la activación o
+reacción de un agente CÍRCULO CANÓPTICO
+amigo, puedes usar esta regla. Si lo haces, hasta
+el final de esa activación/reación, un agente
+GEOMANTE CÍRCULO CANÓPTICO amigo se
+trata como si fuera tu cuarto marcador de NODO
+DE OBELISCOS.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="NODOS DE OBELISCOS DESPIERTOS" id="4832-681d-dd83-3078" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="2888-3515-23a5-455b" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <profiles>
+            <profile name="NODOS DE OBELISCOS DESPIERTOS" id="e2ab-8623-441e-7b9d" hidden="false" typeId="0d20-7175-9ecb-8bde" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">CÍRCULO CANÓPTICO
+EQUIPO DE FACCIÓN
+NODOS DE OBELISCOS
+DESPIERTOS
+Plantados y activados mucho tiempo atrás, estos nodos
+de obeliscos han absorbido grandes cantidades de datos
+locales y están listos para dar a su controlador una
+ventaja definitiva, cuando llegue el momento adecuado.
+Tras revelar esta opción de equipo, tira 1D3.
+Durante la batalla, por 0 PM puedes usar el ardid
+de tiroteo Animar Nodos de obeliscos tantas
+veces como el resultado de la tirada.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="CAMBIAFASES" id="47f1-ad3c-bf63-a18c" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="1a2e-84a6-f710-b876" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <profiles>
+            <profile name="CAMBIAFASES" id="40a7-85a9-50ba-cff0" hidden="false" typeId="0d20-7175-9ecb-8bde" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">CÍRCULO CANÓPTICO
+EQUIPO DE FACCIÓN
+CAMBIAFASES
+La forma del portador parpadee entre dimensiones, lo
+que hace que sea extremadamente difícil acertarle con
+un golpe.
+Una vez por punto de inflexión, cuando un agente
+dispare contra un agente GEOMANTE CÍRCULO
+CANÓPTICO amigo, al inicio del paso de Tirar
+dados de defensa puedes usar esta regla. Si lo
+haces, hasta el final de esa secuencia empeora
+en 1 la x de la regla de armas Penetración (si la
+hay). Eso significa que Penetración 1 se ignoraría.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

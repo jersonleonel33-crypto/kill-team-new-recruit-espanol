@@ -1,0 +1,776 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" name="Aguijones Alados Véspid" id="c31e-b272-42a3-51b7" battleScribeVersion="2.03" gameSystemId="c521-ad27-44df-f959" gameSystemRevision="10" library="false" revision="7" type="catalogue">
+  <comment>Update 1.2</comment>
+  <categoryEntries>
+    <categoryEntry name="AGUIJÓN VÉSPID" id="af34-52dc-5007-9d1a" hidden="false" />
+    <categoryEntry name="BOMBACELESTE VÉSPID" id="8933-4653-c8cb-cf8c" hidden="false" />
+    <categoryEntry name="GUARDIAENJAMBRE VÉSPID" id="9b25-cf6e-f2ef-9737" hidden="false" />
+    <categoryEntry name="CEPASOMBRÍA VÉSPID" id="8082-965a-f826-40f2" hidden="false" />
+    <categoryEntry name="Supervisión" id="2ff0-63a8-cf30-f4b5" hidden="false" />
+    <categoryEntry name="DRON DE VIGILANCIA" id="dd1a-6dab-f9fe-a2d1" hidden="false" />
+    <categoryEntry name="AGUIJÓNLARGO VÉSPID" id="3314-3352-f8b9-a6d8" hidden="false" />
+    <categoryEntry name="CEPASOMBRÍA VÉSPID" id="0eea-92d0-25b4-a9af" hidden="false" />
+  </categoryEntries>
+  <entryLinks>
+    <entryLink name="Equipment Reference" id="2ed2-358b-e194-17d9" hidden="false" import="true" targetId="e004-a0c4-8a03-0b8b" type="selectionEntry">
+      <entryLinks>
+        <entryLink name="Equipo de facción" id="54ea-8a60-ca85-ab09" hidden="false" import="true" targetId="4b6a-a4ac-93ef-2a09" type="selectionEntryGroup" />
+      </entryLinks>
+    </entryLink>
+  </entryLinks>
+  <forceEntries>
+    <forceEntry name="Comando Aguijones Alados Véspid" id="bbc7-3b8c-b2cc-29d3" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Configuration" id="71a0-5396-3850-1b25" hidden="false" targetId="874b-0390-e5e2-1daa" />
+        <categoryLink name="Operative" id="ca03-5848-26c2-f7bf" hidden="false" targetId="cf83-4496-b58e-ac82">
+          <constraints>
+            <constraint id="91b6-d305-23a3-dc10-min" field="selections" scope="parent" shared="true" type="min" value="10" />
+            <constraint id="91b6-d305-23a3-dc10-max" field="selections" scope="parent" shared="true" type="max" value="10" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Leader" id="71b2-5000-69ee-97d5" hidden="false" targetId="d999-8cad-8145-4efe">
+          <constraints>
+            <constraint id="ae76-7f76-28c5-dd7a-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="ae76-7f76-28c5-dd7a-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Reference" id="8880-da3b-fb34-d046" hidden="false" targetId="b318-a8d7-2d38-99a3" />
+        <categoryLink name="Supervisión" id="6421-6c4a-8fa2-1b4d" hidden="false" targetId="2ff0-63a8-cf30-f4b5">
+          <constraints>
+            <constraint id="ea6e-c447-8934-cba5-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="ea6e-c447-8934-cba5-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="AGUIJÓNLARGO VÉSPID" id="8786-ff9d-df9e-60a5" hidden="false" targetId="3314-3352-f8b9-a6d8">
+          <constraints>
+            <constraint id="4615-2fe0-a40a-932f" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="CEPASOMBRÍA VÉSPID" id="9a09-76a9-43c8-afec" hidden="false" targetId="0eea-92d0-25b4-a9af">
+          <constraints>
+            <constraint id="bcdc-9497-b001-08a4" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="BOMBACELESTE VÉSPID" id="1d42-0758-96ea-3047" hidden="false" targetId="8933-4653-c8cb-cf8c">
+          <constraints>
+            <constraint id="fd75-845b-07d3-1a11" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="GUARDIAENJAMBRE VÉSPID" id="cfef-fa88-d991-9465" hidden="false" targetId="9b25-cf6e-f2ef-9737">
+          <constraints>
+            <constraint id="3417-a3a8-b344-78c1" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <infoLinks>
+    <infoLink name="Piercing x" id="1007-8e37-4673-0c87" hidden="false" targetId="4c07-2cb3-1417-cbb7" type="rule" />
+  </infoLinks>
+  <rules>
+    <rule name="CARGA DE NEUTRONES" id="2bdb-bd49-979a-57b7" hidden="false">
+      <description>Las armas de neutrones están alimentadas por 
+cristales radioactivos del mundo natal de los Véspid. El 
+armonioso zumbido de las alas de los Véspid resuena en 
+los cristales, recargándolos. Cuando liberan su energía 
+capaz de separar átomos, ni siquiera las armaduras de 
+combate más pesadas ofrecen mucha protección.
+Las armas de neutrones son todas las armas que 
+tienen la palabra “neutrones” en su nombre, 
+p.ej. bláster de neutrones, lanzagranadas de 
+neutrones, etc. Cuando un agente AGUIJÓN 
+ALADO VÉSPID amigo se mueva o use VOLAR, 
+sus armas de neutrones tienen la regla de arma 
+Penetración 1 hasta el final del punto de inflexión.</description>
+    </rule>
+    <rule name="COMUNIÓN" id="be48-c9df-e3f9-ac83" hidden="false">
+      <description>Las otras especies tienen dificultades para entender a 
+los Véspid e interactuar con ellos. Los T’au han logrado 
+establecer fuertes lazos con ellos mediante el uso de 
+diversos aparatos tecnológicos, principalmente los 
+cascos de comunión. Los Véspid han aceptado esa 
+ayuda al considerarla beneficiosa, pero se desconoce 
+qué impacto tendrá a largo plazo.
+Los puntos de comunión se utilizan para 
+mantener la concentración táctica de los agentes 
+AGUIJÓN ALADO VÉSPID amigos. En el paso 
+de preparación de cada fase de estrategia 
+ganas 1D3 puntos de comunión, más 1 si hay un 
+agente DRON DE VIGILANCIA amigo en la zona 
+de aniquilación. Los puntos de comunión se 
+utilizan del siguiente modo (los agentes DRON DE 
+VIGILANCIA no se ven afectados por lo siguiente):
+LA REGLA CONTINÚA EN EL REVERSO</description>
+    </rule>
+    <rule name="VOLAR" id="e904-62fa-b13d-4968" hidden="false">
+      <description>Las alas zumbantes de los Véspid les permiten 
+desplazarse con velocidad y agilidad notables.
+Cuando un agente AGUIJÓN ALADO VÉSPID 
+amigo realiza una acción en la que se mueva, 
+puede VOLAR. Si lo hace, no lo muevas. En 
+lugar de eso, retíralo de la zona de aniquilación 
+y vuelve a colocarlo completamente a una 
+distancia en horizontal de su localización original 
+igual o menor a su atributo Movimiento (o a 3" 
+o menos en caso de Correr). En una zona de 
+aniquilación que utilice las reglas de combate 
+cerrado (p.ej., Zona de aniquilación: Mundo 
+Necrópolis), no puedes medir la distancia sobre 
+o a través de terreno de Muro, y ese agente no 
+puede desplegarse en el otro lado de un punto 
+de acceso (en otras palabras, no puede VOLAR a 
+través de una escotilla abierta).
+Ten en cuenta que no gana distancia adicional al 
+realizar una acción de Cargar. Debe desplegarse 
+en una ubicación en la que pueda ser colocado 
+y, a menos que la acción sea Cargar, no 
+puede desplegarse en la zona de control de un 
+agente enemigo.</description>
+    </rule>
+  </rules>
+  <selectionEntries>
+    <selectionEntry name="BOMBACELESTE VÉSPID" id="a792-0315-37d1-8efa" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="T'au Empire" id="7dcd-58c7-0d27-0aa5" hidden="false" primary="false" targetId="20d3-6a95-40e4-de61" />
+        <categoryLink name="AGUIJÓN VÉSPID" id="affc-4938-92bc-703e" hidden="false" primary="false" targetId="af34-52dc-5007-9d1a" />
+        <categoryLink name="BOMBACELESTE VÉSPID" id="e21e-81c5-b4c9-3fe0" hidden="false" primary="false" targetId="8933-4653-c8cb-cf8c" />
+        <categoryLink name="Operative" id="8b19-22ee-c367-a228" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Garras" id="c64e-caac-df9a-621c" hidden="false" import="true" targetId="4ea2-ea1e-0cec-10d1" type="selectionEntry">
+          <constraints>
+            <constraint id="9a31-025a-de3b-af71-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="9a31-025a-de3b-af71-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="BOMBACELESTE VÉSPID" id="472f-c171-0bee-e985" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">9</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Lluvia de neutrones" id="f3ac-f188-010d-a871" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Una vez durante cada activación de un 
+agente enemigo, tan pronto como dicho agente enemigo se 
+encuentre a 2" o menos de uno de tus marcadores de lluvia 
+de neutrones, inflígele 1D3 daños (este efecto no se acumula 
+con más de un marcador).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Lanzagranadas de neutrones" id="8041-ca9a-4519-c6bb" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="1533-2d91-59d6-46fe-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="1533-2d91-59d6-46fe-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Blast x" id="819f-d888-4f0f-06e3" hidden="false" targetId="0d74-0977-b481-bd13" type="rule" />
+            <infoLink name="Devastating x" id="57cf-0f8f-4602-afb3" hidden="false" targetId="a8ba-6e3a-76b3-f05c" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⌖ Lanzagranadas de neutrones" id="7303-c946-972b-0bfa" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/3</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Área 2", Devastadora 2, Bombardeo de neutrones*</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule name="*Bombardeo de neutrones" id="d8e2-77a6-bb77-3fe0" hidden="false">
+              <description>Coloca uno de tus marcadores 
+de Lluvia de neutrones dentro de la zona de control del 
+blanco principal.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="GUARDIAENJAMBRE VÉSPID" id="b238-56d2-2239-8e62" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Operative" id="01d3-aafa-c34c-6e4a" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="AGUIJÓN VÉSPID" id="fd8c-9262-5ffc-7031" hidden="false" primary="false" targetId="af34-52dc-5007-9d1a" />
+        <categoryLink name="GUARDIAENJAMBRE VÉSPID" id="24ac-9041-3eb6-7681" hidden="false" primary="false" targetId="9b25-cf6e-f2ef-9737" />
+        <categoryLink name="T'au Empire" id="ee6d-48f2-3290-42bc" hidden="false" primary="false" targetId="20d3-6a95-40e4-de61" />
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Garras" id="98c2-e911-7ca6-5ea1" hidden="false" import="true" targetId="4ea2-ea1e-0cec-10d1" type="selectionEntry">
+          <constraints>
+            <constraint id="959f-b978-27bf-49a1-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="959f-b978-27bf-49a1-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="GUARDIAENJAMBRE VÉSPID" id="d514-88f8-3bb9-9f3b" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">9</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="ASALTO CON ANTORCHA CELESTE (2PA)" id="a0c4-f2a1-5845-f9b2" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">Realiza una acción libre de Reposicionarse con este 
+agente. Durante esa acción, este debe VOLAR y puede 
+mover 2" adicionales. A continuación, realiza una acción 
+libre de Disparar. Solo puedes elegir un lanzallamas 
+(antorcha celeste) para dicha acción de Disparar.
+ Este agente no puede realizar esta acción si tiene una 
+orden de ocultarse, o si está en la zona de control de un 
+agente enemigo.
+Aclaración de Antorcha celeste: La zona de achicharramiento
+es el área horizontal entre la posición actual y la anterior del
+agente. Ráfaga 0" impide elegir blancos secundarios fuera de
+esa zona, pero el arma conserva la regla Ráfaga a efectos de
+otras reglas, como Fortaleza Condensada (zona de
+aniquilación: Volkus, Libro Básico de Kill Team).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Lanzallamas" id="ede1-5188-7fa4-2033" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="1fd9-5356-9f5a-4a60-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="1fd9-5356-9f5a-4a60-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Range x" id="3085-6210-bd35-64c6" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+            <infoLink name="Saturate" id="36fc-2542-fe27-eee0" hidden="false" targetId="3c10-2d52-d1ac-b0f6" type="rule" />
+            <infoLink name="Torrent x" id="53c7-00be-24db-9a94" hidden="false" targetId="ad45-b4bb-1345-e4f9" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⌖ Lanzallamas (normal)" id="3a7e-266b-209f-e256" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">2+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/3</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8", Ráfaga 2", Saturación</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="⌖ Lanzallamas (antorcha celeste)" id="1206-61e6-3114-10da" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">2+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/3</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Saturación, Ráfaga 0", Antorcha celeste*</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule name="*Antorcha celeste" id="ed71-ed0a-d655-fb1f" hidden="false">
+              <description>Un agente solo puede usar esta arma durante la acción de Asalto con 
+antorcha celeste (ver reverso de esta tarjeta). Si lo hace, no elijas un blanco válido. En su lugar, 
+dispara contra cada agente dentro de su zona de achicharramiento (excepto agentes que 
+estén completamente bajo terreno Aventajado); no se consideran a cubierto ni ofuscados. Tira 
+cada secuencia por separado en orden desde el agente más lejano al más cercano. La zona 
+de achicharramiento es el área entre la posición actual y previa del agente. Se puede colocar 
+temporalmente bajo este agente un marcador redondo de Antorcha celeste de 28 mm antes de 
+moverlo, como ayuda a la hora de determinar esto.
+LAS REGLAS CONTINÚAN EN EL REVERSO 
+ZONA DE 
+ACHICHARRA-
+MIENTO</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="COMBATIENTE VÉSPID" id="2b4e-b02d-147b-d0d0" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Operative" id="de26-436f-00b2-5d3b" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="T'au Empire" id="da21-dc4e-d6b7-636a" hidden="false" primary="false" targetId="20d3-6a95-40e4-de61" />
+        <categoryLink name="AGUIJÓN VÉSPID" id="ab78-b0d6-92a1-838d" hidden="false" primary="false" targetId="af34-52dc-5007-9d1a" />
+        <categoryLink name="Warrior" id="f05a-1b26-c5fc-2e56" hidden="false" primary="false" targetId="2b69-f2aa-bd5c-70b2" />
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Garras" id="fca4-6ae6-fc14-21ba" hidden="false" import="true" targetId="4ea2-ea1e-0cec-10d1" type="selectionEntry">
+          <constraints>
+            <constraint id="5fcf-22dc-d2dc-4e23-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="5fcf-22dc-d2dc-4e23-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+        <entryLink name="Bláster de neutrones" id="dabd-04fa-d337-d8f3" hidden="false" import="true" targetId="262a-28bf-de0b-5bc4" type="selectionEntry">
+          <constraints>
+            <constraint id="90d4-f530-e62b-a3ca-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="90d4-f530-e62b-a3ca-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="COMBATIENTE VÉSPID" id="1da0-b40e-fe05-ba6a" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Instintos de combatiente" id="efbd-307e-5bc1-92d2" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="165f-ac17-9ed6-2243-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="165f-ac17-9ed6-2243-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Accurate x" id="8eec-1308-5fed-4ecb" hidden="false" targetId="ba48-6452-4bf6-e9fa" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="Instintos de combatiente" id="eb0e-daae-d553-e33c" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Ability" typeId="3467-0678-083e-eb50">Siempre que este agente dispara, si 
+no gastas puntos de comunión durante esa secuencia, su bláster 
+de neutrones tiene la regla de arma Certera 1 hasta el final de 
+esa secuencia.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="HIMENÓPTERO VÉSPID" id="e426-f0b7-f79a-b95a" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Leader" id="4bc2-053c-a79e-8422" hidden="false" primary="true" targetId="d999-8cad-8145-4efe" />
+        <categoryLink name="T'au Empire" id="673a-b453-1df5-9810" hidden="false" primary="false" targetId="20d3-6a95-40e4-de61" />
+        <categoryLink name="AGUIJÓN VÉSPID" id="61d2-959c-e027-d635" hidden="false" primary="false" targetId="af34-52dc-5007-9d1a" />
+        <categoryLink name="CEPASOMBRÍA VÉSPID" id="6c1f-ebc8-eb07-6284" hidden="false" primary="false" targetId="8082-965a-f826-40f2" />
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Bláster de neutrones" id="9601-a787-59f7-ecbb" hidden="false" import="true" targetId="262a-28bf-de0b-5bc4" type="selectionEntry">
+          <constraints>
+            <constraint id="eda4-7c33-9a1b-641d-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="eda4-7c33-9a1b-641d-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+        <entryLink name="Garras" id="55b2-71a9-cded-d124" hidden="false" import="true" targetId="4ea2-ea1e-0cec-10d1" type="selectionEntry">
+          <constraints>
+            <constraint id="3180-92e0-8696-c50f-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="3180-92e0-8696-c50f-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="Casco de comunión" id="5717-72cb-c405-92eb" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Una vez durante cada una de las 
+activaciones de este agente, elegir 1 de las siguientes opciones:
+• Gastar 1 punto de comunión de manera gratuita. 
+• Gasta 1 punto de comunión y elige 1 agente AGUIJÓN 
+ALADO VÉSPID amigo a 3" o menos de este agente. Ese 
+otro agente aliado puede realizar inmediatamente una acción 
+de misión libre de 1PA (aún debes gastar 1 punto de Comunión 
+para que realice esa acción normalmente, y esto no se puede 
+ignorar usando el equipo Estimulante de Convergencia).</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Entrar en comunión" id="09ab-7f18-eb5f-c319" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Al elegir tus agentes para la batalla, elige 
+también un ardid de estrategia AGUIJÓN ALADO VÉSPID . 
+Si este agente está en la zona de aniquilación y fuera de la zona 
+de control de todo agente enemigo, dicho ardid te cuesta 0PM.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="HIMENÓPTERO VÉSPID" id="57ca-623f-1cc9-c909" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="DRON DE VIGILANCIA" id="f585-c8b3-624c-c4a1" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Operative" id="9a68-3cff-1023-b1be" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="AGUIJÓN VÉSPID" id="3c2f-8b24-14b9-ee24" hidden="false" primary="false" targetId="af34-52dc-5007-9d1a" />
+        <categoryLink name="T'au Empire" id="ec57-c2c3-36ae-9595" hidden="false" primary="false" targetId="20d3-6a95-40e4-de61" />
+        <categoryLink name="Supervisión" id="7398-a2e9-7bc0-27fc" hidden="false" primary="false" targetId="2ff0-63a8-cf30-f4b5" />
+        <categoryLink name="DRON DE VIGILANCIA" id="d7f2-7dcc-80de-767b" hidden="false" primary="false" targetId="dd1a-6dab-f9fe-a2d1" />
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Saturate" id="b3cf-3f4b-d661-7c24" hidden="false" targetId="3c10-2d52-d1ac-b0f6" type="rule" />
+      </infoLinks>
+      <profiles>
+        <profile name="DRON DE VIGILANCIA" id="20b8-be27-19c5-4cfc" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">8"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">2+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Dron evasivo" id="075f-4fcc-875e-f9a0" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">• Este agente solo puede realizar acciones de Cargar, 
+Combatir, Correr, Guía aérea, Reposicionarse 
+y Retroceder.
+• Al determinar el control de marcadores de objetivo, trata el 
+atributo LPA de este agente como si fuera 1 menos.
+• Al determinar qué es visible para este agente, el disco 
+redondo en la parte superior de la miniatura es su cabeza.
+• Si este agente tiene una orden de ocultarse y se encuentra 
+tras cobertura, no puede ser tomado como blanco válido, 
+y esto tiene prioridad sobre todas las demás reglas (p. ej., 
+terreno Aventajado).
+• Cuando un agente dispare contra este agente, ignora la 
+regla de arma Penetración.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Topetazo" id="868f-6240-623a-e05a" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="87be-9845-7287-2d3c-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="87be-9845-7287-2d3c-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <profiles>
+            <profile name="⚔ Topetazo" id="1637-4d37-f604-262e" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">3</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">5+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">1/2</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="GUÍA AÉREA" id="3de0-7c74-df56-e510" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="0950-53fc-5c1e-d6fb-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="0950-53fc-5c1e-d6fb-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Saturate" id="95a7-bf81-d6d0-bf2c" hidden="false" targetId="3c10-2d52-d1ac-b0f6" type="rule" />
+            <infoLink name="Lethal x+" id="f35b-1c3c-a163-ba61" hidden="false" targetId="8b97-e3e3-2857-817a" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="GUÍA AÉREA (1PA)" id="d7e9-9595-6aca-a470" hidden="false" typeId="8f2a-d3d6-1a0c-7fa3" typeName="Unique Actions">
+              <characteristics>
+                <characteristic name="Unique Action" typeId="ba93-e32d-f1ac-e188">APOYO. Hasta el inicio de la siguiente activación de 
+este agente, cuando otro agente AGUIJÓN ALADO 
+VÉSPID amigo a 6" o menos de este agente y visible 
+para él dispare contra un agente enemigo visible para 
+este agente, las armas a distancia de dicho agente amigo 
+tienen las reglas de armas Saturación y Letal 5+. Esto no 
+tiene efecto si este agente está en la zona de control de un 
+agente enemigo.
+ Este agente no puede realizar esta acción si está 
+en la zona de control de un agente enemigo.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="AGUIJÓNLARGO VÉSPID" id="3c42-29f8-1057-1fc6" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Operative" id="7e92-8f35-4e99-7f47" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="T'au Empire" id="3c92-e462-d649-989c" hidden="false" primary="false" targetId="20d3-6a95-40e4-de61" />
+        <categoryLink name="AGUIJÓN VÉSPID" id="67c9-4a08-14b1-44c7" hidden="false" primary="false" targetId="af34-52dc-5007-9d1a" />
+        <categoryLink name="AGUIJÓNLARGO VÉSPID" id="46d5-a1f6-f813-9e64" hidden="false" primary="false" targetId="3314-3352-f8b9-a6d8" />
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Garras" id="c2be-fcca-1e3b-62dd" hidden="false" import="true" targetId="4ea2-ea1e-0cec-10d1" type="selectionEntry">
+          <constraints>
+            <constraint id="4740-27e2-c1f0-b6b2-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="4740-27e2-c1f0-b6b2-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="AGUIJÓNLARGO VÉSPID" id="8e50-4a43-473f-3db7" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">5+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Rifle acelerador de neutrones" id="e07e-11b6-70f2-ff3c" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="ecd3-cced-336a-4569-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="ecd3-cced-336a-4569-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Devastating x" id="62dc-e119-7c2c-282c" hidden="false" targetId="a8ba-6e3a-76b3-f05c" type="rule" />
+            <infoLink name="Heavy" id="e4be-dfc0-7686-3d8b" hidden="false" targetId="816e-44a2-6be4-6a9a" type="rule" />
+            <infoLink name="Lethal x+" id="95e6-b475-2883-ea0e" hidden="false" targetId="8b97-e3e3-2857-817a" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⌖ Rifle acelerador de neutrones (normal)" id="e223-72b6-bb56-01fa" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Devastadora 2, Fragmento de neutrones*</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="⌖ Rifle acelerador de neutrones (apuntado)" id="0ada-df09-70f4-137e" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">3+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">4/4</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Devastadora 2, Letal 5+, Pesada (solo Correr), Fragmento de neutrones*</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule name="*Fragmento de neutrones" id="c3a7-6844-f42f-75f7" hidden="false">
+              <description>Si el blanco no resulta incapacitado pero resuelves algún dado de ataque, el blanco gana una de tus fichas 
+de Fragmento de neutrones. Siempre que un agente que tenga alguna de tus fichas de Fragmento de neutrones sea activado, inflígele 
+1D3 daños por cada ficha de Fragmento de neutrones que tenga (tira por separado por cada una)</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="CEPASOMBRÍA VÉSPID" id="0509-79c6-4dd2-1da4" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Operative" id="2283-2d32-e6b2-0a06" hidden="false" primary="true" targetId="cf83-4496-b58e-ac82" />
+        <categoryLink name="T'au Empire" id="276d-46d9-eed3-ecd1" hidden="false" primary="false" targetId="20d3-6a95-40e4-de61" />
+        <categoryLink name="AGUIJÓN VÉSPID" id="a252-d666-ba65-abfc" hidden="false" primary="false" targetId="af34-52dc-5007-9d1a" />
+        <categoryLink name="CEPASOMBRÍA VÉSPID" id="87a8-598f-411f-d386" hidden="false" primary="false" targetId="0eea-92d0-25b4-a9af" />
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Garras" id="3214-e4ff-372a-b072" hidden="false" import="true" targetId="4ea2-ea1e-0cec-10d1" type="selectionEntry">
+          <constraints>
+            <constraint id="73ef-a262-e15a-55cf-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="73ef-a262-e15a-55cf-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="CEPASOMBRÍA VÉSPID" id="5fce-e400-837b-e662" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+          <characteristics>
+            <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">2</characteristic>
+            <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">6"</characteristic>
+            <characteristic name="Save" typeId="3241-5548-12d6-f103">3+</characteristic>
+            <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">9</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Ingenio espectral" id="2019-eb9d-802f-acba" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Mientras este agente tenga una orden de 
+ocultarse, tu oponente no podrá elegirlo como blanco válido a 
+menos que esté a 6" o menos del agente que trata de tomarlo 
+como blanco. Ten en cuenta que esta regla no tiene efecto si el 
+agente no es elegido como el blanco válido, p.ej., si es un blanco 
+secundario debido a la regla de arma Área.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Camuflado" id="60fa-0b60-141b-ee1e" hidden="false" typeId="f887-5881-0e6d-755c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="3467-0678-083e-eb50">Siempre que un agente dispare contra este agente, 
+ignora la regla de arma Penetración, y todas las salvaciones de 
+cobertura se guardan como éxitos críticos. Esta regla no tiene 
+efecto si el agente no es elegido como el blanco válido, p.ej., si 
+es un blanco secundario debido a la regla de arma Área.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Aguijón de neutrones" id="1d78-8cf4-858c-6e69" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="5d7c-38c6-c0cf-6ed1-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="5d7c-38c6-c0cf-6ed1-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Devastating x" id="58a9-cfc5-270c-9f4a" hidden="false" targetId="a8ba-6e3a-76b3-f05c" type="rule" />
+            <infoLink name="Range x" id="288e-2d03-10d1-b5a6" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⌖ Aguijón de neutrones" id="cc2f-e18d-d078-28a9" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/3</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 8", Devastadora 2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Granada de neutrones" id="6ab6-ae5a-1706-ebfc" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="3a1f-2072-e14b-4d9b-min" field="selections" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="3a1f-2072-e14b-4d9b-max" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Devastating x" id="e115-1fbc-c877-65ef" hidden="false" targetId="a8ba-6e3a-76b3-f05c" type="rule" />
+            <infoLink name="Blast x" id="0895-c52a-7f25-1dba" hidden="false" targetId="0d74-0977-b481-bd13" type="rule" />
+            <infoLink name="Range x" id="7912-b13c-a53d-c1c7" hidden="false" targetId="a528-829e-8268-c005" type="rule" />
+            <infoLink name="Limited x" id="a01b-b9ef-631a-ae68" hidden="false" targetId="bf37-3388-40d5-eb72" type="rule" />
+            <infoLink name="Saturate" id="b615-6d8f-6b77-a21b" hidden="false" targetId="3c10-2d52-d1ac-b0f6" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="⌖ Granada de neutrones" id="0612-ab51-b878-5d27" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+              <characteristics>
+                <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+                <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+                <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/3</characteristic>
+                <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Alcance 6", Área 2", Devastadora 2, Limitada 1, Saturación</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedProfiles>
+    <profile name="Referencia de forma" id="44f4-ed9d-45fa-a20e" hidden="false" typeId="5156-3fb9-39ce-7bdb" typeName="Operative">
+      <characteristics>
+        <characteristic name="APL" typeId="bc83-42aa-b7c1-f0b1">⌖</characteristic>
+        <characteristic name="Move" typeId="c996-ffb3-e0b4-ecfa">⚔</characteristic>
+        <characteristic name="Save" typeId="3241-5548-12d6-f103">▶</characteristic>
+        <characteristic name="Wounds" typeId="74f9-f91c-b8fd-89d9">◆</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedSelectionEntries>
+    <selectionEntry name="Garras" id="4ea2-ea1e-0cec-10d1" hidden="false" import="true" type="upgrade">
+      <profiles>
+        <profile name="⚔ Garras" id="e85e-7097-8bcd-7c7d" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">3</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/4</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Bláster de neutrones" id="262a-28bf-de0b-5bc4" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Devastating x" id="a5dd-a470-1cb4-f011" hidden="false" targetId="a8ba-6e3a-76b3-f05c" type="rule" />
+      </infoLinks>
+      <profiles>
+        <profile name="⌖ Bláster de neutrones" id="4a40-1325-ee02-e01a" hidden="false" typeId="f25f-4b13-b724-d5a8" typeName="Weapons">
+          <characteristics>
+            <characteristic name="ATK" typeId="6056-b741-7cf3-5b43">4</characteristic>
+            <characteristic name="HIT" typeId="8044-2517-4ef7-33de">4+</characteristic>
+            <characteristic name="DMG" typeId="dd3e-ef09-5d1a-37b4">3/3</characteristic>
+            <characteristic name="WR" typeId="05b8-00a1-69af-14b6">Devastadora 2</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier field="8044-2517-4ef7-33de" type="set" value="3+">
+              <conditions>
+                <condition childId="8082-965a-f826-40f2" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1" />
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Equipo de facción" id="4b6a-a4ac-93ef-2a09" defaultSelectionEntryId="none" hidden="false">
+      <selectionEntries>
+        <selectionEntry name="ESTIMULANTE DE CONVERGENCIA" id="6d59-2598-c288-7c38" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="7dc6-6ed0-11fc-a13e" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <profiles>
+            <profile name="ESTIMULANTE DE CONVERGENCIA" id="c803-bec7-cbb5-af4e" hidden="false" typeId="0d20-7175-9ecb-8bde" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">AGUIJONES ALADOS VÉSPID
+EQUIPO DE FACCIÓN
+ESTIMULANTE DE CONVERGENCIA
+Esta sustancia, que solo se dispensa en casos extremos
+y a discreción del Shas’ui, suprime las respuestas
+instintivas de los Véspid para ayudarles a centrarse en la
+misión en los momentos de máxima tensión.
+Una vez por punto de inflexión, un agente
+AGUIJÓN ALADO VÉSPID amigo puede realizar
+una acción Recoger marcador o una acción
+de misión sin que tengas que gastar un punto
+de Comunión.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="NEUROESTIMULANTE" id="b75b-1d31-ad42-b445" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="27ee-67f8-0433-b607" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <profiles>
+            <profile name="NEUROESTIMULANTE" id="9c67-dc6b-0183-1cc2" hidden="false" typeId="0d20-7175-9ecb-8bde" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">AGUIJONES ALADOS VÉSPID
+EQUIPO DE FACCIÓN
+NEUROESTIMULANTE
+Dispensado mediante ampollas alojadas en la armadura
+de los Véspid, este cóctel químico tiene la función de
+aumentar su comunión y asegurar que mantengan la
+disciplina durante la batalla.
+En el paso de preparación de cada fase de
+estrategia, al determinar cuántos puntos de
+Comunión ganas, puedes tirar 2D3 y elegir
+cuál de los dos usar.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="ESTIMULANTE ACELERADOR" id="e02b-1412-4fbd-607d" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="8381-ab8c-094b-20c3" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <profiles>
+            <profile name="ESTIMULANTE ACELERADOR" id="59b5-8573-3e8d-2e5a" hidden="false" typeId="0d20-7175-9ecb-8bde" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">AGUIJONES ALADOS VÉSPID
+EQUIPO DE FACCIÓN
+ESTIMULANTE ACELERADOR
+Aunque conlleva riesgos de sufrir lesiones o fatiga
+extrema a largo plazo, este estimulante afila las
+reacciones y los reflejos de los Véspid en el fragor de
+la batalla.
+Siempre que un agente AGUIJÓN ALADO VÉSPID
+amigo (salvo DRON DE VIGILANCIA) realiza una
+acción de Cargar o Correr, puede moverse 1"
+adicional. Si utiliza VOLAR para esta acción,
+puedes redesplegarlo a 1" más de distancia.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="ESTIMULANTE DE AGRESIVIDAD" id="6153-a31b-881a-3b2d" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="cd41-93e3-2b16-7ee0" field="selections" scope="parent" shared="true" type="max" value="1" />
+          </constraints>
+          <infoLinks>
+            <infoLink name="Ceaseless" id="9af8-4208-9283-2d8d" hidden="false" targetId="752d-ce38-c325-4b8a" type="rule" />
+          </infoLinks>
+          <profiles>
+            <profile name="ESTIMULANTE DE AGRESIVIDAD" id="7f31-bbfa-763c-113d" hidden="false" typeId="0d20-7175-9ecb-8bde" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="0e12-ef21-83f3-9fc6">AGUIJONES ALADOS VÉSPID
+EQUIPO DE FACCIÓN
+ESTIMULANTE DE AGRESIVIDAD
+Si un Shas’ui percibe que sus Véspid están a punto de
+ser arrollados, puede arriesgarse a liberar esta mezcla
+altamente adictiva de estimulantes de combate y
+amplificadores de la agresividad.
+Siempre que un agente AGUIJÓN ALADO
+VÉSPID amigo (salvo DRON DE VIGILANCIA)
+combata, sus armas de combate tienen la regla
+de arma Incesante.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>
